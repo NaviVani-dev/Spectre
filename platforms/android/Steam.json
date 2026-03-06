@@ -1,0 +1,110 @@
+{
+  "id": "steam",
+  "name": "Steam",
+  "external_ids": {
+    "screenscraper": [
+      138
+    ],
+    "igdb": [
+      6
+    ],
+    "thegamesdb": [
+      1
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "steamappid"
+  ],
+  "emulators": [
+    {
+      "id": "steam.gamehub.lite",
+      "name": "GameHub Lite",
+      "executable": [
+        "gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity"
+      ],
+      "filetypes": [
+        "steamappid"
+      ],
+      "action": "gamehub.lite.LAUNCH_GAME",
+      "flags": [
+        "--es",
+        "--ez"
+      ]
+    },
+    {
+      "id": "steam.gamehub.lite.rc",
+      "name": "GameHub Lite RC",
+      "executable": [
+        "emuready.gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity"
+      ],
+      "filetypes": [
+        "steamappid"
+      ],
+      "action": "emuready.gamehub.lite.LAUNCH_GAME",
+      "flags": [
+        "--es",
+        "--ez"
+      ]
+    },
+    {
+      "id": "steam.gamehub.lite.antutu",
+      "name": "GameHub Lite (Antutu)",
+      "executable": [
+        "com.antutu.ABenchMark/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity"
+      ],
+      "filetypes": [
+        "steamappid"
+      ],
+      "action": "gamehub.lite.LAUNCH_GAME",
+      "flags": [
+        "--es",
+        "--ez"
+      ]
+    },
+    {
+      "id": "steam.gamehub.lite.pubg",
+      "name": "GameHub Lite (PUBG)",
+      "executable": [
+        "com.tencent.ig/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity"
+      ],
+      "filetypes": [
+        "steamappid"
+      ],
+      "action": "gamehub.lite.LAUNCH_GAME",
+      "flags": [
+        "--es",
+        "--ez"
+      ]
+    },
+    {
+      "id": "steam.gamehub.lite.ludashi",
+      "name": "GameHub Lite (Ludashi)",
+      "executable": [
+        "com.ludashi.aibench/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity"
+      ],
+      "filetypes": [
+        "steamappid"
+      ],
+      "action": "gamehub.lite.LAUNCH_GAME",
+      "flags": [
+        "--es",
+        "--ez"
+      ]
+    },
+    {
+      "id": "steam.app.gamenative",
+      "name": "GameNative",
+      "executable": [
+        "app.gamenative/.MainActivity"
+      ],
+      "filetypes": [
+        "steamappid"
+      ],
+      "action": "app.gamenative.LAUNCH_GAME",
+      "flags": [
+        "--ei"
+      ]
+    }
+  ]
+}

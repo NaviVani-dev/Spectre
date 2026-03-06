@@ -1,0 +1,47 @@
+{
+  "id": "doom",
+  "name": "DOOM Game Engine",
+  "external_ids": {},
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "iwad",
+    "pwad",
+    "wad",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "doom.ra64.prboom",
+      "name": "PrBoom (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "iwad",
+        "pwad",
+        "wad",
+        "zip"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "prboom"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

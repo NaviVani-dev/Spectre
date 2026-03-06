@@ -1,0 +1,60 @@
+{
+  "id": "atari7800",
+  "name": "Atari 7800",
+  "external_ids": {
+    "retroachievements": [
+      51
+    ],
+    "screenscraper": [
+      41
+    ],
+    "igdb": [
+      60
+    ],
+    "thegamesdb": [
+      27
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "7z",
+    "a78",
+    "bin",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "atari7800.ra64.prosystem",
+      "name": "ProSystem (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "a78",
+        "bin",
+        "zip",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "prosystem"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

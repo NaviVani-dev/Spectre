@@ -1,0 +1,139 @@
+{
+  "id": "msx",
+  "name": "MSX",
+  "external_ids": {
+    "retroachievements": [
+      29
+    ],
+    "screenscraper": [
+      113
+    ],
+    "igdb": [
+      27
+    ],
+    "thegamesdb": [
+      4929
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "7z",
+    "cas",
+    "col",
+    "dsk",
+    "fdi",
+    "m3u",
+    "mx1",
+    "mx2",
+    "ri",
+    "rom",
+    "sc",
+    "sg",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "msx.com.explusalpha.MsxEmu",
+      "name": "com.explusalpha.MsxEmu",
+      "executable": [
+        "com.explusalpha.MsxEmu/com.imagine.BaseActivity"
+      ],
+      "filetypes": [
+        "cas",
+        "col",
+        "dsk",
+        "fdi",
+        "m3u",
+        "mx1",
+        "mx2",
+        "ri",
+        "rom",
+        "sc",
+        "sg"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_PATH}"
+      ]
+    },
+    {
+      "id": "msx.ra64.fmsx",
+      "name": "fMSX (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "cas",
+        "dsk",
+        "fdi",
+        "m3u",
+        "mx1",
+        "mx2",
+        "rom",
+        "zip",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "fmsx"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "msx.ra64.bluemsx",
+      "name": "BlueMSX (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "cas",
+        "col",
+        "dsk",
+        "m3u",
+        "mx1",
+        "mx2",
+        "ri",
+        "rom",
+        "sc",
+        "sg",
+        "zip",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "bluemsx"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

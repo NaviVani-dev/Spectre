@@ -1,0 +1,48 @@
+{
+  "id": "wasm4",
+  "name": "WASM-4",
+  "external_ids": {
+    "retroachievements": [
+      72
+    ],
+    "screenscraper": [
+      262
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "wasm"
+  ],
+  "emulators": [
+    {
+      "id": "wasm4.ra64.wasm4",
+      "name": "Wasm4 (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "wasm"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "wasm4"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

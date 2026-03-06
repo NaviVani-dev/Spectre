@@ -1,0 +1,109 @@
+{
+  "id": "ngp",
+  "name": "NeoGeo Pocket",
+  "external_ids": {
+    "retroachievements": [
+      14
+    ],
+    "screenscraper": [
+      25
+    ],
+    "igdb": [
+      119
+    ],
+    "thegamesdb": [
+      4922
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "7z",
+    "ngc",
+    "ngp",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "ngp.com.explusalpha.NgpEmu",
+      "name": "NGP.EMU",
+      "executable": [
+        "com.explusalpha.NgpEmu/com.imagine.BaseActivity"
+      ],
+      "filetypes": [
+        "zip",
+        "ngp",
+        "ngc",
+        "7z"
+      ],
+      "args": [
+        "{FILE_PATH}"
+      ]
+    },
+    {
+      "id": "ngp.ra64.mednafen_ngp",
+      "name": "Mednafen NGP (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "zip",
+        "ngp",
+        "ngc",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "mednafen_ngp"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "ngp.ra64.race",
+      "name": "Race (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "zip",
+        "ngp",
+        "ngc",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "race"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

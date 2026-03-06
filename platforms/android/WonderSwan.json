@@ -1,0 +1,80 @@
+{
+  "id": "wonderswan",
+  "name": "WonderSwan",
+  "external_ids": {
+    "retroachievements": [
+      53
+    ],
+    "screenscraper": [
+      45
+    ],
+    "igdb": [
+      57
+    ],
+    "thegamesdb": [
+      4925
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "7z",
+    "pc2",
+    "ws",
+    "wsc",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "ws.com.explusalpha.SwanEmu",
+      "name": "Swan.emu",
+      "executable": [
+        "com.explusalpha.SwanEmu/com.imagine.BaseActivity"
+      ],
+      "filetypes": [
+        "ws",
+        "wsc",
+        "pc2",
+        "7z",
+        "zip"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_URI}"
+      ]
+    },
+    {
+      "id": "ws.ra64.mednafen_wswan",
+      "name": "Mednafen WonderSwan (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "ws",
+        "wsc",
+        "pc2",
+        "7z",
+        "zip"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "mednafen_wswan"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

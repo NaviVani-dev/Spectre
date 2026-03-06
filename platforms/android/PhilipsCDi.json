@@ -1,0 +1,58 @@
+{
+  "id": "cdimono1",
+  "name": "Philips CD-i",
+  "external_ids": {
+    "retroachievements": [
+      42
+    ],
+    "screenscraper": [
+      133
+    ],
+    "igdb": [
+      117
+    ],
+    "thegamesdb": [
+      4917
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "chd",
+    "cue",
+    "iso"
+  ],
+  "emulators": [
+    {
+      "id": "cdi.ra64.same_cdi",
+      "name": "SAME CDi (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "cue",
+        "chd",
+        "iso"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "same_cdi"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

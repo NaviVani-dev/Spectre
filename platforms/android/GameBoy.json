@@ -1,0 +1,424 @@
+{
+  "id": "gb",
+  "name": "Game Boy",
+  "external_ids": {
+    "retroachievements": [
+      4
+    ],
+    "screenscraper": [
+      9
+    ],
+    "igdb": [
+      33
+    ],
+    "thegamesdb": [
+      4
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "7z",
+    "bin",
+    "cgb",
+    "dmg",
+    "gb",
+    "gbc",
+    "gbs",
+    "rom",
+    "sgb",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "gb.it.dbtecno.pizzaboy",
+      "name": "Pizza Boy C Basic",
+      "executable": [
+        "it.dbtecno.pizzaboy/it.dbtecno.pizzaboy.MainActivity"
+      ],
+      "filetypes": [
+        "gb",
+        "gbc",
+        "gbs",
+        "zip",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "rom_uri",
+          "value": "{FILE_PATH}"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "gb.it.dbtecno.pizzaboypro",
+      "name": "Pizza Boy C Pro",
+      "executable": [
+        "it.dbtecno.pizzaboypro/it.dbtecno.pizzaboypro.MainActivity"
+      ],
+      "filetypes": [
+        "gb",
+        "gbc",
+        "gbs",
+        "zip",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "rom_uri",
+          "value": "{FILE_PATH}"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "gb.com.sky.SkyEmu",
+      "name": "SkyEmu",
+      "executable": [
+        "com.sky.SkyEmu/.EnhancedNativeActivity"
+      ],
+      "filetypes": [
+        "gb",
+        "gbc",
+        "zip"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_URI}"
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "gb.com.explusalpha.GbcEmu",
+      "name": "GBC.emu",
+      "executable": [
+        "com.explusalpha.GbcEmu/com.imagine.BaseActivity"
+      ],
+      "filetypes": [
+        "bin",
+        "cgb",
+        "dmg",
+        "gb",
+        "gbc",
+        "gbs",
+        "rom",
+        "sgb"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_URI}"
+      ]
+    },
+    {
+      "id": "gb.com.fastemulator.gbcfree",
+      "name": "My OldBoy! Free",
+      "executable": [
+        "com.fastemulator.gbcfree/.EmulatorActivity"
+      ],
+      "filetypes": [
+        "bin",
+        "cgb",
+        "dmg",
+        "gb",
+        "gbc",
+        "gbs",
+        "rom",
+        "sgb"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_PATH}"
+      ]
+    },
+    {
+      "id": "gb.com.fastemulator.gbc",
+      "name": "My OldBoy!",
+      "executable": [
+        "com.fastemulator.gbc/.EmulatorActivity"
+      ],
+      "filetypes": [
+        "bin",
+        "cgb",
+        "dmg",
+        "gb",
+        "gbc",
+        "gbs",
+        "rom",
+        "sgb"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_URI}"
+      ]
+    },
+    {
+      "id": "gb.com.pixelrespawn.linkboy",
+      "name": "Linkboy",
+      "executable": [
+        "com.pixelrespawn.linkboy/.EmulatorActivity"
+      ],
+      "filetypes": [
+        "bin",
+        "cgb",
+        "dmg",
+        "gb",
+        "gbc",
+        "gbs",
+        "rom",
+        "sgb"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_URI}"
+      ]
+    },
+    {
+      "id": "gb.ra64.gambatte",
+      "name": "Gambatte (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "dmg",
+        "gb",
+        "gbc",
+        "zip",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "gambatte"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "gb.ra64.gearboy",
+      "name": "Gearboy (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "cgb",
+        "dmg",
+        "gb",
+        "gbc",
+        "sgb",
+        "zip",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "gearboy"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "gb.ra64.sameboy",
+      "name": "Sameboy (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "gb",
+        "gbc",
+        "zip",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "sameboy"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "gb.ra64.tgbdual",
+      "name": "TGBDual (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "gb",
+        "gbc",
+        "sgb",
+        "zip",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "tgbdual"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "gb.ra64.DoubleCherryGB",
+      "name": "Doublecherrygb (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "gb",
+        "gbc",
+        "dmg",
+        "cgb",
+        "sgb",
+        "zip",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "DoubleCherryGB"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "gb.ra64.mesen-s",
+      "name": "Mesen-S (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "gb",
+        "gbc",
+        "zip",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "mesen-s"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "gb.ra64.mgba",
+      "name": "mGBA (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "gb",
+        "gbc",
+        "zip",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "mgba"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

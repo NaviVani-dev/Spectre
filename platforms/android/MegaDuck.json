@@ -1,0 +1,56 @@
+{
+  "id": "megaduck",
+  "name": "Mega Duck",
+  "external_ids": {
+    "retroachievements": [
+      69
+    ],
+    "screenscraper": [
+      90
+    ],
+    "igdb": [
+      408
+    ],
+    "thegamesdb": [
+      4948
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "bin",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "megaduck.ra64.sameduck",
+      "name": "Sameduck (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "bin",
+        "zip"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "sameduck"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

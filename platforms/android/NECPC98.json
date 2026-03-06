@@ -1,0 +1,136 @@
+{
+  "id": "pc98",
+  "name": "NEC PC-98",
+  "external_ids": {
+    "retroachievements": [
+      48
+    ],
+    "screenscraper": [
+      208
+    ],
+    "igdb": [
+      149
+    ],
+    "thegamesdb": [
+      4934
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "2hd",
+    "88d",
+    "98d",
+    "cmd",
+    "cue",
+    "d88",
+    "d98",
+    "dup",
+    "fdd",
+    "fdi",
+    "hdd",
+    "hdi",
+    "hdm",
+    "hdn",
+    "nhd",
+    "tfd",
+    "thd",
+    "xdf",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "pc98.ra64.np2kai",
+      "name": "Neko Project II Kai (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "2hd",
+        "88d",
+        "98d",
+        "cmd",
+        "d88",
+        "d98",
+        "dup",
+        "fdd",
+        "fdi",
+        "hdd",
+        "hdi",
+        "hdm",
+        "hdn",
+        "nhd",
+        "tfd",
+        "thd",
+        "xdf",
+        "zip"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "np2kai"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "pc98.ra64.nekop2",
+      "name": "Nekop2 (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "cue",
+        "2hd",
+        "88d",
+        "98d",
+        "cmd",
+        "d88",
+        "d98",
+        "dup",
+        "fdd",
+        "fdi",
+        "hdd",
+        "hdi",
+        "hdm",
+        "nhd",
+        "tfd",
+        "thd",
+        "xdf",
+        "zip"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "nekop2"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

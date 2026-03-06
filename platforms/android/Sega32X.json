@@ -1,0 +1,84 @@
+{
+  "id": "sega32x",
+  "name": "Sega 32X",
+  "external_ids": {
+    "retroachievements": [
+      10
+    ],
+    "screenscraper": [
+      19
+    ],
+    "igdb": [
+      30
+    ],
+    "thegamesdb": [
+      33
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "32x",
+    "68k",
+    "7z",
+    "bin",
+    "chd",
+    "cue",
+    "gen",
+    "gg",
+    "iso",
+    "m3u",
+    "md",
+    "pco",
+    "sgd",
+    "smd",
+    "sms",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "sega32x.ra64.picodrive",
+      "name": "PicoDrive (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "32x",
+        "68k",
+        "bin",
+        "chd",
+        "cue",
+        "gen",
+        "gg",
+        "iso",
+        "m3u",
+        "md",
+        "pco",
+        "sgd",
+        "smd",
+        "sms",
+        "7z",
+        "zip"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "picodrive"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

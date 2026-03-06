@@ -1,0 +1,294 @@
+{
+  "id": "c64",
+  "name": "Commodore 64",
+  "external_ids": {
+    "retroachievements": [
+      30
+    ],
+    "screenscraper": [
+      66
+    ],
+    "igdb": [
+      93
+    ],
+    "thegamesdb": [
+      40
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "bin",
+    "cmd",
+    "crt",
+    "d2m",
+    "d4m",
+    "d64",
+    "d6z",
+    "d71",
+    "d7z",
+    "d80",
+    "d81",
+    "d82",
+    "d8z",
+    "g41",
+    "g4z",
+    "g64",
+    "g6z",
+    "gz",
+    "lnx",
+    "m3u",
+    "nbz",
+    "nib",
+    "p00",
+    "prg",
+    "t64",
+    "tap",
+    "vfl",
+    "vsf",
+    "x64",
+    "x6z",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "c64.com.explusalpha.C64Emu",
+      "name": "com.explusalpha.C64Emu",
+      "executable": [
+        "com.explusalpha.C64Emu/com.imagine.BaseActivity"
+      ],
+      "filetypes": [
+        "bin",
+        "crt",
+        "d64",
+        "d6z",
+        "d71",
+        "d7z",
+        "d80",
+        "d81",
+        "d82",
+        "d8z",
+        "g41",
+        "g4z",
+        "g64",
+        "g6z",
+        "gz",
+        "lnx",
+        "p00",
+        "prg",
+        "t64",
+        "tap",
+        "x64",
+        "x6z",
+        "zip"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_PATH}"
+      ]
+    },
+    {
+      "id": "c64.ra64.frodo",
+      "name": "Frodo (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "d64",
+        "lnx",
+        "p00",
+        "t64",
+        "x64",
+        "zip"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "frodo"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "c64.ra64.x64sdl",
+      "name": "X64Sdl (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "bin",
+        "crt",
+        "d64",
+        "d6z",
+        "d71",
+        "d7z",
+        "d80",
+        "d81",
+        "d82",
+        "d8z",
+        "g41",
+        "g4z",
+        "g64",
+        "g6z",
+        "gz",
+        "p00",
+        "prg",
+        "t64",
+        "tap",
+        "x64",
+        "x6z",
+        "zip"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "x64sdl"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "c64.ra64.vice_x64",
+      "name": "VICE x64 (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "bin",
+        "cmd",
+        "crt",
+        "d2m",
+        "d4m",
+        "d64",
+        "d6z",
+        "d71",
+        "d7z",
+        "d80",
+        "d81",
+        "d82",
+        "d8z",
+        "g41",
+        "g4z",
+        "g64",
+        "g6z",
+        "gz",
+        "m3u",
+        "nbz",
+        "nib",
+        "p00",
+        "prg",
+        "t64",
+        "tap",
+        "vfl",
+        "vsf",
+        "x64",
+        "x6z",
+        "zip"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "vice_x64"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "c64.ra64.vice_x64sc",
+      "name": "VICE x64sc (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "bin",
+        "cmd",
+        "crt",
+        "d2m",
+        "d4m",
+        "d64",
+        "d6z",
+        "d71",
+        "d7z",
+        "d80",
+        "d81",
+        "d82",
+        "d8z",
+        "g41",
+        "g4z",
+        "g64",
+        "g6z",
+        "gz",
+        "m3u",
+        "nbz",
+        "nib",
+        "p00",
+        "prg",
+        "t64",
+        "tap",
+        "vfl",
+        "vsf",
+        "x64",
+        "x6z",
+        "zip"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "vice_x64sc"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

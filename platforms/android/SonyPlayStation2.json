@@ -1,0 +1,165 @@
+{
+  "id": "ps2",
+  "name": "Sony PlayStation 2",
+  "external_ids": {
+    "retroachievements": [
+      21
+    ],
+    "screenscraper": [
+      58
+    ],
+    "igdb": [
+      8
+    ],
+    "thegamesdb": [
+      11
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "bin",
+    "chd",
+    "ciso",
+    "cso",
+    "elf",
+    "gz",
+    "img",
+    "iso",
+    "isz",
+    "mdf"
+  ],
+  "emulators": [
+    {
+      "id": "ps2.xyz.aethersx2.android",
+      "name": "AetherSX2",
+      "executable": [
+        "xyz.aethersx2.android/.EmulationActivity"
+      ],
+      "filetypes": [
+        "iso",
+        "chd",
+        "gz",
+        "mdf",
+        "bin"
+      ],
+      "action": "android.intent.action.MAIN",
+      "args": [
+        {
+          "key": "bootPath",
+          "value": "{FILE_URI}"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "ps2.xyz.aethersx2.custom",
+      "name": "AetherSX2 Turnip",
+      "executable": [
+        "xyz.aethersx2.custom/.EmulationActivity"
+      ],
+      "filetypes": [
+        "iso",
+        "chd",
+        "gz",
+        "mdf",
+        "bin"
+      ],
+      "action": "android.intent.action.MAIN",
+      "args": [
+        {
+          "key": "bootPath",
+          "value": "{FILE_URI}"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "ps2.come.nanodata.armsx2",
+      "name": "ARMSX2",
+      "executable": [
+        "come.nanodata.armsx2/kr.co.iefriends.pcsx2.MainActivity"
+      ],
+      "filetypes": [
+        "iso",
+        "chd",
+        "gz",
+        "mdf",
+        "bin",
+        "ciso",
+        "img"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_URI}"
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "ps2.com.nanodata.armsx2.debug",
+      "name": "ARMSX2 (Nightly)",
+      "executable": [
+        "come.nanodata.armsx2.debug/kr.co.iefriends.pcsx2.activities.MainActivity"
+      ],
+      "filetypes": [
+        "iso",
+        "chd",
+        "gz",
+        "mdf",
+        "bin",
+        "ciso",
+        "img"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_URI}"
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "ps2.ra64.play",
+      "name": "Play (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "bin",
+        "cso",
+        "elf",
+        "iso",
+        "isz"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "play"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

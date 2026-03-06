@@ -1,0 +1,115 @@
+{
+  "id": "sg-1000",
+  "name": "Sega SG-1000",
+  "external_ids": {
+    "retroachievements": [
+      33
+    ],
+    "screenscraper": [
+      109
+    ],
+    "igdb": [
+      84
+    ],
+    "thegamesdb": [
+      4949
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "7z",
+    "bin",
+    "cas",
+    "col",
+    "dsk",
+    "gg",
+    "m3u",
+    "mx1",
+    "mx2",
+    "ri",
+    "rom",
+    "sc",
+    "sg",
+    "sms",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "sg1000.ra64.gearsystem",
+      "name": "Gearsystem (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "sms",
+        "gg",
+        "sg",
+        "bin",
+        "rom",
+        "7z",
+        "zip"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "gearsystem"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "sg1000.ra64.bluemsx",
+      "name": "BlueMSX (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "cas",
+        "col",
+        "dsk",
+        "m3u",
+        "mx1",
+        "mx2",
+        "ri",
+        "rom",
+        "sc",
+        "sg",
+        "zip",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "bluemsx"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

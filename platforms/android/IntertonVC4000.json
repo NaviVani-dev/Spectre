@@ -1,0 +1,72 @@
+{
+  "id": "vc4000",
+  "name": "Interton VC 4000",
+  "external_ids": {
+    "retroachievements": [
+      74
+    ],
+    "screenscraper": [
+      281
+    ],
+    "igdb": [
+      138
+    ],
+    "thegamesdb": [
+      4994
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "cmd",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "vc4000.com.amigan.droidarcadia",
+      "name": "DroidArcadia",
+      "executable": [
+        "com.amigan.droidarcadia/.MainActivity"
+      ],
+      "filetypes": [
+        "zip"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_URI}"
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "vc4000.ra64.mess",
+      "name": "Mamemess (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "cmd"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "mamemess"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

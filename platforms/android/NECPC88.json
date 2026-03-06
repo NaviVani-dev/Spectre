@@ -1,0 +1,58 @@
+{
+  "id": "pc88",
+  "name": "NEC PC-88",
+  "external_ids": {
+    "retroachievements": [
+      47
+    ],
+    "screenscraper": [
+      221
+    ],
+    "igdb": [
+      125
+    ],
+    "thegamesdb": [
+      4933
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "d88",
+    "m3u",
+    "u88"
+  ],
+  "emulators": [
+    {
+      "id": "pc88.ra64.quasi88",
+      "name": "QUASI88 (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "d88",
+        "m3u",
+        "u88"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "quasi88"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

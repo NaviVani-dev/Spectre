@@ -1,0 +1,66 @@
+{
+  "id": "atarist",
+  "name": "Atari ST",
+  "external_ids": {
+    "retroachievements": [
+      36
+    ],
+    "screenscraper": [
+      42
+    ],
+    "igdb": [
+      63
+    ],
+    "thegamesdb": [
+      4937
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "dim",
+    "ipf",
+    "m3u",
+    "msa",
+    "st",
+    "stx",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "atarist.ra64.hatari",
+      "name": "Hatari (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "dim",
+        "ipf",
+        "m3u",
+        "msa",
+        "st",
+        "stx",
+        "zip"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "hatari"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

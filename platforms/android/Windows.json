@@ -1,0 +1,167 @@
+{
+  "id": "windows",
+  "name": "Windows",
+  "external_ids": {
+    "screenscraper": [
+      138
+    ],
+    "igdb": [
+      6
+    ],
+    "thegamesdb": [
+      1
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "desktop",
+    "lnk",
+    "localgameid"
+  ],
+  "emulators": [
+    {
+      "id": "windows.winlator.cmod",
+      "name": "Winlator CMod",
+      "executable": [
+        "com.winlator.cmod/.XServerDisplayActivity"
+      ],
+      "filetypes": [
+        "desktop"
+      ],
+      "args": [
+        {
+          "key": "shortcut_path",
+          "value": "{FILE_PATH}"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top",
+        "--activity-no-history"
+      ]
+    },
+    {
+      "id": "windows.winlator.cmodproot",
+      "name": "Winlator CMod Proot",
+      "executable": [
+        "com.cmodded.winlator/com.winlator.XServerDisplayActivity"
+      ],
+      "filetypes": [
+        "desktop"
+      ],
+      "args": [
+        {
+          "key": "shortcut_path",
+          "value": "{FILE_PATH}"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top",
+        "--activity-no-history"
+      ]
+    },
+    {
+      "id": "windows.winlator.cmod.old",
+      "name": "Winlator Cmod (Old)",
+      "executable": [
+        "com.winlator/.XServerDisplayActivity"
+      ],
+      "filetypes": [
+        "desktop"
+      ],
+      "args": [
+        {
+          "key": "shortcut_path",
+          "value": "{FILE_PATH}"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top",
+        "--activity-no-history"
+      ]
+    },
+    {
+      "id": "windows.micewine.emu",
+      "name": "MiceWine",
+      "executable": [
+        "com.micewine.emu/com.micewine.emu.activities.MainActivity"
+      ],
+      "filetypes": [
+        "lnk"
+      ],
+      "args": [
+        {
+          "key": "exePath",
+          "value": "{FILE_PATH}"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top",
+        "--activity-no-history"
+      ]
+    },
+    {
+      "id": "windows.gamehub.lite.local",
+      "name": "GameHub Lite (Local Games)",
+      "executable": [
+        "gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity"
+      ],
+      "filetypes": [
+        "localgameid"
+      ],
+      "action": "gamehub.lite.LAUNCH_GAME",
+      "flags": [
+        "--es",
+        "--ez"
+      ]
+    },
+    {
+      "id": "windows.gamehub.lite.local.antutu",
+      "name": "GameHub Lite (Local Games - Antutu)",
+      "executable": [
+        "com.antutu.ABenchMark/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity"
+      ],
+      "filetypes": [
+        "localgameid"
+      ],
+      "action": "gamehub.lite.LAUNCH_GAME",
+      "flags": [
+        "--es",
+        "--ez"
+      ]
+    },
+    {
+      "id": "windows.gamehub.lite.local.pubg",
+      "name": "GameHub Lite (Local Games - PUBG)",
+      "executable": [
+        "com.tencent.ig/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity"
+      ],
+      "filetypes": [
+        "localgameid"
+      ],
+      "action": "gamehub.lite.LAUNCH_GAME",
+      "flags": [
+        "--es",
+        "--ez"
+      ]
+    },
+    {
+      "id": "windows.gamehub.lite.ludashi",
+      "name": "GameHub Lite (Local Games - Ludashi)",
+      "executable": [
+        "com.ludashi.aibench/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity"
+      ],
+      "filetypes": [
+        "localgameid"
+      ],
+      "action": "gamehub.lite.LAUNCH_GAME",
+      "flags": [
+        "--es",
+        "--ez"
+      ]
+    }
+  ]
+}

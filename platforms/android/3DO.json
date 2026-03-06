@@ -1,0 +1,58 @@
+{
+  "id": "3do",
+  "name": "3DO",
+  "external_ids": {
+    "retroachievements": [
+      43
+    ],
+    "screenscraper": [
+      29
+    ],
+    "igdb": [
+      50
+    ],
+    "thegamesdb": [
+      25
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "chd",
+    "cue",
+    "iso"
+  ],
+  "emulators": [
+    {
+      "id": "3do.ra64.opera",
+      "name": "Opera (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "chd",
+        "cue",
+        "iso"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "opera"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

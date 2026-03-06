@@ -1,0 +1,42 @@
+{
+  "id": "ngage",
+  "name": "Nokia N-Gage",
+  "external_ids": {
+    "retroachievements": [
+      61
+    ],
+    "screenscraper": [
+      30
+    ],
+    "igdb": [
+      42
+    ],
+    "thegamesdb": [
+      4938
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "json"
+  ],
+  "emulators": [
+    {
+      "id": "ngage.com.github.eka2l1",
+      "name": "eka2l1",
+      "executable": [
+        "com.github.eka2l1/.emu.EmulatorActivity"
+      ],
+      "filetypes": [
+        "json"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_URI}"
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

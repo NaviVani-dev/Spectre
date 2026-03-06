@@ -1,0 +1,80 @@
+{
+  "id": "j2me",
+  "name": "Java Me",
+  "external_ids": {},
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "jad",
+    "jam",
+    "jar",
+    "java",
+    "kjx",
+    "sqc"
+  ],
+  "emulators": [
+    {
+      "id": "j2me.ru.playsoftware.j2meloader",
+      "name": "ru.playsoftware.j2meloader",
+      "executable": [
+        "ru.playsoftware.j2meloader/ru.playsoftware.j2meloader.MainActivity"
+      ],
+      "filetypes": [
+        "java",
+        "jar"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_URI}"
+      ]
+    },
+    {
+      "id": "j2me.ru.woesss.j2meloader",
+      "name": "jl-mod",
+      "executable": [
+        "ru.woesss.j2meloader/ru.playsoftware.j2meloader.MainActivity"
+      ],
+      "filetypes": [
+        "java",
+        "jar"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_URI}"
+      ]
+    },
+    {
+      "id": "j2me.ra64.squirreljme",
+      "name": "Squirreljme (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "jad",
+        "jam",
+        "jar",
+        "kjx",
+        "sqc"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "squirreljme"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

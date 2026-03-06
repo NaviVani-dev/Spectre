@@ -1,0 +1,127 @@
+{
+  "id": "tg16",
+  "name": "TurboGrafx-16",
+  "external_ids": {
+    "retroachievements": [
+      8
+    ],
+    "screenscraper": [
+      31
+    ],
+    "igdb": [
+      86
+    ],
+    "thegamesdb": [
+      34
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "7z",
+    "ccd",
+    "chd",
+    "cue",
+    "m3u",
+    "pce",
+    "sgx",
+    "toc",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "tg16.com.PceEmu",
+      "name": "com.PceEmu",
+      "executable": [
+        "com.PceEmu/com.imagine.BaseActivity"
+      ],
+      "filetypes": [
+        "ccd",
+        "chd",
+        "cue",
+        "m3u",
+        "pce",
+        "sgx",
+        "toc"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_URI}"
+      ]
+    },
+    {
+      "id": "tg16.ra64.mednafen_pce_fast",
+      "name": "Mednafen PCE Fast (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "ccd",
+        "chd",
+        "cue",
+        "m3u",
+        "pce",
+        "toc",
+        "zip",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "mednafen_pce_fast"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "tg16.ra64.mednafen_pce",
+      "name": "Mednafen PCE (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "ccd",
+        "chd",
+        "cue",
+        "m3u",
+        "pce",
+        "sgx",
+        "toc",
+        "zip",
+        "7z"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "mednafen_pce"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

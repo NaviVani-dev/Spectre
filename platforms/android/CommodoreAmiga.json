@@ -1,0 +1,141 @@
+{
+  "id": "amiga",
+  "name": "Commodore Amiga",
+  "external_ids": {
+    "retroachievements": [
+      35
+    ],
+    "screenscraper": [
+      64
+    ],
+    "igdb": [
+      16
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "7z",
+    "adf",
+    "adz",
+    "ccd",
+    "chd",
+    "cue",
+    "dms",
+    "fdi",
+    "hdf",
+    "hdz",
+    "info",
+    "ipf",
+    "iso",
+    "lha",
+    "m3u",
+    "mds",
+    "nrg",
+    "rp9",
+    "slave",
+    "uae",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "amiga.ra64.puae",
+      "name": "PUAE (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "7z",
+        "adf",
+        "adz",
+        "ccd",
+        "chd",
+        "cue",
+        "dms",
+        "fdi",
+        "hdf",
+        "hdz",
+        "info",
+        "ipf",
+        "iso",
+        "lha",
+        "m3u",
+        "mds",
+        "nrg",
+        "rp9",
+        "slave",
+        "uae",
+        "zip"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "puae"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "amiga.ra64.puae2021",
+      "name": "Puae2021 (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "7z",
+        "adf",
+        "adz",
+        "ccd",
+        "chd",
+        "cue",
+        "dms",
+        "fdi",
+        "hdf",
+        "hdz",
+        "info",
+        "ipf",
+        "iso",
+        "lha",
+        "m3u",
+        "mds",
+        "nrg",
+        "rp9",
+        "slave",
+        "uae",
+        "zip"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "puae2021"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "xcloud",
+  "name": "XBox Game Pass",
+  "external_ids": {},
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "xcloud"
+  ],
+  "emulators": [
+    {
+      "id": "xbplay.com.studio08.xbgamestream",
+      "name": "XBPlay - Remote Play",
+      "executable": [
+        "com.studio08.xbgamestream/com.studio08.xbgamestream.PWAMainMenuActivity"
+      ],
+      "filetypes": [
+        "xcloud"
+      ],
+      "action": "xcloudstart",
+      "flags": [
+        "--es"
+      ]
+    }
+  ]
+}

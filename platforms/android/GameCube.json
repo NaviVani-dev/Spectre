@@ -1,0 +1,295 @@
+{
+  "id": "gc",
+  "name": "GameCube",
+  "external_ids": {
+    "retroachievements": [
+      16
+    ],
+    "screenscraper": [
+      13
+    ],
+    "igdb": [
+      21
+    ],
+    "thegamesdb": [
+      2
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+  "filetypes": [
+    "ciso",
+    "dff",
+    "dol",
+    "elf",
+    "gcm",
+    "gcz",
+    "iso",
+    "m3u",
+    "rvz",
+    "tgc",
+    "wad",
+    "wbfs",
+    "wia"
+  ],
+  "emulators": [
+    {
+      "id": "gc.org.dolphinemu.dolphinemu",
+      "name": "Dolphin Emulator",
+      "executable": [
+        "org.dolphinemu.dolphinemu/.ui.main.MainActivity"
+      ],
+      "filetypes": [
+        "ciso",
+        "dff",
+        "dol",
+        "elf",
+        "gcm",
+        "gcz",
+        "iso",
+        "tgc",
+        "wad",
+        "wbfs",
+        "rvz",
+        "m3u"
+      ],
+      "action": "android.intent.action.MAIN",
+      "args": [
+        {
+          "key": "AutoStartFile",
+          "value": "{FILE_URI}"
+        }
+      ]
+    },
+    {
+      "id": "gc.org.dolphinemu.handheld",
+      "name": "Dolphin (Handheld)",
+      "executable": [
+        "org.dolphinemu.handheld/org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      ],
+      "filetypes": [
+        "ciso",
+        "dff",
+        "dol",
+        "elf",
+        "gcm",
+        "gcz",
+        "iso",
+        "tgc",
+        "wad",
+        "wbfs",
+        "rvz"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        {
+          "key": "AutoStartFile",
+          "value": "{FILE_URI}"
+        }
+      ]
+    },
+    {
+      "id": "gc.org.mm.jr",
+      "name": "Dolphin (org.mm.jr Fork)",
+      "executable": [
+        "org.mm.jr/org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      ],
+      "filetypes": [
+        "ciso",
+        "dff",
+        "dol",
+        "elf",
+        "gcm",
+        "gcz",
+        "iso",
+        "tgc",
+        "wad",
+        "wbfs",
+        "rvz"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        {
+          "key": "AutoStartFile",
+          "value": "{FILE_PATH}"
+        }
+      ]
+    },
+    {
+      "id": "gc.org.mm.j",
+      "name": "Dolphin (org.mm.j Fork)",
+      "executable": [
+        "org.mm.j/org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      ],
+      "filetypes": [
+        "ciso",
+        "dff",
+        "dol",
+        "elf",
+        "gcm",
+        "gcz",
+        "iso",
+        "tgc",
+        "wad",
+        "wbfs",
+        "rvz"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        {
+          "key": "AutoStartFile",
+          "value": "{FILE_PATH}"
+        }
+      ]
+    },
+    {
+      "id": "gc.org.dolphinemu.mmjr",
+      "name": "Dolphin MMJR",
+      "executable": [
+        "org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      ],
+      "filetypes": [
+        "ciso",
+        "dff",
+        "dol",
+        "elf",
+        "gcm",
+        "gcz",
+        "iso",
+        "tgc",
+        "wad",
+        "wbfs",
+        "rvz"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        {
+          "key": "AutoStartFile",
+          "value": "{FILE_URI}"
+        }
+      ]
+    },
+    {
+      "id": "gc.org.dolphinemu.mmjr3",
+      "name": "Dolphin MMJR3",
+      "executable": [
+        "org.dolphinemu.mmjr3/org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      ],
+      "filetypes": [
+        "ciso",
+        "dff",
+        "dol",
+        "elf",
+        "gcm",
+        "gcz",
+        "iso",
+        "tgc",
+        "wad",
+        "wbfs",
+        "rvz"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        {
+          "key": "AutoStartFile",
+          "value": "{FILE_URI}"
+        }
+      ]
+    },
+    {
+      "id": "gc.org.dolphin.ishiirukadark",
+      "name": "Dolphin Ishiiruka",
+      "executable": [
+        "org.dolphin.ishiirukadark/org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      ],
+      "filetypes": [
+        "ciso",
+        "dff",
+        "dol",
+        "elf",
+        "gcm",
+        "gcz",
+        "iso",
+        "tgc",
+        "wad",
+        "wbfs",
+        "rvz"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        {
+          "key": "AutoStartFile",
+          "value": "{FILE_PATH}"
+        }
+      ]
+    },
+    {
+      "id": "gc.org.dolphinemu.dolphinemu.debug",
+      "name": "Dolphin (Debug Build)",
+      "executable": [
+        "org.dolphinemu.dolphinemu.debug/org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      ],
+      "filetypes": [
+        "ciso",
+        "dff",
+        "dol",
+        "elf",
+        "gcm",
+        "gcz",
+        "iso",
+        "tgc",
+        "wad",
+        "wbfs",
+        "rvz",
+        "m3u"
+      ],
+      "action": "android.intent.action.MAIN",
+      "args": [
+        {
+          "key": "AutoStartFile",
+          "value": "{FILE_URI}"
+        }
+      ]
+    },
+    {
+      "id": "gc.ra64.dolphin",
+      "name": "Dolphin (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "ciso",
+        "dff",
+        "dol",
+        "elf",
+        "gcm",
+        "gcz",
+        "iso",
+        "m3u",
+        "rvz",
+        "tgc",
+        "wad",
+        "wbfs",
+        "wia"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "dolphin"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-new-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

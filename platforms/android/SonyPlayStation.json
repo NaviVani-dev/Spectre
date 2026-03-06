@@ -1,0 +1,386 @@
+{
+  "id": "psx",
+  "name": "Sony PlayStation",
+  "external_ids": {
+    "retroachievements": [
+      12
+    ],
+    "screenscraper": [
+      57
+    ],
+    "igdb": [
+      7
+    ],
+    "thegamesdb": [
+      10
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
+  "filetypes": [
+    "bin",
+    "cbn",
+    "ccd",
+    "chd",
+    "cue",
+    "ecm",
+    "exe",
+    "img",
+    "iso",
+    "m3u",
+    "mdf",
+    "mds",
+    "pbp",
+    "psexe",
+    "psf",
+    "toc"
+  ],
+  "emulators": [
+    {
+      "id": "psx.com.github.stenzek.duckstation",
+      "name": "Duckstation",
+      "executable": [
+        "com.github.stenzek.duckstation/.EmulationActivity"
+      ],
+      "filetypes": [
+        "bin",
+        "chd",
+        "cue",
+        "ecm",
+        "exe",
+        "img",
+        "iso",
+        "m3u",
+        "mds",
+        "pbp",
+        "psexe",
+        "psf"
+      ],
+      "args": [
+        {
+          "key": "bootPath",
+          "value": "{FILE_URI}"
+        }
+      ],
+      "flags": [
+        "--ez",
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "psx.com.github.stenzek.duckstation",
+      "name": "Duckstation (Legacy)",
+      "executable": [
+        "com.github.stenzek.duckstation/.EmulationActivity"
+      ],
+      "filetypes": [
+        "bin",
+        "chd",
+        "cue",
+        "ecm",
+        "exe",
+        "img",
+        "iso",
+        "m3u",
+        "mds",
+        "pbp",
+        "psexe",
+        "psf"
+      ],
+      "args": [
+        {
+          "key": "bootPath",
+          "value": "{FILE_PATH}"
+        }
+      ],
+      "flags": [
+        "--ez",
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "psx.com.emulator.fpse",
+      "name": "FPse",
+      "executable": [
+        "com.emulator.fpse/.Main"
+      ],
+      "filetypes": [
+        "bin",
+        "chd",
+        "cue",
+        "ecm",
+        "exe",
+        "img",
+        "iso",
+        "m3u",
+        "mds",
+        "pbp",
+        "psexe",
+        "psf"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_PATH}"
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "psx.com.emulator.fpse64",
+      "name": "FPse64",
+      "executable": [
+        "com.emulator.fpse64/.Main"
+      ],
+      "filetypes": [
+        "bin",
+        "chd",
+        "cue",
+        "ecm",
+        "exe",
+        "img",
+        "iso",
+        "m3u",
+        "mds",
+        "pbp",
+        "psexe",
+        "psf"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_PATH}"
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "psx.com.epsxe.ePSXe",
+      "name": "ePSXe",
+      "executable": [
+        "com.epsxe.ePSXe/.ePSXe"
+      ],
+      "filetypes": [
+        "bin",
+        "chd",
+        "cue",
+        "ecm",
+        "exe",
+        "img",
+        "iso",
+        "m3u",
+        "mds",
+        "pbp",
+        "psexe",
+        "psf"
+      ],
+      "action": "android.intent.action.MAIN",
+      "args": [
+        {
+          "key": "com.epsxe.ePSXe.isoName",
+          "value": "{FILE_PATH}"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "psx.ra64.mednafen_psx_hw",
+      "name": "Mednafen Psx Hw (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "cue",
+        "toc",
+        "m3u",
+        "ccd",
+        "exe",
+        "pbp",
+        "chd"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "mednafen_psx_hw"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "psx.ra64.mednafen_psx",
+      "name": "Mednafen Psx (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "cue",
+        "toc",
+        "m3u",
+        "ccd",
+        "exe",
+        "pbp",
+        "chd"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "mednafen_psx"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "psx.ra64.duckstation",
+      "name": "Duckstation (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "bin",
+        "chd",
+        "cue",
+        "ecm",
+        "exe",
+        "img",
+        "iso",
+        "m3u",
+        "mds",
+        "pbp",
+        "psexe",
+        "psf"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "duckstation"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "psx.ra64.pcsx_rearmed",
+      "name": "PCSX ReARMed (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "bin",
+        "cbn",
+        "ccd",
+        "chd",
+        "cue",
+        "img",
+        "m3u",
+        "mdf",
+        "pbp",
+        "toc"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "pcsx_rearmed"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    },
+    {
+      "id": "psx.ra64.swanstation",
+      "name": "SwanStation (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "bin",
+        "chd",
+        "cue",
+        "ecm",
+        "exe",
+        "img",
+        "iso",
+        "m3u",
+        "mds",
+        "pbp",
+        "psexe",
+        "psf"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "swanstation"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}

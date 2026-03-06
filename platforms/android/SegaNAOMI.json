@@ -1,0 +1,88 @@
+{
+  "id": "naomi",
+  "name": "Sega Naomi",
+  "external_ids": {
+    "retroachievements": [
+      27
+    ],
+    "screenscraper": [
+      56
+    ]
+  },
+  "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bin|chd)$",
+  "filetypes": [
+    "7z",
+    "dat",
+    "lst",
+    "zip"
+  ],
+  "emulators": [
+    {
+      "id": "naomi.com.flycast.emulator",
+      "name": "Flycast",
+      "executable": [
+        "com.flycast.emulator/com.flycast.emulator.MainActivity"
+      ],
+      "filetypes": [
+        "7z",
+        "lst",
+        "zip",
+        "dat"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_URI}"
+      ]
+    },
+    {
+      "id": "naomi.com.flycast.emulator",
+      "name": "Flycast (Dev Build)",
+      "executable": [
+        "com.flycast.emulator/com.flycast.emulator.MainActivity"
+      ],
+      "filetypes": [
+        "7z",
+        "lst",
+        "zip",
+        "dat"
+      ],
+      "action": "android.intent.action.VIEW",
+      "args": [
+        "{FILE_PATH}"
+      ]
+    },
+    {
+      "id": "naomi.ra64.flycast",
+      "name": "Flycast (RetroArch)",
+      "executable": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ],
+      "filetypes": [
+        "7z",
+        "lst",
+        "zip",
+        "dat"
+      ],
+      "args": [
+        {
+          "key": "ROM",
+          "value": "{FILE_PATH}"
+        },
+        {
+          "key": "LIBRETRO",
+          "value": "flycast"
+        },
+        {
+          "key": "CONFIGFILE",
+          "value": "/storage/emulated/0/Android/data/{EMULATOR_EXECUTABLE}/files/retroarch.cfg"
+        }
+      ],
+      "flags": [
+        "--activity-clear-task",
+        "--activity-clear-top"
+      ]
+    }
+  ]
+}
