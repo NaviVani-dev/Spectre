@@ -54,7 +54,7 @@
     ],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/rocods",
         "name": "RetroArch [crocods]",
         "args": [
           {
@@ -72,7 +72,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/ap32",
         "name": "RetroArch [cap32]",
         "args": [
           {
@@ -171,7 +171,7 @@
     "filetypes": ["arduboy", "hex"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/uous",
         "name": "RetroArch [arduous]",
         "args": [
           {
@@ -189,7 +189,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/ens",
         "name": "RetroArch [ardens]",
         "args": [
           {
@@ -229,7 +229,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/retroarch_stella",
         "name": "RetroArch [stella]",
         "args": [
           {
@@ -247,7 +247,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/2014",
         "name": "RetroArch [stella2014]",
         "args": [
           {
@@ -265,7 +265,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/2023",
         "name": "RetroArch [stella2023]",
         "args": [
           {
@@ -311,7 +311,7 @@
     ],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/tari800",
         "name": "RetroArch [atari800]",
         "args": [
           {
@@ -329,7 +329,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/5200",
         "name": "RetroArch [a5200]",
         "args": [
           {
@@ -479,7 +479,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mednafen_lynx",
         "name": "RetroArch [mednafen_lynx]",
         "args": [
           {
@@ -497,7 +497,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/handy",
         "name": "RetroArch [handy]",
         "args": [
           {
@@ -515,7 +515,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/holani",
         "name": "RetroArch [holani]",
         "args": [
           {
@@ -597,11 +597,11 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.flycast.emulator",
+        "id": "com.flycast.emulator/uri",
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.flycast.emulator",
+        "id": "com.flycast.emulator/path",
         "args": ["{rom.path}"]
       },
       {
@@ -716,7 +716,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/neo",
         "name": "RetroArch [fbneo]",
         "args": [
           {
@@ -734,7 +734,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/alpha2012",
         "name": "RetroArch [fbalpha2012]",
         "args": [
           {
@@ -752,7 +752,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/alpha2012_cps1",
         "name": "RetroArch [fbalpha2012_cps1]",
         "args": [
           {
@@ -770,7 +770,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/alpha",
         "name": "RetroArch [fbalpha]",
         "args": [
           {
@@ -804,7 +804,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/neo",
         "name": "RetroArch [fbneo]",
         "args": [
           {
@@ -822,7 +822,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/alpha2012",
         "name": "RetroArch [fbalpha2012]",
         "args": [
           {
@@ -840,7 +840,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/alpha2012_cps2",
         "name": "RetroArch [fbalpha2012_cps2]",
         "args": [
           {
@@ -874,7 +874,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/neo",
         "name": "RetroArch [fbneo]",
         "args": [
           {
@@ -892,7 +892,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/alpha2012",
         "name": "RetroArch [fbalpha2012]",
         "args": [
           {
@@ -910,7 +910,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/alpha2012_cps3",
         "name": "RetroArch [fbalpha2012_cps3]",
         "args": [
           {
@@ -964,7 +964,7 @@
     "filetypes": ["exe"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/nxengine",
         "name": "RetroArch [nxengine]",
         "args": [
           {
@@ -982,7 +982,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/doukutsu_rs",
         "name": "RetroArch [doukutsu_rs]",
         "args": [
           {
@@ -1056,7 +1056,7 @@
     ],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bluemsx",
         "name": "RetroArch [bluemsx]",
         "args": [
           {
@@ -1074,7 +1074,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/gearcoleco",
         "name": "RetroArch [gearcoleco]",
         "args": [
           {
@@ -1142,7 +1142,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/frodo",
         "name": "RetroArch [frodo]",
         "args": [
           {
@@ -1160,7 +1160,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/x64sdl",
         "name": "RetroArch [x64sdl]",
         "args": [
           {
@@ -1178,7 +1178,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/vice_x64",
         "name": "RetroArch [vice_x64]",
         "args": [
           {
@@ -1196,7 +1196,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/vice_x64sc",
         "name": "RetroArch [vice_x64sc]",
         "args": [
           {
@@ -1249,7 +1249,7 @@
     ],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/retroarch_puae",
         "name": "RetroArch [puae]",
         "args": [
           {
@@ -1267,7 +1267,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/2021",
         "name": "RetroArch [puae2021]",
         "args": [
           {
@@ -1466,7 +1466,7 @@
     ],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/pure",
         "name": "RetroArch [dosbox_pure]",
         "args": [
           {
@@ -1484,7 +1484,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/svn",
         "name": "RetroArch [dosbox_svn]",
         "args": [
           {
@@ -1502,7 +1502,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/core",
         "name": "RetroArch [dosbox_core]",
         "args": [
           {
@@ -1553,11 +1553,11 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.flycast.emulator",
+        "id": "com.flycast.emulator/uri",
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.flycast.emulator",
+        "id": "com.flycast.emulator/path",
         "args": ["{rom.path}"]
       },
       {
@@ -1644,7 +1644,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/nestopia",
         "name": "RetroArch [nestopia]",
         "args": [
           {
@@ -1662,7 +1662,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/fceumm",
         "name": "RetroArch [fceumm]",
         "args": [
           {
@@ -1680,7 +1680,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mesen",
         "name": "RetroArch [mesen]",
         "args": [
           {
@@ -1712,7 +1712,7 @@
     "filetypes": ["7z", "ccd", "cue", "iso", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/neo",
         "name": "RetroArch [fbneo]",
         "args": [
           {
@@ -1730,7 +1730,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/alpha2012",
         "name": "RetroArch [fbalpha2012]",
         "args": [
           {
@@ -1789,7 +1789,7 @@
     "filetypes": ["7z", "mgw", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/gw",
         "name": "RetroArch [gw]",
         "args": [
           {
@@ -1807,7 +1807,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mamemess",
         "name": "RetroArch [mamemess]",
         "args": [
           {
@@ -1888,7 +1888,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/gambatte",
         "name": "RetroArch [gambatte]",
         "args": [
           {
@@ -1906,7 +1906,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/gearboy",
         "name": "RetroArch [gearboy]",
         "args": [
           {
@@ -1924,7 +1924,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/sameboy",
         "name": "RetroArch [sameboy]",
         "args": [
           {
@@ -1942,7 +1942,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/tgbdual",
         "name": "RetroArch [tgbdual]",
         "args": [
           {
@@ -1960,7 +1960,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/doublecherrygb",
         "name": "RetroArch [DoubleCherryGB]",
         "args": [
           {
@@ -1978,7 +1978,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mesen-s",
         "name": "RetroArch [mesen-s]",
         "args": [
           {
@@ -1996,7 +1996,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mgba",
         "name": "RetroArch [mgba]",
         "args": [
           {
@@ -2078,7 +2078,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/vba_next",
         "name": "RetroArch [vba_next]",
         "args": [
           {
@@ -2096,7 +2096,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/vbam",
         "name": "RetroArch [vbam]",
         "args": [
           {
@@ -2114,7 +2114,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mgba",
         "name": "RetroArch [mgba]",
         "args": [
           {
@@ -2132,7 +2132,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mednafen_gba",
         "name": "RetroArch [mednafen_gba]",
         "args": [
           {
@@ -2150,7 +2150,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/meteor",
         "name": "RetroArch [meteor]",
         "args": [
           {
@@ -2168,7 +2168,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/gpsp",
         "name": "RetroArch [gpsp]",
         "args": [
           {
@@ -2249,7 +2249,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/gambatte",
         "name": "RetroArch [gambatte]",
         "args": [
           {
@@ -2267,7 +2267,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/gearboy",
         "name": "RetroArch [gearboy]",
         "args": [
           {
@@ -2285,7 +2285,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/sameboy",
         "name": "RetroArch [sameboy]",
         "args": [
           {
@@ -2303,7 +2303,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/tgbdual",
         "name": "RetroArch [tgbdual]",
         "args": [
           {
@@ -2321,7 +2321,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/doublecherrygb",
         "name": "RetroArch [DoubleCherryGB]",
         "args": [
           {
@@ -2339,7 +2339,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mesen-s",
         "name": "RetroArch [mesen-s]",
         "args": [
           {
@@ -2357,7 +2357,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mgba",
         "name": "RetroArch [mgba]",
         "args": [
           {
@@ -2647,7 +2647,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/2003",
         "name": "RetroArch [mame2003]",
         "args": [
           {
@@ -2665,7 +2665,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/2003_midway",
         "name": "RetroArch [mame2003_midway]",
         "args": [
           {
@@ -2683,7 +2683,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/2003_plus",
         "name": "RetroArch [mame2003_plus]",
         "args": [
           {
@@ -2701,7 +2701,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/arcade",
         "name": "RetroArch [mamearcade]",
         "args": [
           {
@@ -2719,7 +2719,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/2000",
         "name": "RetroArch [mame2000]",
         "args": [
           {
@@ -2737,7 +2737,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/2010",
         "name": "RetroArch [mame2010]",
         "args": [
           {
@@ -2787,7 +2787,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/fmsx",
         "name": "RetroArch [fmsx]",
         "args": [
           {
@@ -2805,7 +2805,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bluemsx",
         "name": "RetroArch [bluemsx]",
         "args": [
           {
@@ -2971,7 +2971,7 @@
     ],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/p2kai",
         "name": "RetroArch [np2kai]",
         "args": [
           {
@@ -2989,7 +2989,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/ekop2",
         "name": "RetroArch [nekop2]",
         "args": [
           {
@@ -3057,7 +3057,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/fbneo",
         "name": "RetroArch [fbneo]",
         "args": [
           {
@@ -3075,7 +3075,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/fbalpha2012",
         "name": "RetroArch [fbalpha2012]",
         "args": [
           {
@@ -3093,7 +3093,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/geolith",
         "name": "RetroArch [geolith]",
         "args": [
           {
@@ -3125,7 +3125,7 @@
     "filetypes": ["chd", "cue"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/neocd",
         "name": "RetroArch [neocd]",
         "args": [
           {
@@ -3143,7 +3143,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/fbneo",
         "name": "RetroArch [fbneo]",
         "args": [
           {
@@ -3179,7 +3179,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mednafen_ngp",
         "name": "RetroArch [mednafen_ngp]",
         "args": [
           {
@@ -3197,7 +3197,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/race",
         "name": "RetroArch [race]",
         "args": [
           {
@@ -3232,7 +3232,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mednafen_ngp",
         "name": "RetroArch [mednafen_ngp]",
         "args": [
           {
@@ -3250,7 +3250,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/race",
         "name": "RetroArch [race]",
         "args": [
           {
@@ -3311,7 +3311,7 @@
     ],
     "emulators": [
       {
-        "id": "io.github.lime3ds.android",
+        "id": "io.github.lime3ds.android/uri",
         "args": ["{rom.uri}"]
       },
       {
@@ -3319,7 +3319,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "org.citra.citra_emu",
+        "id": "org.citra.citra_emu/uri",
         "args": ["{rom.uri}"]
       },
       {
@@ -3331,7 +3331,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "io.github.lime3ds.android",
+        "id": "io.github.lime3ds.android/uri_2",
         "args": ["{rom.uri}"]
       },
       {
@@ -3357,7 +3357,7 @@
         ]
       },
       {
-        "id": "org.citra.citra_emu",
+        "id": "org.citra.citra_emu/path",
         "args": [
           {
             "key": "GamePath",
@@ -3366,7 +3366,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/2018",
         "name": "RetroArch [citra2018]",
         "args": [
           {
@@ -3384,7 +3384,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/canary",
         "name": "RetroArch [citra_canary]",
         "args": [
           {
@@ -3402,7 +3402,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/retroarch_citra",
         "name": "RetroArch [citra]",
         "args": [
           {
@@ -3450,7 +3450,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mupen64plus_next_gles3",
         "name": "RetroArch [mupen64plus_next_gles3]",
         "args": [
           {
@@ -3468,7 +3468,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mupen64plus_next_gles2",
         "name": "RetroArch [mupen64plus_next_gles2]",
         "args": [
           {
@@ -3486,7 +3486,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/parallel_n64",
         "name": "RetroArch [parallel_n64]",
         "args": [
           {
@@ -3527,11 +3527,11 @@
         ]
       },
       {
-        "id": "com.dsemu.drastic",
+        "id": "com.dsemu.drastic/uri",
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.dsemu.drastic",
+        "id": "com.dsemu.drastic/path",
         "args": ["{rom.path}"]
       },
       {
@@ -3562,7 +3562,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/melonds",
         "name": "RetroArch [melonds]",
         "args": [
           {
@@ -3580,7 +3580,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/melondsds",
         "name": "RetroArch [melondsds]",
         "args": [
           {
@@ -3598,7 +3598,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/desmume",
         "name": "RetroArch [desmume]",
         "args": [
           {
@@ -3616,7 +3616,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/desmume2015",
         "name": "RetroArch [desmume2015]",
         "args": [
           {
@@ -3688,7 +3688,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/melonds",
         "name": "RetroArch [melonds]",
         "args": [
           {
@@ -3706,7 +3706,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/melondsds",
         "name": "RetroArch [melondsds]",
         "args": [
           {
@@ -3724,7 +3724,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/desmume",
         "name": "RetroArch [desmume]",
         "args": [
           {
@@ -3742,7 +3742,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/desmume2015",
         "name": "RetroArch [desmume2015]",
         "args": [
           {
@@ -3793,7 +3793,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/nestopia",
         "name": "RetroArch [nestopia]",
         "args": [
           {
@@ -3811,7 +3811,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/fceumm",
         "name": "RetroArch [fceumm]",
         "args": [
           {
@@ -3829,7 +3829,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mesen",
         "name": "RetroArch [mesen]",
         "args": [
           {
@@ -3847,7 +3847,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/quicknes",
         "name": "RetroArch [quicknes]",
         "args": [
           {
@@ -3865,7 +3865,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bnes",
         "name": "RetroArch [bnes]",
         "args": [
           {
@@ -3915,7 +3915,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/snes9x",
         "name": "RetroArch [snes9x]",
         "args": [
           {
@@ -3933,7 +3933,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mednafen_supafaust",
         "name": "RetroArch [mednafen_supafaust]",
         "args": [
           {
@@ -3951,7 +3951,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mednafen_snes",
         "name": "RetroArch [mednafen_snes]",
         "args": [
           {
@@ -3969,7 +3969,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/snes9x2002",
         "name": "RetroArch [snes9x2002]",
         "args": [
           {
@@ -3987,7 +3987,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/snes9x2005_plus",
         "name": "RetroArch [snes9x2005_plus]",
         "args": [
           {
@@ -4005,7 +4005,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/snes9x2005",
         "name": "RetroArch [snes9x2005]",
         "args": [
           {
@@ -4023,7 +4023,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/snes9x2010",
         "name": "RetroArch [snes9x2010]",
         "args": [
           {
@@ -4041,7 +4041,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bsnes",
         "name": "RetroArch [bsnes]",
         "args": [
           {
@@ -4059,7 +4059,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mesen-s",
         "name": "RetroArch [mesen-s]",
         "args": [
           {
@@ -4439,7 +4439,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/fake08",
         "name": "RetroArch [fake08]",
         "args": [
           {
@@ -4457,7 +4457,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/retro8",
         "name": "RetroArch [retro8]",
         "args": [
           {
@@ -4721,7 +4721,7 @@
     "filetypes": ["pak"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/retroarch_vitaquake2",
         "name": "RetroArch [vitaquake2]",
         "args": [
           {
@@ -4739,7 +4739,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/rogue_libretro_so",
         "name": "RetroArch [vitaquake2-rogue_libretro.so]",
         "args": [
           {
@@ -4757,7 +4757,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/xatrix_libretro_so",
         "name": "RetroArch [vitaquake2-xatrix_libretro.so]",
         "args": [
           {
@@ -4775,7 +4775,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/zaero_libretro_so",
         "name": "RetroArch [vitaquake2-zaero_libretro.so]",
         "args": [
           {
@@ -4944,7 +4944,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/genesis_plus_gx",
         "name": "RetroArch [genesis_plus_gx]",
         "args": [
           {
@@ -4962,7 +4962,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/genesis_plus_gx_wide",
         "name": "RetroArch [genesis_plus_gx_wide]",
         "args": [
           {
@@ -4980,7 +4980,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/picodrive",
         "name": "RetroArch [picodrive]",
         "args": [
           {
@@ -5051,7 +5051,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/genesis_plus_gx",
         "name": "RetroArch [genesis_plus_gx]",
         "args": [
           {
@@ -5069,7 +5069,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/genesis_plus_gx_wide",
         "name": "RetroArch [genesis_plus_gx_wide]",
         "args": [
           {
@@ -5087,7 +5087,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/smsplus",
         "name": "RetroArch [smsplus]",
         "args": [
           {
@@ -5105,7 +5105,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/picodrive",
         "name": "RetroArch [picodrive]",
         "args": [
           {
@@ -5123,7 +5123,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/gearsystem",
         "name": "RetroArch [gearsystem]",
         "args": [
           {
@@ -5192,7 +5192,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/genesis_plus_gx",
         "name": "RetroArch [genesis_plus_gx]",
         "args": [
           {
@@ -5210,7 +5210,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/genesis_plus_gx_wide",
         "name": "RetroArch [genesis_plus_gx_wide]",
         "args": [
           {
@@ -5228,7 +5228,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/picodrive",
         "name": "RetroArch [picodrive]",
         "args": [
           {
@@ -5260,7 +5260,7 @@
     "filetypes": ["7z", "md", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/retroarch_genesis_plus_gx",
         "name": "RetroArch [genesis_plus_gx]",
         "args": [
           {
@@ -5278,7 +5278,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/wide",
         "name": "RetroArch [genesis_plus_gx_wide]",
         "args": [
           {
@@ -5345,7 +5345,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/genesis_plus_gx",
         "name": "RetroArch [genesis_plus_gx]",
         "args": [
           {
@@ -5363,7 +5363,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/genesis_plus_gx_wide",
         "name": "RetroArch [genesis_plus_gx_wide]",
         "args": [
           {
@@ -5381,7 +5381,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/smsplus",
         "name": "RetroArch [smsplus]",
         "args": [
           {
@@ -5399,7 +5399,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/picodrive",
         "name": "RetroArch [picodrive]",
         "args": [
           {
@@ -5417,7 +5417,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/gearsystem",
         "name": "RetroArch [gearsystem]",
         "args": [
           {
@@ -5447,11 +5447,11 @@
     "filetypes": ["7z", "dat", "lst", "zip"],
     "emulators": [
       {
-        "id": "com.flycast.emulator",
+        "id": "com.flycast.emulator/uri",
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.flycast.emulator",
+        "id": "com.flycast.emulator/path",
         "args": ["{rom.path}"]
       },
       {
@@ -5535,7 +5535,7 @@
     ],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/gearsystem",
         "name": "RetroArch [gearsystem]",
         "args": [
           {
@@ -5553,7 +5553,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bluemsx",
         "name": "RetroArch [bluemsx]",
         "args": [
           {
@@ -5635,7 +5635,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mednafen_saturn",
         "name": "RetroArch [mednafen_saturn]",
         "args": [
           {
@@ -5653,7 +5653,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/yabasanshiro",
         "name": "RetroArch [yabasanshiro]",
         "args": [
           {
@@ -5671,7 +5671,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/yabause",
         "name": "RetroArch [yabause]",
         "args": [
           {
@@ -5831,7 +5831,7 @@
     ],
     "emulators": [
       {
-        "id": "com.github.stenzek.duckstation",
+        "id": "com.github.stenzek.duckstation/uri",
         "args": [
           {
             "key": "bootPath",
@@ -5840,7 +5840,7 @@
         ]
       },
       {
-        "id": "com.github.stenzek.duckstation",
+        "id": "com.github.stenzek.duckstation/path",
         "args": [
           {
             "key": "bootPath",
@@ -5866,7 +5866,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mednafen_psx_hw",
         "name": "RetroArch [mednafen_psx_hw]",
         "args": [
           {
@@ -5884,7 +5884,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mednafen_psx",
         "name": "RetroArch [mednafen_psx]",
         "args": [
           {
@@ -5902,7 +5902,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/duckstation",
         "name": "RetroArch [duckstation]",
         "args": [
           {
@@ -5920,7 +5920,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/pcsx_rearmed",
         "name": "RetroArch [pcsx_rearmed]",
         "args": [
           {
@@ -5938,7 +5938,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/swanstation",
         "name": "RetroArch [swanstation]",
         "args": [
           {
@@ -6038,7 +6038,7 @@
     "filetypes": ["iso", "ps3folder"],
     "emulators": [
       {
-        "id": "aenu.aps3e",
+        "id": "aenu.aps3e/uri",
         "args": [
           {
             "key": "iso_uri",
@@ -6047,7 +6047,7 @@
         ]
       },
       {
-        "id": "aenu.aps3e",
+        "id": "aenu.aps3e/ps3folder",
         "args": [
           {
             "key": "game_dir",
@@ -6103,7 +6103,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/pce",
         "name": "RetroArch [mednafen_pce]",
         "args": [
           {
@@ -6121,7 +6121,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/supergrafx",
         "name": "RetroArch [mednafen_supergrafx]",
         "args": [
           {
@@ -6174,7 +6174,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/snes9x",
         "name": "RetroArch [snes9x]",
         "args": [
           {
@@ -6192,7 +6192,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/higan_sfc",
         "name": "RetroArch [higan_sfc]",
         "args": [
           {
@@ -6210,7 +6210,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/higan_sfc_balanced",
         "name": "RetroArch [higan_sfc_balanced]",
         "args": [
           {
@@ -6228,7 +6228,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mednafen_supafaust",
         "name": "RetroArch [mednafen_supafaust]",
         "args": [
           {
@@ -6246,7 +6246,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mednafen_snes",
         "name": "RetroArch [mednafen_snes]",
         "args": [
           {
@@ -6264,7 +6264,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/snes9x2002",
         "name": "RetroArch [snes9x2002]",
         "args": [
           {
@@ -6282,7 +6282,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/snes9x2005_plus",
         "name": "RetroArch [snes9x2005_plus]",
         "args": [
           {
@@ -6300,7 +6300,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/snes9x2005",
         "name": "RetroArch [snes9x2005]",
         "args": [
           {
@@ -6318,7 +6318,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/snes9x2010",
         "name": "RetroArch [snes9x2010]",
         "args": [
           {
@@ -6336,7 +6336,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bsnes2014_accuracy",
         "name": "RetroArch [bsnes2014_accuracy]",
         "args": [
           {
@@ -6354,7 +6354,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bsnes2014_balanced",
         "name": "RetroArch [bsnes2014_balanced]",
         "args": [
           {
@@ -6372,7 +6372,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bsnes2014_performance",
         "name": "RetroArch [bsnes2014_performance]",
         "args": [
           {
@@ -6390,7 +6390,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bsnes_cplusplus98",
         "name": "RetroArch [bsnes_cplusplus98]",
         "args": [
           {
@@ -6408,7 +6408,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bsnes",
         "name": "RetroArch [bsnes]",
         "args": [
           {
@@ -6426,7 +6426,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bsnes_hd_beta",
         "name": "RetroArch [bsnes_hd_beta]",
         "args": [
           {
@@ -6444,7 +6444,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bsnes_mercury_accuracy",
         "name": "RetroArch [bsnes_mercury_accuracy]",
         "args": [
           {
@@ -6462,7 +6462,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bsnes_mercury_balanced",
         "name": "RetroArch [bsnes_mercury_balanced]",
         "args": [
           {
@@ -6480,7 +6480,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bsnes_mercury_performance",
         "name": "RetroArch [bsnes_mercury_performance]",
         "args": [
           {
@@ -6498,7 +6498,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mesen-s",
         "name": "RetroArch [mesen-s]",
         "args": [
           {
@@ -6551,7 +6551,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/snes9x",
         "name": "RetroArch [snes9x]",
         "args": [
           {
@@ -6569,7 +6569,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bsnes",
         "name": "RetroArch [bsnes]",
         "args": [
           {
@@ -6587,7 +6587,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/bsnes_hd_beta",
         "name": "RetroArch [bsnes_hd_beta]",
         "args": [
           {
@@ -6605,7 +6605,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mesen-s",
         "name": "RetroArch [mesen-s]",
         "args": [
           {
@@ -6671,7 +6671,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/fast",
         "name": "RetroArch [mednafen_pce_fast]",
         "args": [
           {
@@ -6689,7 +6689,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/retroarch_mednafen_pce",
         "name": "RetroArch [mednafen_pce]",
         "args": [
           {
@@ -6724,7 +6724,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/fast",
         "name": "RetroArch [mednafen_pce_fast]",
         "args": [
           {
@@ -6742,7 +6742,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/retroarch_mednafen_pce",
         "name": "RetroArch [mednafen_pce]",
         "args": [
           {

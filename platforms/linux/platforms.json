@@ -94,12 +94,12 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/retroarch_puae",
         "name": "RetroArch [PUAE]",
         "args": ["-L", "puae_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/2021",
         "name": "RetroArch [PUAE 2021]",
         "args": ["-L", "puae2021_libretro", "{rom.path}"]
       },
@@ -141,12 +141,12 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/retroarch_puae",
         "name": "RetroArch [PUAE]",
         "args": ["-L", "puae_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/2021",
         "name": "RetroArch [PUAE 2021]",
         "args": ["-L", "puae2021_libretro", "{rom.path}"]
       },
@@ -188,12 +188,12 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/retroarch_puae",
         "name": "RetroArch [PUAE]",
         "args": ["-L", "puae_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/2021",
         "name": "RetroArch [PUAE 2021]",
         "args": ["-L", "puae2021_libretro", "{rom.path}"]
       },
@@ -235,12 +235,12 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/retroarch_puae",
         "name": "RetroArch [PUAE]",
         "args": ["-L", "puae_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/2021",
         "name": "RetroArch [PUAE 2021]",
         "args": ["-L", "puae2021_libretro", "{rom.path}"]
       },
@@ -281,12 +281,12 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/aprice32",
         "name": "RetroArch [Caprice32]",
         "args": ["-L", "cap32_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/rocods",
         "name": "RetroArch [CrocoDS]",
         "args": ["-L", "crocods_libretro", "{rom.path}"]
       },
@@ -364,7 +364,7 @@
     "filetypes": ["2mg", "7z", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/retroarch_mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": [
           "-L",
@@ -373,7 +373,7 @@
         ]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/software_list",
         "name": "RetroArch [MAME - Current [Software list]]",
         "args": [
           "-L",
@@ -403,32 +403,32 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": ["-L", "mame_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2010",
         "name": "RetroArch [MAME 2010]",
         "args": ["-L", "mame2010_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2003-plus",
         "name": "RetroArch [MAME 2003-Plus]",
         "args": ["-L", "mame2003_plus_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2003",
         "name": "RetroArch [MAME 2003]",
         "args": ["-L", "mame2003_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2000",
         "name": "RetroArch [MAME 2000]",
         "args": ["-L", "mame2000_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/finalburn_neo",
         "name": "RetroArch [FinalBurn Neo]",
         "args": ["-L", "fbneo_libretro", "{rom.path}"]
       },
@@ -438,17 +438,17 @@
         "args": ["-fullscreen", "{rom.basename}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fb_alpha_2012",
         "name": "RetroArch [FB Alpha 2012]",
         "args": ["-L", "fbalpha2012_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/geolith",
         "name": "RetroArch [Geolith]",
         "args": ["-L", "geolith_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/flycast",
         "name": "RetroArch [Flycast]",
         "args": ["-L", "flycast_libretro", "{rom.path}"]
       },
@@ -463,12 +463,12 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/kronos",
         "name": "RetroArch [Kronos]",
         "args": ["-L", "kronos_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/dice",
         "name": "RetroArch [DICE]",
         "args": ["-L", "dice_libretro", "{rom.path}"]
       },
@@ -523,12 +523,12 @@
     "filetypes": ["7z", "arduboy", "hex", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/uous",
         "name": "RetroArch [Arduous]",
         "args": ["-L", "arduous_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/ens",
         "name": "RetroArch [Ardens]",
         "args": ["-L", "ardens_libretro", "{rom.path}"]
       }
@@ -547,17 +547,17 @@
     "filetypes": ["7z", "a26", "bin", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/retroarch_stella",
         "name": "RetroArch [Stella]",
         "args": ["-L", "stella_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/2014",
         "name": "RetroArch [Stella 2014]",
         "args": ["-L", "stella2014_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/2023",
         "name": "RetroArch [Stella 2023]",
         "args": ["-L", "stella2023_libretro", "{rom.path}"]
       },
@@ -605,12 +605,12 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/a5200",
         "name": "RetroArch [a5200]",
         "args": ["-L", "a5200_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/atari800",
         "name": "RetroArch [Atari800]",
         "args": ["-L", "atari800_libretro", "{rom.path}"]
       },
@@ -634,12 +634,12 @@
     "filetypes": ["7z", "a78", "bin", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/prosystem",
         "name": "RetroArch [ProSystem]",
         "args": ["-L", "prosystem_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": [
           "-L",
@@ -771,12 +771,12 @@
     "filetypes": ["7z", "lnx", "lyx", "o", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/handy",
         "name": "RetroArch [Handy]",
         "args": ["-L", "handy_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_lynx",
         "name": "RetroArch [Beetle Lynx]",
         "args": ["-L", "mednafen_lynx_libretro", "{rom.path}"]
       },
@@ -786,7 +786,7 @@
         "args": ["-force_module", "lynx", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/holani",
         "name": "RetroArch [Holani]",
         "args": ["-L", "holani_libretro", "{rom.path}"]
       }
@@ -937,7 +937,7 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/vice_x64sc_accurate",
         "name": "RetroArch [VICE x64sc Accurate]",
         "args": ["-L", "vice_x64sc_libretro", "{rom.path}"]
       },
@@ -947,22 +947,22 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/vice_x64_fast",
         "name": "RetroArch [VICE x64 Fast]",
         "args": ["-L", "vice_x64_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/vice_x64_supercpu",
         "name": "RetroArch [VICE x64 SuperCPU]",
         "args": ["-L", "vice_xscpu64_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/vice_x128",
         "name": "RetroArch [VICE x128]",
         "args": ["-L", "vice_x128_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/frodo",
         "name": "RetroArch [Frodo]",
         "args": ["-L", "frodo_libretro", "{rom.path}"]
       }
@@ -981,12 +981,12 @@
     "filetypes": ["chd", "cue", "iso"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/same_cdi",
         "name": "RetroArch [SAME CDi]",
         "args": ["-L", "same_cdi_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/cdi_2015",
         "name": "RetroArch [CDi 2015]",
         "args": ["-L", "cdi2015_libretro", "{rom.path}"]
       }
@@ -1018,12 +1018,12 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/retroarch_puae",
         "name": "RetroArch [PUAE]",
         "args": ["-L", "puae_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/2021",
         "name": "RetroArch [PUAE 2021]",
         "args": ["-L", "puae2021_libretro", "{rom.path}"]
       },
@@ -1064,12 +1064,12 @@
     "filetypes": ["7z", "bin", "chf", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/freechaf",
         "name": "RetroArch [FreeChaF]",
         "args": ["-L", "freechaf_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": [
           "-L",
@@ -1085,12 +1085,12 @@
     "filetypes": ["cas", "ccc", "dsk", "rom"],
     "emulators": [
       {
-        "id": "xroar",
+        "id": "xroar/ntsc",
         "name": "XRoar CoCo 2 NTSC",
         "args": ["-fs", "-default-machine", "coco2bus", "{rom.path}"]
       },
       {
-        "id": "xroar",
+        "id": "xroar/pal",
         "name": "XRoar CoCo 2 PAL",
         "args": ["-fs", "-default-machine", "coco2b", "{rom.path}"]
       }
@@ -1124,12 +1124,12 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/bluemsx",
         "name": "RetroArch [blueMSX]",
         "args": ["-L", "bluemsx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/gearcoleco",
         "name": "RetroArch [Gearcoleco]",
         "args": ["-L", "gearcoleco_libretro", "{rom.path}"]
       },
@@ -1161,32 +1161,32 @@
     "filetypes": ["7z", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": ["-L", "mame_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2010",
         "name": "RetroArch [MAME 2010]",
         "args": ["-L", "mame2010_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2003-plus",
         "name": "RetroArch [MAME 2003-Plus]",
         "args": ["-L", "mame2003_plus_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2003",
         "name": "RetroArch [MAME 2003]",
         "args": ["-L", "mame2003_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2000",
         "name": "RetroArch [MAME 2000]",
         "args": ["-L", "mame2000_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/finalburn_neo",
         "name": "RetroArch [FinalBurn Neo]",
         "args": ["-L", "fbneo_libretro", "{rom.path}"]
       },
@@ -1196,22 +1196,22 @@
         "args": ["-fullscreen", "{rom.basename}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fb_alpha_2012",
         "name": "RetroArch [FB Alpha 2012]",
         "args": ["-L", "fbalpha2012_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fb_alpha_2012_cps-1",
         "name": "RetroArch [FB Alpha 2012 CPS-1]",
         "args": ["-L", "fbalpha2012_cps1_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fb_alpha_2012_cps-2",
         "name": "RetroArch [FB Alpha 2012 CPS-2]",
         "args": ["-L", "fbalpha2012_cps2_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fb_alpha_2012_cps-3",
         "name": "RetroArch [FB Alpha 2012 CPS-3]",
         "args": ["-L", "fbalpha2012_cps3_libretro", "{rom.path}"]
       }
@@ -1228,32 +1228,32 @@
     "filetypes": ["7z", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": ["-L", "mame_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2010",
         "name": "RetroArch [MAME 2010]",
         "args": ["-L", "mame2010_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2003-plus",
         "name": "RetroArch [MAME 2003-Plus]",
         "args": ["-L", "mame2003_plus_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2003",
         "name": "RetroArch [MAME 2003]",
         "args": ["-L", "mame2003_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2000",
         "name": "RetroArch [MAME 2000]",
         "args": ["-L", "mame2000_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/finalburn_neo",
         "name": "RetroArch [FinalBurn Neo]",
         "args": ["-L", "fbneo_libretro", "{rom.path}"]
       },
@@ -1263,12 +1263,12 @@
         "args": ["-fullscreen", "{rom.basename}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fb_alpha_2012",
         "name": "RetroArch [FB Alpha 2012]",
         "args": ["-L", "fbalpha2012_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fb_alpha_2012_cps-1",
         "name": "RetroArch [FB Alpha 2012 CPS-1]",
         "args": ["-L", "fbalpha2012_cps1_libretro", "{rom.path}"]
       }
@@ -1285,32 +1285,32 @@
     "filetypes": ["7z", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": ["-L", "mame_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2010",
         "name": "RetroArch [MAME 2010]",
         "args": ["-L", "mame2010_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2003-plus",
         "name": "RetroArch [MAME 2003-Plus]",
         "args": ["-L", "mame2003_plus_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2003",
         "name": "RetroArch [MAME 2003]",
         "args": ["-L", "mame2003_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2000",
         "name": "RetroArch [MAME 2000]",
         "args": ["-L", "mame2000_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/finalburn_neo",
         "name": "RetroArch [FinalBurn Neo]",
         "args": ["-L", "fbneo_libretro", "{rom.path}"]
       },
@@ -1320,12 +1320,12 @@
         "args": ["-fullscreen", "{rom.basename}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fb_alpha_2012",
         "name": "RetroArch [FB Alpha 2012]",
         "args": ["-L", "fbalpha2012_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fb_alpha_2012_cps-2",
         "name": "RetroArch [FB Alpha 2012 CPS-2]",
         "args": ["-L", "fbalpha2012_cps2_libretro", "{rom.path}"]
       }
@@ -1342,32 +1342,32 @@
     "filetypes": ["7z", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": ["-L", "mame_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2010",
         "name": "RetroArch [MAME 2010]",
         "args": ["-L", "mame2010_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2003-plus",
         "name": "RetroArch [MAME 2003-Plus]",
         "args": ["-L", "mame2003_plus_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2003",
         "name": "RetroArch [MAME 2003]",
         "args": ["-L", "mame2003_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2000",
         "name": "RetroArch [MAME 2000]",
         "args": ["-L", "mame2000_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/finalburn_neo",
         "name": "RetroArch [FinalBurn Neo]",
         "args": ["-L", "fbneo_libretro", "{rom.path}"]
       },
@@ -1377,12 +1377,12 @@
         "args": ["-fullscreen", "{rom.basename}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fb_alpha_2012",
         "name": "RetroArch [FB Alpha 2012]",
         "args": ["-L", "fbalpha2012_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fb_alpha_2012_cps-3",
         "name": "RetroArch [FB Alpha 2012 CPS-3]",
         "args": ["-L", "fbalpha2012_cps3_libretro", "{rom.path}"]
       }
@@ -1410,7 +1410,7 @@
     "filetypes": ["7z", "daphne", "dirksimple", "mmi", "ogv", "singe", "zip"],
     "emulators": [
       {
-        "id": "hypseus-singe",
+        "id": "hypseus-singe/daphne",
         "name": "Hypseus [Daphne]",
         "args": [
           "{rom.basename}",
@@ -1420,7 +1420,7 @@
         ]
       },
       {
-        "id": "hypseus-singe",
+        "id": "hypseus-singe/singe",
         "name": "Hypseus [Singe]",
         "args": [
           "singe",
@@ -1432,12 +1432,12 @@
         ]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": ["-L", "mame_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/dirksimple",
         "name": "RetroArch [DirkSimple]",
         "args": ["-L", "dirksimple_libretro", "{rom.path}"]
       },
@@ -1456,7 +1456,7 @@
     "filetypes": ["desktop", "ipk3", "iwad", "pk3", "pk4", "pwad", "sh", "wad"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/prboom",
         "name": "RetroArch [PrBoom]",
         "args": ["-L", "prboom_libretro", "{rom.path}"]
       },
@@ -1466,12 +1466,12 @@
         "args": ["-iwad", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/boom_3",
         "name": "RetroArch [Boom 3]",
         "args": ["-L", "boom3_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/boom_3_xp",
         "name": "RetroArch [Boom 3 xp]",
         "args": ["-L", "boom3_xp_libretro", "{rom.path}"]
       },
@@ -1505,7 +1505,7 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/dosbox-pure",
         "name": "RetroArch [DOSBox-Pure]",
         "args": ["-L", "dosbox_pure_libretro", "{rom.path}"]
       },
@@ -1515,12 +1515,12 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/dosbox-core",
         "name": "RetroArch [DOSBox-Core]",
         "args": ["-L", "dosbox_core_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/dosbox-svn",
         "name": "RetroArch [DOSBox-SVN]",
         "args": ["-L", "dosbox_svn_libretro", "{rom.path}"]
       },
@@ -1540,7 +1540,7 @@
         "args": ["."]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/virtualxt",
         "name": "RetroArch [VirtualXT]",
         "args": ["-L", "virtualxt_libretro", "{rom.path}"]
       }
@@ -1552,12 +1552,12 @@
     "filetypes": ["7z", "cas", "ccc", "dsk", "rom", "zip"],
     "emulators": [
       {
-        "id": "xroar",
+        "id": "xroar/32",
         "name": "XRoar Dragon 32",
         "args": ["-fs", "-default-machine", "dragon32", "{rom.path}"]
       },
       {
-        "id": "xroar",
+        "id": "xroar/64",
         "name": "XRoar Dragon 64",
         "args": ["-fs", "-default-machine", "dragon64", "{rom.path}"]
       }
@@ -1632,7 +1632,7 @@
     "filetypes": ["3dsen", "7z", "fds", "nes", "unf", "unif", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/mesen",
         "name": "RetroArch [Mesen]",
         "args": ["-L", "mesen_libretro", "{rom.path}"]
       },
@@ -1642,7 +1642,7 @@
         "args": ["--fullscreen", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/nestopia_ue",
         "name": "RetroArch [Nestopia UE]",
         "args": ["-L", "nestopia_libretro", "{rom.path}"]
       },
@@ -1652,12 +1652,12 @@
         "args": ["--fullscreen", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fceumm",
         "name": "RetroArch [FCEUmm]",
         "args": ["-L", "fceumm_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/quicknes",
         "name": "RetroArch [QuickNES]",
         "args": ["-L", "quicknes_libretro", "{rom.path}"]
       },
@@ -1672,12 +1672,12 @@
         "args": ["-force_module", "nes", "{rom.path}"]
       },
       {
-        "id": "ares",
+        "id": "ares/ares",
         "name": "ares",
         "args": ["--fullscreen", "--system", "Famicom", "{rom.path}"]
       },
       {
-        "id": "ares",
+        "id": "ares/fds",
         "name": "ares FDS",
         "args": [
           "--fullscreen",
@@ -1704,27 +1704,27 @@
     "filetypes": ["7z", "iso", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/retroarch_fb_alpha_2012",
         "name": "RetroArch [FB Alpha 2012]",
         "args": ["-L", "fbalpha2012_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/neo_geo",
         "name": "RetroArch [FB Alpha 2012 Neo Geo]",
         "args": ["-L", "fbalpha2012_neogeo_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/cps-1",
         "name": "RetroArch [FB Alpha 2012 CPS-1]",
         "args": ["-L", "fbalpha2012_cps1_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/cps-2",
         "name": "RetroArch [FB Alpha 2012 CPS-2]",
         "args": ["-L", "fbalpha2012_cps2_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/cps-3",
         "name": "RetroArch [FB Alpha 2012 CPS-3]",
         "args": ["-L", "fbalpha2012_cps3_libretro", "{rom.path}"]
       }
@@ -1767,7 +1767,7 @@
     "filetypes": ["7z", "fds", "nes", "unf", "unif", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/mesen",
         "name": "RetroArch [Mesen]",
         "args": ["-L", "mesen_libretro", "{rom.path}"]
       },
@@ -1777,7 +1777,7 @@
         "args": ["--fullscreen", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/nestopia_ue",
         "name": "RetroArch [Nestopia UE]",
         "args": ["-L", "nestopia_libretro", "{rom.path}"]
       },
@@ -1787,7 +1787,7 @@
         "args": ["--fullscreen", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fceumm",
         "name": "RetroArch [FCEUmm]",
         "args": ["-L", "fceumm_libretro", "{rom.path}"]
       },
@@ -1891,12 +1891,12 @@
     "filetypes": ["7z", "mgw", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": ["-L", "mame_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/handheld_electronic_gw",
         "name": "RetroArch [Handheld Electronic (GW)]",
         "args": ["-L", "gw_libretro", "{rom.path}"]
       }
@@ -1951,27 +1951,27 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx",
         "name": "RetroArch [Genesis Plus GX]",
         "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx_wide",
         "name": "RetroArch [Genesis Plus GX Wide]",
         "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/gearsystem",
         "name": "RetroArch [Gearsystem]",
         "args": ["-L", "gearsystem_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/sms_plus_gx",
         "name": "RetroArch [SMS Plus GX]",
         "args": ["-L", "smsplus_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/picodrive",
         "name": "RetroArch [PicoDrive]",
         "args": ["-L", "picodrive_libretro", "{rom.path}"]
       },
@@ -2021,12 +2021,12 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/gambatte",
         "name": "RetroArch [Gambatte]",
         "args": ["-L", "gambatte_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/sameboy",
         "name": "RetroArch [SameBoy]",
         "args": ["-L", "sameboy_libretro", "{rom.path}"]
       },
@@ -2036,7 +2036,7 @@
         "args": ["-f", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/gearboy",
         "name": "RetroArch [Gearboy]",
         "args": ["-L", "gearboy_libretro", "{rom.path}"]
       },
@@ -2046,17 +2046,17 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/tgb_dual",
         "name": "RetroArch [TGB Dual]",
         "args": ["-L", "tgbdual_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/doublecherrygb",
         "name": "RetroArch [DoubleCherryGB]",
         "args": ["-L", "DoubleCherryGB_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mesen-s",
         "name": "RetroArch [Mesen-S]",
         "args": ["-L", "mesen-s_libretro", "{rom.path}"]
       },
@@ -2066,12 +2066,12 @@
         "args": ["--fullscreen", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes",
         "name": "RetroArch [bsnes]",
         "args": ["-L", "bsnes_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mgba",
         "name": "RetroArch [mGBA]",
         "args": ["-L", "mgba_libretro", "{rom.path}"]
       },
@@ -2081,7 +2081,7 @@
         "args": ["-f", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/vba-m",
         "name": "RetroArch [VBA-M]",
         "args": ["-L", "vbam_libretro", "{rom.path}"]
       },
@@ -2136,7 +2136,7 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/mgba",
         "name": "RetroArch [mGBA]",
         "args": ["-L", "mgba_libretro", "{rom.path}"]
       },
@@ -2146,7 +2146,7 @@
         "args": ["-f", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/vba-m",
         "name": "RetroArch [VBA-M]",
         "args": ["-L", "vbam_libretro", "{rom.path}"]
       },
@@ -2156,17 +2156,17 @@
         "args": ["-f", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/vba_next",
         "name": "RetroArch [VBA Next]",
         "args": ["-L", "vba_next_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/gpsp",
         "name": "RetroArch [gpSP]",
         "args": ["-L", "gpsp_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/noods",
         "name": "RetroArch [NooDS]",
         "args": ["-L", "noods_libretro", "{rom.path}"]
       },
@@ -2216,12 +2216,12 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/gambatte",
         "name": "RetroArch [Gambatte]",
         "args": ["-L", "gambatte_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/sameboy",
         "name": "RetroArch [SameBoy]",
         "args": ["-L", "sameboy_libretro", "{rom.path}"]
       },
@@ -2231,7 +2231,7 @@
         "args": ["-f", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/gearboy",
         "name": "RetroArch [Gearboy]",
         "args": ["-L", "gearboy_libretro", "{rom.path}"]
       },
@@ -2241,17 +2241,17 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/tgb_dual",
         "name": "RetroArch [TGB Dual]",
         "args": ["-L", "tgbdual_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/doublecherrygb",
         "name": "RetroArch [DoubleCherryGB]",
         "args": ["-L", "DoubleCherryGB_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mesen-s",
         "name": "RetroArch [Mesen-S]",
         "args": ["-L", "mesen-s_libretro", "{rom.path}"]
       },
@@ -2261,12 +2261,12 @@
         "args": ["--fullscreen", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes",
         "name": "RetroArch [bsnes]",
         "args": ["-L", "bsnes_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mgba",
         "name": "RetroArch [mGBA]",
         "args": ["-L", "mgba_libretro", "{rom.path}"]
       },
@@ -2276,7 +2276,7 @@
         "args": ["-f", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/vba-m",
         "name": "RetroArch [VBA-M]",
         "args": ["-L", "vbam_libretro", "{rom.path}"]
       },
@@ -2390,22 +2390,22 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx",
         "name": "RetroArch [Genesis Plus GX]",
         "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx_wide",
         "name": "RetroArch [Genesis Plus GX Wide]",
         "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/picodrive",
         "name": "RetroArch [PicoDrive]",
         "args": ["-L", "picodrive_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/blastem",
         "name": "RetroArch [BlastEm]",
         "args": ["-L", "blastem_libretro", "{rom.path}"]
       },
@@ -2466,12 +2466,12 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/aprice32",
         "name": "RetroArch [Caprice32]",
         "args": ["-L", "cap32_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/rocods",
         "name": "RetroArch [CrocoDS]",
         "args": ["-L", "crocods_libretro", "{rom.path}"]
       }
@@ -2490,12 +2490,12 @@
     "filetypes": ["7z", "bin", "int", "rom", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/freeintv",
         "name": "RetroArch [FreeIntv]",
         "args": ["-L", "freeintv_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": [
           "-L",
@@ -2525,7 +2525,7 @@
     "filetypes": ["7z", "daphne", "dirksimple", "mmi", "ogv", "singe", "zip"],
     "emulators": [
       {
-        "id": "hypseus-singe",
+        "id": "hypseus-singe/daphne",
         "name": "Hypseus [Daphne]",
         "args": [
           "{rom.basename}",
@@ -2535,7 +2535,7 @@
         ]
       },
       {
-        "id": "hypseus-singe",
+        "id": "hypseus-singe/singe",
         "name": "Hypseus [Singe]",
         "args": [
           "singe",
@@ -2547,12 +2547,12 @@
         ]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": ["-L", "mame_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/dirksimple",
         "name": "RetroArch [DirkSimple]",
         "args": ["-L", "dirksimple_libretro", "{rom.path}"]
       },
@@ -2569,12 +2569,12 @@
     "filetypes": ["7z", "mgw", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": ["-L", "mame_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/handheld_electronic_gw",
         "name": "RetroArch [Handheld Electronic (GW)]",
         "args": ["-L", "gw_libretro", "{rom.path}"]
       }
@@ -2659,32 +2659,32 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": ["-L", "mame_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2010",
         "name": "RetroArch [MAME 2010]",
         "args": ["-L", "mame2010_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2003-plus",
         "name": "RetroArch [MAME 2003-Plus]",
         "args": ["-L", "mame2003_plus_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2003",
         "name": "RetroArch [MAME 2003]",
         "args": ["-L", "mame2003_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_2000",
         "name": "RetroArch [MAME 2000]",
         "args": ["-L", "mame2000_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/finalburn_neo",
         "name": "RetroArch [FinalBurn Neo]",
         "args": ["-L", "fbneo_libretro", "{rom.path}"]
       },
@@ -2694,17 +2694,17 @@
         "args": ["-fullscreen", "{rom.basename}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fb_alpha_2012",
         "name": "RetroArch [FB Alpha 2012]",
         "args": ["-L", "fbalpha2012_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/geolith",
         "name": "RetroArch [Geolith]",
         "args": ["-L", "geolith_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/flycast",
         "name": "RetroArch [Flycast]",
         "args": ["-L", "flycast_libretro", "{rom.path}"]
       },
@@ -2719,12 +2719,12 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/kronos",
         "name": "RetroArch [Kronos]",
         "args": ["-L", "kronos_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/dice",
         "name": "RetroArch [DICE]",
         "args": ["-L", "dice_libretro", "{rom.path}"]
       },
@@ -2782,27 +2782,27 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx",
         "name": "RetroArch [Genesis Plus GX]",
         "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx_wide",
         "name": "RetroArch [Genesis Plus GX Wide]",
         "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/sms_plus_gx",
         "name": "RetroArch [SMS Plus GX]",
         "args": ["-L", "smsplus_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/gearsystem",
         "name": "RetroArch [Gearsystem]",
         "args": ["-L", "gearsystem_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/picodrive",
         "name": "RetroArch [PicoDrive]",
         "args": ["-L", "picodrive_libretro", "{rom.path}"]
       },
@@ -2861,27 +2861,27 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx",
         "name": "RetroArch [Genesis Plus GX]",
         "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx_wide",
         "name": "RetroArch [Genesis Plus GX Wide]",
         "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/sms_plus_gx",
         "name": "RetroArch [SMS Plus GX]",
         "args": ["-L", "smsplus_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/gearsystem",
         "name": "RetroArch [Gearsystem]",
         "args": ["-L", "gearsystem_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/picodrive",
         "name": "RetroArch [PicoDrive]",
         "args": ["-L", "picodrive_libretro", "{rom.path}"]
       },
@@ -2931,17 +2931,17 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx",
         "name": "RetroArch [Genesis Plus GX]",
         "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx_wide",
         "name": "RetroArch [Genesis Plus GX Wide]",
         "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/picodrive",
         "name": "RetroArch [PicoDrive]",
         "args": ["-L", "picodrive_libretro", "{rom.path}"]
       },
@@ -2981,17 +2981,17 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx",
         "name": "RetroArch [Genesis Plus GX]",
         "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx_wide",
         "name": "RetroArch [Genesis Plus GX Wide]",
         "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/picodrive",
         "name": "RetroArch [PicoDrive]",
         "args": ["-L", "picodrive_libretro", "{rom.path}"]
       },
@@ -3032,22 +3032,22 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx",
         "name": "RetroArch [Genesis Plus GX]",
         "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx_wide",
         "name": "RetroArch [Genesis Plus GX Wide]",
         "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/picodrive",
         "name": "RetroArch [PicoDrive]",
         "args": ["-L", "picodrive_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/blastem",
         "name": "RetroArch [BlastEm]",
         "args": ["-L", "blastem_libretro", "{rom.path}"]
       },
@@ -3098,22 +3098,22 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx",
         "name": "RetroArch [Genesis Plus GX]",
         "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx_wide",
         "name": "RetroArch [Genesis Plus GX Wide]",
         "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/picodrive",
         "name": "RetroArch [PicoDrive]",
         "args": ["-L", "picodrive_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/blastem",
         "name": "RetroArch [BlastEm]",
         "args": ["-L", "blastem_libretro", "{rom.path}"]
       },
@@ -3152,12 +3152,12 @@
     "filetypes": ["7z", "bin", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/sameduck",
         "name": "RetroArch [SameDuck]",
         "args": ["-L", "sameduck_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": [
           "-L",
@@ -3254,22 +3254,22 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/bluemsx",
         "name": "RetroArch [blueMSX]",
         "args": ["-L", "bluemsx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fmsx",
         "name": "RetroArch [fMSX]",
         "args": ["-L", "fmsx_libretro", "{rom.path}"]
       },
       {
-        "id": "openmsx",
+        "id": "openmsx/openmsx",
         "name": "openMSX",
         "args": ["-machine", "National_CF-3300", "{rom.path}"]
       },
       {
-        "id": "openmsx",
+        "id": "openmsx/no_machine",
         "name": "openMSX No Machine",
         "args": ["{rom.path}"]
       },
@@ -3307,22 +3307,22 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/bluemsx",
         "name": "RetroArch [blueMSX]",
         "args": ["-L", "bluemsx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fmsx",
         "name": "RetroArch [fMSX]",
         "args": ["-L", "fmsx_libretro", "{rom.path}"]
       },
       {
-        "id": "openmsx",
+        "id": "openmsx/openmsx",
         "name": "openMSX",
         "args": ["-machine", "National_CF-3300", "{rom.path}"]
       },
       {
-        "id": "openmsx",
+        "id": "openmsx/no_machine",
         "name": "openMSX No Machine",
         "args": ["{rom.path}"]
       },
@@ -3360,22 +3360,22 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/bluemsx",
         "name": "RetroArch [blueMSX]",
         "args": ["-L", "bluemsx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fmsx",
         "name": "RetroArch [fMSX]",
         "args": ["-L", "fmsx_libretro", "{rom.path}"]
       },
       {
-        "id": "openmsx",
+        "id": "openmsx/openmsx",
         "name": "openMSX",
         "args": ["-machine", "Panasonic_FS-A1WSX", "{rom.path}"]
       },
       {
-        "id": "openmsx",
+        "id": "openmsx/no_machine",
         "name": "openMSX No Machine",
         "args": ["{rom.path}"]
       },
@@ -3418,12 +3418,12 @@
         "args": ["-L", "bluemsx_libretro", "{rom.path}"]
       },
       {
-        "id": "openmsx",
+        "id": "openmsx/openmsx",
         "name": "openMSX",
         "args": ["-machine", "Panasonic_FS-A1GT", "{rom.path}"]
       },
       {
-        "id": "openmsx",
+        "id": "openmsx/no_machine",
         "name": "openMSX No Machine",
         "args": ["{rom.path}"]
       }
@@ -3500,12 +3500,12 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/retroarch_citra",
         "name": "RetroArch [Citra]",
         "args": ["-L", "citra_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/2018",
         "name": "RetroArch [Citra 2018]",
         "args": ["-L", "citra2018_libretro", "{rom.path}"]
       },
@@ -3557,7 +3557,7 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/mupen64plus-next",
         "name": "RetroArch [Mupen64Plus-Next]",
         "args": ["-L", "mupen64plus_next_libretro", "{rom.path}"]
       },
@@ -3567,7 +3567,7 @@
         "args": ["--nogui", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/parallel_n64",
         "name": "RetroArch [ParaLLEl N64]",
         "args": ["-L", "parallel_n64_libretro", "{rom.path}"]
       },
@@ -3597,12 +3597,12 @@
         "args": ["-f", "{rom.path}"]
       },
       {
-        "id": "os-shell",
+        "id": "os-shell/native_port",
         "name": "Native port",
         "args": ["-c", "{rom.path}"]
       },
       {
-        "id": "os-shell",
+        "id": "os-shell/shortcut_or_script",
         "name": "Shortcut or script",
         "args": ["{rom.path}"]
       }
@@ -3614,12 +3614,12 @@
     "filetypes": ["7z", "bin", "d64", "n64", "ndd", "u1", "v64", "z64", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/parallel_n64",
         "name": "RetroArch [ParaLLEl N64]",
         "args": ["-L", "parallel_n64_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mupen64plus-next",
         "name": "RetroArch [Mupen64Plus-Next]",
         "args": ["-L", "mupen64plus_next_libretro", "{rom.path}"]
       },
@@ -3719,12 +3719,12 @@
     "filetypes": ["7z", "app", "bin", "nds", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/melonds_ds",
         "name": "RetroArch [melonDS DS]",
         "args": ["-L", "melondsds_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/melonds",
         "name": "RetroArch [melonDS]",
         "args": ["-L", "melonds_libretro", "{rom.path}"]
       },
@@ -3734,12 +3734,12 @@
         "args": ["-f", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/desmume",
         "name": "RetroArch [DeSmuME]",
         "args": ["-L", "desmume_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/desmume_2015",
         "name": "RetroArch [DeSmuME 2015]",
         "args": ["-L", "desmume2015_libretro", "{rom.path}"]
       },
@@ -3749,7 +3749,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/noods",
         "name": "RetroArch [NooDS]",
         "args": ["-L", "noods_libretro", "{rom.path}"]
       },
@@ -3778,7 +3778,7 @@
     "filetypes": ["7z", "neo", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/finalburn_neo",
         "name": "RetroArch [FinalBurn Neo]",
         "args": ["-L", "fbneo_libretro", "{rom.path}"]
       },
@@ -3788,7 +3788,7 @@
         "args": ["-fullscreen", "{rom.basename}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/geolith",
         "name": "RetroArch [Geolith]",
         "args": ["-L", "geolith_libretro", "{rom.path}"]
       }
@@ -3807,12 +3807,12 @@
     "filetypes": ["chd", "cue"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/neocd",
         "name": "RetroArch [NeoCD]",
         "args": ["-L", "neocd_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/finalburn_neo",
         "name": "RetroArch [FinalBurn Neo]",
         "args": ["--subsystem", "neocd", "-L", "fbneo_libretro", "{rom.path}"]
       },
@@ -3829,12 +3829,12 @@
     "filetypes": ["chd", "cue"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/neocd",
         "name": "RetroArch [NeoCD]",
         "args": ["-L", "neocd_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/finalburn_neo",
         "name": "RetroArch [FinalBurn Neo]",
         "args": ["--subsystem", "neocd", "-L", "fbneo_libretro", "{rom.path}"]
       },
@@ -3858,7 +3858,7 @@
     "filetypes": ["3dsen", "7z", "fds", "nes", "unf", "unif", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/mesen",
         "name": "RetroArch [Mesen]",
         "args": ["-L", "mesen_libretro", "{rom.path}"]
       },
@@ -3868,7 +3868,7 @@
         "args": ["--fullscreen", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/nestopia_ue",
         "name": "RetroArch [Nestopia UE]",
         "args": ["-L", "nestopia_libretro", "{rom.path}"]
       },
@@ -3878,12 +3878,12 @@
         "args": ["--fullscreen", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/fceumm",
         "name": "RetroArch [FCEUmm]",
         "args": ["-L", "fceumm_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/quicknes",
         "name": "RetroArch [QuickNES]",
         "args": ["-L", "quicknes_libretro", "{rom.path}"]
       },
@@ -3898,12 +3898,12 @@
         "args": ["-force_module", "nes", "{rom.path}"]
       },
       {
-        "id": "ares",
+        "id": "ares/ares",
         "name": "ares",
         "args": ["--fullscreen", "--system", "Famicom", "{rom.path}"]
       },
       {
-        "id": "ares",
+        "id": "ares/fds",
         "name": "ares FDS",
         "args": [
           "--fullscreen",
@@ -3937,7 +3937,7 @@
     "filetypes": ["ngage", "zip"],
     "emulators": [
       {
-        "id": "eka2l1",
+        "id": "eka2l1/mounted",
         "name": "EKA2L1 [Mounted]",
         "args": [
           "--fullscreen",
@@ -3950,7 +3950,7 @@
         ]
       },
       {
-        "id": "eka2l1",
+        "id": "eka2l1/installed",
         "name": "EKA2L1 [Installed]",
         "args": ["--fullscreen", "--device", "RH-29", "--run", "{rom.basename}"]
       }
@@ -3969,12 +3969,12 @@
     "filetypes": ["7z", "ngc", "ngp", "ngpc", "npc", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_neopop",
         "name": "RetroArch [Beetle NeoPop]",
         "args": ["-L", "mednafen_ngp_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/race",
         "name": "RetroArch [RACE]",
         "args": ["-L", "race_libretro", "{rom.path}"]
       },
@@ -4002,12 +4002,12 @@
     "filetypes": ["7z", "ngc", "ngp", "ngpc", "npc", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_neopop",
         "name": "RetroArch [Beetle NeoPop]",
         "args": ["-L", "mednafen_ngp_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/race",
         "name": "RetroArch [RACE]",
         "args": ["-L", "race_libretro", "{rom.path}"]
       },
@@ -4041,12 +4041,12 @@
     "filetypes": ["7z", "bin", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/o2em",
         "name": "RetroArch [O2EM]",
         "args": ["-L", "o2em_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": [
           "-L",
@@ -4114,7 +4114,7 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/dosbox-pure",
         "name": "RetroArch [DOSBox-Pure]",
         "args": ["-L", "dosbox_pure_libretro", "{rom.path}"]
       },
@@ -4124,12 +4124,12 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/dosbox-core",
         "name": "RetroArch [DOSBox-Core]",
         "args": ["-L", "dosbox_core_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/dosbox-svn",
         "name": "RetroArch [DOSBox-SVN]",
         "args": ["-L", "dosbox_svn_libretro", "{rom.path}"]
       },
@@ -4149,7 +4149,7 @@
         "args": ["."]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/virtualxt",
         "name": "RetroArch [VirtualXT]",
         "args": ["-L", "virtualxt_libretro", "{rom.path}"]
       }
@@ -4213,12 +4213,12 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/kai",
         "name": "RetroArch [Neko Project II Kai]",
         "args": ["-L", "np2kai_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/retroarch_neko_project_ii",
         "name": "RetroArch [Neko Project II]",
         "args": ["-L", "nekop2_libretro", "{rom.path}"]
       }
@@ -4244,12 +4244,12 @@
         "name": "Lindbergh Loader"
       },
       {
-        "id": "os-shell",
+        "id": "os-shell/appimage",
         "name": "AppImage",
         "args": ["-c", "{rom.path}"]
       },
       {
-        "id": "os-shell",
+        "id": "os-shell/shortcut_or_script",
         "name": "Shortcut or script",
         "args": ["{rom.path}"]
       }
@@ -4274,22 +4274,22 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_pce",
         "name": "RetroArch [Beetle PCE]",
         "args": ["-L", "mednafen_pce_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_pce_fast",
         "name": "RetroArch [Beetle PCE FAST]",
         "args": ["-L", "mednafen_pce_fast_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_supergrafx",
         "name": "RetroArch [Beetle SuperGrafx]",
         "args": ["-L", "mednafen_supergrafx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/geargrafx",
         "name": "RetroArch [Geargrafx]",
         "args": ["-L", "geargrafx_libretro", "{rom.path}"]
       },
@@ -4328,17 +4328,17 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/pce",
         "name": "RetroArch [Beetle PCE]",
         "args": ["-L", "mednafen_pce_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/pce_fast",
         "name": "RetroArch [Beetle PCE FAST]",
         "args": ["-L", "mednafen_pce_fast_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/supergrafx",
         "name": "RetroArch [Beetle SuperGrafx]",
         "args": ["-L", "mednafen_supergrafx_libretro", "{rom.path}"]
       },
@@ -4393,12 +4393,12 @@
     "filetypes": ["p8", "png"],
     "emulators": [
       {
-        "id": "pico-8",
+        "id": "pico-8/pico-8",
         "name": "PICO-8",
         "args": ["-root_path", "{rom.dir}", "-run", "{rom.path}"]
       },
       {
-        "id": "pico-8",
+        "id": "pico-8/splore",
         "name": "PICO-8 Splore",
         "args": ["-root_path", "{rom.dir}", "-splore"]
       },
@@ -4490,47 +4490,47 @@
     "filetypes": ["appimage", "desktop", "exe", "game", "phd", "psx", "sh"],
     "emulators": [
       {
-        "id": "os-shell",
+        "id": "os-shell/shortcut_or_script",
         "name": "Shortcut or script",
         "args": ["{rom.path}"]
       },
       {
-        "id": "os-shell",
+        "id": "os-shell/appimage",
         "name": "AppImage",
         "args": ["-c", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/ecwolf_wolfenstein_3d",
         "name": "RetroArch [ECWolf (Wolfenstein 3D)]",
         "args": ["-L", "ecwolf_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/cannonball_outrun",
         "name": "RetroArch [CannonBall (OutRun)]",
         "args": ["-L", "cannonball_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mr_boom_bomberman",
         "name": "RetroArch [Mr.Boom (Bomberman)]",
         "args": ["-L", "mrboom_libretro"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/nxengine_cave_story",
         "name": "RetroArch [NXEngine (Cave Story)]",
         "args": ["-L", "nxengine_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/drs_cave_story",
         "name": "RetroArch [drs (Cave Story)]",
         "args": ["-L", "doukutsu_rs_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/openlara_tomb_raider",
         "name": "RetroArch [OpenLara (Tomb Raider)]",
         "args": ["-L", "openlara_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/super_bros_war",
         "name": "RetroArch [Super Bros War]",
         "args": ["-L", "superbroswar_libretro", "{rom.path}"]
       }
@@ -4566,12 +4566,12 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/lrps2",
         "name": "RetroArch [LRPS2]",
         "args": ["-L", "pcsx2_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/pcsx2",
         "name": "RetroArch [PCSX2]",
         "args": ["-L", "pcsx2_libretro", "{rom.path}"]
       },
@@ -4631,22 +4631,22 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "shadps4",
+        "id": "shadps4/game_serial",
         "name": "shadPS4 Game Serial",
         "args": ["-g"]
       },
       {
-        "id": "shadps4",
+        "id": "shadps4/eboot_bin",
         "name": "shadPS4 eboot.bin",
         "args": ["{rom.path}"]
       },
       {
-        "id": "shadps4-gui",
+        "id": "shadps4-gui/game_serial",
         "name": "shadPS4 [GUI] Game Serial",
         "args": ["-d", "-g"]
       },
       {
-        "id": "shadps4-gui",
+        "id": "shadps4-gui/eboot_bin",
         "name": "shadPS4 [GUI] eboot.bin",
         "args": ["-d", "-g", "{rom.path}"]
       }
@@ -4729,22 +4729,22 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_psx",
         "name": "RetroArch [Beetle PSX]",
         "args": ["-L", "mednafen_psx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_psx_hw",
         "name": "RetroArch [Beetle PSX HW]",
         "args": ["-L", "mednafen_psx_hw_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/pcsx_rearmed",
         "name": "RetroArch [PCSX ReARMed]",
         "args": ["-L", "pcsx_rearmed_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/swanstation",
         "name": "RetroArch [SwanStation]",
         "args": ["-L", "swanstation_libretro", "{rom.path}"]
       },
@@ -4789,32 +4789,32 @@
     "filetypes": ["desktop", "pak", "pk3", "sh"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/tyrquake",
         "name": "RetroArch [TyrQuake]",
         "args": ["-L", "tyrquake_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/vitaquake_2",
         "name": "RetroArch [vitaQuake 2]",
         "args": ["-L", "vitaquake2_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/vitaquake_2_rogue",
         "name": "RetroArch [vitaQuake 2 [Rogue]]",
         "args": ["-L", "vitaquake2-rogue_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/vitaquake_2_xatrix",
         "name": "RetroArch [vitaQuake 2 [Xatrix]]",
         "args": ["-L", "vitaquake2-xatrix_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/vitaquake_2_zaero",
         "name": "RetroArch [vitaQuake 2 [Zaero]]",
         "args": ["-L", "vitaquake2-zaero_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/vitaquake_3",
         "name": "RetroArch [vitaQuake 3]",
         "args": ["-L", "vitaquake3_libretro", "{rom.path}"]
       },
@@ -4847,17 +4847,17 @@
     "filetypes": ["7z", "bml", "bs", "fig", "sfc", "smc", "st", "swc", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/snes9x_-_current",
         "name": "RetroArch [Snes9x - Current]",
         "args": ["-L", "snes9x_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/snes9x_2010",
         "name": "RetroArch [Snes9x 2010]",
         "args": ["-L", "snes9x2010_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/snes9x_2005_plus",
         "name": "RetroArch [Snes9x 2005 Plus]",
         "args": ["-L", "snes9x2005_plus_libretro", "{rom.path}"]
       },
@@ -4867,22 +4867,22 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes",
         "name": "RetroArch [bsnes]",
         "args": ["-L", "bsnes_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes-hd",
         "name": "RetroArch [bsnes-hd]",
         "args": ["-L", "bsnes_hd_beta_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes-jg",
         "name": "RetroArch [bsnes-jg]",
         "args": ["-L", "bsnes-jg_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes-mercury_accuracy",
         "name": "RetroArch [bsnes-mercury Accuracy]",
         "args": ["-L", "bsnes_mercury_accuracy_libretro", "{rom.path}"]
       },
@@ -4892,7 +4892,7 @@
         "args": ["--fullscreen", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mesen-s",
         "name": "RetroArch [Mesen-S]",
         "args": ["-L", "mesen-s_libretro", "{rom.path}"]
       },
@@ -4932,12 +4932,12 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_saturn",
         "name": "RetroArch [Beetle Saturn]",
         "args": ["-L", "mednafen_saturn_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/kronos",
         "name": "RetroArch [Kronos]",
         "args": ["-L", "kronos_libretro", "{rom.path}"]
       },
@@ -4947,12 +4947,12 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/yabasanshiro",
         "name": "RetroArch [YabaSanshiro]",
         "args": ["-L", "yabasanshiro_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/yabause",
         "name": "RetroArch [Yabause]",
         "args": ["-L", "yabause_libretro", "{rom.path}"]
       },
@@ -4985,12 +4985,12 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_saturn",
         "name": "RetroArch [Beetle Saturn]",
         "args": ["-L", "mednafen_saturn_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/kronos",
         "name": "RetroArch [Kronos]",
         "args": ["-L", "kronos_libretro", "{rom.path}"]
       },
@@ -5000,12 +5000,12 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/yabasanshiro",
         "name": "RetroArch [YabaSanshiro]",
         "args": ["-L", "yabasanshiro_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/yabause",
         "name": "RetroArch [Yabause]",
         "args": ["-L", "yabause_libretro", "{rom.path}"]
       },
@@ -5194,17 +5194,17 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx",
         "name": "RetroArch [Genesis Plus GX]",
         "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx_wide",
         "name": "RetroArch [Genesis Plus GX Wide]",
         "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/picodrive",
         "name": "RetroArch [PicoDrive]",
         "args": ["-L", "picodrive_libretro", "{rom.path}"]
       },
@@ -5242,17 +5242,17 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/snes9x_-_current",
         "name": "RetroArch [Snes9x - Current]",
         "args": ["-L", "snes9x_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/snes9x_2010",
         "name": "RetroArch [Snes9x 2010]",
         "args": ["-L", "snes9x2010_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/snes9x_2005_plus",
         "name": "RetroArch [Snes9x 2005 Plus]",
         "args": ["-L", "snes9x2005_plus_libretro", "{rom.path}"]
       },
@@ -5262,22 +5262,22 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes",
         "name": "RetroArch [bsnes]",
         "args": ["-L", "bsnes_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes-hd",
         "name": "RetroArch [bsnes-hd]",
         "args": ["-L", "bsnes_hd_beta_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes-jg",
         "name": "RetroArch [bsnes-jg]",
         "args": ["-L", "bsnes-jg_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes-mercury_accuracy",
         "name": "RetroArch [bsnes-mercury Accuracy]",
         "args": ["-L", "bsnes_mercury_accuracy_libretro", "{rom.path}"]
       },
@@ -5287,12 +5287,12 @@
         "args": ["--fullscreen", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_supafaust",
         "name": "RetroArch [Beetle Supafaust]",
         "args": ["-L", "mednafen_supafaust_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mesen-s",
         "name": "RetroArch [Mesen-S]",
         "args": ["-L", "mesen-s_libretro", "{rom.path}"]
       },
@@ -5351,22 +5351,22 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx",
         "name": "RetroArch [Genesis Plus GX]",
         "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/genesis_plus_gx_wide",
         "name": "RetroArch [Genesis Plus GX Wide]",
         "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/gearsystem",
         "name": "RetroArch [Gearsystem]",
         "args": ["-L", "gearsystem_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bluemsx",
         "name": "RetroArch [blueMSX]",
         "args": ["-L", "bluemsx_libretro", "{rom.path}"]
       },
@@ -5388,7 +5388,7 @@
     "filetypes": ["7z", "gb", "gbc", "sgb", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/mesen-s",
         "name": "RetroArch [Mesen-S]",
         "args": ["-L", "mesen-s_libretro", "{rom.path}"]
       },
@@ -5398,12 +5398,12 @@
         "args": ["--fullscreen", "--gameBoy.useSgb2=true", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/sameboy",
         "name": "RetroArch [SameBoy]",
         "args": ["-L", "sameboy_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mgba",
         "name": "RetroArch [mGBA]",
         "args": ["-L", "mgba_libretro", "{rom.path}"]
       },
@@ -5443,17 +5443,17 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/snes9x_-_current",
         "name": "RetroArch [Snes9x - Current]",
         "args": ["-L", "snes9x_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/snes9x_2010",
         "name": "RetroArch [Snes9x 2010]",
         "args": ["-L", "snes9x2010_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/snes9x_2005_plus",
         "name": "RetroArch [Snes9x 2005 Plus]",
         "args": ["-L", "snes9x2005_plus_libretro", "{rom.path}"]
       },
@@ -5463,22 +5463,22 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes",
         "name": "RetroArch [bsnes]",
         "args": ["-L", "bsnes_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes-hd",
         "name": "RetroArch [bsnes-hd]",
         "args": ["-L", "bsnes_hd_beta_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes-jg",
         "name": "RetroArch [bsnes-jg]",
         "args": ["-L", "bsnes-jg_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes-mercury_accuracy",
         "name": "RetroArch [bsnes-mercury Accuracy]",
         "args": ["-L", "bsnes_mercury_accuracy_libretro", "{rom.path}"]
       },
@@ -5488,12 +5488,12 @@
         "args": ["--fullscreen", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_supafaust",
         "name": "RetroArch [Beetle Supafaust]",
         "args": ["-L", "mednafen_supafaust_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mesen-s",
         "name": "RetroArch [Mesen-S]",
         "args": ["-L", "mesen-s_libretro", "{rom.path}"]
       },
@@ -5541,17 +5541,17 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/snes9x_-_current",
         "name": "RetroArch [Snes9x - Current]",
         "args": ["-L", "snes9x_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/snes9x_2010",
         "name": "RetroArch [Snes9x 2010]",
         "args": ["-L", "snes9x2010_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/snes9x_2005_plus",
         "name": "RetroArch [Snes9x 2005 Plus]",
         "args": ["-L", "snes9x2005_plus_libretro", "{rom.path}"]
       },
@@ -5561,22 +5561,22 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes",
         "name": "RetroArch [bsnes]",
         "args": ["-L", "bsnes_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes-hd",
         "name": "RetroArch [bsnes-hd]",
         "args": ["-L", "bsnes_hd_beta_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes-jg",
         "name": "RetroArch [bsnes-jg]",
         "args": ["-L", "bsnes-jg_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes-mercury_accuracy",
         "name": "RetroArch [bsnes-mercury Accuracy]",
         "args": ["-L", "bsnes_mercury_accuracy_libretro", "{rom.path}"]
       },
@@ -5586,12 +5586,12 @@
         "args": ["--fullscreen", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_supafaust",
         "name": "RetroArch [Beetle Supafaust]",
         "args": ["-L", "mednafen_supafaust_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mesen-s",
         "name": "RetroArch [Mesen-S]",
         "args": ["-L", "mesen-s_libretro", "{rom.path}"]
       },
@@ -5660,12 +5660,12 @@
     "filetypes": ["7z", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/kronos",
         "name": "RetroArch [Kronos]",
         "args": ["-L", "kronos_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": ["-L", "mame_libretro", "{rom.path}"]
       },
@@ -5682,17 +5682,17 @@
     "filetypes": ["7z", "bml", "bs", "fig", "sfc", "smc", "st", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/snes9x_-_current",
         "name": "RetroArch [Snes9x - Current]",
         "args": ["-L", "snes9x_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/snes9x_2010",
         "name": "RetroArch [Snes9x 2010]",
         "args": ["-L", "snes9x2010_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/snes9x_2005_plus",
         "name": "RetroArch [Snes9x 2005 Plus]",
         "args": ["-L", "snes9x2005_plus_libretro", "{rom.path}"]
       },
@@ -5702,22 +5702,22 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes",
         "name": "RetroArch [bsnes]",
         "args": ["-L", "bsnes_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes-hd",
         "name": "RetroArch [bsnes-hd]",
         "args": ["-L", "bsnes_hd_beta_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes-jg",
         "name": "RetroArch [bsnes-jg]",
         "args": ["-L", "bsnes-jg_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/bsnes-mercury_accuracy",
         "name": "RetroArch [bsnes-mercury Accuracy]",
         "args": ["-L", "bsnes_mercury_accuracy_libretro", "{rom.path}"]
       },
@@ -5744,17 +5744,17 @@
     "filetypes": ["7z", "ccd", "chd", "cue", "pce", "rom", "sgx", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_supergrafx",
         "name": "RetroArch [Beetle SuperGrafx]",
         "args": ["-L", "mednafen_supergrafx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_pce",
         "name": "RetroArch [Beetle PCE]",
         "args": ["-L", "mednafen_pce_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/geargrafx",
         "name": "RetroArch [Geargrafx]",
         "args": ["-L", "geargrafx_libretro", "{rom.path}"]
       },
@@ -5788,12 +5788,12 @@
     "filetypes": ["7z", "bin", "sv", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/potator",
         "name": "RetroArch [Potator]",
         "args": ["-L", "potator_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": [
           "-L",
@@ -5843,17 +5843,17 @@
     "filetypes": ["sis", "sisx", "symbian"],
     "emulators": [
       {
-        "id": "eka2l1",
+        "id": "eka2l1/nokia_n-gage",
         "name": "EKA2L1 [Nokia N-Gage]",
         "args": ["--fullscreen", "--device", "RH-29", "--run", "{rom.basename}"]
       },
       {
-        "id": "eka2l1",
+        "id": "eka2l1/nokia_n70",
         "name": "EKA2L1 [Nokia N70]",
         "args": ["--fullscreen", "--device", "RM-84", "--run", "{rom.basename}"]
       },
       {
-        "id": "eka2l1",
+        "id": "eka2l1/nokia_n97",
         "name": "EKA2L1 [Nokia N97]",
         "args": [
           "--fullscreen",
@@ -5864,7 +5864,7 @@
         ]
       },
       {
-        "id": "eka2l1",
+        "id": "eka2l1/custom_device",
         "name": "EKA2L1 [Custom device]",
         "args": ["--fullscreen", "--device", "--run", "{rom.basename}"]
       }
@@ -5908,22 +5908,22 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_pce",
         "name": "RetroArch [Beetle PCE]",
         "args": ["-L", "mednafen_pce_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_pce_fast",
         "name": "RetroArch [Beetle PCE FAST]",
         "args": ["-L", "mednafen_pce_fast_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/beetle_supergrafx",
         "name": "RetroArch [Beetle SuperGrafx]",
         "args": ["-L", "mednafen_supergrafx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/geargrafx",
         "name": "RetroArch [Geargrafx]",
         "args": ["-L", "geargrafx_libretro", "{rom.path}"]
       },
@@ -5968,17 +5968,17 @@
     ],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/pce",
         "name": "RetroArch [Beetle PCE]",
         "args": ["-L", "mednafen_pce_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/pce_fast",
         "name": "RetroArch [Beetle PCE FAST]",
         "args": ["-L", "mednafen_pce_fast_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/supergrafx",
         "name": "RetroArch [Beetle SuperGrafx]",
         "args": ["-L", "mednafen_supergrafx_libretro", "{rom.path}"]
       },
@@ -6068,7 +6068,7 @@
     "filetypes": ["cmd", "dsk"],
     "emulators": [
       {
-        "id": "sdl2trs",
+        "id": "sdl2trs/dos_diskette",
         "name": "sdl2trs DOS Diskette",
         "args": [
           "-rom",
@@ -6080,12 +6080,12 @@
         ]
       },
       {
-        "id": "sdl2trs",
+        "id": "sdl2trs/bootable_diskette",
         "name": "sdl2trs Bootable Diskette",
         "args": ["-rom", "{roms.dir}/trs-80/level2.rom", "-disk0", "{rom.path}"]
       },
       {
-        "id": "sdl2trs",
+        "id": "sdl2trs/cmd_file",
         "name": "sdl2trs CMD File",
         "args": ["-rom", "{roms.dir}/trs-80/level2.rom", "{rom.path}"]
       }
@@ -6107,12 +6107,12 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "os-shell",
+        "id": "os-shell/appimage",
         "name": "AppImage",
         "args": ["-c", "{rom.path}"]
       },
       {
-        "id": "os-shell",
+        "id": "os-shell/shortcut_or_script",
         "name": "Shortcut or script",
         "args": ["{rom.path}"]
       }
@@ -6149,12 +6149,12 @@
     "filetypes": ["7z", "bin", "gam", "vc", "vec", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/vecx",
         "name": "RetroArch [vecx]",
         "args": ["-L", "vecx_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": [
           "-L",
@@ -6231,12 +6231,12 @@
     "filetypes": ["7z", "bin", "zip"],
     "emulators": [
       {
-        "id": "retroarch",
+        "id": "retroarch/o2em",
         "name": "RetroArch [O2EM]",
         "args": ["-L", "o2em_libretro", "{rom.path}"]
       },
       {
-        "id": "retroarch",
+        "id": "retroarch/mame_-_current",
         "name": "RetroArch [MAME - Current]",
         "args": [
           "-L",
@@ -6464,12 +6464,12 @@
         "args": ["-force_module", "wswan", "{rom.path}"]
       },
       {
-        "id": "ares",
+        "id": "ares/ares",
         "name": "ares",
         "args": ["--fullscreen", "--system", "WonderSwan", "{rom.path}"]
       },
       {
-        "id": "ares",
+        "id": "ares/benesse_pocket_challenge_v2",
         "name": "ares [Benesse Pocket Challenge V2]",
         "args": [
           "--fullscreen",
