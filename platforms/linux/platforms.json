@@ -1,5 +1,5 @@
-[
-  {
+{
+  "3do": {
     "id": "3do",
     "name": "3DO Interactive Multiplayer",
     "external_ids": {
@@ -18,7 +18,7 @@
       }
     ]
   },
-  {
+  "adam": {
     "id": "adam",
     "name": "Coleco Adam",
     "filetypes": [
@@ -50,7 +50,7 @@
       }
     ]
   },
-  {
+  "ags": {
     "id": "ags",
     "name": "Adventure Game Studio Game Engine",
     "filetypes": ["desktop", "sh"],
@@ -62,7 +62,7 @@
       }
     ]
   },
-  {
+  "amiga": {
     "id": "amiga",
     "name": "Commodore Amiga",
     "external_ids": {
@@ -115,7 +115,7 @@
       }
     ]
   },
-  {
+  "amiga1200": {
     "id": "amiga1200",
     "name": "Commodore Amiga 1200",
     "filetypes": [
@@ -162,7 +162,7 @@
       }
     ]
   },
-  {
+  "amiga600": {
     "id": "amiga600",
     "name": "Commodore Amiga 600",
     "filetypes": [
@@ -209,7 +209,7 @@
       }
     ]
   },
-  {
+  "amigacd32": {
     "id": "amigacd32",
     "name": "Commodore Amiga CD32",
     "filetypes": [
@@ -256,7 +256,7 @@
       }
     ]
   },
-  {
+  "amstradcpc": {
     "id": "amstradcpc",
     "name": "Amstrad CPC",
     "external_ids": {
@@ -302,25 +302,25 @@
       }
     ]
   },
-  {
+  "android": {
     "id": "android",
     "name": "Google Android",
     "filetypes": ["7z", "zip"],
     "emulators": []
   },
-  {
+  "androidapps": {
     "id": "androidapps",
     "name": "Android Apps",
     "filetypes": ["7z", "zip"],
     "emulators": []
   },
-  {
+  "androidgames": {
     "id": "androidgames",
     "name": "Android Games",
     "filetypes": ["7z", "zip"],
     "emulators": []
   },
-  {
+  "apple2": {
     "id": "apple2",
     "name": "Apple II",
     "external_ids": {
@@ -358,7 +358,7 @@
       }
     ]
   },
-  {
+  "apple2gs": {
     "id": "apple2gs",
     "name": "Apple IIGS",
     "filetypes": ["2mg", "7z", "zip"],
@@ -388,7 +388,7 @@
       }
     ]
   },
-  {
+  "arcade": {
     "id": "arcade",
     "name": "Arcade",
     "filetypes": [
@@ -488,7 +488,7 @@
       }
     ]
   },
-  {
+  "arcadia": {
     "id": "arcadia",
     "name": "Emerson Arcadia 2001",
     "external_ids": {
@@ -511,7 +511,7 @@
       }
     ]
   },
-  {
+  "arduboy": {
     "id": "arduboy",
     "name": "Arduboy Miniature Game System",
     "external_ids": {
@@ -534,7 +534,7 @@
       }
     ]
   },
-  {
+  "atari2600": {
     "id": "atari2600",
     "name": "Atari 2600",
     "external_ids": {
@@ -578,7 +578,7 @@
       }
     ]
   },
-  {
+  "atari5200": {
     "id": "atari5200",
     "name": "Atari 5200",
     "external_ids": {
@@ -621,7 +621,7 @@
       }
     ]
   },
-  {
+  "atari7800": {
     "id": "atari7800",
     "name": "Atari 7800 ProSystem",
     "external_ids": {
@@ -660,7 +660,7 @@
       }
     ]
   },
-  {
+  "atari800": {
     "id": "atari800",
     "name": "Atari 800",
     "filetypes": [
@@ -691,7 +691,7 @@
       }
     ]
   },
-  {
+  "atarijaguar": {
     "id": "atarijaguar",
     "name": "Atari Jaguar",
     "external_ids": {
@@ -728,7 +728,7 @@
       }
     ]
   },
-  {
+  "atarijaguarcd": {
     "id": "atarijaguarcd",
     "name": "Atari Jaguar CD",
     "external_ids": {
@@ -758,7 +758,7 @@
       }
     ]
   },
-  {
+  "atarilynx": {
     "id": "atarilynx",
     "name": "Atari Lynx",
     "external_ids": {
@@ -792,7 +792,7 @@
       }
     ]
   },
-  {
+  "atarist": {
     "id": "atarist",
     "name": "Atari ST",
     "external_ids": {
@@ -816,7 +816,7 @@
       }
     ]
   },
-  {
+  "atarixe": {
     "id": "atarixe",
     "name": "Atari XE",
     "filetypes": [
@@ -847,7 +847,7 @@
       }
     ]
   },
-  {
+  "atomiswave": {
     "id": "atomiswave",
     "name": "Sammy Corporation Atomiswave",
     "external_ids": {
@@ -873,7 +873,7 @@
       }
     ]
   },
-  {
+  "bbcmicro": {
     "id": "bbcmicro",
     "name": "Acorn Computers BBC Micro",
     "external_ids": {
@@ -891,7 +891,7 @@
       }
     ]
   },
-  {
+  "c64": {
     "id": "c64",
     "name": "Commodore 64",
     "external_ids": {
@@ -968,7 +968,7 @@
       }
     ]
   },
-  {
+  "cdimono1": {
     "id": "cdimono1",
     "name": "Philips CD-i",
     "external_ids": {
@@ -992,7 +992,7 @@
       }
     ]
   },
-  {
+  "cdtv": {
     "id": "cdtv",
     "name": "Commodore CDTV",
     "filetypes": [
@@ -1039,7 +1039,7 @@
       }
     ]
   },
-  {
+  "chailove": {
     "id": "chailove",
     "name": "ChaiLove Game Engine",
     "filetypes": ["7z", "chai", "chailove", "zip"],
@@ -1051,7 +1051,7 @@
       }
     ]
   },
-  {
+  "channelf": {
     "id": "channelf",
     "name": "Fairchild Channel F",
     "external_ids": {
@@ -1079,7 +1079,7 @@
       }
     ]
   },
-  {
+  "coco": {
     "id": "coco",
     "name": "Tandy Color Computer",
     "filetypes": ["cas", "ccc", "dsk", "rom"],
@@ -1096,7 +1096,7 @@
       }
     ]
   },
-  {
+  "colecovision": {
     "id": "colecovision",
     "name": "Coleco ColecoVision",
     "external_ids": {
@@ -1155,7 +1155,7 @@
       }
     ]
   },
-  {
+  "cps": {
     "id": "cps",
     "name": "Capcom Play System",
     "filetypes": ["7z", "zip"],
@@ -1217,7 +1217,7 @@
       }
     ]
   },
-  {
+  "cps1": {
     "id": "cps1",
     "name": "Capcom Play System I",
     "external_ids": {
@@ -1274,7 +1274,7 @@
       }
     ]
   },
-  {
+  "cps2": {
     "id": "cps2",
     "name": "Capcom Play System II",
     "external_ids": {
@@ -1331,7 +1331,7 @@
       }
     ]
   },
-  {
+  "cps3": {
     "id": "cps3",
     "name": "Capcom Play System III",
     "external_ids": {
@@ -1388,7 +1388,7 @@
       }
     ]
   },
-  {
+  "crvision": {
     "id": "crvision",
     "name": "VTech CreatiVision",
     "filetypes": ["7z", "bin", "rom", "zip"],
@@ -1404,7 +1404,7 @@
       }
     ]
   },
-  {
+  "daphne": {
     "id": "daphne",
     "name": "Daphne Arcade LaserDisc Emulator",
     "filetypes": ["7z", "daphne", "dirksimple", "mmi", "ogv", "singe", "zip"],
@@ -1448,7 +1448,7 @@
       }
     ]
   },
-  {
+  "doom": {
     "id": "doom",
     "name": "Doom",
     "external_ids": {},
@@ -1482,7 +1482,7 @@
       }
     ]
   },
-  {
+  "dos": {
     "id": "dos",
     "name": "DOS (PC)",
     "external_ids": {
@@ -1546,7 +1546,7 @@
       }
     ]
   },
-  {
+  "dragon32": {
     "id": "dragon32",
     "name": "Dragon Data Dragon 32",
     "filetypes": ["7z", "cas", "ccc", "dsk", "rom", "zip"],
@@ -1563,7 +1563,7 @@
       }
     ]
   },
-  {
+  "dreamcast": {
     "id": "dreamcast",
     "name": "Sega Dreamcast",
     "external_ids": {
@@ -1609,7 +1609,7 @@
       }
     ]
   },
-  {
+  "easyrpg": {
     "id": "easyrpg",
     "name": "EasyRPG Game Engine",
     "filetypes": ["easyrpg", "zip"],
@@ -1626,7 +1626,7 @@
       }
     ]
   },
-  {
+  "famicom": {
     "id": "famicom",
     "name": "Nintendo Family Computer",
     "filetypes": ["3dsen", "7z", "fds", "nes", "unf", "unif", "zip"],
@@ -1698,7 +1698,7 @@
       }
     ]
   },
-  {
+  "fba": {
     "id": "fba",
     "name": "FinalBurn Alpha",
     "filetypes": ["7z", "iso", "zip"],
@@ -1730,7 +1730,7 @@
       }
     ]
   },
-  {
+  "fbneo": {
     "id": "fbneo",
     "name": "FinalBurn Neo",
     "external_ids": {
@@ -1754,7 +1754,7 @@
       }
     ]
   },
-  {
+  "fds": {
     "id": "fds",
     "name": "Nintendo Famicom Disk System",
     "external_ids": {
@@ -1808,7 +1808,7 @@
       }
     ]
   },
-  {
+  "flash": {
     "id": "flash",
     "name": "Adobe Flash",
     "filetypes": ["ruf", "swf"],
@@ -1825,7 +1825,7 @@
       }
     ]
   },
-  {
+  "fmtowns": {
     "id": "fmtowns",
     "name": "Fujitsu FM Towns",
     "filetypes": ["cdr", "chd", "cue", "gdi", "iso"],
@@ -1856,13 +1856,13 @@
       }
     ]
   },
-  {
+  "fpinball": {
     "id": "fpinball",
     "name": "Future Pinball",
     "filetypes": ["fpt"],
     "emulators": []
   },
-  {
+  "gamate": {
     "id": "gamate",
     "name": "Bit Corporation Gamate",
     "filetypes": ["7z", "bin", "zip"],
@@ -1878,7 +1878,7 @@
       }
     ]
   },
-  {
+  "gameandwatch": {
     "id": "gameandwatch",
     "name": "Nintendo Game and Watch",
     "external_ids": {
@@ -1902,7 +1902,7 @@
       }
     ]
   },
-  {
+  "gamecom": {
     "id": "gamecom",
     "name": "Tiger Electronics Game.com",
     "filetypes": ["7z", "tgc", "zip"],
@@ -1918,7 +1918,7 @@
       }
     ]
   },
-  {
+  "gamegear": {
     "id": "gamegear",
     "name": "Sega Game Gear",
     "external_ids": {
@@ -1997,7 +1997,7 @@
       }
     ]
   },
-  {
+  "gb": {
     "id": "gb",
     "name": "Nintendo Game Boy",
     "external_ids": {
@@ -2112,7 +2112,7 @@
       }
     ]
   },
-  {
+  "gba": {
     "id": "gba",
     "name": "Nintendo Game Boy Advance",
     "external_ids": {
@@ -2192,7 +2192,7 @@
       }
     ]
   },
-  {
+  "gbc": {
     "id": "gbc",
     "name": "Nintendo Game Boy Color",
     "external_ids": {
@@ -2307,7 +2307,7 @@
       }
     ]
   },
-  {
+  "gc": {
     "id": "gc",
     "name": "Nintendo GameCube",
     "external_ids": {
@@ -2358,7 +2358,7 @@
       }
     ]
   },
-  {
+  "genesis": {
     "id": "genesis",
     "name": "Sega Genesis",
     "external_ids": {
@@ -2431,7 +2431,7 @@
       }
     ]
   },
-  {
+  "gmaster": {
     "id": "gmaster",
     "name": "Hartung Game Master",
     "filetypes": ["7z", "bin", "zip"],
@@ -2447,7 +2447,7 @@
       }
     ]
   },
-  {
+  "gx4000": {
     "id": "gx4000",
     "name": "Amstrad GX4000",
     "filetypes": [
@@ -2477,7 +2477,7 @@
       }
     ]
   },
-  {
+  "intellivision": {
     "id": "intellivision",
     "name": "Mattel Electronics Intellivision",
     "external_ids": {
@@ -2505,7 +2505,7 @@
       }
     ]
   },
-  {
+  "j2me": {
     "id": "j2me",
     "name": "Java 2 Micro Edition (J2ME)",
     "external_ids": {},
@@ -2519,7 +2519,7 @@
       }
     ]
   },
-  {
+  "laserdisc": {
     "id": "laserdisc",
     "name": "LaserDisc Games",
     "filetypes": ["7z", "daphne", "dirksimple", "mmi", "ogv", "singe", "zip"],
@@ -2563,7 +2563,7 @@
       }
     ]
   },
-  {
+  "lcdgames": {
     "id": "lcdgames",
     "name": "LCD Handheld Games",
     "filetypes": ["7z", "mgw", "zip"],
@@ -2580,7 +2580,7 @@
       }
     ]
   },
-  {
+  "lowresnx": {
     "id": "lowresnx",
     "name": "LowRes NX Fantasy Console",
     "external_ids": {
@@ -2596,7 +2596,7 @@
       }
     ]
   },
-  {
+  "lutris": {
     "id": "lutris",
     "name": "Lutris Open Gaming Platform",
     "filetypes": ["desktop", "sh"],
@@ -2608,7 +2608,7 @@
       }
     ]
   },
-  {
+  "lutro": {
     "id": "lutro",
     "name": "Lutro Game Engine",
     "filetypes": ["7z", "lua", "lutro", "zip"],
@@ -2620,7 +2620,7 @@
       }
     ]
   },
-  {
+  "macintosh": {
     "id": "macintosh",
     "name": "Apple Macintosh",
     "filetypes": ["dsk", "game"],
@@ -2637,7 +2637,7 @@
       }
     ]
   },
-  {
+  "mame": {
     "id": "mame",
     "name": "Multiple Arcade Machine Emulator",
     "external_ids": {
@@ -2744,7 +2744,7 @@
       }
     ]
   },
-  {
+  "mame-advmame": {
     "id": "mame-advmame",
     "name": "AdvanceMAME",
     "filetypes": ["7z", "zip"],
@@ -2756,7 +2756,7 @@
       }
     ]
   },
-  {
+  "mark3": {
     "id": "mark3",
     "name": "Sega Mark III",
     "filetypes": [
@@ -2828,7 +2828,7 @@
       }
     ]
   },
-  {
+  "mastersystem": {
     "id": "mastersystem",
     "name": "Sega Master System",
     "external_ids": {
@@ -2907,7 +2907,7 @@
       }
     ]
   },
-  {
+  "megacd": {
     "id": "megacd",
     "name": "Sega Mega-CD",
     "filetypes": [
@@ -2957,7 +2957,7 @@
       }
     ]
   },
-  {
+  "megacdjp": {
     "id": "megacdjp",
     "name": "Sega Mega-CD",
     "filetypes": [
@@ -3007,7 +3007,7 @@
       }
     ]
   },
-  {
+  "megadrive": {
     "id": "megadrive",
     "name": "Sega Mega Drive",
     "filetypes": [
@@ -3073,7 +3073,7 @@
       }
     ]
   },
-  {
+  "megadrivejp": {
     "id": "megadrivejp",
     "name": "Sega Mega Drive",
     "filetypes": [
@@ -3139,7 +3139,7 @@
       }
     ]
   },
-  {
+  "megaduck": {
     "id": "megaduck",
     "name": "Creatronic Mega Duck",
     "external_ids": {
@@ -3167,7 +3167,7 @@
       }
     ]
   },
-  {
+  "mess": {
     "id": "mess",
     "name": "Multi Emulator Super System",
     "filetypes": ["7z", "chd", "zip"],
@@ -3179,7 +3179,7 @@
       }
     ]
   },
-  {
+  "model2": {
     "id": "model2",
     "name": "Sega Model 2",
     "filetypes": ["7z", "zip"],
@@ -3191,7 +3191,7 @@
       }
     ]
   },
-  {
+  "model3": {
     "id": "model3",
     "name": "Sega Model 3",
     "filetypes": ["7z", "zip"],
@@ -3208,7 +3208,7 @@
       }
     ]
   },
-  {
+  "moto": {
     "id": "moto",
     "name": "Thomson MO/TO Series",
     "filetypes": ["7z", "fd", "k7", "m5", "m7", "rom", "sap", "zip"],
@@ -3220,7 +3220,7 @@
       }
     ]
   },
-  {
+  "msx": {
     "id": "msx",
     "name": "MSX",
     "external_ids": {
@@ -3280,7 +3280,7 @@
       }
     ]
   },
-  {
+  "msx1": {
     "id": "msx1",
     "name": "MSX1",
     "filetypes": [
@@ -3333,7 +3333,7 @@
       }
     ]
   },
-  {
+  "msx2": {
     "id": "msx2",
     "name": "MSX2",
     "filetypes": [
@@ -3386,7 +3386,7 @@
       }
     ]
   },
-  {
+  "msxturbor": {
     "id": "msxturbor",
     "name": "MSX Turbo R",
     "filetypes": [
@@ -3429,7 +3429,7 @@
       }
     ]
   },
-  {
+  "mugen": {
     "id": "mugen",
     "name": "M.U.G.E.N Game Engine",
     "filetypes": ["mugen"],
@@ -3441,7 +3441,7 @@
       }
     ]
   },
-  {
+  "multivision": {
     "id": "multivision",
     "name": "Othello Multivision",
     "filetypes": ["7z", "bin", "gg", "rom", "sg", "sms", "zip"],
@@ -3458,7 +3458,7 @@
       }
     ]
   },
-  {
+  "n3ds": {
     "id": "n3ds",
     "name": "Nintendo 3DS",
     "external_ids": {
@@ -3531,7 +3531,7 @@
       }
     ]
   },
-  {
+  "n64": {
     "id": "n64",
     "name": "Nintendo 64",
     "external_ids": {
@@ -3608,7 +3608,7 @@
       }
     ]
   },
-  {
+  "n64dd": {
     "id": "n64dd",
     "name": "Nintendo 64DD",
     "filetypes": ["7z", "bin", "d64", "n64", "ndd", "u1", "v64", "z64", "zip"],
@@ -3635,7 +3635,7 @@
       }
     ]
   },
-  {
+  "naomi": {
     "id": "naomi",
     "name": "Sega NAOMI",
     "external_ids": {
@@ -3662,7 +3662,7 @@
       }
     ]
   },
-  {
+  "naomi2": {
     "id": "naomi2",
     "name": "Sega NAOMI 2",
     "filetypes": ["7z", "bin", "dat", "elf", "lst", "zip"],
@@ -3684,7 +3684,7 @@
       }
     ]
   },
-  {
+  "naomigd": {
     "id": "naomigd",
     "name": "Sega NAOMI GD-ROM",
     "filetypes": ["7z", "bin", "dat", "elf", "lst", "zip"],
@@ -3706,7 +3706,7 @@
       }
     ]
   },
-  {
+  "nds": {
     "id": "nds",
     "name": "Nintendo DS",
     "external_ids": {
@@ -3765,7 +3765,7 @@
       }
     ]
   },
-  {
+  "neogeo": {
     "id": "neogeo",
     "name": "SNK Neo Geo",
     "external_ids": {
@@ -3794,7 +3794,7 @@
       }
     ]
   },
-  {
+  "neogeocd": {
     "id": "neogeocd",
     "name": "SNK Neo Geo CD",
     "external_ids": {
@@ -3823,7 +3823,7 @@
       }
     ]
   },
-  {
+  "neogeocdjp": {
     "id": "neogeocdjp",
     "name": "SNK Neo Geo CD",
     "filetypes": ["chd", "cue"],
@@ -3845,7 +3845,7 @@
       }
     ]
   },
-  {
+  "nes": {
     "id": "nes",
     "name": "Nintendo Entertainment System",
     "external_ids": {
@@ -3924,7 +3924,7 @@
       }
     ]
   },
-  {
+  "ngage": {
     "id": "ngage",
     "name": "Nokia N-Gage",
     "external_ids": {
@@ -3956,7 +3956,7 @@
       }
     ]
   },
-  {
+  "ngp": {
     "id": "ngp",
     "name": "SNK Neo Geo Pocket",
     "external_ids": {
@@ -3990,7 +3990,7 @@
       }
     ]
   },
-  {
+  "ngpc": {
     "id": "ngpc",
     "name": "SNK Neo Geo Pocket Color",
     "external_ids": {
@@ -4028,7 +4028,7 @@
       }
     ]
   },
-  {
+  "odyssey2": {
     "id": "odyssey2",
     "name": "Magnavox Odyssey 2",
     "external_ids": {
@@ -4056,7 +4056,7 @@
       }
     ]
   },
-  {
+  "openbor": {
     "id": "openbor",
     "name": "OpenBOR Game Engine",
     "filetypes": ["appimage"],
@@ -4068,7 +4068,7 @@
       }
     ]
   },
-  {
+  "oric": {
     "id": "oric",
     "name": "Tangerine Computer Systems Oric",
     "filetypes": ["dsk", "ort", "tap", "wav"],
@@ -4080,7 +4080,7 @@
       }
     ]
   },
-  {
+  "palm": {
     "id": "palm",
     "name": "Palm OS",
     "external_ids": {
@@ -4097,7 +4097,7 @@
       }
     ]
   },
-  {
+  "pc": {
     "id": "pc",
     "name": "IBM PC",
     "filetypes": [
@@ -4155,7 +4155,7 @@
       }
     ]
   },
-  {
+  "pc88": {
     "id": "pc88",
     "name": "NEC PC-8800 Series",
     "external_ids": {
@@ -4179,7 +4179,7 @@
       }
     ]
   },
-  {
+  "pc98": {
     "id": "pc98",
     "name": "NEC PC-9800 Series",
     "external_ids": {
@@ -4224,7 +4224,7 @@
       }
     ]
   },
-  {
+  "pcarcade": {
     "id": "pcarcade",
     "name": "PC Arcade Systems",
     "filetypes": ["appimage", "desktop", "exe", "lindbergh", "sh"],
@@ -4255,7 +4255,7 @@
       }
     ]
   },
-  {
+  "pcengine": {
     "id": "pcengine",
     "name": "NEC PC Engine",
     "filetypes": [
@@ -4310,7 +4310,7 @@
       }
     ]
   },
-  {
+  "pcenginecd": {
     "id": "pcenginecd",
     "name": "NEC PC Engine CD",
     "filetypes": [
@@ -4359,7 +4359,7 @@
       }
     ]
   },
-  {
+  "pcfx": {
     "id": "pcfx",
     "name": "NEC PC-FX",
     "external_ids": {
@@ -4383,7 +4383,7 @@
       }
     ]
   },
-  {
+  "pico8": {
     "id": "pico8",
     "name": "PICO-8 Fantasy Console",
     "external_ids": {
@@ -4409,7 +4409,7 @@
       }
     ]
   },
-  {
+  "plus4": {
     "id": "plus4",
     "name": "Commodore Plus/4",
     "external_ids": {
@@ -4465,7 +4465,7 @@
       }
     ]
   },
-  {
+  "pokemini": {
     "id": "pokemini",
     "name": "Nintendo Pokémon Mini",
     "external_ids": {
@@ -4484,7 +4484,7 @@
       }
     ]
   },
-  {
+  "ports": {
     "id": "ports",
     "name": "Ports",
     "filetypes": ["appimage", "desktop", "exe", "game", "phd", "psx", "sh"],
@@ -4536,7 +4536,7 @@
       }
     ]
   },
-  {
+  "ps2": {
     "id": "ps2",
     "name": "Sony PlayStation 2",
     "external_ids": {
@@ -4597,7 +4597,7 @@
       }
     ]
   },
-  {
+  "ps3": {
     "id": "ps3",
     "name": "Sony PlayStation 3",
     "external_ids": {
@@ -4620,7 +4620,7 @@
       }
     ]
   },
-  {
+  "ps4": {
     "id": "ps4",
     "name": "Sony PlayStation 4",
     "filetypes": ["bin", "desktop", "ps4"],
@@ -4652,7 +4652,7 @@
       }
     ]
   },
-  {
+  "psp": {
     "id": "psp",
     "name": "Sony PlayStation Portable",
     "external_ids": {
@@ -4676,7 +4676,7 @@
       }
     ]
   },
-  {
+  "psvita": {
     "id": "psvita",
     "name": "Sony PlayStation Vita",
     "external_ids": {
@@ -4694,7 +4694,7 @@
       }
     ]
   },
-  {
+  "psx": {
     "id": "psx",
     "name": "Sony PlayStation",
     "external_ids": {
@@ -4765,7 +4765,7 @@
       }
     ]
   },
-  {
+  "pv1000": {
     "id": "pv1000",
     "name": "Casio PV-1000",
     "filetypes": ["7z", "bin", "zip"],
@@ -4781,7 +4781,7 @@
       }
     ]
   },
-  {
+  "quake": {
     "id": "quake",
     "name": "Quake",
     "external_ids": {},
@@ -4825,7 +4825,7 @@
       }
     ]
   },
-  {
+  "samcoupe": {
     "id": "samcoupe",
     "name": "MGT SAM Coupé",
     "filetypes": ["7z", "dsk", "mgt", "sad", "sbt", "zip"],
@@ -4837,7 +4837,7 @@
       }
     ]
   },
-  {
+  "satellaview": {
     "id": "satellaview",
     "name": "Nintendo Satellaview",
     "external_ids": {
@@ -4908,7 +4908,7 @@
       }
     ]
   },
-  {
+  "saturn": {
     "id": "saturn",
     "name": "Sega Saturn",
     "external_ids": {
@@ -4968,7 +4968,7 @@
       }
     ]
   },
-  {
+  "saturnjp": {
     "id": "saturnjp",
     "name": "Sega Saturn",
     "filetypes": [
@@ -5021,7 +5021,7 @@
       }
     ]
   },
-  {
+  "scummvm": {
     "id": "scummvm",
     "name": "ScummVM Game Engine",
     "external_ids": {
@@ -5047,7 +5047,7 @@
       }
     ]
   },
-  {
+  "scv": {
     "id": "scv",
     "name": "Epoch Super Cassette Vision",
     "filetypes": ["0", "7z", "bin", "zip"],
@@ -5063,7 +5063,7 @@
       }
     ]
   },
-  {
+  "sega32x": {
     "id": "sega32x",
     "name": "Sega Mega Drive 32X",
     "external_ids": {
@@ -5101,7 +5101,7 @@
       }
     ]
   },
-  {
+  "sega32xjp": {
     "id": "sega32xjp",
     "name": "Sega Super 32X",
     "filetypes": [
@@ -5132,7 +5132,7 @@
       }
     ]
   },
-  {
+  "sega32xna": {
     "id": "sega32xna",
     "name": "Sega Genesis 32X",
     "filetypes": [
@@ -5163,7 +5163,7 @@
       }
     ]
   },
-  {
+  "segacd": {
     "id": "segacd",
     "name": "Sega CD",
     "external_ids": {
@@ -5220,7 +5220,7 @@
       }
     ]
   },
-  {
+  "sfc": {
     "id": "sfc",
     "name": "Nintendo SFC (Super Famicom)",
     "filetypes": [
@@ -5318,7 +5318,7 @@
       }
     ]
   },
-  {
+  "sg-1000": {
     "id": "sg-1000",
     "name": "Sega SG-1000",
     "external_ids": {
@@ -5382,7 +5382,7 @@
       }
     ]
   },
-  {
+  "sgb": {
     "id": "sgb",
     "name": "Nintendo Super Game Boy",
     "filetypes": ["7z", "gb", "gbc", "sgb", "zip"],
@@ -5414,7 +5414,7 @@
       }
     ]
   },
-  {
+  "snes": {
     "id": "snes",
     "name": "Nintendo SNES (Super Nintendo)",
     "external_ids": {
@@ -5519,7 +5519,7 @@
       }
     ]
   },
-  {
+  "snesna": {
     "id": "snesna",
     "name": "Nintendo SNES (Super Nintendo)",
     "filetypes": [
@@ -5617,7 +5617,7 @@
       }
     ]
   },
-  {
+  "solarus": {
     "id": "solarus",
     "name": "Solarus Game Engine",
     "filetypes": ["solarus"],
@@ -5629,7 +5629,7 @@
       }
     ]
   },
-  {
+  "spectravideo": {
     "id": "spectravideo",
     "name": "Spectravideo",
     "filetypes": [
@@ -5654,7 +5654,7 @@
       }
     ]
   },
-  {
+  "stv": {
     "id": "stv",
     "name": "Sega Titan Video Game System",
     "filetypes": ["7z", "zip"],
@@ -5676,7 +5676,7 @@
       }
     ]
   },
-  {
+  "sufami": {
     "id": "sufami",
     "name": "Bandai SuFami Turbo",
     "filetypes": ["7z", "bml", "bs", "fig", "sfc", "smc", "st", "zip"],
@@ -5733,7 +5733,7 @@
       }
     ]
   },
-  {
+  "supergrafx": {
     "id": "supergrafx",
     "name": "NEC SuperGrafx",
     "external_ids": {
@@ -5775,7 +5775,7 @@
       }
     ]
   },
-  {
+  "supervision": {
     "id": "supervision",
     "name": "Watara Supervision",
     "external_ids": {
@@ -5803,7 +5803,7 @@
       }
     ]
   },
-  {
+  "supracan": {
     "id": "supracan",
     "name": "Funtech Super A'Can",
     "filetypes": ["7z", "bin", "zip"],
@@ -5819,7 +5819,7 @@
       }
     ]
   },
-  {
+  "switch": {
     "id": "switch",
     "name": "Nintendo Switch",
     "external_ids": {
@@ -5837,7 +5837,7 @@
       }
     ]
   },
-  {
+  "symbian": {
     "id": "symbian",
     "name": "Symbian",
     "filetypes": ["sis", "sisx", "symbian"],
@@ -5870,7 +5870,7 @@
       }
     ]
   },
-  {
+  "tanodragon": {
     "id": "tanodragon",
     "name": "Tano Dragon",
     "filetypes": ["7z", "cas", "ccc", "dsk", "rom", "zip"],
@@ -5882,7 +5882,7 @@
       }
     ]
   },
-  {
+  "tg16": {
     "id": "tg16",
     "name": "NEC TurboGrafx-16",
     "external_ids": {
@@ -5944,7 +5944,7 @@
       }
     ]
   },
-  {
+  "tg-cd": {
     "id": "tg-cd",
     "name": "NEC TurboGrafx-CD",
     "external_ids": {
@@ -5999,7 +5999,7 @@
       }
     ]
   },
-  {
+  "tic80": {
     "id": "tic80",
     "name": "TIC-80 Fantasy Computer",
     "external_ids": {
@@ -6021,7 +6021,7 @@
       }
     ]
   },
-  {
+  "to8": {
     "id": "to8",
     "name": "Thomson TO8",
     "filetypes": ["7z", "fd", "k7", "m5", "m7", "rom", "sap", "zip"],
@@ -6033,7 +6033,7 @@
       }
     ]
   },
-  {
+  "triforce": {
     "id": "triforce",
     "name": "Namco-Sega-Nintendo Triforce",
     "filetypes": [
@@ -6062,7 +6062,7 @@
       }
     ]
   },
-  {
+  "trs-80": {
     "id": "trs-80",
     "name": "Tandy TRS-80",
     "filetypes": ["cmd", "dsk"],
@@ -6091,7 +6091,7 @@
       }
     ]
   },
-  {
+  "type-x": {
     "id": "type-x",
     "name": "Taito Type X",
     "filetypes": ["appimage", "desktop", "exe", "sh"],
@@ -6118,7 +6118,7 @@
       }
     ]
   },
-  {
+  "uzebox": {
     "id": "uzebox",
     "name": "Uzebox Open Source Console",
     "external_ids": {
@@ -6136,7 +6136,7 @@
       }
     ]
   },
-  {
+  "vectrex": {
     "id": "vectrex",
     "name": "GCE Vectrex",
     "external_ids": {
@@ -6164,7 +6164,7 @@
       }
     ]
   },
-  {
+  "vic20": {
     "id": "vic20",
     "name": "Commodore VIC-20",
     "external_ids": {
@@ -6221,7 +6221,7 @@
       }
     ]
   },
-  {
+  "videopac": {
     "id": "videopac",
     "name": "Philips Videopac G7000",
     "external_ids": {
@@ -6246,7 +6246,7 @@
       }
     ]
   },
-  {
+  "vircon32": {
     "id": "vircon32",
     "name": "Vircon32 Virtual Console",
     "filetypes": ["7z", "v32", "zip"],
@@ -6263,7 +6263,7 @@
       }
     ]
   },
-  {
+  "virtualboy": {
     "id": "virtualboy",
     "name": "Nintendo Virtual Boy",
     "external_ids": {
@@ -6287,7 +6287,7 @@
       }
     ]
   },
-  {
+  "vpinball": {
     "id": "vpinball",
     "name": "Visual Pinball",
     "filetypes": ["vpt", "vpx"],
@@ -6299,7 +6299,7 @@
       }
     ]
   },
-  {
+  "vsmile": {
     "id": "vsmile",
     "name": "VTech V.Smile",
     "filetypes": ["7z", "bin", "zip"],
@@ -6315,7 +6315,7 @@
       }
     ]
   },
-  {
+  "wasm4": {
     "id": "wasm4",
     "name": "WASM-4 Fantasy Console",
     "external_ids": {
@@ -6332,7 +6332,7 @@
       }
     ]
   },
-  {
+  "wii": {
     "id": "wii",
     "name": "Nintendo Wii",
     "external_ids": {
@@ -6378,7 +6378,7 @@
       }
     ]
   },
-  {
+  "wiiu": {
     "id": "wiiu",
     "name": "Nintendo Wii U",
     "external_ids": {
@@ -6397,7 +6397,7 @@
       }
     ]
   },
-  {
+  "windows3x": {
     "id": "windows3x",
     "name": "Microsoft Windows 3.x",
     "filetypes": ["7z", "appimage", "bat", "desktop", "dosz", "sh", "zip"],
@@ -6419,7 +6419,7 @@
       }
     ]
   },
-  {
+  "windows9x": {
     "id": "windows9x",
     "name": "Microsoft Windows 9x",
     "filetypes": ["7z", "appimage", "bat", "desktop", "dosz", "sh", "zip"],
@@ -6441,7 +6441,7 @@
       }
     ]
   },
-  {
+  "wonderswan": {
     "id": "wonderswan",
     "name": "Bandai WonderSwan",
     "external_ids": {
@@ -6485,7 +6485,7 @@
       }
     ]
   },
-  {
+  "wonderswancolor": {
     "id": "wonderswancolor",
     "name": "Bandai WonderSwan Color",
     "external_ids": {
@@ -6518,7 +6518,7 @@
       }
     ]
   },
-  {
+  "x1": {
     "id": "x1",
     "name": "Sharp X1",
     "external_ids": {
@@ -6551,7 +6551,7 @@
       }
     ]
   },
-  {
+  "x68000": {
     "id": "x68000",
     "name": "Sharp X68000",
     "external_ids": {
@@ -6584,7 +6584,7 @@
       }
     ]
   },
-  {
+  "xbox": {
     "id": "xbox",
     "name": "Microsoft Xbox",
     "filetypes": ["iso"],
@@ -6596,7 +6596,7 @@
       }
     ]
   },
-  {
+  "xbox360": {
     "id": "xbox360",
     "name": "Microsoft Xbox 360",
     "filetypes": ["desktop", "iso", "sh", "xex", "zar"],
@@ -6618,13 +6618,13 @@
       }
     ]
   },
-  {
+  "xboxone": {
     "id": "xboxone",
     "name": "Microsoft Xbox One",
     "filetypes": ["7z", "zip"],
     "emulators": []
   },
-  {
+  "zmachine": {
     "id": "zmachine",
     "name": "Infocom Z-machine",
     "filetypes": [
@@ -6653,7 +6653,7 @@
       }
     ]
   },
-  {
+  "zx81": {
     "id": "zx81",
     "name": "Sinclair ZX81",
     "external_ids": {
@@ -6672,7 +6672,7 @@
       }
     ]
   },
-  {
+  "zxnext": {
     "id": "zxnext",
     "name": "Sinclair ZX Spectrum Next",
     "filetypes": ["nex", "sna"],
@@ -6694,7 +6694,7 @@
       }
     ]
   },
-  {
+  "zxspectrum": {
     "id": "zxspectrum",
     "name": "Sinclair ZX Spectrum",
     "external_ids": {
@@ -6735,4 +6735,4 @@
       }
     ]
   }
-]
+}

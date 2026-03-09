@@ -1,27 +1,15 @@
-[
-  {
+{
+  "3do": {
     "id": "3do",
     "name": "3DO Interactive Multiplayer",
     "external_ids": {
-      "retroachievements": [
-        43
-      ],
-      "screenscraper": [
-        29
-      ],
-      "igdb": [
-        50
-      ],
-      "thegamesdb": [
-        25
-      ]
+      "retroachievements": [43],
+      "screenscraper": [29],
+      "igdb": [50],
+      "thegamesdb": [25]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "chd",
-      "cue",
-      "iso"
-    ],
+    "filetypes": ["chd", "cue", "iso"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -43,22 +31,14 @@
       }
     ]
   },
-  {
+  "amstradcpc": {
     "id": "amstradcpc",
     "name": "Amstrad CPC",
     "external_ids": {
-      "retroachievements": [
-        37
-      ],
-      "screenscraper": [
-        65
-      ],
-      "igdb": [
-        25
-      ],
-      "thegamesdb": [
-        4914
-      ]
+      "retroachievements": [37],
+      "screenscraper": [65],
+      "igdb": [25],
+      "thegamesdb": [4914]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -111,27 +91,17 @@
       }
     ]
   },
-  {
+  "apple2": {
     "id": "apple2",
     "name": "Apple II",
     "external_ids": {
-      "retroachievements": [
-        38
-      ],
-      "screenscraper": [
-        86
-      ],
-      "igdb": [
-        75
-      ],
-      "thegamesdb": [
-        4942
-      ]
+      "retroachievements": [38],
+      "screenscraper": [86],
+      "igdb": [75],
+      "thegamesdb": [4942]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "cmd"
-    ],
+    "filetypes": ["cmd"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -153,34 +123,21 @@
       }
     ]
   },
-  {
+  "arcadia": {
     "id": "arcadia",
     "name": "Emerson Arcadia 2001",
     "external_ids": {
-      "retroachievements": [
-        73
-      ],
-      "screenscraper": [
-        94
-      ],
-      "igdb": [
-        473
-      ],
-      "thegamesdb": [
-        4963
-      ]
+      "retroachievements": [73],
+      "screenscraper": [94],
+      "igdb": [473],
+      "thegamesdb": [4963]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "cmd",
-      "zip"
-    ],
+    "filetypes": ["cmd", "zip"],
     "emulators": [
       {
         "id": "com.amigan.droidarcadia",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -202,25 +159,16 @@
       }
     ]
   },
-  {
+  "arduboy": {
     "id": "arduboy",
     "name": "Arduboy Miniature Game System",
     "external_ids": {
-      "retroachievements": [
-        71
-      ],
-      "screenscraper": [
-        263
-      ],
-      "igdb": [
-        438
-      ]
+      "retroachievements": [71],
+      "screenscraper": [263],
+      "igdb": [438]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "arduboy",
-      "hex"
-    ],
+    "filetypes": ["arduboy", "hex"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -260,42 +208,25 @@
       }
     ]
   },
-  {
+  "atari2600": {
     "id": "atari2600",
     "name": "Atari 2600",
     "external_ids": {
-      "retroachievements": [
-        25
-      ],
-      "screenscraper": [
-        26
-      ],
-      "igdb": [
-        59
-      ],
-      "thegamesdb": [
-        22
-      ]
+      "retroachievements": [25],
+      "screenscraper": [26],
+      "igdb": [59],
+      "thegamesdb": [22]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "a26",
-      "bin",
-      "zip"
-    ],
+    "filetypes": ["7z", "a26", "bin", "zip"],
     "emulators": [
       {
         "id": "com.explusalpha.A2600Emu",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.androidemu.atari",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -353,22 +284,14 @@
       }
     ]
   },
-  {
+  "atari5200": {
     "id": "atari5200",
     "name": "Atari 5200",
     "external_ids": {
-      "retroachievements": [
-        50
-      ],
-      "screenscraper": [
-        40
-      ],
-      "igdb": [
-        66
-      ],
-      "thegamesdb": [
-        26
-      ]
+      "retroachievements": [50],
+      "screenscraper": [40],
+      "igdb": [66],
+      "thegamesdb": [26]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -425,30 +348,17 @@
       }
     ]
   },
-  {
+  "atari7800": {
     "id": "atari7800",
     "name": "Atari 7800 ProSystem",
     "external_ids": {
-      "retroachievements": [
-        51
-      ],
-      "screenscraper": [
-        41
-      ],
-      "igdb": [
-        60
-      ],
-      "thegamesdb": [
-        27
-      ]
+      "retroachievements": [51],
+      "screenscraper": [41],
+      "igdb": [60],
+      "thegamesdb": [27]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "a78",
-      "bin",
-      "zip"
-    ],
+    "filetypes": ["7z", "a78", "bin", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -470,35 +380,17 @@
       }
     ]
   },
-  {
+  "atarijaguar": {
     "id": "atarijaguar",
     "name": "Atari Jaguar",
     "external_ids": {
-      "retroachievements": [
-        17
-      ],
-      "screenscraper": [
-        27
-      ],
-      "igdb": [
-        62
-      ],
-      "thegamesdb": [
-        28
-      ]
+      "retroachievements": [17],
+      "screenscraper": [27],
+      "igdb": [62],
+      "thegamesdb": [28]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "abs",
-      "bin",
-      "cof",
-      "j64",
-      "jag",
-      "prg",
-      "rom",
-      "zip"
-    ],
+    "filetypes": ["7z", "abs", "bin", "cof", "j64", "jag", "prg", "rom", "zip"],
     "emulators": [
       {
         "id": "ru.vastness.altmer.iratajaguar",
@@ -529,35 +421,17 @@
       }
     ]
   },
-  {
+  "atarijaguarcd": {
     "id": "atarijaguarcd",
     "name": "Atari Jaguar CD",
     "external_ids": {
-      "retroachievements": [
-        77
-      ],
-      "screenscraper": [
-        171
-      ],
-      "igdb": [
-        410
-      ],
-      "thegamesdb": [
-        29
-      ]
+      "retroachievements": [77],
+      "screenscraper": [171],
+      "igdb": [410],
+      "thegamesdb": [29]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "abs",
-      "bin",
-      "cof",
-      "j64",
-      "jag",
-      "prg",
-      "rom",
-      "zip"
-    ],
+    "filetypes": ["7z", "abs", "bin", "cof", "j64", "jag", "prg", "rom", "zip"],
     "emulators": [
       {
         "id": "ru.vastness.altmer.iratajaguar",
@@ -588,36 +462,21 @@
       }
     ]
   },
-  {
+  "atarilynx": {
     "id": "atarilynx",
     "name": "Atari Lynx",
     "external_ids": {
-      "retroachievements": [
-        13
-      ],
-      "screenscraper": [
-        28
-      ],
-      "igdb": [
-        61
-      ],
-      "thegamesdb": [
-        4924
-      ]
+      "retroachievements": [13],
+      "screenscraper": [28],
+      "igdb": [61],
+      "thegamesdb": [4924]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "lnx",
-      "o",
-      "zip"
-    ],
+    "filetypes": ["7z", "lnx", "o", "zip"],
     "emulators": [
       {
         "id": "com.explusalpha.LynxEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -675,33 +534,17 @@
       }
     ]
   },
-  {
+  "atarist": {
     "id": "atarist",
     "name": "Atari ST",
     "external_ids": {
-      "retroachievements": [
-        36
-      ],
-      "screenscraper": [
-        42
-      ],
-      "igdb": [
-        63
-      ],
-      "thegamesdb": [
-        4937
-      ]
+      "retroachievements": [36],
+      "screenscraper": [42],
+      "igdb": [63],
+      "thegamesdb": [4937]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "dim",
-      "ipf",
-      "m3u",
-      "msa",
-      "st",
-      "stx",
-      "zip"
-    ],
+    "filetypes": ["dim", "ipf", "m3u", "msa", "st", "stx", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -723,13 +566,11 @@
       }
     ]
   },
-  {
+  "atomiswave": {
     "id": "atomiswave",
     "name": "Sammy Corporation Atomiswave",
     "external_ids": {
-      "screenscraper": [
-        53
-      ]
+      "screenscraper": [53]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
     "filetypes": [
@@ -749,27 +590,19 @@
     "emulators": [
       {
         "id": "io.recompiled.redream",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.reicast.emulator",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.flycast.emulator",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.flycast.emulator",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -791,25 +624,16 @@
       }
     ]
   },
-  {
+  "bbcmicro": {
     "id": "bbcmicro",
     "name": "Acorn Computers BBC Micro",
     "external_ids": {
-      "screenscraper": [
-        37
-      ],
-      "igdb": [
-        69
-      ],
-      "thegamesdb": [
-        5013
-      ]
+      "screenscraper": [37],
+      "igdb": [69],
+      "thegamesdb": [5013]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "dsd",
-      "ssd"
-    ],
+    "filetypes": ["dsd", "ssd"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -831,7 +655,7 @@
       }
     ]
   },
-  {
+  "ebook": {
     "id": "ebook",
     "name": "Book Reader",
     "external_ids": {},
@@ -857,59 +681,39 @@
     "emulators": [
       {
         "id": "com.foobnix.pdf.reader",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.foobnix.pro.pdf.reader",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "org.readera",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.github.axet.bookreader",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.koreader.launcher",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       }
     ]
   },
-  {
+  "cps1": {
     "id": "cps1",
     "name": "Capcom Play System I",
     "external_ids": {
-      "retroachievements": [
-        27
-      ],
-      "screenscraper": [
-        6
-      ]
+      "retroachievements": [27],
+      "screenscraper": [6]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "iso",
-      "zip"
-    ],
+    "filetypes": ["7z", "iso", "zip"],
     "emulators": [
       {
         "id": "com.explusalpha.neoemu",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -985,29 +789,19 @@
       }
     ]
   },
-  {
+  "cps2": {
     "id": "cps2",
     "name": "Capcom Play System II",
     "external_ids": {
-      "retroachievements": [
-        27
-      ],
-      "screenscraper": [
-        7
-      ]
+      "retroachievements": [27],
+      "screenscraper": [7]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "iso",
-      "zip"
-    ],
+    "filetypes": ["7z", "iso", "zip"],
     "emulators": [
       {
         "id": "com.explusalpha.neoemu",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -1065,29 +859,19 @@
       }
     ]
   },
-  {
+  "cps3": {
     "id": "cps3",
     "name": "Capcom Play System III",
     "external_ids": {
-      "retroachievements": [
-        27
-      ],
-      "screenscraper": [
-        8
-      ]
+      "retroachievements": [27],
+      "screenscraper": [8]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "iso",
-      "zip"
-    ],
+    "filetypes": ["7z", "iso", "zip"],
     "emulators": [
       {
         "id": "com.explusalpha.neoemu",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -1145,15 +929,12 @@
       }
     ]
   },
-  {
+  "cannonball": {
     "id": "cannonball",
     "name": "Cannonball OutRun Engine",
     "external_ids": {},
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "88",
-      "game"
-    ],
+    "filetypes": ["88", "game"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -1175,14 +956,12 @@
       }
     ]
   },
-  {
+  "cavestory": {
     "id": "cavestory",
     "name": "Cave Story Game Engine",
     "external_ids": {},
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "exe"
-    ],
+    "filetypes": ["exe"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -1222,15 +1001,12 @@
       }
     ]
   },
-  {
+  "chip8": {
     "id": "chip8",
     "name": "CHIP-8",
     "external_ids": {},
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "ch8",
-      "zip"
-    ],
+    "filetypes": ["ch8", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -1252,22 +1028,14 @@
       }
     ]
   },
-  {
+  "colecovision": {
     "id": "colecovision",
     "name": "Coleco ColecoVision",
     "external_ids": {
-      "retroachievements": [
-        44
-      ],
-      "screenscraper": [
-        48
-      ],
-      "igdb": [
-        68
-      ],
-      "thegamesdb": [
-        31
-      ]
+      "retroachievements": [44],
+      "screenscraper": [48],
+      "igdb": [68],
+      "thegamesdb": [31]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -1325,22 +1093,14 @@
       }
     ]
   },
-  {
+  "c64": {
     "id": "c64",
     "name": "Commodore 64",
     "external_ids": {
-      "retroachievements": [
-        30
-      ],
-      "screenscraper": [
-        66
-      ],
-      "igdb": [
-        93
-      ],
-      "thegamesdb": [
-        40
-      ]
+      "retroachievements": [30],
+      "screenscraper": [66],
+      "igdb": [93],
+      "thegamesdb": [40]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -1379,9 +1139,7 @@
     "emulators": [
       {
         "id": "com.explusalpha.C64Emu",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -1457,19 +1215,13 @@
       }
     ]
   },
-  {
+  "amiga": {
     "id": "amiga",
     "name": "Commodore Amiga",
     "external_ids": {
-      "retroachievements": [
-        35
-      ],
-      "screenscraper": [
-        64
-      ],
-      "igdb": [
-        16
-      ]
+      "retroachievements": [35],
+      "screenscraper": [64],
+      "igdb": [16]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -1534,19 +1286,13 @@
       }
     ]
   },
-  {
+  "pet": {
     "id": "pet",
     "name": "Commodore - PET",
     "external_ids": {
-      "screenscraper": [
-        240
-      ],
-      "igdb": [
-        90
-      ],
-      "thegamesdb": [
-        5008
-      ]
+      "screenscraper": [240],
+      "igdb": [90],
+      "thegamesdb": [5008]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -1603,19 +1349,13 @@
       }
     ]
   },
-  {
+  "plus4": {
     "id": "plus4",
     "name": "Commodore Plus/4",
     "external_ids": {
-      "screenscraper": [
-        99
-      ],
-      "igdb": [
-        94
-      ],
-      "thegamesdb": [
-        5007
-      ]
+      "screenscraper": [99],
+      "igdb": [94],
+      "thegamesdb": [5007]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -1672,17 +1412,12 @@
       }
     ]
   },
-  {
+  "doom": {
     "id": "doom",
     "name": "Doom",
     "external_ids": {},
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "iwad",
-      "pwad",
-      "wad",
-      "zip"
-    ],
+    "filetypes": ["iwad", "pwad", "wad", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -1704,19 +1439,13 @@
       }
     ]
   },
-  {
+  "dos": {
     "id": "dos",
     "name": "DOS (PC)",
     "external_ids": {
-      "retroachievements": [
-        26
-      ],
-      "screenscraper": [
-        135
-      ],
-      "igdb": [
-        13
-      ]
+      "retroachievements": [26],
+      "screenscraper": [135],
+      "igdb": [13]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -1792,22 +1521,14 @@
       }
     ]
   },
-  {
+  "dreamcast": {
     "id": "dreamcast",
     "name": "Sega Dreamcast",
     "external_ids": {
-      "retroachievements": [
-        40
-      ],
-      "screenscraper": [
-        23
-      ],
-      "igdb": [
-        23
-      ],
-      "thegamesdb": [
-        16
-      ]
+      "retroachievements": [40],
+      "screenscraper": [23],
+      "igdb": [23],
+      "thegamesdb": [16]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
     "filetypes": [
@@ -1825,27 +1546,19 @@
     "emulators": [
       {
         "id": "io.recompiled.redream",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.reicast.emulator",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.flycast.emulator",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.flycast.emulator",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -1867,29 +1580,17 @@
       }
     ]
   },
-  {
+  "channelf": {
     "id": "channelf",
     "name": "Fairchild Channel F",
     "external_ids": {
-      "retroachievements": [
-        57
-      ],
-      "screenscraper": [
-        80
-      ],
-      "igdb": [
-        127
-      ],
-      "thegamesdb": [
-        4928
-      ]
+      "retroachievements": [57],
+      "screenscraper": [80],
+      "igdb": [127],
+      "thegamesdb": [4928]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "bin",
-      "chf",
-      "zip"
-    ],
+    "filetypes": ["bin", "chf", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -1911,22 +1612,14 @@
       }
     ]
   },
-  {
+  "fds": {
     "id": "fds",
     "name": "Nintendo Famicom Disk System",
     "external_ids": {
-      "retroachievements": [
-        7
-      ],
-      "screenscraper": [
-        106
-      ],
-      "igdb": [
-        51
-      ],
-      "thegamesdb": [
-        4936
-      ]
+      "retroachievements": [7],
+      "screenscraper": [106],
+      "igdb": [51],
+      "thegamesdb": [4936]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -1944,15 +1637,11 @@
     "emulators": [
       {
         "id": "com.explusalpha.NesEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.androidemu.nes",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -2010,31 +1699,17 @@
       }
     ]
   },
-  {
+  "fbneo": {
     "id": "fbneo",
     "name": "FinalBurn Neo",
     "external_ids": {
-      "retroachievements": [
-        27
-      ],
-      "screenscraper": [
-        75
-      ],
-      "igdb": [
-        52
-      ],
-      "thegamesdb": [
-        23
-      ]
+      "retroachievements": [27],
+      "screenscraper": [75],
+      "igdb": [52],
+      "thegamesdb": [23]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "ccd",
-      "cue",
-      "iso",
-      "zip"
-    ],
+    "filetypes": ["7z", "ccd", "cue", "iso", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -2074,17 +1749,12 @@
       }
     ]
   },
-  {
+  "flashback": {
     "id": "flashback",
     "name": "Flashback Game Engine",
     "external_ids": {},
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "aba",
-      "lev",
-      "map",
-      "seq"
-    ],
+    "filetypes": ["aba", "lev", "map", "seq"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -2106,29 +1776,17 @@
       }
     ]
   },
-  {
+  "gameandwatch": {
     "id": "gameandwatch",
     "name": "Nintendo Game and Watch",
     "external_ids": {
-      "retroachievements": [
-        60
-      ],
-      "screenscraper": [
-        52
-      ],
-      "igdb": [
-        307
-      ],
-      "thegamesdb": [
-        4950
-      ]
+      "retroachievements": [60],
+      "screenscraper": [52],
+      "igdb": [307],
+      "thegamesdb": [4950]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "mgw",
-      "zip"
-    ],
+    "filetypes": ["7z", "mgw", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -2168,22 +1826,14 @@
       }
     ]
   },
-  {
+  "gb": {
     "id": "gb",
     "name": "Nintendo Game Boy",
     "external_ids": {
-      "retroachievements": [
-        4
-      ],
-      "screenscraper": [
-        9
-      ],
-      "igdb": [
-        33
-      ],
-      "thegamesdb": [
-        4
-      ]
+      "retroachievements": [4],
+      "screenscraper": [9],
+      "igdb": [33],
+      "thegamesdb": [4]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -2219,33 +1869,23 @@
       },
       {
         "id": "com.sky.SkyEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.explusalpha.GbcEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.fastemulator.gbcfree",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.fastemulator.gbc",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.pixelrespawn.linkboy",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -2375,22 +2015,14 @@
       }
     ]
   },
-  {
+  "gba": {
     "id": "gba",
     "name": "Nintendo Game Boy Advance",
     "external_ids": {
-      "retroachievements": [
-        5
-      ],
-      "screenscraper": [
-        12
-      ],
-      "igdb": [
-        24
-      ],
-      "thegamesdb": [
-        5
-      ]
+      "retroachievements": [5],
+      "screenscraper": [12],
+      "igdb": [24],
+      "thegamesdb": [5]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -2427,33 +2059,23 @@
       },
       {
         "id": "com.sky.SkyEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.explusalpha.GbaEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.fastemulator.gbafree",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.fastemulator.gba",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.pixelrespawn.linkboy",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -2565,22 +2187,14 @@
       }
     ]
   },
-  {
+  "gbc": {
     "id": "gbc",
     "name": "Nintendo Game Boy Color",
     "external_ids": {
-      "retroachievements": [
-        6
-      ],
-      "screenscraper": [
-        10
-      ],
-      "igdb": [
-        22
-      ],
-      "thegamesdb": [
-        41
-      ]
+      "retroachievements": [6],
+      "screenscraper": [10],
+      "igdb": [22],
+      "thegamesdb": [41]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -2616,33 +2230,23 @@
       },
       {
         "id": "com.sky.SkyEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.explusalpha.GbcEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.fastemulator.gbcfree",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.fastemulator.gbc",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.pixelrespawn.linkboy",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -2772,22 +2376,14 @@
       }
     ]
   },
-  {
+  "gc": {
     "id": "gc",
     "name": "Nintendo GameCube",
     "external_ids": {
-      "retroachievements": [
-        16
-      ],
-      "screenscraper": [
-        13
-      ],
-      "igdb": [
-        21
-      ],
-      "thegamesdb": [
-        2
-      ]
+      "retroachievements": [16],
+      "screenscraper": [13],
+      "igdb": [21],
+      "thegamesdb": [2]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -2898,31 +2494,17 @@
       }
     ]
   },
-  {
+  "intellivision": {
     "id": "intellivision",
     "name": "Mattel Electronics Intellivision",
     "external_ids": {
-      "retroachievements": [
-        45
-      ],
-      "screenscraper": [
-        115
-      ],
-      "igdb": [
-        67
-      ],
-      "thegamesdb": [
-        32
-      ]
+      "retroachievements": [45],
+      "screenscraper": [115],
+      "igdb": [67],
+      "thegamesdb": [32]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "bin",
-      "int",
-      "rom",
-      "zip"
-    ],
+    "filetypes": ["7z", "bin", "int", "rom", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -2944,34 +2526,21 @@
       }
     ]
   },
-  {
+  "vc4000": {
     "id": "vc4000",
     "name": "Interton VC 4000",
     "external_ids": {
-      "retroachievements": [
-        74
-      ],
-      "screenscraper": [
-        281
-      ],
-      "igdb": [
-        138
-      ],
-      "thegamesdb": [
-        4994
-      ]
+      "retroachievements": [74],
+      "screenscraper": [281],
+      "igdb": [138],
+      "thegamesdb": [4994]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "cmd",
-      "zip"
-    ],
+    "filetypes": ["cmd", "zip"],
     "emulators": [
       {
         "id": "com.amigan.droidarcadia",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -2993,31 +2562,20 @@
       }
     ]
   },
-  {
+  "j2me": {
     "id": "j2me",
     "name": "Java 2 Micro Edition (J2ME)",
     "external_ids": {},
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "jad",
-      "jam",
-      "jar",
-      "java",
-      "kjx",
-      "sqc"
-    ],
+    "filetypes": ["jad", "jam", "jar", "java", "kjx", "sqc"],
     "emulators": [
       {
         "id": "ru.playsoftware.j2meloader",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "ru.woesss.j2meloader",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -3039,19 +2597,14 @@
       }
     ]
   },
-  {
+  "lowresnx": {
     "id": "lowresnx",
     "name": "LowRes NX Fantasy Console",
     "external_ids": {
-      "screenscraper": [
-        244
-      ]
+      "screenscraper": [244]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "nx",
-      "zip"
-    ],
+    "filetypes": ["nx", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -3073,42 +2626,25 @@
       }
     ]
   },
-  {
+  "mame": {
     "id": "mame",
     "name": "Multiple Arcade Machine Emulator",
     "external_ids": {
-      "retroachievements": [
-        27
-      ],
-      "screenscraper": [
-        75
-      ],
-      "igdb": [
-        52
-      ],
-      "thegamesdb": [
-        23
-      ]
+      "retroachievements": [27],
+      "screenscraper": [75],
+      "igdb": [52],
+      "thegamesdb": [23]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "chd",
-      "cmd",
-      "zip"
-    ],
+    "filetypes": ["7z", "chd", "cmd", "zip"],
     "emulators": [
       {
         "id": "com.seleuco.mame4droid",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.seleuco.mame4d2024",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -3220,22 +2756,14 @@
       }
     ]
   },
-  {
+  "msx": {
     "id": "msx",
     "name": "MSX",
     "external_ids": {
-      "retroachievements": [
-        29
-      ],
-      "screenscraper": [
-        113
-      ],
-      "igdb": [
-        27
-      ],
-      "thegamesdb": [
-        4929
-      ]
+      "retroachievements": [29],
+      "screenscraper": [113],
+      "igdb": [27],
+      "thegamesdb": [4929]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -3256,9 +2784,7 @@
     "emulators": [
       {
         "id": "com.explusalpha.MsxEmu",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -3298,29 +2824,17 @@
       }
     ]
   },
-  {
+  "odyssey2": {
     "id": "odyssey2",
     "name": "Magnavox Odyssey 2",
     "external_ids": {
-      "retroachievements": [
-        23
-      ],
-      "screenscraper": [
-        104
-      ],
-      "igdb": [
-        133
-      ],
-      "thegamesdb": [
-        4927
-      ]
+      "retroachievements": [23],
+      "screenscraper": [104],
+      "igdb": [133],
+      "thegamesdb": [4927]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "bin",
-      "zip"
-    ],
+    "filetypes": ["7z", "bin", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -3342,28 +2856,17 @@
       }
     ]
   },
-  {
+  "megaduck": {
     "id": "megaduck",
     "name": "Creatronic Mega Duck",
     "external_ids": {
-      "retroachievements": [
-        69
-      ],
-      "screenscraper": [
-        90
-      ],
-      "igdb": [
-        408
-      ],
-      "thegamesdb": [
-        4948
-      ]
+      "retroachievements": [69],
+      "screenscraper": [90],
+      "igdb": [408],
+      "thegamesdb": [4948]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "bin",
-      "zip"
-    ],
+    "filetypes": ["bin", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -3385,54 +2888,35 @@
       }
     ]
   },
-  {
+  "moonlight": {
     "id": "moonlight",
     "name": "Moonlight Streaming",
     "external_ids": {
-      "thegamesdb": [
-        1
-      ]
+      "thegamesdb": [1]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "art",
-      "moonlight"
-    ],
+    "filetypes": ["art", "moonlight"],
     "emulators": [
       {
         "id": "com.limelight.noir",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.limelight"
       }
     ]
   },
-  {
+  "pc88": {
     "id": "pc88",
     "name": "NEC PC-8800 Series",
     "external_ids": {
-      "retroachievements": [
-        47
-      ],
-      "screenscraper": [
-        221
-      ],
-      "igdb": [
-        125
-      ],
-      "thegamesdb": [
-        4933
-      ]
+      "retroachievements": [47],
+      "screenscraper": [221],
+      "igdb": [125],
+      "thegamesdb": [4933]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "d88",
-      "m3u",
-      "u88"
-    ],
+    "filetypes": ["d88", "m3u", "u88"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -3454,22 +2938,14 @@
       }
     ]
   },
-  {
+  "pc98": {
     "id": "pc98",
     "name": "NEC PC-9800 Series",
     "external_ids": {
-      "retroachievements": [
-        48
-      ],
-      "screenscraper": [
-        208
-      ],
-      "igdb": [
-        149
-      ],
-      "thegamesdb": [
-        4934
-      ]
+      "retroachievements": [48],
+      "screenscraper": [208],
+      "igdb": [149],
+      "thegamesdb": [4934]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -3532,30 +3008,17 @@
       }
     ]
   },
-  {
+  "pcfx": {
     "id": "pcfx",
     "name": "NEC PC-FX",
     "external_ids": {
-      "retroachievements": [
-        49
-      ],
-      "screenscraper": [
-        72
-      ],
-      "igdb": [
-        274
-      ],
-      "thegamesdb": [
-        4930
-      ]
+      "retroachievements": [49],
+      "screenscraper": [72],
+      "igdb": [274],
+      "thegamesdb": [4930]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "ccd",
-      "chd",
-      "cue",
-      "toc"
-    ],
+    "filetypes": ["ccd", "chd", "cue", "toc"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -3577,36 +3040,21 @@
       }
     ]
   },
-  {
+  "neogeo": {
     "id": "neogeo",
     "name": "SNK Neo Geo",
     "external_ids": {
-      "retroachievements": [
-        27
-      ],
-      "screenscraper": [
-        142
-      ],
-      "igdb": [
-        136
-      ],
-      "thegamesdb": [
-        24
-      ]
+      "retroachievements": [27],
+      "screenscraper": [142],
+      "igdb": [136],
+      "thegamesdb": [24]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "iso",
-      "neo",
-      "zip"
-    ],
+    "filetypes": ["7z", "iso", "neo", "zip"],
     "emulators": [
       {
         "id": "com.explusalpha.NeoEmu",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -3664,28 +3112,17 @@
       }
     ]
   },
-  {
+  "neogeocd": {
     "id": "neogeocd",
     "name": "SNK Neo Geo CD",
     "external_ids": {
-      "retroachievements": [
-        56
-      ],
-      "screenscraper": [
-        70
-      ],
-      "igdb": [
-        136
-      ],
-      "thegamesdb": [
-        4956
-      ]
+      "retroachievements": [56],
+      "screenscraper": [70],
+      "igdb": [136],
+      "thegamesdb": [4956]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "chd",
-      "cue"
-    ],
+    "filetypes": ["chd", "cue"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -3725,36 +3162,21 @@
       }
     ]
   },
-  {
+  "ngp": {
     "id": "ngp",
     "name": "SNK Neo Geo Pocket",
     "external_ids": {
-      "retroachievements": [
-        14
-      ],
-      "screenscraper": [
-        25
-      ],
-      "igdb": [
-        119
-      ],
-      "thegamesdb": [
-        4922
-      ]
+      "retroachievements": [14],
+      "screenscraper": [25],
+      "igdb": [119],
+      "thegamesdb": [4922]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "ngc",
-      "ngp",
-      "zip"
-    ],
+    "filetypes": ["7z", "ngc", "ngp", "zip"],
     "emulators": [
       {
         "id": "com.explusalpha.NgpEmu",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -3794,33 +3216,20 @@
       }
     ]
   },
-  {
+  "ngpc": {
     "id": "ngpc",
     "name": "SNK Neo Geo Pocket Color",
     "external_ids": {
-      "screenscraper": [
-        82
-      ],
-      "igdb": [
-        120
-      ],
-      "thegamesdb": [
-        4923
-      ]
+      "screenscraper": [82],
+      "igdb": [120],
+      "thegamesdb": [4923]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "ngc",
-      "ngp",
-      "zip"
-    ],
+    "filetypes": ["7z", "ngc", "ngp", "zip"],
     "emulators": [
       {
         "id": "com.explusalpha.NgpEmu",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -3860,52 +3269,32 @@
       }
     ]
   },
-  {
+  "ngage": {
     "id": "ngage",
     "name": "Nokia N-Gage",
     "external_ids": {
-      "retroachievements": [
-        61
-      ],
-      "screenscraper": [
-        30
-      ],
-      "igdb": [
-        42
-      ],
-      "thegamesdb": [
-        4938
-      ]
+      "retroachievements": [61],
+      "screenscraper": [30],
+      "igdb": [42],
+      "thegamesdb": [4938]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "json"
-    ],
+    "filetypes": ["json"],
     "emulators": [
       {
         "id": "com.github.eka2l1",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       }
     ]
   },
-  {
+  "n3ds": {
     "id": "n3ds",
     "name": "Nintendo 3DS",
     "external_ids": {
-      "retroachievements": [
-        62
-      ],
-      "screenscraper": [
-        17
-      ],
-      "igdb": [
-        37
-      ],
-      "thegamesdb": [
-        4912
-      ]
+      "retroachievements": [62],
+      "screenscraper": [17],
+      "igdb": [37],
+      "thegamesdb": [4912]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -3923,45 +3312,31 @@
     "emulators": [
       {
         "id": "io.github.lime3ds.android",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "io.github.borked3ds.android",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.citra.citra_emu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.citra.citra_emu.canary",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.gamerytb.lemonade.canary",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "io.github.lime3ds.android",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "io.github.mandarine3ds.mandarine",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.antutu.ABenchMark",
@@ -4046,58 +3421,33 @@
       }
     ]
   },
-  {
+  "n64": {
     "id": "n64",
     "name": "Nintendo 64",
     "external_ids": {
-      "retroachievements": [
-        2
-      ],
-      "screenscraper": [
-        14
-      ],
-      "igdb": [
-        4
-      ],
-      "thegamesdb": [
-        3
-      ]
+      "retroachievements": [2],
+      "screenscraper": [14],
+      "igdb": [4],
+      "thegamesdb": [3]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "bin",
-      "n64",
-      "ndd",
-      "u1",
-      "v64",
-      "z64",
-      "zip"
-    ],
+    "filetypes": ["7z", "bin", "n64", "ndd", "u1", "v64", "z64", "zip"],
     "emulators": [
       {
         "id": "org.mupen64plusae.v3.fzurita",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.mupen64plusae.v3.alpha",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.mupen64plusae.v3.fzurita.pro",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "paulscode.android.mupen64plusae",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -4155,32 +3505,17 @@
       }
     ]
   },
-  {
+  "nds": {
     "id": "nds",
     "name": "Nintendo DS",
     "external_ids": {
-      "retroachievements": [
-        18,
-        78
-      ],
-      "screenscraper": [
-        15
-      ],
-      "igdb": [
-        20
-      ],
-      "thegamesdb": [
-        8
-      ]
+      "retroachievements": [18, 78],
+      "screenscraper": [15],
+      "igdb": [20],
+      "thegamesdb": [8]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "bin",
-      "nds",
-      "rar",
-      "zip"
-    ],
+    "filetypes": ["7z", "bin", "nds", "rar", "zip"],
     "emulators": [
       {
         "id": "me.magnum.melonds",
@@ -4193,15 +3528,11 @@
       },
       {
         "id": "com.dsemu.drastic",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.dsemu.drastic",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "me.magnum.melonds.nightly",
@@ -4304,32 +3635,17 @@
       }
     ]
   },
-  {
+  "ndsi": {
     "id": "ndsi",
     "name": "Nintendo DSi",
     "external_ids": {
-      "retroachievements": [
-        78,
-        18
-      ],
-      "screenscraper": [
-        15
-      ],
-      "igdb": [
-        159
-      ],
-      "thegamesdb": [
-        8
-      ]
+      "retroachievements": [78, 18],
+      "screenscraper": [15],
+      "igdb": [159],
+      "thegamesdb": [8]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "bin",
-      "nds",
-      "rar",
-      "zip"
-    ],
+    "filetypes": ["7z", "bin", "nds", "rar", "zip"],
     "emulators": [
       {
         "id": "me.magnum.melonds",
@@ -4342,9 +3658,7 @@
       },
       {
         "id": "com.dsemu.drastic",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "me.magnum.melonds.nightly",
@@ -4447,22 +3761,14 @@
       }
     ]
   },
-  {
+  "nes": {
     "id": "nes",
     "name": "Nintendo Entertainment System",
     "external_ids": {
-      "retroachievements": [
-        7
-      ],
-      "screenscraper": [
-        3
-      ],
-      "igdb": [
-        18
-      ],
-      "thegamesdb": [
-        7
-      ]
+      "retroachievements": [7],
+      "screenscraper": [3],
+      "igdb": [18],
+      "thegamesdb": [7]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -4480,15 +3786,11 @@
     "emulators": [
       {
         "id": "com.explusalpha.NesEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.androidemu.nes",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -4582,13 +3884,11 @@
       }
     ]
   },
-  {
+  "satellaview": {
     "id": "satellaview",
     "name": "Nintendo Satellaview",
     "external_ids": {
-      "screenscraper": [
-        107
-      ]
+      "screenscraper": [107]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bml)$",
     "filetypes": [
@@ -4612,9 +3912,7 @@
     "emulators": [
       {
         "id": "com.explusalpha.Snes9xPlus",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -4780,94 +4078,60 @@
       }
     ]
   },
-  {
+  "switch": {
     "id": "switch",
     "name": "Nintendo Switch",
     "external_ids": {
-      "screenscraper": [
-        225
-      ],
-      "igdb": [
-        130
-      ],
-      "thegamesdb": [
-        4971
-      ]
+      "screenscraper": [225],
+      "igdb": [130],
+      "thegamesdb": [4971]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "nca",
-      "nro",
-      "nso",
-      "nsp",
-      "xci"
-    ],
+    "filetypes": ["nca", "nro", "nso", "nsp", "xci"],
     "emulators": [
       {
         "id": "skyline.emu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.stratoemu.strato",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "dev.eden.eden_emulator",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "dev.legacy.eden_emulator",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.miHoYo.Yuanshen",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.yuzu.yuzu_emu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.yuzu.yuzu_emu.ea",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "dev.suyu.suyu_emu.relWithDebInfo",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.sudachi.sudachi_emu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.sudachi.sudachi_emu.ea",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.citron.citron_emu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.kenjinx.android",
@@ -4889,23 +4153,14 @@
       }
     ]
   },
-  {
+  "wii": {
     "id": "wii",
     "name": "Nintendo Wii",
     "external_ids": {
-      "retroachievements": [
-        19,
-        20
-      ],
-      "screenscraper": [
-        16
-      ],
-      "igdb": [
-        159
-      ],
-      "thegamesdb": [
-        9
-      ]
+      "retroachievements": [19, 20],
+      "screenscraper": [16],
+      "igdb": [159],
+      "thegamesdb": [9]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -5025,56 +4280,32 @@
       }
     ]
   },
-  {
+  "wiiu": {
     "id": "wiiu",
     "name": "Nintendo Wii U",
     "external_ids": {
-      "retroachievements": [
-        20,
-        19
-      ],
-      "screenscraper": [
-        18
-      ],
-      "igdb": [
-        41
-      ],
-      "thegamesdb": [
-        38
-      ]
+      "retroachievements": [20, 19],
+      "screenscraper": [18],
+      "igdb": [41],
+      "thegamesdb": [38]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "rpx",
-      "wua",
-      "wux"
-    ],
+    "filetypes": ["rpx", "wua", "wux"],
     "emulators": [
       {
         "id": "info.cemu.cemu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       }
     ]
   },
-  {
+  "wiiware": {
     "id": "wiiware",
     "name": "Nintendo WiiWare",
     "external_ids": {
-      "retroachievements": [
-        19,
-        20
-      ],
-      "screenscraper": [
-        16
-      ],
-      "igdb": [
-        5
-      ],
-      "thegamesdb": [
-        9
-      ]
+      "retroachievements": [19, 20],
+      "screenscraper": [16],
+      "igdb": [5],
+      "thegamesdb": [9]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -5185,19 +4416,14 @@
       }
     ]
   },
-  {
+  "pico8": {
     "id": "pico8",
     "name": "PICO-8 Fantasy Console",
     "external_ids": {
-      "screenscraper": [
-        234
-      ]
+      "screenscraper": [234]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "p8",
-      "png"
-    ],
+    "filetypes": ["p8", "png"],
     "emulators": [
       {
         "id": "io.wip.pico8",
@@ -5210,9 +4436,7 @@
       },
       {
         "id": "me.dt2dev.infinity",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -5252,24 +4476,15 @@
       }
     ]
   },
-  {
+  "palm": {
     "id": "palm",
     "name": "Palm OS",
     "external_ids": {
-      "screenscraper": [
-        219
-      ],
-      "igdb": [
-        417
-      ]
+      "screenscraper": [219],
+      "igdb": [417]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "img",
-      "pdb",
-      "pqa",
-      "prc"
-    ],
+    "filetypes": ["img", "pdb", "pqa", "prc"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -5291,29 +4506,17 @@
       }
     ]
   },
-  {
+  "cdimono1": {
     "id": "cdimono1",
     "name": "Philips CD-i",
     "external_ids": {
-      "retroachievements": [
-        42
-      ],
-      "screenscraper": [
-        133
-      ],
-      "igdb": [
-        117
-      ],
-      "thegamesdb": [
-        4917
-      ]
+      "retroachievements": [42],
+      "screenscraper": [133],
+      "igdb": [117],
+      "thegamesdb": [4917]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "chd",
-      "cue",
-      "iso"
-    ],
+    "filetypes": ["chd", "cue", "iso"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -5335,20 +4538,14 @@
       }
     ]
   },
-  {
+  "videopac": {
     "id": "videopac",
     "name": "Philips Videopac G7000",
     "external_ids": {
-      "screenscraper": [
-        104
-      ]
+      "screenscraper": [104]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "bin",
-      "zip"
-    ],
+    "filetypes": ["7z", "bin", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -5370,50 +4567,29 @@
       }
     ]
   },
-  {
+  "psp": {
     "id": "psp",
     "name": "Sony PlayStation Portable",
     "external_ids": {
-      "retroachievements": [
-        41
-      ],
-      "screenscraper": [
-        61
-      ],
-      "igdb": [
-        38
-      ],
-      "thegamesdb": [
-        13
-      ]
+      "retroachievements": [41],
+      "screenscraper": [61],
+      "igdb": [38],
+      "thegamesdb": [13]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "chd",
-      "cso",
-      "elf",
-      "iso",
-      "pbp",
-      "prx"
-    ],
+    "filetypes": ["chd", "cso", "elf", "iso", "pbp", "prx"],
     "emulators": [
       {
         "id": "org.ppsspp.ppsspp",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.ppsspp.ppssppgold",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.ppsspp.ppsspplegacy",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -5435,47 +4611,28 @@
       }
     ]
   },
-  {
+  "pspminis": {
     "id": "pspminis",
     "name": "PlayStation Portable Minis",
     "external_ids": {
-      "screenscraper": [
-        61
-      ],
-      "igdb": [
-        38
-      ],
-      "thegamesdb": [
-        13
-      ]
+      "screenscraper": [61],
+      "igdb": [38],
+      "thegamesdb": [13]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "chd",
-      "cso",
-      "elf",
-      "iso",
-      "pbp",
-      "prx"
-    ],
+    "filetypes": ["chd", "cso", "elf", "iso", "pbp", "prx"],
     "emulators": [
       {
         "id": "org.ppsspp.ppsspp",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.ppsspp.ppssppgold",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "org.ppsspp.ppsspplegacy",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -5497,29 +4654,17 @@
       }
     ]
   },
-  {
+  "pokemini": {
     "id": "pokemini",
     "name": "Nintendo Pokémon Mini",
     "external_ids": {
-      "retroachievements": [
-        24
-      ],
-      "screenscraper": [
-        211
-      ],
-      "igdb": [
-        166
-      ],
-      "thegamesdb": [
-        4957
-      ]
+      "retroachievements": [24],
+      "screenscraper": [211],
+      "igdb": [166],
+      "thegamesdb": [4957]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "min",
-      "zip"
-    ],
+    "filetypes": ["7z", "min", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -5541,14 +4686,12 @@
       }
     ]
   },
-  {
+  "quake": {
     "id": "quake",
     "name": "Quake",
     "external_ids": {},
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "pak"
-    ],
+    "filetypes": ["pak"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -5570,14 +4713,12 @@
       }
     ]
   },
-  {
+  "quake2": {
     "id": "quake2",
     "name": "Quake II Game Engine",
     "external_ids": {},
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "pak"
-    ],
+    "filetypes": ["pak"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -5653,16 +4794,12 @@
       }
     ]
   },
-  {
+  "rpgmaker": {
     "id": "rpgmaker",
     "name": "RPG Maker",
     "external_ids": {},
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "easyrpg",
-      "ldb",
-      "zip"
-    ],
+    "filetypes": ["easyrpg", "ldb", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -5684,33 +4821,22 @@
       }
     ]
   },
-  {
+  "scummvm": {
     "id": "scummvm",
     "name": "ScummVM Game Engine",
     "external_ids": {
-      "screenscraper": [
-        123
-      ]
+      "screenscraper": [123]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "dpt",
-      "scummvm",
-      "sh",
-      "svm"
-    ],
+    "filetypes": ["dpt", "scummvm", "sh", "svm"],
     "emulators": [
       {
         "id": "org.scummvm.scummvm",
-        "args": [
-          "{tags.scummvm_id}"
-        ]
+        "args": ["{tags.scummvm_id}"]
       },
       {
         "id": "org.scummvm.scummvm.debug",
-        "args": [
-          "{tags.scummvm_id}"
-        ]
+        "args": ["{tags.scummvm_id}"]
       },
       {
         "id": "com.retroarch",
@@ -5732,22 +4858,14 @@
       }
     ]
   },
-  {
+  "sega32x": {
     "id": "sega32x",
     "name": "Sega Mega Drive 32X",
     "external_ids": {
-      "retroachievements": [
-        10
-      ],
-      "screenscraper": [
-        19
-      ],
-      "igdb": [
-        30
-      ],
-      "thegamesdb": [
-        33
-      ]
+      "retroachievements": [10],
+      "screenscraper": [19],
+      "igdb": [30],
+      "thegamesdb": [33]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -5789,22 +4907,14 @@
       }
     ]
   },
-  {
+  "segacd": {
     "id": "segacd",
     "name": "Sega CD",
     "external_ids": {
-      "retroachievements": [
-        9
-      ],
-      "screenscraper": [
-        20
-      ],
-      "igdb": [
-        78
-      ],
-      "thegamesdb": [
-        21
-      ]
+      "retroachievements": [9],
+      "screenscraper": [20],
+      "igdb": [78],
+      "thegamesdb": [21]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
     "filetypes": [
@@ -5831,9 +4941,7 @@
     "emulators": [
       {
         "id": "com.explusalpha.MdEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -5891,22 +4999,14 @@
       }
     ]
   },
-  {
+  "gamegear": {
     "id": "gamegear",
     "name": "Sega Game Gear",
     "external_ids": {
-      "retroachievements": [
-        15
-      ],
-      "screenscraper": [
-        21
-      ],
-      "igdb": [
-        35
-      ],
-      "thegamesdb": [
-        20
-      ]
+      "retroachievements": [15],
+      "screenscraper": [21],
+      "igdb": [35],
+      "thegamesdb": [20]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -5935,15 +5035,11 @@
     "emulators": [
       {
         "id": "com.androidemu.gg",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.fms.mg",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "it.dbtecno.pizzaboyscpro",
@@ -6046,22 +5142,14 @@
       }
     ]
   },
-  {
+  "genesis": {
     "id": "genesis",
     "name": "Sega Genesis",
     "external_ids": {
-      "retroachievements": [
-        1
-      ],
-      "screenscraper": [
-        1
-      ],
-      "igdb": [
-        29
-      ],
-      "thegamesdb": [
-        18
-      ]
+      "retroachievements": [1],
+      "screenscraper": [1],
+      "igdb": [29],
+      "thegamesdb": [18]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -6088,15 +5176,11 @@
     "emulators": [
       {
         "id": "com.explusalpha.MdEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.androidemu.gens",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "it.dbtecno.pizzaboyscpro",
@@ -6163,29 +5247,17 @@
       }
     ]
   },
-  {
+  "genesismsu": {
     "id": "genesismsu",
     "name": "Sega Genesis - MSU",
     "external_ids": {
-      "retroachievements": [
-        1
-      ],
-      "screenscraper": [
-        1
-      ],
-      "igdb": [
-        29
-      ],
-      "thegamesdb": [
-        18
-      ]
+      "retroachievements": [1],
+      "screenscraper": [1],
+      "igdb": [29],
+      "thegamesdb": [18]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "md",
-      "zip"
-    ],
+    "filetypes": ["7z", "md", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -6225,22 +5297,14 @@
       }
     ]
   },
-  {
+  "mastersystem": {
     "id": "mastersystem",
     "name": "Sega Master System",
     "external_ids": {
-      "retroachievements": [
-        11
-      ],
-      "screenscraper": [
-        2
-      ],
-      "igdb": [
-        64
-      ],
-      "thegamesdb": [
-        35
-      ]
+      "retroachievements": [11],
+      "screenscraper": [2],
+      "igdb": [64],
+      "thegamesdb": [35]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -6269,9 +5333,7 @@
     "emulators": [
       {
         "id": "com.explusalpha.MdEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "it.dbtecno.pizzaboyscpro",
@@ -6374,36 +5436,23 @@
       }
     ]
   },
-  {
+  "naomi": {
     "id": "naomi",
     "name": "Sega NAOMI",
     "external_ids": {
-      "retroachievements": [
-        27
-      ],
-      "screenscraper": [
-        56
-      ]
+      "retroachievements": [27],
+      "screenscraper": [56]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bin|chd)$",
-    "filetypes": [
-      "7z",
-      "dat",
-      "lst",
-      "zip"
-    ],
+    "filetypes": ["7z", "dat", "lst", "zip"],
     "emulators": [
       {
         "id": "com.flycast.emulator",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.flycast.emulator",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -6425,29 +5474,17 @@
       }
     ]
   },
-  {
+  "pico": {
     "id": "pico",
     "name": "Sega Pico",
     "external_ids": {
-      "retroachievements": [
-        68
-      ],
-      "screenscraper": [
-        250
-      ],
-      "igdb": [
-        339
-      ],
-      "thegamesdb": [
-        4958
-      ]
+      "retroachievements": [68],
+      "screenscraper": [250],
+      "igdb": [339],
+      "thegamesdb": [4958]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "md",
-      "zip"
-    ],
+    "filetypes": ["7z", "md", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -6469,22 +5506,14 @@
       }
     ]
   },
-  {
+  "sg-1000": {
     "id": "sg-1000",
     "name": "Sega SG-1000",
     "external_ids": {
-      "retroachievements": [
-        33
-      ],
-      "screenscraper": [
-        109
-      ],
-      "igdb": [
-        84
-      ],
-      "thegamesdb": [
-        4949
-      ]
+      "retroachievements": [33],
+      "screenscraper": [109],
+      "igdb": [84],
+      "thegamesdb": [4949]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -6543,22 +5572,14 @@
       }
     ]
   },
-  {
+  "saturn": {
     "id": "saturn",
     "name": "Sega Saturn",
     "external_ids": {
-      "retroachievements": [
-        39
-      ],
-      "screenscraper": [
-        22
-      ],
-      "igdb": [
-        32
-      ],
-      "thegamesdb": [
-        17
-      ]
+      "retroachievements": [39],
+      "screenscraper": [22],
+      "igdb": [32],
+      "thegamesdb": [17]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
     "filetypes": [
@@ -6611,9 +5632,7 @@
       },
       {
         "id": "com.explusalpha.SaturnEmu",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -6671,22 +5690,14 @@
       }
     ]
   },
-  {
+  "x1": {
     "id": "x1",
     "name": "Sharp X1",
     "external_ids": {
-      "retroachievements": [
-        64
-      ],
-      "screenscraper": [
-        220
-      ],
-      "igdb": [
-        77
-      ],
-      "thegamesdb": [
-        4977
-      ]
+      "retroachievements": [64],
+      "screenscraper": [220],
+      "igdb": [77],
+      "thegamesdb": [4977]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -6725,22 +5736,14 @@
       }
     ]
   },
-  {
+  "x68000": {
     "id": "x68000",
     "name": "Sharp X68000",
     "external_ids": {
-      "retroachievements": [
-        52
-      ],
-      "screenscraper": [
-        79
-      ],
-      "igdb": [
-        121
-      ],
-      "thegamesdb": [
-        4931
-      ]
+      "retroachievements": [52],
+      "screenscraper": [79],
+      "igdb": [121],
+      "thegamesdb": [4931]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -6779,24 +5782,16 @@
       }
     ]
   },
-  {
+  "psvita": {
     "id": "psvita",
     "name": "Sony PlayStation Vita",
     "external_ids": {
-      "screenscraper": [
-        62
-      ],
-      "igdb": [
-        46
-      ],
-      "thegamesdb": [
-        39
-      ]
+      "screenscraper": [62],
+      "igdb": [46],
+      "thegamesdb": [39]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "dpt"
-    ],
+    "filetypes": ["dpt"],
     "emulators": [
       {
         "id": "org.vita3k.emulator"
@@ -6806,22 +5801,14 @@
       }
     ]
   },
-  {
+  "psx": {
     "id": "psx",
     "name": "Sony PlayStation",
     "external_ids": {
-      "retroachievements": [
-        12
-      ],
-      "screenscraper": [
-        57
-      ],
-      "igdb": [
-        7
-      ],
-      "thegamesdb": [
-        10
-      ]
+      "retroachievements": [12],
+      "screenscraper": [57],
+      "igdb": [7],
+      "thegamesdb": [10]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
     "filetypes": [
@@ -6863,15 +5850,11 @@
       },
       {
         "id": "com.emulator.fpse",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.emulator.fpse64",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.epsxe.ePSXe",
@@ -6974,22 +5957,14 @@
       }
     ]
   },
-  {
+  "ps2": {
     "id": "ps2",
     "name": "Sony PlayStation 2",
     "external_ids": {
-      "retroachievements": [
-        21
-      ],
-      "screenscraper": [
-        58
-      ],
-      "igdb": [
-        8
-      ],
-      "thegamesdb": [
-        11
-      ]
+      "retroachievements": [21],
+      "screenscraper": [58],
+      "igdb": [8],
+      "thegamesdb": [11]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -7025,15 +6000,11 @@
       },
       {
         "id": "come.nanodata.armsx2",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "come.nanodata.armsx2.debug",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -7055,25 +6026,16 @@
       }
     ]
   },
-  {
+  "ps3": {
     "id": "ps3",
     "name": "Sony PlayStation 3",
     "external_ids": {
-      "screenscraper": [
-        59
-      ],
-      "igdb": [
-        9
-      ],
-      "thegamesdb": [
-        12
-      ]
+      "screenscraper": [59],
+      "igdb": [9],
+      "thegamesdb": [12]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "iso",
-      "ps3folder"
-    ],
+    "filetypes": ["iso", "ps3folder"],
     "emulators": [
       {
         "id": "aenu.aps3e",
@@ -7095,24 +6057,16 @@
       }
     ]
   },
-  {
+  "steam": {
     "id": "steam",
     "name": "Valve Steam",
     "external_ids": {
-      "screenscraper": [
-        138
-      ],
-      "igdb": [
-        6
-      ],
-      "thegamesdb": [
-        1
-      ]
+      "screenscraper": [138],
+      "igdb": [6],
+      "thegamesdb": [1]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "steamappid"
-    ],
+    "filetypes": ["steamappid"],
     "emulators": [
       {
         "id": "gamehub.lite"
@@ -7134,35 +6088,19 @@
       }
     ]
   },
-  {
+  "supergrafx": {
     "id": "supergrafx",
     "name": "NEC SuperGrafx",
     "external_ids": {
-      "screenscraper": [
-        105
-      ],
-      "igdb": [
-        128
-      ]
+      "screenscraper": [105],
+      "igdb": [128]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "ccd",
-      "chd",
-      "cue",
-      "m3u",
-      "pce",
-      "sgx",
-      "toc",
-      "zip"
-    ],
+    "filetypes": ["7z", "ccd", "chd", "cue", "m3u", "pce", "sgx", "toc", "zip"],
     "emulators": [
       {
         "id": "com.PceEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -7202,22 +6140,14 @@
       }
     ]
   },
-  {
+  "snes": {
     "id": "snes",
     "name": "Nintendo SNES (Super Nintendo)",
     "external_ids": {
-      "retroachievements": [
-        3
-      ],
-      "screenscraper": [
-        4
-      ],
-      "igdb": [
-        19
-      ],
-      "thegamesdb": [
-        7
-      ]
+      "retroachievements": [3],
+      "screenscraper": [4],
+      "igdb": [19],
+      "thegamesdb": [7]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bml)$",
     "filetypes": [
@@ -7241,9 +6171,7 @@
     "emulators": [
       {
         "id": "com.explusalpha.Snes9xPlus",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -7589,22 +6517,14 @@
       }
     ]
   },
-  {
+  "snesmsu1": {
     "id": "snesmsu1",
     "name": "Super Nintendo Entertainment System - MSU-1",
     "external_ids": {
-      "retroachievements": [
-        3
-      ],
-      "screenscraper": [
-        4
-      ],
-      "igdb": [
-        19
-      ],
-      "thegamesdb": [
-        6
-      ]
+      "retroachievements": [3],
+      "screenscraper": [4],
+      "igdb": [19],
+      "thegamesdb": [6]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bml)$",
     "filetypes": [
@@ -7628,9 +6548,7 @@
     "emulators": [
       {
         "id": "com.explusalpha.Snes9xPlus",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -7706,21 +6624,15 @@
       }
     ]
   },
-  {
+  "tic80": {
     "id": "tic80",
     "name": "TIC-80 Fantasy Computer",
     "external_ids": {
-      "retroachievements": [
-        65
-      ],
-      "screenscraper": [
-        222
-      ]
+      "retroachievements": [65],
+      "screenscraper": [222]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "tic"
-    ],
+    "filetypes": ["tic"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -7742,41 +6654,21 @@
       }
     ]
   },
-  {
+  "tg16": {
     "id": "tg16",
     "name": "NEC TurboGrafx-16",
     "external_ids": {
-      "retroachievements": [
-        8
-      ],
-      "screenscraper": [
-        31
-      ],
-      "igdb": [
-        86
-      ],
-      "thegamesdb": [
-        34
-      ]
+      "retroachievements": [8],
+      "screenscraper": [31],
+      "igdb": [86],
+      "thegamesdb": [34]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "ccd",
-      "chd",
-      "cue",
-      "m3u",
-      "pce",
-      "sgx",
-      "toc",
-      "zip"
-    ],
+    "filetypes": ["7z", "ccd", "chd", "cue", "m3u", "pce", "sgx", "toc", "zip"],
     "emulators": [
       {
         "id": "com.PceEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -7816,38 +6708,20 @@
       }
     ]
   },
-  {
+  "tg-cd": {
     "id": "tg-cd",
     "name": "NEC TurboGrafx-CD",
     "external_ids": {
-      "retroachievements": [
-        76
-      ],
-      "screenscraper": [
-        114
-      ],
-      "thegamesdb": [
-        4955
-      ]
+      "retroachievements": [76],
+      "screenscraper": [114],
+      "thegamesdb": [4955]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "ccd",
-      "chd",
-      "cue",
-      "m3u",
-      "pce",
-      "sgx",
-      "toc",
-      "zip"
-    ],
+    "filetypes": ["7z", "ccd", "chd", "cue", "m3u", "pce", "sgx", "toc", "zip"],
     "emulators": [
       {
         "id": "com.PceEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -7887,26 +6761,16 @@
       }
     ]
   },
-  {
+  "uzebox": {
     "id": "uzebox",
     "name": "Uzebox Open Source Console",
     "external_ids": {
-      "retroachievements": [
-        80
-      ],
-      "screenscraper": [
-        216
-      ],
-      "igdb": [
-        504
-      ]
+      "retroachievements": [80],
+      "screenscraper": [216],
+      "igdb": [504]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "uze",
-      "zip"
-    ],
+    "filetypes": ["7z", "uze", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -7928,22 +6792,14 @@
       }
     ]
   },
-  {
+  "vic20": {
     "id": "vic20",
     "name": "Commodore VIC-20",
     "external_ids": {
-      "retroachievements": [
-        34
-      ],
-      "screenscraper": [
-        73
-      ],
-      "igdb": [
-        71
-      ],
-      "thegamesdb": [
-        4945
-      ]
+      "retroachievements": [34],
+      "screenscraper": [73],
+      "igdb": [71],
+      "thegamesdb": [4945]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
     "filetypes": [
@@ -8005,30 +6861,17 @@
       }
     ]
   },
-  {
+  "vectrex": {
     "id": "vectrex",
     "name": "GCE Vectrex",
     "external_ids": {
-      "retroachievements": [
-        46
-      ],
-      "screenscraper": [
-        102
-      ],
-      "igdb": [
-        70
-      ],
-      "thegamesdb": [
-        4939
-      ]
+      "retroachievements": [46],
+      "screenscraper": [102],
+      "igdb": [70],
+      "thegamesdb": [4939]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "bin",
-      "vec",
-      "zip"
-    ],
+    "filetypes": ["7z", "bin", "vec", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -8050,45 +6893,28 @@
       }
     ]
   },
-  {
+  "videos": {
     "id": "videos",
     "name": "Video Player",
     "external_ids": {},
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "avi",
-      "m4a",
-      "mkv",
-      "mov",
-      "mp4",
-      "mpeg",
-      "mpg",
-      "webm"
-    ],
+    "filetypes": ["avi", "m4a", "mkv", "mov", "mp4", "mpeg", "mpg", "webm"],
     "emulators": [
       {
         "id": "org.videolan.vlc",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "is.xyz.mpv",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.mxtech.videoplayer.ad",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.mxtech.videoplayer.pro",
-        "args": [
-          "{rom.path}"
-        ]
+        "args": ["{rom.path}"]
       },
       {
         "id": "com.retroarch",
@@ -8110,37 +6936,21 @@
       }
     ]
   },
-  {
+  "virtualboy": {
     "id": "virtualboy",
     "name": "Nintendo Virtual Boy",
     "external_ids": {
-      "retroachievements": [
-        28
-      ],
-      "screenscraper": [
-        11
-      ],
-      "igdb": [
-        87
-      ],
-      "thegamesdb": [
-        4918
-      ]
+      "retroachievements": [28],
+      "screenscraper": [11],
+      "igdb": [87],
+      "thegamesdb": [4918]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "bin",
-      "vb",
-      "vboy",
-      "zip"
-    ],
+    "filetypes": ["7z", "bin", "vb", "vboy", "zip"],
     "emulators": [
       {
         "id": "com.simongellis.vvb",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -8162,21 +6972,15 @@
       }
     ]
   },
-  {
+  "wasm4": {
     "id": "wasm4",
     "name": "WASM-4 Fantasy Console",
     "external_ids": {
-      "retroachievements": [
-        72
-      ],
-      "screenscraper": [
-        262
-      ]
+      "retroachievements": [72],
+      "screenscraper": [262]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "wasm"
-    ],
+    "filetypes": ["wasm"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -8198,30 +7002,17 @@
       }
     ]
   },
-  {
+  "supervision": {
     "id": "supervision",
     "name": "Watara Supervision",
     "external_ids": {
-      "retroachievements": [
-        63
-      ],
-      "screenscraper": [
-        207
-      ],
-      "igdb": [
-        415
-      ],
-      "thegamesdb": [
-        4959
-      ]
+      "retroachievements": [63],
+      "screenscraper": [207],
+      "igdb": [415],
+      "thegamesdb": [4959]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "bin",
-      "sv",
-      "zip"
-    ],
+    "filetypes": ["7z", "bin", "sv", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -8243,26 +7034,16 @@
       }
     ]
   },
-  {
+  "windows": {
     "id": "windows",
     "name": "Microsoft Windows",
     "external_ids": {
-      "screenscraper": [
-        138
-      ],
-      "igdb": [
-        6
-      ],
-      "thegamesdb": [
-        1
-      ]
+      "screenscraper": [138],
+      "igdb": [6],
+      "thegamesdb": [1]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "desktop",
-      "lnk",
-      "localgameid"
-    ],
+    "filetypes": ["desktop", "lnk", "localgameid"],
     "emulators": [
       {
         "id": "com.winlator.cmod",
@@ -8314,37 +7095,21 @@
       }
     ]
   },
-  {
+  "wonderswan": {
     "id": "wonderswan",
     "name": "Bandai WonderSwan",
     "external_ids": {
-      "retroachievements": [
-        53
-      ],
-      "screenscraper": [
-        45
-      ],
-      "igdb": [
-        57
-      ],
-      "thegamesdb": [
-        4925
-      ]
+      "retroachievements": [53],
+      "screenscraper": [45],
+      "igdb": [57],
+      "thegamesdb": [4925]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "pc2",
-      "ws",
-      "wsc",
-      "zip"
-    ],
+    "filetypes": ["7z", "pc2", "ws", "wsc", "zip"],
     "emulators": [
       {
         "id": "com.explusalpha.SwanEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -8366,34 +7131,20 @@
       }
     ]
   },
-  {
+  "wonderswancolor": {
     "id": "wonderswancolor",
     "name": "Bandai WonderSwan Color",
     "external_ids": {
-      "screenscraper": [
-        46
-      ],
-      "igdb": [
-        123
-      ],
-      "thegamesdb": [
-        4926
-      ]
+      "screenscraper": [46],
+      "igdb": [123],
+      "thegamesdb": [4926]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "pc2",
-      "ws",
-      "wsc",
-      "zip"
-    ],
+    "filetypes": ["7z", "pc2", "ws", "wsc", "zip"],
     "emulators": [
       {
         "id": "com.explusalpha.SwanEmu",
-        "args": [
-          "{rom.uri}"
-        ]
+        "args": ["{rom.uri}"]
       },
       {
         "id": "com.retroarch",
@@ -8415,45 +7166,29 @@
       }
     ]
   },
-  {
+  "xcloud": {
     "id": "xcloud",
     "name": "XBox Game Pass",
     "external_ids": {},
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "xcloud"
-    ],
+    "filetypes": ["xcloud"],
     "emulators": [
       {
         "id": "com.studio08.xbgamestream"
       }
     ]
   },
-  {
+  "zx81": {
     "id": "zx81",
     "name": "Sinclair ZX81",
     "external_ids": {
-      "retroachievements": [
-        31
-      ],
-      "screenscraper": [
-        77
-      ],
-      "igdb": [
-        373
-      ],
-      "thegamesdb": [
-        5010
-      ]
+      "retroachievements": [31],
+      "screenscraper": [77],
+      "igdb": [373],
+      "thegamesdb": [5010]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "p",
-      "t81",
-      "tzx",
-      "zip"
-    ],
+    "filetypes": ["7z", "p", "t81", "tzx", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -8475,35 +7210,17 @@
       }
     ]
   },
-  {
+  "zxspectrum": {
     "id": "zxspectrum",
     "name": "Sinclair ZX Spectrum",
     "external_ids": {
-      "retroachievements": [
-        59
-      ],
-      "screenscraper": [
-        76
-      ],
-      "igdb": [
-        26
-      ],
-      "thegamesdb": [
-        4913
-      ]
+      "retroachievements": [59],
+      "screenscraper": [76],
+      "igdb": [26],
+      "thegamesdb": [4913]
     },
     "fileRegex": "^(?!(?:\\._|\\.).*).*$",
-    "filetypes": [
-      "7z",
-      "dsk",
-      "rzx",
-      "scl",
-      "tap",
-      "trd",
-      "tzx",
-      "z80",
-      "zip"
-    ],
+    "filetypes": ["7z", "dsk", "rzx", "scl", "tap", "trd", "tzx", "z80", "zip"],
     "emulators": [
       {
         "id": "com.retroarch",
@@ -8525,4 +7242,4 @@
       }
     ]
   }
-]
+}

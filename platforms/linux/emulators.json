@@ -1,5 +1,5 @@
-[
-  {
+{
+  "a7800": {
     "id": "a7800",
     "name": "A7800",
     "executables": {
@@ -11,7 +11,7 @@
       ]
     }
   },
-  {
+  "ace-dl": {
     "id": "ace-dl",
     "name": "Ace-Dl",
     "executables": {
@@ -24,7 +24,7 @@
       ]
     }
   },
-  {
+  "advancemame": {
     "id": "advancemame",
     "name": "Advancemame",
     "executables": {
@@ -37,7 +37,7 @@
       ]
     }
   },
-  {
+  "amiberry": {
     "id": "amiberry",
     "name": "Amiberry",
     "executables": {
@@ -50,7 +50,7 @@
       ]
     }
   },
-  {
+  "ares": {
     "id": "ares",
     "name": "Ares",
     "executables": {
@@ -65,14 +65,14 @@
       ]
     }
   },
-  {
+  "atari800": {
     "id": "atari800",
     "name": "Atari800",
     "executables": {
       "systempath": ["atari800", "atari800-jz.atari800"]
     }
   },
-  {
+  "azahar": {
     "id": "azahar",
     "name": "Azahar",
     "executables": {
@@ -91,7 +91,7 @@
       ]
     }
   },
-  {
+  "azaharplus": {
     "id": "azaharplus",
     "name": "Azaharplus",
     "executables": {
@@ -103,7 +103,7 @@
       ]
     }
   },
-  {
+  "basiliskii": {
     "id": "basiliskii",
     "name": "Basiliskii",
     "executables": {
@@ -118,7 +118,7 @@
       ]
     }
   },
-  {
+  "bigpemu": {
     "id": "bigpemu",
     "name": "Bigpemu",
     "executables": {
@@ -131,7 +131,7 @@
       ]
     }
   },
-  {
+  "blastem": {
     "id": "blastem",
     "name": "Blastem",
     "executables": {
@@ -146,7 +146,7 @@
       ]
     }
   },
-  {
+  "bsnes": {
     "id": "bsnes",
     "name": "Bsnes",
     "executables": {
@@ -157,7 +157,7 @@
       ]
     }
   },
-  {
+  "cemu": {
     "id": "cemu",
     "name": "Cemu",
     "executables": {
@@ -176,7 +176,7 @@
       ]
     }
   },
-  {
+  "citra": {
     "id": "citra",
     "name": "Citra",
     "executables": {
@@ -193,7 +193,7 @@
       ]
     }
   },
-  {
+  "colem": {
     "id": "colem",
     "name": "Colem",
     "executables": {
@@ -206,7 +206,7 @@
       ]
     }
   },
-  {
+  "cpcemu": {
     "id": "cpcemu",
     "name": "Cpcemu",
     "executables": {
@@ -219,7 +219,7 @@
       ]
     }
   },
-  {
+  "desmume": {
     "id": "desmume",
     "name": "Desmume",
     "executables": {
@@ -234,7 +234,7 @@
       ]
     }
   },
-  {
+  "dolphin": {
     "id": "dolphin",
     "name": "Dolphin",
     "executables": {
@@ -253,7 +253,7 @@
       ]
     }
   },
-  {
+  "dosbox-pure-unleashed": {
     "id": "dosbox-pure-unleashed",
     "name": "Dosbox-Pure-Unleashed",
     "executables": {
@@ -266,7 +266,7 @@
       ]
     }
   },
-  {
+  "dosbox-staging": {
     "id": "dosbox-staging",
     "name": "Dosbox-Staging",
     "executables": {
@@ -277,7 +277,7 @@
       ]
     }
   },
-  {
+  "dosbox-x": {
     "id": "dosbox-x",
     "name": "Dosbox-X",
     "executables": {
@@ -288,7 +288,7 @@
       ]
     }
   },
-  {
+  "dreamm": {
     "id": "dreamm",
     "name": "Dreamm",
     "executables": {
@@ -301,7 +301,7 @@
       ]
     }
   },
-  {
+  "duckstation": {
     "id": "duckstation",
     "name": "Duckstation",
     "executables": {
@@ -329,7 +329,7 @@
       ]
     }
   },
-  {
+  "easyrpg": {
     "id": "easyrpg",
     "name": "Easyrpg",
     "executables": {
@@ -344,7 +344,7 @@
       ]
     }
   },
-  {
+  "eka2l1": {
     "id": "eka2l1",
     "name": "Eka2L1",
     "executables": {
@@ -357,7 +357,7 @@
       ]
     }
   },
-  {
+  "finalburn-neo": {
     "id": "finalburn-neo",
     "name": "Finalburn-Neo",
     "executables": {
@@ -370,7 +370,7 @@
       ]
     }
   },
-  {
+  "flycast": {
     "id": "flycast",
     "name": "Flycast",
     "executables": {
@@ -385,7 +385,7 @@
       ]
     }
   },
-  {
+  "flycast-dojo": {
     "id": "flycast-dojo",
     "name": "Flycast-Dojo",
     "executables": {
@@ -398,7 +398,7 @@
       ]
     }
   },
-  {
+  "fs-uae": {
     "id": "fs-uae",
     "name": "Fs-Uae",
     "executables": {
@@ -413,7 +413,7 @@
       ]
     }
   },
-  {
+  "fuse": {
     "id": "fuse",
     "name": "Fuse",
     "executables": {
@@ -424,7 +424,7 @@
       ]
     }
   },
-  {
+  "gargoyle": {
     "id": "gargoyle",
     "name": "Gargoyle",
     "executables": {
@@ -439,7 +439,7 @@
       ]
     }
   },
-  {
+  "gearboy": {
     "id": "gearboy",
     "name": "Gearboy",
     "executables": {
@@ -452,7 +452,7 @@
       ]
     }
   },
-  {
+  "gopher2600": {
     "id": "gopher2600",
     "name": "Gopher2600",
     "executables": {
@@ -464,7 +464,7 @@
       ]
     }
   },
-  {
+  "gopher64": {
     "id": "gopher64",
     "name": "Gopher64",
     "executables": {
@@ -479,7 +479,7 @@
       ]
     }
   },
-  {
+  "hatari": {
     "id": "hatari",
     "name": "Hatari",
     "executables": {
@@ -490,7 +490,7 @@
       ]
     }
   },
-  {
+  "hypseus-singe": {
     "id": "hypseus-singe",
     "name": "Hypseus-Singe",
     "executables": {
@@ -503,7 +503,7 @@
       ]
     }
   },
-  {
+  "izapple2": {
     "id": "izapple2",
     "name": "Izapple2",
     "executables": {
@@ -515,7 +515,7 @@
       ]
     }
   },
-  {
+  "jgenesis": {
     "id": "jgenesis",
     "name": "Jgenesis",
     "executables": {
@@ -527,7 +527,7 @@
       ]
     }
   },
-  {
+  "kegs": {
     "id": "kegs",
     "name": "Kegs",
     "executables": {
@@ -540,7 +540,7 @@
       ]
     }
   },
-  {
+  "kronos": {
     "id": "kronos",
     "name": "Kronos",
     "executables": {
@@ -553,7 +553,7 @@
       ]
     }
   },
-  {
+  "lightspark": {
     "id": "lightspark",
     "name": "Lightspark",
     "executables": {
@@ -566,7 +566,7 @@
       ]
     }
   },
-  {
+  "lime3ds": {
     "id": "lime3ds",
     "name": "Lime3Ds",
     "executables": {
@@ -593,7 +593,7 @@
       ]
     }
   },
-  {
+  "linapple": {
     "id": "linapple",
     "name": "Linapple",
     "executables": {
@@ -606,7 +606,7 @@
       ]
     }
   },
-  {
+  "lindbergh-loader": {
     "id": "lindbergh-loader",
     "name": "Lindbergh-Loader",
     "executables": {
@@ -625,7 +625,7 @@
       ]
     }
   },
-  {
+  "mame": {
     "id": "mame",
     "name": "MAME",
     "executables": {
@@ -640,7 +640,7 @@
       ]
     }
   },
-  {
+  "mandarine": {
     "id": "mandarine",
     "name": "Mandarine",
     "executables": {
@@ -653,7 +653,7 @@
       ]
     }
   },
-  {
+  "mednafen": {
     "id": "mednafen",
     "name": "Mednafen",
     "executables": {
@@ -664,7 +664,7 @@
       ]
     }
   },
-  {
+  "melonds": {
     "id": "melonds",
     "name": "Melonds",
     "executables": {
@@ -679,7 +679,7 @@
       ]
     }
   },
-  {
+  "mesen": {
     "id": "mesen",
     "name": "Mesen",
     "executables": {
@@ -696,7 +696,7 @@
       ]
     }
   },
-  {
+  "mgba": {
     "id": "mgba",
     "name": "Mgba",
     "executables": {
@@ -711,7 +711,7 @@
       ]
     }
   },
-  {
+  "mupen64plus": {
     "id": "mupen64plus",
     "name": "Mupen64Plus",
     "executables": {
@@ -722,7 +722,7 @@
       ]
     }
   },
-  {
+  "nestopia-ue": {
     "id": "nestopia-ue",
     "name": "Nestopia-Ue",
     "executables": {
@@ -733,14 +733,14 @@
       ]
     }
   },
-  {
+  "noods": {
     "id": "noods",
     "name": "Noods",
     "executables": {
       "systempath": ["noods"]
     }
   },
-  {
+  "openmsx": {
     "id": "openmsx",
     "name": "Openmsx",
     "executables": {
@@ -751,7 +751,7 @@
       ]
     }
   },
-  {
+  "oricutron": {
     "id": "oricutron",
     "name": "Oricutron",
     "executables": {
@@ -764,14 +764,14 @@
       ]
     }
   },
-  {
+  "os-shell": {
     "id": "os-shell",
     "name": "OS Shell",
     "executables": {
       "systempath": ["bash", "sh"]
     }
   },
-  {
+  "panda3ds": {
     "id": "panda3ds",
     "name": "Panda3Ds",
     "executables": {
@@ -784,7 +784,7 @@
       ]
     }
   },
-  {
+  "parallel-launcher": {
     "id": "parallel-launcher",
     "name": "Parallel-Launcher",
     "executables": {
@@ -798,7 +798,7 @@
       ]
     }
   },
-  {
+  "pcsx2": {
     "id": "pcsx2",
     "name": "Pcsx2",
     "executables": {
@@ -813,7 +813,7 @@
       ]
     }
   },
-  {
+  "pcsx2-legacy": {
     "id": "pcsx2-legacy",
     "name": "Pcsx2-Legacy",
     "executables": {
@@ -824,7 +824,7 @@
       ]
     }
   },
-  {
+  "pico-8": {
     "id": "pico-8",
     "name": "Pico-8",
     "executables": {
@@ -837,14 +837,14 @@
       ]
     }
   },
-  {
+  "plastic": {
     "id": "plastic",
     "name": "Plastic",
     "executables": {
       "systempath": ["plastic"]
     }
   },
-  {
+  "play!": {
     "id": "play!",
     "name": "Play!",
     "executables": {
@@ -859,7 +859,7 @@
       ]
     }
   },
-  {
+  "ppsspp": {
     "id": "ppsspp",
     "name": "Ppsspp",
     "executables": {
@@ -880,14 +880,14 @@
       ]
     }
   },
-  {
+  "prboom-plus": {
     "id": "prboom-plus",
     "name": "Prboom-Plus",
     "executables": {
       "systempath": ["prboom-plus"]
     }
   },
-  {
+  "primehack": {
     "id": "primehack",
     "name": "Primehack",
     "executables": {
@@ -898,7 +898,7 @@
       ]
     }
   },
-  {
+  "proton": {
     "id": "proton",
     "name": "Proton",
     "executables": {
@@ -910,7 +910,7 @@
       ]
     }
   },
-  {
+  "punes": {
     "id": "punes",
     "name": "Punes",
     "executables": {
@@ -925,7 +925,7 @@
       ]
     }
   },
-  {
+  "quasi88": {
     "id": "quasi88",
     "name": "Quasi88",
     "executables": {
@@ -938,7 +938,7 @@
       ]
     }
   },
-  {
+  "redream": {
     "id": "redream",
     "name": "Redream",
     "executables": {
@@ -951,7 +951,7 @@
       ]
     }
   },
-  {
+  "rosalies-mupen-gui": {
     "id": "rosalies-mupen-gui",
     "name": "Rosalies-Mupen-Gui",
     "executables": {
@@ -966,7 +966,7 @@
       ]
     }
   },
-  {
+  "rpcs3": {
     "id": "rpcs3",
     "name": "Rpcs3",
     "executables": {
@@ -981,7 +981,7 @@
       ]
     }
   },
-  {
+  "ruffle": {
     "id": "ruffle",
     "name": "Ruffle",
     "executables": {
@@ -996,7 +996,7 @@
       ]
     }
   },
-  {
+  "ryujinx": {
     "id": "ryujinx",
     "name": "Ryujinx",
     "executables": {
@@ -1027,7 +1027,7 @@
       ]
     }
   },
-  {
+  "sameboy": {
     "id": "sameboy",
     "name": "Sameboy",
     "executables": {
@@ -1038,7 +1038,7 @@
       ]
     }
   },
-  {
+  "scummvm": {
     "id": "scummvm",
     "name": "Scummvm",
     "executables": {
@@ -1049,7 +1049,7 @@
       ]
     }
   },
-  {
+  "sdl2trs": {
     "id": "sdl2trs",
     "name": "Sdl2Trs",
     "executables": {
@@ -1062,7 +1062,7 @@
       ]
     }
   },
-  {
+  "shadps4": {
     "id": "shadps4",
     "name": "Shadps4",
     "executables": {
@@ -1083,7 +1083,7 @@
       ]
     }
   },
-  {
+  "shadps4-gui": {
     "id": "shadps4-gui",
     "name": "Shadps4-Gui",
     "executables": {
@@ -1095,7 +1095,7 @@
       ]
     }
   },
-  {
+  "sheepshaver": {
     "id": "sheepshaver",
     "name": "Sheepshaver",
     "executables": {
@@ -1108,7 +1108,7 @@
       ]
     }
   },
-  {
+  "simcoupe": {
     "id": "simcoupe",
     "name": "Simcoupe",
     "executables": {
@@ -1121,7 +1121,7 @@
       ]
     }
   },
-  {
+  "simple64": {
     "id": "simple64",
     "name": "Simple64",
     "executables": {
@@ -1132,7 +1132,7 @@
       ]
     }
   },
-  {
+  "skyemu": {
     "id": "skyemu",
     "name": "Skyemu",
     "executables": {
@@ -1145,7 +1145,7 @@
       ]
     }
   },
-  {
+  "snes9x": {
     "id": "snes9x",
     "name": "Snes9X",
     "executables": {
@@ -1160,7 +1160,7 @@
       ]
     }
   },
-  {
+  "solarus": {
     "id": "solarus",
     "name": "Solarus",
     "executables": {
@@ -1171,14 +1171,14 @@
       ]
     }
   },
-  {
+  "steam": {
     "id": "steam",
     "name": "Steam",
     "executables": {
       "systempath": ["steam"]
     }
   },
-  {
+  "stella": {
     "id": "stella",
     "name": "Stella",
     "executables": {
@@ -1189,7 +1189,7 @@
       ]
     }
   },
-  {
+  "supermodel": {
     "id": "supermodel",
     "name": "Supermodel",
     "executables": {
@@ -1204,7 +1204,7 @@
       ]
     }
   },
-  {
+  "tic-80": {
     "id": "tic-80",
     "name": "Tic-80",
     "executables": {
@@ -1215,7 +1215,7 @@
       ]
     }
   },
-  {
+  "triforce": {
     "id": "triforce",
     "name": "Triforce",
     "executables": {
@@ -1228,7 +1228,7 @@
       ]
     }
   },
-  {
+  "tsugaru": {
     "id": "tsugaru",
     "name": "Tsugaru",
     "executables": {
@@ -1240,7 +1240,7 @@
       ]
     }
   },
-  {
+  "vba-m": {
     "id": "vba-m",
     "name": "Vba-M",
     "executables": {
@@ -1251,7 +1251,7 @@
       ]
     }
   },
-  {
+  "vice-x64sc": {
     "id": "vice-x64sc",
     "name": "Vice-X64Sc",
     "executables": {
@@ -1262,7 +1262,7 @@
       ]
     }
   },
-  {
+  "vice-xplus4": {
     "id": "vice-xplus4",
     "name": "Vice-Xplus4",
     "executables": {
@@ -1273,7 +1273,7 @@
       ]
     }
   },
-  {
+  "vice-xvic": {
     "id": "vice-xvic",
     "name": "Vice-Xvic",
     "executables": {
@@ -1284,14 +1284,14 @@
       ]
     }
   },
-  {
+  "vircon32": {
     "id": "vircon32",
     "name": "Vircon32",
     "executables": {
       "systempath": ["Vircon32"]
     }
   },
-  {
+  "visual-pinball": {
     "id": "visual-pinball",
     "name": "Visual-Pinball",
     "executables": {
@@ -1308,7 +1308,7 @@
       ]
     }
   },
-  {
+  "vita3k": {
     "id": "vita3k",
     "name": "Vita3K",
     "executables": {
@@ -1325,7 +1325,7 @@
       ]
     }
   },
-  {
+  "wine": {
     "id": "wine",
     "name": "Wine",
     "executables": {
@@ -1337,7 +1337,7 @@
       ]
     }
   },
-  {
+  "xemu": {
     "id": "xemu",
     "name": "Xemu",
     "executables": {
@@ -1352,7 +1352,7 @@
       ]
     }
   },
-  {
+  "xenia": {
     "id": "xenia",
     "name": "Xenia",
     "executables": {
@@ -1372,7 +1372,7 @@
       ]
     }
   },
-  {
+  "xenia-edge": {
     "id": "xenia-edge",
     "name": "Xenia-Edge",
     "executables": {
@@ -1385,7 +1385,7 @@
       ]
     }
   },
-  {
+  "xroar": {
     "id": "xroar",
     "name": "Xroar",
     "executables": {
@@ -1398,7 +1398,7 @@
       ]
     }
   },
-  {
+  "ymir": {
     "id": "ymir",
     "name": "Ymir",
     "executables": {
@@ -1413,7 +1413,7 @@
       ]
     }
   },
-  {
+  "zesarux": {
     "id": "zesarux",
     "name": "Zesarux",
     "executables": {
@@ -1426,7 +1426,7 @@
       ]
     }
   },
-  {
+  "retroarch": {
     "id": "retroarch",
     "name": "RetroArch",
     "executables": {
@@ -1441,4 +1441,4 @@
       ]
     }
   }
-]
+}
