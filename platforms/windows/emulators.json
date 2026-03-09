@@ -1,0 +1,1144 @@
+[
+  {
+    "id": "3dsen",
+    "name": "3Dsen",
+    "executables": {
+      "systempath": [
+        "3dSen.exe"
+      ]
+    }
+  },
+  {
+    "id": "a7800",
+    "name": "A7800",
+    "executables": {
+      "systempath": [
+        "a7800.exe"
+      ]
+    }
+  },
+  {
+    "id": "ace-dl",
+    "name": "Ace-Dl",
+    "executables": {
+      "systempath": [
+        "AceDL.exe"
+      ]
+    }
+  },
+  {
+    "id": "advancemame",
+    "name": "Advancemame",
+    "executables": {
+      "systempath": [
+        "advmame.exe"
+      ]
+    }
+  },
+  {
+    "id": "altirra",
+    "name": "Altirra",
+    "executables": {
+      "systempath": [
+        "Altirra64.exe",
+        "Altirra.exe"
+      ]
+    }
+  },
+  {
+    "id": "applewin",
+    "name": "Applewin",
+    "executables": {
+      "systempath": [
+        "AppleWin.exe"
+      ]
+    }
+  },
+  {
+    "id": "arcadeflashweb",
+    "name": "Arcadeflashweb",
+    "executables": {
+      "systempath": [
+        "ArcadeFlashWeb.exe"
+      ]
+    }
+  },
+  {
+    "id": "ares",
+    "name": "Ares",
+    "executables": {
+      "systempath": [
+        "ares.exe"
+      ]
+    }
+  },
+  {
+    "id": "atari800",
+    "name": "Atari800",
+    "executables": {
+      "systempath": [
+        "atari800.exe"
+      ]
+    }
+  },
+  {
+    "id": "azahar",
+    "name": "Azahar",
+    "executables": {
+      "systempath": [
+        "azahar.exe"
+      ]
+    }
+  },
+  {
+    "id": "azaharplus",
+    "name": "Azaharplus",
+    "executables": {
+      "systempath": [
+        "azaharplus.exe"
+      ]
+    }
+  },
+  {
+    "id": "basiliskii",
+    "name": "Basiliskii",
+    "executables": {
+      "systempath": [
+        "BasiliskII.exe"
+      ]
+    }
+  },
+  {
+    "id": "beebem",
+    "name": "Beebem",
+    "executables": {
+      "systempath": [
+        "BeebEm.exe"
+      ]
+    }
+  },
+  {
+    "id": "bigpemu",
+    "name": "Bigpemu",
+    "executables": {
+      "systempath": [
+        "BigPEmu.exe"
+      ]
+    }
+  },
+  {
+    "id": "blastem",
+    "name": "Blastem",
+    "executables": {
+      "systempath": [
+        "blastem.exe"
+      ]
+    }
+  },
+  {
+    "id": "bsnes",
+    "name": "Bsnes",
+    "executables": {
+      "systempath": [
+        "bsnes.exe"
+      ]
+    }
+  },
+  {
+    "id": "cemu",
+    "name": "Cemu",
+    "executables": {
+      "systempath": [
+        "Cemu.exe"
+      ]
+    }
+  },
+  {
+    "id": "citra",
+    "name": "Citra",
+    "executables": {
+      "systempath": [
+        "citra-qt.exe"
+      ],
+      "staticpath": [
+        "~\\AppData\\Local\\Citra\\nightly-mingw\\citra-qt.exe",
+        "~\\AppData\\Local\\Citra\\canary-mingw\\citra-qt.exe"
+      ]
+    }
+  },
+  {
+    "id": "colem",
+    "name": "Colem",
+    "executables": {
+      "systempath": [
+        "ColEm.exe"
+      ]
+    }
+  },
+  {
+    "id": "cpcemu",
+    "name": "Cpcemu",
+    "executables": {
+      "winregistryvalue": [
+        "SOFTWARE\\WOW6432Node\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\CPCEMU_is1\\InstallLocation|cpcemu.exe"
+      ],
+      "systempath": [
+        "cpcemu.exe"
+      ]
+    }
+  },
+  {
+    "id": "cspect",
+    "name": "Cspect",
+    "executables": {
+      "systempath": [
+        "CSpect.exe"
+      ]
+    }
+  },
+  {
+    "id": "cxbx-reloaded",
+    "name": "Cxbx-Reloaded",
+    "executables": {
+      "systempath": [
+        "cxbx.exe"
+      ]
+    }
+  },
+  {
+    "id": "demul",
+    "name": "Demul",
+    "executables": {
+      "systempath": [
+        "demul.exe"
+      ]
+    }
+  },
+  {
+    "id": "dolphin",
+    "name": "Dolphin",
+    "executables": {
+      "systempath": [
+        "Dolphin.exe"
+      ]
+    }
+  },
+  {
+    "id": "dosbox-pure-unleashed",
+    "name": "Dosbox-Pure-Unleashed",
+    "executables": {
+      "systempath": [
+        "DOSBoxPure.exe"
+      ]
+    }
+  },
+  {
+    "id": "dosbox-staging",
+    "name": "Dosbox-Staging",
+    "executables": {
+      "systempath": [
+        "dosbox.exe"
+      ]
+    }
+  },
+  {
+    "id": "dosbox-x",
+    "name": "Dosbox-X",
+    "executables": {
+      "winregistryvalue": [
+        "SOFTWARE\\DOSBox-X\\Path|\\dosbox-x.exe"
+      ],
+      "systempath": [
+        "dosbox-x.exe"
+      ]
+    }
+  },
+  {
+    "id": "dreamm",
+    "name": "Dreamm",
+    "executables": {
+      "systempath": [
+        "dreamm.exe"
+      ]
+    }
+  },
+  {
+    "id": "duckstation",
+    "name": "Duckstation",
+    "executables": {
+      "systempath": [
+        "duckstation-qt-x64-ReleaseLTCG.exe",
+        "duckstation-qt-x64-ReleaseLTCG-SSE2.exe",
+        "duckstation-nogui-x64-ReleaseLTCG.exe"
+      ]
+    }
+  },
+  {
+    "id": "easyrpg",
+    "name": "Easyrpg",
+    "executables": {
+      "systempath": [
+        "Player.exe"
+      ]
+    }
+  },
+  {
+    "id": "eka2l1",
+    "name": "Eka2L1",
+    "executables": {
+      "systempath": [
+        "eka2l1_qt.exe"
+      ]
+    }
+  },
+  {
+    "id": "finalburn-neo",
+    "name": "Finalburn-Neo",
+    "executables": {
+      "systempath": [
+        "fbneo64.exe",
+        "fbneo.exe"
+      ]
+    }
+  },
+  {
+    "id": "flycast",
+    "name": "Flycast",
+    "executables": {
+      "systempath": [
+        "flycast.exe"
+      ]
+    }
+  },
+  {
+    "id": "flycast-dojo",
+    "name": "Flycast-Dojo",
+    "executables": {
+      "systempath": [
+        "flycast-dojo.exe",
+        "flycast.exe"
+      ]
+    }
+  },
+  {
+    "id": "fs-uae",
+    "name": "Fs-Uae",
+    "executables": {
+      "systempath": [
+        "fs-uae-launcher.exe"
+      ]
+    }
+  },
+  {
+    "id": "fuse",
+    "name": "Fuse",
+    "executables": {
+      "systempath": [
+        "fuse.exe"
+      ]
+    }
+  },
+  {
+    "id": "future-pinball",
+    "name": "Future-Pinball",
+    "executables": {
+      "systempath": [
+        "Future Pinball.exe"
+      ]
+    }
+  },
+  {
+    "id": "future-pinball-fploader",
+    "name": "Future-Pinball-Fploader",
+    "executables": {
+      "systempath": [
+        "FPLoader.exe"
+      ]
+    }
+  },
+  {
+    "id": "gargoyle",
+    "name": "Gargoyle",
+    "executables": {
+      "systempath": [
+        "gargoyle.exe"
+      ]
+    }
+  },
+  {
+    "id": "gearboy",
+    "name": "Gearboy",
+    "executables": {
+      "systempath": [
+        "Gearboy.exe"
+      ]
+    }
+  },
+  {
+    "id": "gopher2600",
+    "name": "Gopher2600",
+    "executables": {
+      "systempath": [
+        "gopher2600_windows_amd64.exe"
+      ]
+    }
+  },
+  {
+    "id": "gopher64",
+    "name": "Gopher64",
+    "executables": {
+      "systempath": [
+        "gopher64-windows-x86_64.exe"
+      ]
+    }
+  },
+  {
+    "id": "hatari",
+    "name": "Hatari",
+    "executables": {
+      "systempath": [
+        "hatari.exe"
+      ]
+    }
+  },
+  {
+    "id": "hypseus-singe",
+    "name": "Hypseus-Singe",
+    "executables": {
+      "systempath": [
+        "hypseus.exe"
+      ]
+    }
+  },
+  {
+    "id": "izapple2",
+    "name": "Izapple2",
+    "executables": {
+      "systempath": [
+        "izapple2sdl_windows_amd64.exe"
+      ]
+    }
+  },
+  {
+    "id": "jgenesis",
+    "name": "Jgenesis",
+    "executables": {
+      "systempath": [
+        "jgenesis-cli.exe"
+      ]
+    }
+  },
+  {
+    "id": "kegs",
+    "name": "Kegs",
+    "executables": {
+      "systempath": [
+        "kegswin.exe"
+      ]
+    }
+  },
+  {
+    "id": "kemulator",
+    "name": "Kemulator",
+    "executables": {
+      "systempath": [
+        "KEmulator.exe"
+      ]
+    }
+  },
+  {
+    "id": "kronos",
+    "name": "Kronos",
+    "executables": {
+      "systempath": [
+        "kronos.exe"
+      ]
+    }
+  },
+  {
+    "id": "lime3ds",
+    "name": "Lime3Ds",
+    "executables": {
+      "systempath": [
+        "lime3ds.exe",
+        "lime3ds-gui.exe",
+        "lime-qt.exe"
+      ]
+    }
+  },
+  {
+    "id": "m2emulator",
+    "name": "M2Emulator",
+    "executables": {
+      "systempath": [
+        "EMULATOR.EXE"
+      ]
+    }
+  },
+  {
+    "id": "mame",
+    "name": "MAME",
+    "executables": {
+      "systempath": [
+        "mame.exe"
+      ]
+    }
+  },
+  {
+    "id": "mandarine",
+    "name": "Mandarine",
+    "executables": {
+      "systempath": [
+        "mandarine-qt.exe"
+      ]
+    }
+  },
+  {
+    "id": "mednafen",
+    "name": "Mednafen",
+    "executables": {
+      "systempath": [
+        "mednafen.exe"
+      ]
+    }
+  },
+  {
+    "id": "melonds",
+    "name": "Melonds",
+    "executables": {
+      "systempath": [
+        "melonDS.exe"
+      ]
+    }
+  },
+  {
+    "id": "mesen",
+    "name": "Mesen",
+    "executables": {
+      "systempath": [
+        "Mesen.exe"
+      ]
+    }
+  },
+  {
+    "id": "mfme",
+    "name": "Mfme",
+    "executables": {
+      "systempath": [
+        "MFME.exe"
+      ]
+    }
+  },
+  {
+    "id": "mgba",
+    "name": "Mgba",
+    "executables": {
+      "winregistryvalue": [
+        "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\mGBA_is1\\InstallLocation|mGBA.exe"
+      ],
+      "systempath": [
+        "mGBA.exe"
+      ],
+      "staticpath": [
+        "C:\\Program Files\\mGBA\\mGBA.exe",
+        "D:\\Program Files\\mGBA\\mGBA.exe"
+      ]
+    }
+  },
+  {
+    "id": "mupen64plus",
+    "name": "Mupen64Plus",
+    "executables": {
+      "systempath": [
+        "mupen64plus-ui-console.exe"
+      ]
+    }
+  },
+  {
+    "id": "noods",
+    "name": "Noods",
+    "executables": {
+      "systempath": [
+        "noods.exe"
+      ]
+    }
+  },
+  {
+    "id": "openmsx",
+    "name": "Openmsx",
+    "executables": {
+      "systempath": [
+        "openmsx.exe"
+      ]
+    }
+  },
+  {
+    "id": "oricutron",
+    "name": "Oricutron",
+    "executables": {
+      "systempath": [
+        "oricutron.exe"
+      ]
+    }
+  },
+  {
+    "id": "os-shell",
+    "name": "OS Shell",
+    "executables": {
+      "systempath": [
+        "cmd.exe"
+      ]
+    }
+  },
+  {
+    "id": "panda3ds",
+    "name": "Panda3Ds",
+    "executables": {
+      "systempath": [
+        "Alber.exe"
+      ]
+    }
+  },
+  {
+    "id": "parallel-launcher",
+    "name": "Parallel-Launcher",
+    "executables": {
+      "systempath": [
+        "parallel-launcher.exe"
+      ],
+      "staticpath": [
+        "C:\\Program Files (x86)\\parallel-launcher\\parallel-launcher.exe",
+        "D:\\Program Files (x86)\\parallel-launcher\\parallel-launcher.exe"
+      ]
+    }
+  },
+  {
+    "id": "pcsx2",
+    "name": "Pcsx2",
+    "executables": {
+      "systempath": [
+        "pcsx2-qt.exe",
+        "pcsx2-qtx64.exe",
+        "pcsx2-qtx64-avx2.exe"
+      ]
+    }
+  },
+  {
+    "id": "pcsx2-legacy",
+    "name": "Pcsx2-Legacy",
+    "executables": {
+      "winregistryvalue": [
+        "SOFTWARE\\PCSX2\\Install_Dir|\\pcsx2.exe"
+      ],
+      "systempath": [
+        "pcsx2.exe"
+      ],
+      "staticpath": [
+        "C:\\Program Files (x86)\\PCSX2\\pcsx2.exe",
+        "D:\\Program Files (x86)\\PCSX2\\pcsx2.exe"
+      ]
+    }
+  },
+  {
+    "id": "pico-8",
+    "name": "Pico-8",
+    "executables": {
+      "systempath": [
+        "pico8.exe"
+      ],
+      "staticpath": [
+        "C:\\Program Files (x86)\\PICO-8\\pico8.exe",
+        "D:\\Program Files (x86)\\PICO-8\\pico8.exe"
+      ]
+    }
+  },
+  {
+    "id": "play!",
+    "name": "Play!",
+    "executables": {
+      "systempath": [
+        "Play.exe"
+      ],
+      "staticpath": [
+        "C:\\Program Files\\Play\\Play.exe",
+        "D:\\Program Files\\Play\\Play.exe"
+      ]
+    }
+  },
+  {
+    "id": "ppsspp",
+    "name": "Ppsspp",
+    "executables": {
+      "winregistryvalue": [
+        "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\PPSSPP_is1\\InstallLocation|PPSSPPWindows64.exe"
+      ],
+      "systempath": [
+        "PPSSPPWindows64.exe"
+      ],
+      "staticpath": [
+        "C:\\Program Files\\PPSSPP\\PPSSPPWindows64.exe",
+        "D:\\Program Files\\PPSSPP\\PPSSPPWindows64.exe"
+      ]
+    }
+  },
+  {
+    "id": "prboom-plus",
+    "name": "Prboom-Plus",
+    "executables": {
+      "systempath": [
+        "prboom-plus.exe"
+      ]
+    }
+  },
+  {
+    "id": "primehack",
+    "name": "Primehack",
+    "executables": {
+      "systempath": [
+        "PrimeHack.exe"
+      ]
+    }
+  },
+  {
+    "id": "project64",
+    "name": "Project64",
+    "executables": {
+      "systempath": [
+        "Project64.exe"
+      ]
+    }
+  },
+  {
+    "id": "punes",
+    "name": "Punes",
+    "executables": {
+      "systempath": [
+        "punes64.exe"
+      ]
+    }
+  },
+  {
+    "id": "quasi88",
+    "name": "Quasi88",
+    "executables": {
+      "systempath": [
+        "QUASI88.exe"
+      ]
+    }
+  },
+  {
+    "id": "redream",
+    "name": "Redream",
+    "executables": {
+      "systempath": [
+        "redream.exe"
+      ]
+    }
+  },
+  {
+    "id": "rosalies-mupen-gui",
+    "name": "Rosalies-Mupen-Gui",
+    "executables": {
+      "systempath": [
+        "RMG.exe"
+      ],
+      "staticpath": [
+        "~\\AppData\\Local\\Programs\\Rosalie's Mupen GUI\\RMG.exe"
+      ]
+    }
+  },
+  {
+    "id": "rpcs3",
+    "name": "Rpcs3",
+    "executables": {
+      "systempath": [
+        "rpcs3.exe"
+      ]
+    }
+  },
+  {
+    "id": "ruffle",
+    "name": "Ruffle",
+    "executables": {
+      "systempath": [
+        "ruffle.exe"
+      ]
+    }
+  },
+  {
+    "id": "ryujinx",
+    "name": "Ryujinx",
+    "executables": {
+      "systempath": [
+        "Ryujinx.exe",
+        "Ryujinx.Ava.exe"
+      ]
+    }
+  },
+  {
+    "id": "sameboy",
+    "name": "Sameboy",
+    "executables": {
+      "systempath": [
+        "sameboy.exe"
+      ]
+    }
+  },
+  {
+    "id": "scummvm",
+    "name": "Scummvm",
+    "executables": {
+      "winregistryvalue": [
+        "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\ScummVM_is1\\InstallLocation|scummvm.exe"
+      ],
+      "systempath": [
+        "scummvm.exe"
+      ]
+    }
+  },
+  {
+    "id": "sdl2trs",
+    "name": "Sdl2Trs",
+    "executables": {
+      "systempath": [
+        "sdl2trs64.exe"
+      ]
+    }
+  },
+  {
+    "id": "shadps4",
+    "name": "Shadps4",
+    "executables": {
+      "systempath": [
+        "shadPS4.exe"
+      ]
+    }
+  },
+  {
+    "id": "shadps4-gui",
+    "name": "Shadps4-Gui",
+    "executables": {
+      "systempath": [
+        "shadPS4QtLauncher.exe"
+      ]
+    }
+  },
+  {
+    "id": "sheepshaver",
+    "name": "Sheepshaver",
+    "executables": {
+      "systempath": [
+        "SheepShaver.exe"
+      ]
+    }
+  },
+  {
+    "id": "simcoupe",
+    "name": "Simcoupe",
+    "executables": {
+      "winregistrypath": [
+        "SimCoupe.exe"
+      ],
+      "systempath": [
+        "SimCoupe.exe"
+      ]
+    }
+  },
+  {
+    "id": "simple64",
+    "name": "Simple64",
+    "executables": {
+      "systempath": [
+        "simple64-gui.exe"
+      ]
+    }
+  },
+  {
+    "id": "skyemu",
+    "name": "Skyemu",
+    "executables": {
+      "systempath": [
+        "SkyEmu.exe"
+      ]
+    }
+  },
+  {
+    "id": "snes9x",
+    "name": "Snes9X",
+    "executables": {
+      "systempath": [
+        "snes9x-x64.exe"
+      ]
+    }
+  },
+  {
+    "id": "solarus",
+    "name": "Solarus",
+    "executables": {
+      "systempath": [
+        "solarus-run.exe"
+      ]
+    }
+  },
+  {
+    "id": "ssf",
+    "name": "Ssf",
+    "executables": {
+      "systempath": [
+        "SSF.exe"
+      ]
+    }
+  },
+  {
+    "id": "steam",
+    "name": "Steam",
+    "executables": {
+      "winregistryvalue": [
+        "SOFTWARE\\Valve\\Steam\\SteamExe"
+      ],
+      "systempath": [
+        "steam.exe"
+      ],
+      "staticpath": [
+        "C:\\Program Files (x86)\\Steam\\steam.exe",
+        "D:\\Program Files (x86)\\Steam\\steam.exe"
+      ]
+    }
+  },
+  {
+    "id": "stella",
+    "name": "Stella",
+    "executables": {
+      "systempath": [
+        "Stella.exe"
+      ]
+    }
+  },
+  {
+    "id": "supermodel",
+    "name": "Supermodel",
+    "executables": {
+      "systempath": [
+        "Supermodel.exe"
+      ]
+    }
+  },
+  {
+    "id": "supermodel-dojo",
+    "name": "Supermodel-Dojo",
+    "executables": {
+      "systempath": [
+        "supermodel.exe"
+      ]
+    }
+  },
+  {
+    "id": "tic-80",
+    "name": "Tic-80",
+    "executables": {
+      "systempath": [
+        "tic80.exe"
+      ]
+    }
+  },
+  {
+    "id": "triforce",
+    "name": "Triforce",
+    "executables": {
+      "systempath": [
+        "Triforce.exe"
+      ]
+    }
+  },
+  {
+    "id": "tsugaru",
+    "name": "Tsugaru",
+    "executables": {
+      "systempath": [
+        "Tsugaru_CUI.exe"
+      ]
+    }
+  },
+  {
+    "id": "vba-m",
+    "name": "Vba-M",
+    "executables": {
+      "systempath": [
+        "visualboyadvance-m.exe"
+      ]
+    }
+  },
+  {
+    "id": "vice-x64sc",
+    "name": "Vice-X64Sc",
+    "executables": {
+      "systempath": [
+        "x64sc.exe"
+      ]
+    }
+  },
+  {
+    "id": "vice-xplus4",
+    "name": "Vice-Xplus4",
+    "executables": {
+      "systempath": [
+        "xplus4.exe"
+      ]
+    }
+  },
+  {
+    "id": "vice-xvic",
+    "name": "Vice-Xvic",
+    "executables": {
+      "systempath": [
+        "xvic.exe"
+      ]
+    }
+  },
+  {
+    "id": "vircon32",
+    "name": "Vircon32",
+    "executables": {
+      "systempath": [
+        "Vircon32.exe"
+      ]
+    }
+  },
+  {
+    "id": "visual-pinball",
+    "name": "Visual-Pinball",
+    "executables": {
+      "systempath": [
+        "VPinballX_BGFX64.exe",
+        "VPinballX_GL64.exe",
+        "VPinballX64.exe",
+        "VPinballX.exe"
+      ]
+    }
+  },
+  {
+    "id": "vita3k",
+    "name": "Vita3K",
+    "executables": {
+      "systempath": [
+        "Vita3K.exe"
+      ]
+    }
+  },
+  {
+    "id": "winarcadia",
+    "name": "Winarcadia",
+    "executables": {
+      "systempath": [
+        "WinArcadia.exe"
+      ]
+    }
+  },
+  {
+    "id": "xemu",
+    "name": "Xemu",
+    "executables": {
+      "systempath": [
+        "xemu.exe"
+      ]
+    }
+  },
+  {
+    "id": "xenia",
+    "name": "Xenia",
+    "executables": {
+      "systempath": [
+        "xenia.exe",
+        "xenia_canary.exe"
+      ]
+    }
+  },
+  {
+    "id": "xenia-edge",
+    "name": "Xenia-Edge",
+    "executables": {
+      "systempath": [
+        "xenia_edge.exe"
+      ]
+    }
+  },
+  {
+    "id": "xm6pro68k",
+    "name": "Xm6Pro68K",
+    "executables": {
+      "systempath": [
+        "XM6.exe"
+      ]
+    }
+  },
+  {
+    "id": "xm6typeg",
+    "name": "Xm6Typeg",
+    "executables": {
+      "systempath": [
+        "xm6g.exe"
+      ]
+    }
+  },
+  {
+    "id": "xroar",
+    "name": "Xroar",
+    "executables": {
+      "systempath": [
+        "xroar.exe"
+      ]
+    }
+  },
+  {
+    "id": "yabasanshiro-2",
+    "name": "Yabasanshiro-2",
+    "executables": {
+      "systempath": [
+        "yabasanshiro.exe"
+      ]
+    }
+  },
+  {
+    "id": "ymir",
+    "name": "Ymir",
+    "executables": {
+      "systempath": [
+        "ymir-sdl3.exe"
+      ]
+    }
+  },
+  {
+    "id": "zesarux",
+    "name": "Zesarux",
+    "executables": {
+      "systempath": [
+        "zesarux.exe"
+      ]
+    }
+  },
+  {
+    "id": "retroarch",
+    "name": "RetroArch",
+    "executables": {
+      "winregistrypath": [
+        "retroarch.exe"
+      ],
+      "systempath": [
+        "retroarch.exe"
+      ],
+      "staticpath": [
+        "C:\\RetroArch-Win64\\retroarch.exe",
+        "C:\\RetroArch\\retroarch.exe",
+        "~\\AppData\\Roaming\\RetroArch\\retroarch.exe",
+        "C:\\Program Files\\RetroArch-Win64\\retroarch.exe",
+        "C:\\Program Files\\RetroArch\\retroarch.exe",
+        "C:\\Program Files (x86)\\RetroArch-Win64\\retroarch.exe",
+        "C:\\Program Files (x86)\\RetroArch\\retroarch.exe",
+        "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RetroArch\\retroarch.exe",
+        "D:\\Program Files (x86)\\Steam\\steamapps\\common\\RetroArch\\retroarch.exe",
+        "C:\\Program Files\\Steam\\steamapps\\common\\RetroArch\\retroarch.exe",
+        "D:\\Program Files\\Steam\\steamapps\\common\\RetroArch\\retroarch.exe"
+      ]
+    }
+  }
+]

@@ -1,0 +1,6738 @@
+[
+  {
+    "id": "3do",
+    "name": "3DO Interactive Multiplayer",
+    "external_ids": {
+      "retroachievements": [43],
+      "screenscraper": [29],
+      "igdb": [50],
+      "thegamesdb": [25]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "bin", "chd", "cue", "iso", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Opera]",
+        "args": ["-L", "opera_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "adam",
+    "name": "Coleco Adam",
+    "filetypes": [
+      "1dd",
+      "7z",
+      "bin",
+      "col",
+      "cqi",
+      "cqm",
+      "d77",
+      "d88",
+      "ddp",
+      "dfi",
+      "dsk",
+      "hfe",
+      "imd",
+      "mfi",
+      "mfm",
+      "rom",
+      "td0",
+      "wav",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "colem",
+        "name": "ColEm",
+        "args": ["-adam", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "ags",
+    "name": "Adventure Game Studio Game Engine",
+    "filetypes": ["desktop", "sh"],
+    "emulators": [
+      {
+        "id": "os-shell",
+        "name": "Shortcut or script",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "amiga",
+    "name": "Commodore Amiga",
+    "external_ids": {
+      "retroachievements": [35],
+      "screenscraper": [64],
+      "igdb": [16]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "adf",
+      "adz",
+      "ccd",
+      "chd",
+      "cue",
+      "dms",
+      "fdi",
+      "hdf",
+      "hdz",
+      "ipf",
+      "iso",
+      "lha",
+      "m3u",
+      "mds",
+      "nrg",
+      "rp9",
+      "uae",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PUAE]",
+        "args": ["-L", "puae_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PUAE 2021]",
+        "args": ["-L", "puae2021_libretro", "{rom.path}"]
+      },
+      {
+        "id": "fs-uae",
+        "name": "FS-UAE",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "amiberry",
+        "name": "Amiberry",
+        "args": ["--autoload", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "amiga1200",
+    "name": "Commodore Amiga 1200",
+    "filetypes": [
+      "7z",
+      "adf",
+      "adz",
+      "ccd",
+      "chd",
+      "cue",
+      "dms",
+      "fdi",
+      "hdf",
+      "hdz",
+      "ipf",
+      "iso",
+      "lha",
+      "m3u",
+      "mds",
+      "nrg",
+      "rp9",
+      "uae",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PUAE]",
+        "args": ["-L", "puae_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PUAE 2021]",
+        "args": ["-L", "puae2021_libretro", "{rom.path}"]
+      },
+      {
+        "id": "fs-uae",
+        "name": "FS-UAE",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "amiberry",
+        "name": "Amiberry",
+        "args": ["--autoload", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "amiga600",
+    "name": "Commodore Amiga 600",
+    "filetypes": [
+      "7z",
+      "adf",
+      "adz",
+      "ccd",
+      "chd",
+      "cue",
+      "dms",
+      "fdi",
+      "hdf",
+      "hdz",
+      "ipf",
+      "iso",
+      "lha",
+      "m3u",
+      "mds",
+      "nrg",
+      "rp9",
+      "uae",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PUAE]",
+        "args": ["-L", "puae_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PUAE 2021]",
+        "args": ["-L", "puae2021_libretro", "{rom.path}"]
+      },
+      {
+        "id": "fs-uae",
+        "name": "FS-UAE",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "amiberry",
+        "name": "Amiberry",
+        "args": ["--autoload", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "amigacd32",
+    "name": "Commodore Amiga CD32",
+    "filetypes": [
+      "7z",
+      "adf",
+      "adz",
+      "ccd",
+      "chd",
+      "cue",
+      "dms",
+      "fdi",
+      "hdf",
+      "hdz",
+      "ipf",
+      "iso",
+      "lha",
+      "m3u",
+      "mds",
+      "nrg",
+      "rp9",
+      "uae",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PUAE]",
+        "args": ["-L", "puae_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PUAE 2021]",
+        "args": ["-L", "puae2021_libretro", "{rom.path}"]
+      },
+      {
+        "id": "fs-uae",
+        "name": "FS-UAE",
+        "args": ["--config:amiga-model=CD32", "{rom.path}"]
+      },
+      {
+        "id": "amiberry",
+        "name": "Amiberry",
+        "args": ["--model", "CD32", "--autoload", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "amstradcpc",
+    "name": "Amstrad CPC",
+    "external_ids": {
+      "retroachievements": [37],
+      "screenscraper": [65],
+      "igdb": [25],
+      "thegamesdb": [4914]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "cdt",
+      "cpr",
+      "dsk",
+      "kcr",
+      "m3u",
+      "sna",
+      "tap",
+      "tar",
+      "voc",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Caprice32]",
+        "args": ["-L", "cap32_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [CrocoDS]",
+        "args": ["-L", "crocods_libretro", "{rom.path}"]
+      },
+      {
+        "id": "cpcemu",
+        "name": "CPCemu",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "ace-dl",
+        "name": "ACE-DL",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "android",
+    "name": "Google Android",
+    "filetypes": ["7z", "zip"],
+    "emulators": []
+  },
+  {
+    "id": "androidapps",
+    "name": "Android Apps",
+    "filetypes": ["7z", "zip"],
+    "emulators": []
+  },
+  {
+    "id": "androidgames",
+    "name": "Android Games",
+    "filetypes": ["7z", "zip"],
+    "emulators": []
+  },
+  {
+    "id": "apple2",
+    "name": "Apple II",
+    "external_ids": {
+      "retroachievements": [38],
+      "screenscraper": [86],
+      "igdb": [75],
+      "thegamesdb": [4942]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "do", "dsk", "nib", "po", "zip"],
+    "emulators": [
+      {
+        "id": "linapple",
+        "name": "LinApple",
+        "args": ["-f", "-b", "--d1", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "apple2", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "apple2e -rompath \"{rom.dir};{roms.dir}/apple2\" -gameio joy -flop1 \"{rom.dir}/{rom.name}\""
+        ]
+      },
+      {
+        "id": "izapple2",
+        "name": "izapple2",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "apple2gs",
+    "name": "Apple IIGS",
+    "filetypes": ["2mg", "7z", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "apple2gs -rompath \"{rom.dir};{roms.dir}/apple2gs\" -gameio joy -flop3 \"{rom.dir}/{rom.name}\""
+        ]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current [Software list]]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "apple2gs -rompath \"{rom.dir};{roms.dir}/apple2gs\" -gameio joy {rom.basename}"
+        ]
+      },
+      {
+        "id": "kegs",
+        "name": "KEGS",
+        "args": ["-s7d1", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "arcade",
+    "name": "Arcade",
+    "filetypes": [
+      "7z",
+      "cmd",
+      "desktop",
+      "gam",
+      "lindbergh",
+      "neo",
+      "sh",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": ["-L", "mame_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2010]",
+        "args": ["-L", "mame2010_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2003-Plus]",
+        "args": ["-L", "mame2003_plus_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2003]",
+        "args": ["-L", "mame2003_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2000]",
+        "args": ["-L", "mame2000_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FinalBurn Neo]",
+        "args": ["-L", "fbneo_libretro", "{rom.path}"]
+      },
+      {
+        "id": "finalburn-neo",
+        "name": "FinalBurn Neo",
+        "args": ["-fullscreen", "{rom.basename}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012]",
+        "args": ["-L", "fbalpha2012_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Geolith]",
+        "args": ["-L", "geolith_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Flycast]",
+        "args": ["-L", "flycast_libretro", "{rom.path}"]
+      },
+      {
+        "id": "flycast",
+        "name": "Flycast",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "flycast-dojo",
+        "name": "Flycast Dojo",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Kronos]",
+        "args": ["-L", "kronos_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DICE]",
+        "args": ["-L", "dice_libretro", "{rom.path}"]
+      },
+      {
+        "id": "supermodel",
+        "name": "Supermodel",
+        "args": ["-log-output={rom.dir}/Config/Supermodel.log", "{rom.path}"]
+      },
+      {
+        "id": "lindbergh-loader",
+        "name": "Lindbergh Loader"
+      },
+      {
+        "id": "os-shell",
+        "name": "Shortcut or script",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "arcadia",
+    "name": "Emerson Arcadia 2001",
+    "external_ids": {
+      "retroachievements": [73],
+      "screenscraper": [94],
+      "igdb": [473],
+      "thegamesdb": [4963]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "bin", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "arcadia -rompath \"{rom.dir};{roms.dir}/arcadia\" -cart \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "arduboy",
+    "name": "Arduboy Miniature Game System",
+    "external_ids": {
+      "retroachievements": [71],
+      "screenscraper": [263],
+      "igdb": [438]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "arduboy", "hex", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Arduous]",
+        "args": ["-L", "arduous_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Ardens]",
+        "args": ["-L", "ardens_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "atari2600",
+    "name": "Atari 2600",
+    "external_ids": {
+      "retroachievements": [25],
+      "screenscraper": [26],
+      "igdb": [59],
+      "thegamesdb": [22]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "a26", "bin", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Stella]",
+        "args": ["-L", "stella_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Stella 2014]",
+        "args": ["-L", "stella2014_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Stella 2023]",
+        "args": ["-L", "stella2023_libretro", "{rom.path}"]
+      },
+      {
+        "id": "stella",
+        "name": "Stella",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "gopher2600",
+        "name": "Gopher2600",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Atari 2600", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "atari5200",
+    "name": "Atari 5200",
+    "external_ids": {
+      "retroachievements": [50],
+      "screenscraper": [40],
+      "igdb": [66],
+      "thegamesdb": [26]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "a52",
+      "atr",
+      "atx",
+      "bin",
+      "car",
+      "cas",
+      "cdm",
+      "com",
+      "rom",
+      "xex",
+      "xfd",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [a5200]",
+        "args": ["-L", "a5200_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Atari800]",
+        "args": ["-L", "atari800_libretro", "{rom.path}"]
+      },
+      {
+        "id": "atari800",
+        "name": "Atari800",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "atari7800",
+    "name": "Atari 7800 ProSystem",
+    "external_ids": {
+      "retroachievements": [51],
+      "screenscraper": [41],
+      "igdb": [60],
+      "thegamesdb": [27]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "a78", "bin", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [ProSystem]",
+        "args": ["-L", "prosystem_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "a7800 -rompath \"{rom.dir};{roms.dir}/atari7800\" -cart \"{rom.path}\""
+        ]
+      },
+      {
+        "id": "a7800",
+        "name": "A7800",
+        "args": [
+          "-rompath",
+          "{rom.dir};{roms.dir}/atari7800",
+          "a7800",
+          "-cart1",
+          "{rom.path}"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "atari800",
+    "name": "Atari 800",
+    "filetypes": [
+      "7z",
+      "a52",
+      "atr",
+      "atx",
+      "bin",
+      "car",
+      "cas",
+      "cdm",
+      "com",
+      "rom",
+      "xex",
+      "xfd",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Atari800]",
+        "args": ["-L", "atari800_libretro", "{rom.path}"]
+      },
+      {
+        "id": "atari800",
+        "name": "Atari800",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "atarijaguar",
+    "name": "Atari Jaguar",
+    "external_ids": {
+      "retroachievements": [17],
+      "screenscraper": [27],
+      "igdb": [62],
+      "thegamesdb": [28]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "abs",
+      "bigpimg",
+      "bin",
+      "cdi",
+      "cof",
+      "cue",
+      "j64",
+      "jag",
+      "prg",
+      "rom",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Virtual Jaguar]",
+        "args": ["-L", "virtualjaguar_libretro", "{rom.path}"]
+      },
+      {
+        "id": "bigpemu",
+        "name": "BigPEmu",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "atarijaguarcd",
+    "name": "Atari Jaguar CD",
+    "external_ids": {
+      "retroachievements": [77],
+      "screenscraper": [171],
+      "igdb": [410],
+      "thegamesdb": [29]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "abs",
+      "bigpimg",
+      "bin",
+      "cdi",
+      "cof",
+      "cue",
+      "j64",
+      "jag",
+      "prg",
+      "rom"
+    ],
+    "emulators": [
+      {
+        "id": "bigpemu",
+        "name": "BigPEmu",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "atarilynx",
+    "name": "Atari Lynx",
+    "external_ids": {
+      "retroachievements": [13],
+      "screenscraper": [28],
+      "igdb": [61],
+      "thegamesdb": [4924]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "lnx", "lyx", "o", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Handy]",
+        "args": ["-L", "handy_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle Lynx]",
+        "args": ["-L", "mednafen_lynx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "lynx", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Holani]",
+        "args": ["-L", "holani_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "atarist",
+    "name": "Atari ST",
+    "external_ids": {
+      "retroachievements": [36],
+      "screenscraper": [42],
+      "igdb": [63],
+      "thegamesdb": [4937]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "dim", "ipf", "m3u", "msa", "st", "stx", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Hatari]",
+        "args": ["-L", "hatari_libretro", "{rom.path}"]
+      },
+      {
+        "id": "hatari",
+        "name": "Hatari",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "atarixe",
+    "name": "Atari XE",
+    "filetypes": [
+      "7z",
+      "a52",
+      "atr",
+      "atx",
+      "bin",
+      "car",
+      "cas",
+      "cdm",
+      "com",
+      "rom",
+      "xex",
+      "xfd",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Atari800]",
+        "args": ["-L", "atari800_libretro", "{rom.path}"]
+      },
+      {
+        "id": "atari800",
+        "name": "Atari800",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "atomiswave",
+    "name": "Sammy Corporation Atomiswave",
+    "external_ids": {
+      "screenscraper": [53]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
+    "filetypes": ["7z", "bin", "dat", "elf", "lst", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Flycast]",
+        "args": ["-L", "flycast_libretro", "{rom.path}"]
+      },
+      {
+        "id": "flycast",
+        "name": "Flycast",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "flycast-dojo",
+        "name": "Flycast Dojo",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "bbcmicro",
+    "name": "Acorn Computers BBC Micro",
+    "external_ids": {
+      "screenscraper": [37],
+      "igdb": [69],
+      "thegamesdb": [5013]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "dsd", "img", "ssd", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [b2]",
+        "args": ["-L", "b2_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "c64",
+    "name": "Commodore 64",
+    "external_ids": {
+      "retroachievements": [30],
+      "screenscraper": [66],
+      "igdb": [93],
+      "thegamesdb": [40]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "bin",
+      "cmd",
+      "crt",
+      "d2m",
+      "d4m",
+      "d64",
+      "d6z",
+      "d71",
+      "d7z",
+      "d80",
+      "d81",
+      "d82",
+      "d8z",
+      "g41",
+      "g4z",
+      "g64",
+      "g6z",
+      "gz",
+      "lnx",
+      "m3u",
+      "nbz",
+      "nib",
+      "p00",
+      "prg",
+      "t64",
+      "tap",
+      "vfl",
+      "vsf",
+      "x64",
+      "x6z",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [VICE x64sc Accurate]",
+        "args": ["-L", "vice_x64sc_libretro", "{rom.path}"]
+      },
+      {
+        "id": "vice-x64sc",
+        "name": "VICE x64sc Accurate",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [VICE x64 Fast]",
+        "args": ["-L", "vice_x64_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [VICE x64 SuperCPU]",
+        "args": ["-L", "vice_xscpu64_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [VICE x128]",
+        "args": ["-L", "vice_x128_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Frodo]",
+        "args": ["-L", "frodo_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "cdimono1",
+    "name": "Philips CD-i",
+    "external_ids": {
+      "retroachievements": [42],
+      "screenscraper": [133],
+      "igdb": [117],
+      "thegamesdb": [4917]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["chd", "cue", "iso"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [SAME CDi]",
+        "args": ["-L", "same_cdi_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [CDi 2015]",
+        "args": ["-L", "cdi2015_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "cdtv",
+    "name": "Commodore CDTV",
+    "filetypes": [
+      "7z",
+      "adf",
+      "adz",
+      "ccd",
+      "chd",
+      "cue",
+      "dms",
+      "fdi",
+      "hdf",
+      "hdz",
+      "ipf",
+      "iso",
+      "lha",
+      "m3u",
+      "mds",
+      "nrg",
+      "rp9",
+      "uae",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PUAE]",
+        "args": ["-L", "puae_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PUAE 2021]",
+        "args": ["-L", "puae2021_libretro", "{rom.path}"]
+      },
+      {
+        "id": "fs-uae",
+        "name": "FS-UAE",
+        "args": ["--config:amiga-model=CDTV", "{rom.path}"]
+      },
+      {
+        "id": "amiberry",
+        "name": "Amiberry",
+        "args": ["--model", "CDTV", "--autoload", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "chailove",
+    "name": "ChaiLove Game Engine",
+    "filetypes": ["7z", "chai", "chailove", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [ChaiLove]",
+        "args": ["-L", "chailove_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "channelf",
+    "name": "Fairchild Channel F",
+    "external_ids": {
+      "retroachievements": [57],
+      "screenscraper": [80],
+      "igdb": [127],
+      "thegamesdb": [4928]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "bin", "chf", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FreeChaF]",
+        "args": ["-L", "freechaf_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "channelf -rompath \"{rom.dir};{roms.dir}/channelf\" -cart \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "coco",
+    "name": "Tandy Color Computer",
+    "filetypes": ["cas", "ccc", "dsk", "rom"],
+    "emulators": [
+      {
+        "id": "xroar",
+        "name": "XRoar CoCo 2 NTSC",
+        "args": ["-fs", "-default-machine", "coco2bus", "{rom.path}"]
+      },
+      {
+        "id": "xroar",
+        "name": "XRoar CoCo 2 PAL",
+        "args": ["-fs", "-default-machine", "coco2b", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "colecovision",
+    "name": "Coleco ColecoVision",
+    "external_ids": {
+      "retroachievements": [44],
+      "screenscraper": [48],
+      "igdb": [68],
+      "thegamesdb": [31]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "bin",
+      "cas",
+      "col",
+      "cv",
+      "dsk",
+      "m3u",
+      "mx1",
+      "mx2",
+      "ri",
+      "rom",
+      "sc",
+      "sg",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [blueMSX]",
+        "args": ["-L", "bluemsx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Gearcoleco]",
+        "args": ["-L", "gearcoleco_libretro", "{rom.path}"]
+      },
+      {
+        "id": "openmsx",
+        "name": "openMSX",
+        "args": ["-machine", "ColecoVision_SGM", "-cart", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "ColecoVision", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "colem",
+        "name": "ColEm",
+        "args": ["-cv", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "cps",
+    "name": "Capcom Play System",
+    "filetypes": ["7z", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": ["-L", "mame_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2010]",
+        "args": ["-L", "mame2010_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2003-Plus]",
+        "args": ["-L", "mame2003_plus_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2003]",
+        "args": ["-L", "mame2003_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2000]",
+        "args": ["-L", "mame2000_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FinalBurn Neo]",
+        "args": ["-L", "fbneo_libretro", "{rom.path}"]
+      },
+      {
+        "id": "finalburn-neo",
+        "name": "FinalBurn Neo",
+        "args": ["-fullscreen", "{rom.basename}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012]",
+        "args": ["-L", "fbalpha2012_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012 CPS-1]",
+        "args": ["-L", "fbalpha2012_cps1_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012 CPS-2]",
+        "args": ["-L", "fbalpha2012_cps2_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012 CPS-3]",
+        "args": ["-L", "fbalpha2012_cps3_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "cps1",
+    "name": "Capcom Play System I",
+    "external_ids": {
+      "retroachievements": [27],
+      "screenscraper": [6]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": ["-L", "mame_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2010]",
+        "args": ["-L", "mame2010_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2003-Plus]",
+        "args": ["-L", "mame2003_plus_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2003]",
+        "args": ["-L", "mame2003_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2000]",
+        "args": ["-L", "mame2000_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FinalBurn Neo]",
+        "args": ["-L", "fbneo_libretro", "{rom.path}"]
+      },
+      {
+        "id": "finalburn-neo",
+        "name": "FinalBurn Neo",
+        "args": ["-fullscreen", "{rom.basename}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012]",
+        "args": ["-L", "fbalpha2012_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012 CPS-1]",
+        "args": ["-L", "fbalpha2012_cps1_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "cps2",
+    "name": "Capcom Play System II",
+    "external_ids": {
+      "retroachievements": [27],
+      "screenscraper": [7]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": ["-L", "mame_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2010]",
+        "args": ["-L", "mame2010_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2003-Plus]",
+        "args": ["-L", "mame2003_plus_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2003]",
+        "args": ["-L", "mame2003_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2000]",
+        "args": ["-L", "mame2000_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FinalBurn Neo]",
+        "args": ["-L", "fbneo_libretro", "{rom.path}"]
+      },
+      {
+        "id": "finalburn-neo",
+        "name": "FinalBurn Neo",
+        "args": ["-fullscreen", "{rom.basename}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012]",
+        "args": ["-L", "fbalpha2012_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012 CPS-2]",
+        "args": ["-L", "fbalpha2012_cps2_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "cps3",
+    "name": "Capcom Play System III",
+    "external_ids": {
+      "retroachievements": [27],
+      "screenscraper": [8]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": ["-L", "mame_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2010]",
+        "args": ["-L", "mame2010_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2003-Plus]",
+        "args": ["-L", "mame2003_plus_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2003]",
+        "args": ["-L", "mame2003_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2000]",
+        "args": ["-L", "mame2000_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FinalBurn Neo]",
+        "args": ["-L", "fbneo_libretro", "{rom.path}"]
+      },
+      {
+        "id": "finalburn-neo",
+        "name": "FinalBurn Neo",
+        "args": ["-fullscreen", "{rom.basename}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012]",
+        "args": ["-L", "fbalpha2012_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012 CPS-3]",
+        "args": ["-L", "fbalpha2012_cps3_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "crvision",
+    "name": "VTech CreatiVision",
+    "filetypes": ["7z", "bin", "rom", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "crvision -rompath \"{rom.dir};{roms.dir}/crvision\" -cart \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "daphne",
+    "name": "Daphne Arcade LaserDisc Emulator",
+    "filetypes": ["7z", "daphne", "dirksimple", "mmi", "ogv", "singe", "zip"],
+    "emulators": [
+      {
+        "id": "hypseus-singe",
+        "name": "Hypseus [Daphne]",
+        "args": [
+          "{rom.basename}",
+          "vldp",
+          "-framefile",
+          "{rom.dir}/{rom.basename}.txt"
+        ]
+      },
+      {
+        "id": "hypseus-singe",
+        "name": "Hypseus [Singe]",
+        "args": [
+          "singe",
+          "vldp",
+          "-framefile",
+          "{rom.dir}/{rom.basename}.txt",
+          "-script",
+          "{rom.dir}/{rom.basename}.singe"
+        ]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": ["-L", "mame_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DirkSimple]",
+        "args": ["-L", "dirksimple_libretro", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares [Mega LD]",
+        "args": ["--fullscreen", "--system", "Mega LD", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "doom",
+    "name": "Doom",
+    "external_ids": {},
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["desktop", "ipk3", "iwad", "pk3", "pk4", "pwad", "sh", "wad"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PrBoom]",
+        "args": ["-L", "prboom_libretro", "{rom.path}"]
+      },
+      {
+        "id": "prboom-plus",
+        "name": "PrBoom+",
+        "args": ["-iwad", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Boom 3]",
+        "args": ["-L", "boom3_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Boom 3 xp]",
+        "args": ["-L", "boom3_xp_libretro", "{rom.path}"]
+      },
+      {
+        "id": "os-shell",
+        "name": "Shortcut or script",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "dos",
+    "name": "DOS (PC)",
+    "external_ids": {
+      "retroachievements": [26],
+      "screenscraper": [135],
+      "igdb": [13]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "bat",
+      "com",
+      "conf",
+      "cue",
+      "dosz",
+      "exe",
+      "img",
+      "iso",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DOSBox-Pure]",
+        "args": ["-L", "dosbox_pure_libretro", "{rom.path}"]
+      },
+      {
+        "id": "dosbox-pure-unleashed",
+        "name": "DOSBox Pure Unleashed",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DOSBox-Core]",
+        "args": ["-L", "dosbox_core_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DOSBox-SVN]",
+        "args": ["-L", "dosbox_svn_libretro", "{rom.path}"]
+      },
+      {
+        "id": "dosbox-x",
+        "name": "DOSBox-X",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "dosbox-staging",
+        "name": "DOSBox Staging",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "dreamm",
+        "name": "DREAMM",
+        "args": ["."]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [VirtualXT]",
+        "args": ["-L", "virtualxt_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "dragon32",
+    "name": "Dragon Data Dragon 32",
+    "filetypes": ["7z", "cas", "ccc", "dsk", "rom", "zip"],
+    "emulators": [
+      {
+        "id": "xroar",
+        "name": "XRoar Dragon 32",
+        "args": ["-fs", "-default-machine", "dragon32", "{rom.path}"]
+      },
+      {
+        "id": "xroar",
+        "name": "XRoar Dragon 64",
+        "args": ["-fs", "-default-machine", "dragon64", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "dreamcast",
+    "name": "Sega Dreamcast",
+    "external_ids": {
+      "retroachievements": [40],
+      "screenscraper": [23],
+      "igdb": [23],
+      "thegamesdb": [16]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
+    "filetypes": [
+      "7z",
+      "cdi",
+      "chd",
+      "cue",
+      "dat",
+      "elf",
+      "gdi",
+      "iso",
+      "lst",
+      "m3u",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Flycast]",
+        "args": ["-L", "flycast_libretro", "{rom.path}"]
+      },
+      {
+        "id": "flycast",
+        "name": "Flycast",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "flycast-dojo",
+        "name": "Flycast Dojo",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "redream",
+        "name": "Redream",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "easyrpg",
+    "name": "EasyRPG Game Engine",
+    "filetypes": ["easyrpg", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [EasyRPG]",
+        "args": ["-L", "easyrpg_libretro", "{rom.path}"]
+      },
+      {
+        "id": "easyrpg",
+        "name": "EasyRPG Player",
+        "args": ["--project-path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "famicom",
+    "name": "Nintendo Family Computer",
+    "filetypes": ["3dsen", "7z", "fds", "nes", "unf", "unif", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Mesen]",
+        "args": ["-L", "mesen_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Nestopia UE]",
+        "args": ["-L", "nestopia_libretro", "{rom.path}"]
+      },
+      {
+        "id": "nestopia-ue",
+        "name": "Nestopia UE",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FCEUmm]",
+        "args": ["-L", "fceumm_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [QuickNES]",
+        "args": ["-L", "quicknes_libretro", "{rom.path}"]
+      },
+      {
+        "id": "punes",
+        "name": "puNES",
+        "args": ["-u", "yes", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "nes", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Famicom", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares FDS",
+        "args": [
+          "--fullscreen",
+          "--system",
+          "Famicom Disk System",
+          "{rom.path}"
+        ]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      },
+      {
+        "id": "plastic",
+        "name": "Plastic",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "fba",
+    "name": "FinalBurn Alpha",
+    "filetypes": ["7z", "iso", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012]",
+        "args": ["-L", "fbalpha2012_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012 Neo Geo]",
+        "args": ["-L", "fbalpha2012_neogeo_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012 CPS-1]",
+        "args": ["-L", "fbalpha2012_cps1_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012 CPS-2]",
+        "args": ["-L", "fbalpha2012_cps2_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012 CPS-3]",
+        "args": ["-L", "fbalpha2012_cps3_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "fbneo",
+    "name": "FinalBurn Neo",
+    "external_ids": {
+      "retroachievements": [27],
+      "screenscraper": [75],
+      "igdb": [52],
+      "thegamesdb": [23]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FinalBurn Neo]",
+        "args": ["-L", "fbneo_libretro", "{rom.path}"]
+      },
+      {
+        "id": "finalburn-neo",
+        "name": "FinalBurn Neo",
+        "args": ["-fullscreen", "{rom.basename}"]
+      }
+    ]
+  },
+  {
+    "id": "fds",
+    "name": "Nintendo Famicom Disk System",
+    "external_ids": {
+      "retroachievements": [7],
+      "screenscraper": [106],
+      "igdb": [51],
+      "thegamesdb": [4936]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "fds", "nes", "unf", "unif", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Mesen]",
+        "args": ["-L", "mesen_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Nestopia UE]",
+        "args": ["-L", "nestopia_libretro", "{rom.path}"]
+      },
+      {
+        "id": "nestopia-ue",
+        "name": "Nestopia UE",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FCEUmm]",
+        "args": ["-L", "fceumm_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "nes", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": [
+          "--fullscreen",
+          "--system",
+          "Famicom Disk System",
+          "{rom.path}"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "flash",
+    "name": "Adobe Flash",
+    "filetypes": ["ruf", "swf"],
+    "emulators": [
+      {
+        "id": "ruffle",
+        "name": "Ruffle",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "lightspark",
+        "name": "Lightspark",
+        "args": ["--fullscreen", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "fmtowns",
+    "name": "Fujitsu FM Towns",
+    "filetypes": ["cdr", "chd", "cue", "gdi", "iso"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "fmtownshr -rompath \"{rom.dir};{roms.dir}/fmtowns\" -cdrom \"{rom.dir}/{rom.name}\""
+        ]
+      },
+      {
+        "id": "tsugaru",
+        "name": "Tsugaru",
+        "args": [
+          "{emu.dir}/roms",
+          "-HOSTSHORTCUT",
+          "ESC",
+          "0",
+          "0",
+          "FORCEQUIT",
+          "-FULLSCREEN",
+          "-CD",
+          "{rom.path}"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fpinball",
+    "name": "Future Pinball",
+    "filetypes": ["fpt"],
+    "emulators": []
+  },
+  {
+    "id": "gamate",
+    "name": "Bit Corporation Gamate",
+    "filetypes": ["7z", "bin", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "gamate -rompath \"{rom.dir};{roms.dir}/gamate\" -cart \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gameandwatch",
+    "name": "Nintendo Game and Watch",
+    "external_ids": {
+      "retroachievements": [60],
+      "screenscraper": [52],
+      "igdb": [307],
+      "thegamesdb": [4950]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "mgw", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": ["-L", "mame_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Handheld Electronic (GW)]",
+        "args": ["-L", "gw_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "gamecom",
+    "name": "Tiger Electronics Game.com",
+    "filetypes": ["7z", "tgc", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "gamecom -rompath \"{rom.dir};{roms.dir}/gamecom\" -cartridge1 \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gamegear",
+    "name": "Sega Game Gear",
+    "external_ids": {
+      "retroachievements": [15],
+      "screenscraper": [21],
+      "igdb": [35],
+      "thegamesdb": [20]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "68k",
+      "7z",
+      "bin",
+      "bms",
+      "chd",
+      "col",
+      "cue",
+      "gen",
+      "gg",
+      "iso",
+      "m3u",
+      "md",
+      "mdx",
+      "rom",
+      "sg",
+      "sgd",
+      "smd",
+      "sms",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX]",
+        "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX Wide]",
+        "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Gearsystem]",
+        "args": ["-L", "gearsystem_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [SMS Plus GX]",
+        "args": ["-L", "smsplus_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PicoDrive]",
+        "args": ["-L", "picodrive_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "gg", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Game Gear", "{rom.path}"]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "gb",
+    "name": "Nintendo Game Boy",
+    "external_ids": {
+      "retroachievements": [4],
+      "screenscraper": [9],
+      "igdb": [33],
+      "thegamesdb": [4]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "bs",
+      "cgb",
+      "dmg",
+      "gb",
+      "gbc",
+      "sfc",
+      "sgb",
+      "smc",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Gambatte]",
+        "args": ["-L", "gambatte_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [SameBoy]",
+        "args": ["-L", "sameboy_libretro", "{rom.path}"]
+      },
+      {
+        "id": "sameboy",
+        "name": "SameBoy",
+        "args": ["-f", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Gearboy]",
+        "args": ["-L", "gearboy_libretro", "{rom.path}"]
+      },
+      {
+        "id": "gearboy",
+        "name": "Gearboy",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [TGB Dual]",
+        "args": ["-L", "tgbdual_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DoubleCherryGB]",
+        "args": ["-L", "DoubleCherryGB_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Mesen-S]",
+        "args": ["-L", "mesen-s_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes]",
+        "args": ["-L", "bsnes_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [mGBA]",
+        "args": ["-L", "mgba_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mgba",
+        "name": "mGBA",
+        "args": ["-f", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [VBA-M]",
+        "args": ["-L", "vbam_libretro", "{rom.path}"]
+      },
+      {
+        "id": "vba-m",
+        "name": "VBA-M",
+        "args": ["-f", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "gb", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Game Boy", "{rom.path}"]
+      },
+      {
+        "id": "skyemu",
+        "name": "SkyEmu",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "gba",
+    "name": "Nintendo Game Boy Advance",
+    "external_ids": {
+      "retroachievements": [5],
+      "screenscraper": [12],
+      "igdb": [24],
+      "thegamesdb": [5]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "agb",
+      "bin",
+      "cgb",
+      "dmg",
+      "gb",
+      "gba",
+      "gbc",
+      "sgb",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [mGBA]",
+        "args": ["-L", "mgba_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mgba",
+        "name": "mGBA",
+        "args": ["-f", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [VBA-M]",
+        "args": ["-L", "vbam_libretro", "{rom.path}"]
+      },
+      {
+        "id": "vba-m",
+        "name": "VBA-M",
+        "args": ["-f", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [VBA Next]",
+        "args": ["-L", "vba_next_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [gpSP]",
+        "args": ["-L", "gpsp_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [NooDS]",
+        "args": ["-L", "noods_libretro", "{rom.path}"]
+      },
+      {
+        "id": "noods",
+        "name": "NooDS",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "gba", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Game Boy Advance", "{rom.path}"]
+      },
+      {
+        "id": "skyemu",
+        "name": "SkyEmu",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "gbc",
+    "name": "Nintendo Game Boy Color",
+    "external_ids": {
+      "retroachievements": [6],
+      "screenscraper": [10],
+      "igdb": [22],
+      "thegamesdb": [41]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "bs",
+      "cgb",
+      "dmg",
+      "gb",
+      "gbc",
+      "sfc",
+      "sgb",
+      "smc",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Gambatte]",
+        "args": ["-L", "gambatte_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [SameBoy]",
+        "args": ["-L", "sameboy_libretro", "{rom.path}"]
+      },
+      {
+        "id": "sameboy",
+        "name": "Sameboy",
+        "args": ["-f", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Gearboy]",
+        "args": ["-L", "gearboy_libretro", "{rom.path}"]
+      },
+      {
+        "id": "gearboy",
+        "name": "Gearboy",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [TGB Dual]",
+        "args": ["-L", "tgbdual_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DoubleCherryGB]",
+        "args": ["-L", "DoubleCherryGB_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Mesen-S]",
+        "args": ["-L", "mesen-s_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes]",
+        "args": ["-L", "bsnes_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [mGBA]",
+        "args": ["-L", "mgba_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mgba",
+        "name": "mGBA",
+        "args": ["-f", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [VBA-M]",
+        "args": ["-L", "vbam_libretro", "{rom.path}"]
+      },
+      {
+        "id": "vba-m",
+        "name": "VBA-M",
+        "args": ["-f", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "gb", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Game Boy Color", "{rom.path}"]
+      },
+      {
+        "id": "skyemu",
+        "name": "SkyEmu",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "gc",
+    "name": "Nintendo GameCube",
+    "external_ids": {
+      "retroachievements": [16],
+      "screenscraper": [13],
+      "igdb": [21],
+      "thegamesdb": [2]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "ciso",
+      "dff",
+      "dol",
+      "elf",
+      "gcm",
+      "gcz",
+      "iso",
+      "json",
+      "m3u",
+      "rvz",
+      "tgc",
+      "wad",
+      "wbfs",
+      "wia",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Dolphin]",
+        "args": ["-L", "dolphin_libretro", "{rom.path}"]
+      },
+      {
+        "id": "dolphin",
+        "name": "Dolphin",
+        "args": ["-b", "-e", "{rom.path}"]
+      },
+      {
+        "id": "primehack",
+        "name": "PrimeHack",
+        "args": ["-b", "-e", "{rom.path}"]
+      },
+      {
+        "id": "triforce",
+        "name": "Triforce",
+        "args": ["-b", "-e", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "genesis",
+    "name": "Sega Genesis",
+    "external_ids": {
+      "retroachievements": [1],
+      "screenscraper": [1],
+      "igdb": [29],
+      "thegamesdb": [18]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "32x",
+      "68k",
+      "7z",
+      "bin",
+      "bms",
+      "chd",
+      "cue",
+      "gen",
+      "gg",
+      "iso",
+      "m3u",
+      "md",
+      "mdx",
+      "sg",
+      "sgd",
+      "smd",
+      "sms",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX]",
+        "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX Wide]",
+        "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PicoDrive]",
+        "args": ["-L", "picodrive_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [BlastEm]",
+        "args": ["-L", "blastem_libretro", "{rom.path}"]
+      },
+      {
+        "id": "blastem",
+        "name": "BlastEm",
+        "args": ["-m", "gen", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "md", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Mega Drive", "{rom.path}"]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "gmaster",
+    "name": "Hartung Game Master",
+    "filetypes": ["7z", "bin", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "gmaster -rompath \"{rom.dir};{roms.dir}/gmaster\" -cart \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "gx4000",
+    "name": "Amstrad GX4000",
+    "filetypes": [
+      "7z",
+      "bin",
+      "cdt",
+      "cpr",
+      "dsk",
+      "kcr",
+      "m3u",
+      "sna",
+      "tap",
+      "tar",
+      "voc",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Caprice32]",
+        "args": ["-L", "cap32_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [CrocoDS]",
+        "args": ["-L", "crocods_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "intellivision",
+    "name": "Mattel Electronics Intellivision",
+    "external_ids": {
+      "retroachievements": [45],
+      "screenscraper": [115],
+      "igdb": [67],
+      "thegamesdb": [32]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "bin", "int", "rom", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FreeIntv]",
+        "args": ["-L", "freeintv_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "intv -rompath \"{rom.dir};{roms.dir}/intellivision\" -cart \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "j2me",
+    "name": "Java 2 Micro Edition (J2ME)",
+    "external_ids": {},
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "jar", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [SquirrelJME]",
+        "args": ["-L", "squirreljme_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "laserdisc",
+    "name": "LaserDisc Games",
+    "filetypes": ["7z", "daphne", "dirksimple", "mmi", "ogv", "singe", "zip"],
+    "emulators": [
+      {
+        "id": "hypseus-singe",
+        "name": "Hypseus [Daphne]",
+        "args": [
+          "{rom.basename}",
+          "vldp",
+          "-framefile",
+          "{rom.dir}/{rom.basename}.txt"
+        ]
+      },
+      {
+        "id": "hypseus-singe",
+        "name": "Hypseus [Singe]",
+        "args": [
+          "singe",
+          "vldp",
+          "-framefile",
+          "{rom.dir}/{rom.basename}.txt",
+          "-script",
+          "{rom.dir}/{rom.basename}.singe"
+        ]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": ["-L", "mame_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DirkSimple]",
+        "args": ["-L", "dirksimple_libretro", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares [Mega LD]",
+        "args": ["--fullscreen", "--system", "Mega LD", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "lcdgames",
+    "name": "LCD Handheld Games",
+    "filetypes": ["7z", "mgw", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": ["-L", "mame_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Handheld Electronic (GW)]",
+        "args": ["-L", "gw_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "lowresnx",
+    "name": "LowRes NX Fantasy Console",
+    "external_ids": {
+      "screenscraper": [244]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["nx"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [LowRes NX]",
+        "args": ["-L", "lowresnx_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "lutris",
+    "name": "Lutris Open Gaming Platform",
+    "filetypes": ["desktop", "sh"],
+    "emulators": [
+      {
+        "id": "os-shell",
+        "name": "Lutris",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "lutro",
+    "name": "Lutro Game Engine",
+    "filetypes": ["7z", "lua", "lutro", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Lutro]",
+        "args": ["-L", "lutro_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "macintosh",
+    "name": "Apple Macintosh",
+    "filetypes": ["dsk", "game"],
+    "emulators": [
+      {
+        "id": "basiliskii",
+        "name": "Basilisk II",
+        "args": ["--nogui", "true"]
+      },
+      {
+        "id": "sheepshaver",
+        "name": "SheepShaver",
+        "args": ["--nogui", "true"]
+      }
+    ]
+  },
+  {
+    "id": "mame",
+    "name": "Multiple Arcade Machine Emulator",
+    "external_ids": {
+      "retroachievements": [27],
+      "screenscraper": [75],
+      "igdb": [52],
+      "thegamesdb": [23]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "cmd",
+      "desktop",
+      "gam",
+      "lindbergh",
+      "neo",
+      "sh",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": ["-L", "mame_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2010]",
+        "args": ["-L", "mame2010_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2003-Plus]",
+        "args": ["-L", "mame2003_plus_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2003]",
+        "args": ["-L", "mame2003_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME 2000]",
+        "args": ["-L", "mame2000_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FinalBurn Neo]",
+        "args": ["-L", "fbneo_libretro", "{rom.path}"]
+      },
+      {
+        "id": "finalburn-neo",
+        "name": "FinalBurn Neo",
+        "args": ["-fullscreen", "{rom.basename}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FB Alpha 2012]",
+        "args": ["-L", "fbalpha2012_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Geolith]",
+        "args": ["-L", "geolith_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Flycast]",
+        "args": ["-L", "flycast_libretro", "{rom.path}"]
+      },
+      {
+        "id": "flycast",
+        "name": "Flycast",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "flycast-dojo",
+        "name": "Flycast Dojo",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Kronos]",
+        "args": ["-L", "kronos_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DICE]",
+        "args": ["-L", "dice_libretro", "{rom.path}"]
+      },
+      {
+        "id": "supermodel",
+        "name": "Supermodel",
+        "args": ["-log-output={rom.dir}/Config/Supermodel.log", "{rom.path}"]
+      },
+      {
+        "id": "lindbergh-loader",
+        "name": "Lindbergh Loader"
+      },
+      {
+        "id": "os-shell",
+        "name": "Shortcut or script",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "mame-advmame",
+    "name": "AdvanceMAME",
+    "filetypes": ["7z", "zip"],
+    "emulators": [
+      {
+        "id": "advancemame",
+        "name": "AdvanceMAME",
+        "args": ["{rom.basename}"]
+      }
+    ]
+  },
+  {
+    "id": "mark3",
+    "name": "Sega Mark III",
+    "filetypes": [
+      "68k",
+      "7z",
+      "bin",
+      "bms",
+      "chd",
+      "col",
+      "cue",
+      "gen",
+      "gg",
+      "iso",
+      "m3u",
+      "md",
+      "mdx",
+      "rom",
+      "sg",
+      "sgd",
+      "smd",
+      "sms",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX]",
+        "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX Wide]",
+        "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [SMS Plus GX]",
+        "args": ["-L", "smsplus_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Gearsystem]",
+        "args": ["-L", "gearsystem_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PicoDrive]",
+        "args": ["-L", "picodrive_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "sms", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Master System", "{rom.path}"]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "mastersystem",
+    "name": "Sega Master System",
+    "external_ids": {
+      "retroachievements": [11],
+      "screenscraper": [2],
+      "igdb": [64],
+      "thegamesdb": [35]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "68k",
+      "7z",
+      "bin",
+      "bms",
+      "chd",
+      "col",
+      "cue",
+      "gen",
+      "gg",
+      "iso",
+      "m3u",
+      "md",
+      "mdx",
+      "rom",
+      "sg",
+      "sgd",
+      "smd",
+      "sms",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX]",
+        "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX Wide]",
+        "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [SMS Plus GX]",
+        "args": ["-L", "smsplus_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Gearsystem]",
+        "args": ["-L", "gearsystem_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PicoDrive]",
+        "args": ["-L", "picodrive_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "sms", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Master System", "{rom.path}"]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "megacd",
+    "name": "Sega Mega-CD",
+    "filetypes": [
+      "68k",
+      "7z",
+      "bin",
+      "bms",
+      "chd",
+      "cue",
+      "gen",
+      "gg",
+      "iso",
+      "m3u",
+      "md",
+      "mdx",
+      "sg",
+      "sgd",
+      "smd",
+      "sms",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX]",
+        "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX Wide]",
+        "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PicoDrive]",
+        "args": ["-L", "picodrive_libretro", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Mega CD", "{rom.path}"]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "megacdjp",
+    "name": "Sega Mega-CD",
+    "filetypes": [
+      "68k",
+      "7z",
+      "bin",
+      "bms",
+      "chd",
+      "cue",
+      "gen",
+      "gg",
+      "iso",
+      "m3u",
+      "md",
+      "mdx",
+      "sg",
+      "sgd",
+      "smd",
+      "sms",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX]",
+        "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX Wide]",
+        "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PicoDrive]",
+        "args": ["-L", "picodrive_libretro", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Mega CD", "{rom.path}"]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "megadrive",
+    "name": "Sega Mega Drive",
+    "filetypes": [
+      "32x",
+      "68k",
+      "7z",
+      "bin",
+      "bms",
+      "chd",
+      "cue",
+      "gen",
+      "gg",
+      "iso",
+      "m3u",
+      "md",
+      "mdx",
+      "sg",
+      "sgd",
+      "smd",
+      "sms",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX]",
+        "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX Wide]",
+        "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PicoDrive]",
+        "args": ["-L", "picodrive_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [BlastEm]",
+        "args": ["-L", "blastem_libretro", "{rom.path}"]
+      },
+      {
+        "id": "blastem",
+        "name": "BlastEm",
+        "args": ["-m", "gen", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "md", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Mega Drive", "{rom.path}"]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "megadrivejp",
+    "name": "Sega Mega Drive",
+    "filetypes": [
+      "32x",
+      "68k",
+      "7z",
+      "bin",
+      "bms",
+      "chd",
+      "cue",
+      "gen",
+      "gg",
+      "iso",
+      "m3u",
+      "md",
+      "mdx",
+      "sg",
+      "sgd",
+      "smd",
+      "sms",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX]",
+        "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX Wide]",
+        "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PicoDrive]",
+        "args": ["-L", "picodrive_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [BlastEm]",
+        "args": ["-L", "blastem_libretro", "{rom.path}"]
+      },
+      {
+        "id": "blastem",
+        "name": "BlastEm",
+        "args": ["-m", "gen", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "md", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Mega Drive", "{rom.path}"]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "megaduck",
+    "name": "Creatronic Mega Duck",
+    "external_ids": {
+      "retroachievements": [69],
+      "screenscraper": [90],
+      "igdb": [408],
+      "thegamesdb": [4948]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "bin", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [SameDuck]",
+        "args": ["-L", "sameduck_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "megaduck -rompath \"{rom.dir};{roms.dir}/megaduck\" -cart \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "mess",
+    "name": "Multi Emulator Super System",
+    "filetypes": ["7z", "chd", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MESS 2015]",
+        "args": ["-L", "mess2015_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "model2",
+    "name": "Sega Model 2",
+    "filetypes": ["7z", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": ["-L", "mame_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "model3",
+    "name": "Sega Model 3",
+    "filetypes": ["7z", "zip"],
+    "emulators": [
+      {
+        "id": "supermodel",
+        "name": "Supermodel",
+        "args": ["-log-output={rom.dir}/Config/Supermodel.log", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": ["-L", "mame_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "moto",
+    "name": "Thomson MO/TO Series",
+    "filetypes": ["7z", "fd", "k7", "m5", "m7", "rom", "sap", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Theodore]",
+        "args": ["-L", "theodore_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "msx",
+    "name": "MSX",
+    "external_ids": {
+      "retroachievements": [29],
+      "screenscraper": [113],
+      "igdb": [27],
+      "thegamesdb": [4929]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "cas",
+      "col",
+      "di1",
+      "di2",
+      "dmk",
+      "dsk",
+      "fd1",
+      "fd2",
+      "m3u",
+      "mx1",
+      "mx2",
+      "ogv",
+      "ri",
+      "rom",
+      "sc",
+      "sg",
+      "wav",
+      "xsa",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [blueMSX]",
+        "args": ["-L", "bluemsx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [fMSX]",
+        "args": ["-L", "fmsx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "openmsx",
+        "name": "openMSX",
+        "args": ["-machine", "National_CF-3300", "{rom.path}"]
+      },
+      {
+        "id": "openmsx",
+        "name": "openMSX No Machine",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "MSX", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "msx1",
+    "name": "MSX1",
+    "filetypes": [
+      "7z",
+      "cas",
+      "col",
+      "di1",
+      "di2",
+      "dmk",
+      "dsk",
+      "fd1",
+      "fd2",
+      "m3u",
+      "mx1",
+      "mx2",
+      "ogv",
+      "ri",
+      "rom",
+      "sc",
+      "sg",
+      "wav",
+      "xsa",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [blueMSX]",
+        "args": ["-L", "bluemsx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [fMSX]",
+        "args": ["-L", "fmsx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "openmsx",
+        "name": "openMSX",
+        "args": ["-machine", "National_CF-3300", "{rom.path}"]
+      },
+      {
+        "id": "openmsx",
+        "name": "openMSX No Machine",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "MSX", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "msx2",
+    "name": "MSX2",
+    "filetypes": [
+      "7z",
+      "cas",
+      "col",
+      "di1",
+      "di2",
+      "dmk",
+      "dsk",
+      "fd1",
+      "fd2",
+      "m3u",
+      "mx1",
+      "mx2",
+      "ogv",
+      "ri",
+      "rom",
+      "sc",
+      "sg",
+      "wav",
+      "xsa",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [blueMSX]",
+        "args": ["-L", "bluemsx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [fMSX]",
+        "args": ["-L", "fmsx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "openmsx",
+        "name": "openMSX",
+        "args": ["-machine", "Panasonic_FS-A1WSX", "{rom.path}"]
+      },
+      {
+        "id": "openmsx",
+        "name": "openMSX No Machine",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "MSX2", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "msxturbor",
+    "name": "MSX Turbo R",
+    "filetypes": [
+      "7z",
+      "cas",
+      "col",
+      "di1",
+      "di2",
+      "dmk",
+      "dsk",
+      "fd1",
+      "fd2",
+      "m3u",
+      "mx1",
+      "mx2",
+      "ogv",
+      "ri",
+      "rom",
+      "sc",
+      "sg",
+      "wav",
+      "xsa",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [blueMSX]",
+        "args": ["-L", "bluemsx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "openmsx",
+        "name": "openMSX",
+        "args": ["-machine", "Panasonic_FS-A1GT", "{rom.path}"]
+      },
+      {
+        "id": "openmsx",
+        "name": "openMSX No Machine",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "mugen",
+    "name": "M.U.G.E.N Game Engine",
+    "filetypes": ["mugen"],
+    "emulators": [
+      {
+        "id": "os-shell",
+        "name": "Ikemen GO",
+        "args": ["-c", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "multivision",
+    "name": "Othello Multivision",
+    "filetypes": ["7z", "bin", "gg", "rom", "sg", "sms", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Gearsystem]",
+        "args": ["-L", "gearsystem_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "n3ds",
+    "name": "Nintendo 3DS",
+    "external_ids": {
+      "retroachievements": [62],
+      "screenscraper": [17],
+      "igdb": [37],
+      "thegamesdb": [4912]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "3ds",
+      "3dsx",
+      "7z",
+      "app",
+      "axf",
+      "cci",
+      "cxi",
+      "desktop",
+      "elf",
+      "z3dsx",
+      "zcci",
+      "zcxi",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "azahar",
+        "name": "Azahar",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "os-shell",
+        "name": "Azahar Shortcut",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "azaharplus",
+        "name": "AzaharPlus",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Citra]",
+        "args": ["-L", "citra_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Citra 2018]",
+        "args": ["-L", "citra2018_libretro", "{rom.path}"]
+      },
+      {
+        "id": "citra",
+        "name": "Citra",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "mandarine",
+        "name": "Mandarine",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "lime3ds",
+        "name": "Lime3DS",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "panda3ds",
+        "name": "Panda3DS",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "n64",
+    "name": "Nintendo 64",
+    "external_ids": {
+      "retroachievements": [2],
+      "screenscraper": [14],
+      "igdb": [4],
+      "thegamesdb": [3]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "appimage",
+      "bin",
+      "d64",
+      "desktop",
+      "n64",
+      "ndd",
+      "sh",
+      "u1",
+      "v64",
+      "z64",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Mupen64Plus-Next]",
+        "args": ["-L", "mupen64plus_next_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mupen64plus",
+        "name": "Mupen64Plus",
+        "args": ["--nogui", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [ParaLLEl N64]",
+        "args": ["-L", "parallel_n64_libretro", "{rom.path}"]
+      },
+      {
+        "id": "parallel-launcher",
+        "name": "Parallel Launcher",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "simple64",
+        "name": "simple64",
+        "args": ["--nogui", "{rom.path}"]
+      },
+      {
+        "id": "rosalies-mupen-gui",
+        "name": "Rosalie's Mupen GUI",
+        "args": ["--nogui", "-q", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Nintendo 64", "{rom.path}"]
+      },
+      {
+        "id": "gopher64",
+        "name": "Gopher64",
+        "args": ["-f", "{rom.path}"]
+      },
+      {
+        "id": "os-shell",
+        "name": "Native port",
+        "args": ["-c", "{rom.path}"]
+      },
+      {
+        "id": "os-shell",
+        "name": "Shortcut or script",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "n64dd",
+    "name": "Nintendo 64DD",
+    "filetypes": ["7z", "bin", "d64", "n64", "ndd", "u1", "v64", "z64", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [ParaLLEl N64]",
+        "args": ["-L", "parallel_n64_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Mupen64Plus-Next]",
+        "args": ["-L", "mupen64plus_next_libretro", "{rom.path}"]
+      },
+      {
+        "id": "rosalies-mupen-gui",
+        "name": "Rosalie's Mupen GUI",
+        "args": ["--nogui", "-q", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Nintendo 64DD", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "naomi",
+    "name": "Sega NAOMI",
+    "external_ids": {
+      "retroachievements": [27],
+      "screenscraper": [56]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bin|chd)$",
+    "filetypes": ["7z", "bin", "dat", "elf", "lst", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Flycast]",
+        "args": ["-L", "flycast_libretro", "{rom.path}"]
+      },
+      {
+        "id": "flycast",
+        "name": "Flycast",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "flycast-dojo",
+        "name": "Flycast Dojo",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "naomi2",
+    "name": "Sega NAOMI 2",
+    "filetypes": ["7z", "bin", "dat", "elf", "lst", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Flycast]",
+        "args": ["-L", "flycast_libretro", "{rom.path}"]
+      },
+      {
+        "id": "flycast",
+        "name": "Flycast",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "flycast-dojo",
+        "name": "Flycast Dojo",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "naomigd",
+    "name": "Sega NAOMI GD-ROM",
+    "filetypes": ["7z", "bin", "dat", "elf", "lst", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Flycast]",
+        "args": ["-L", "flycast_libretro", "{rom.path}"]
+      },
+      {
+        "id": "flycast",
+        "name": "Flycast",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "flycast-dojo",
+        "name": "Flycast Dojo",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "nds",
+    "name": "Nintendo DS",
+    "external_ids": {
+      "retroachievements": [18, 78],
+      "screenscraper": [15],
+      "igdb": [20],
+      "thegamesdb": [8]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "app", "bin", "nds", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [melonDS DS]",
+        "args": ["-L", "melondsds_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [melonDS]",
+        "args": ["-L", "melonds_libretro", "{rom.path}"]
+      },
+      {
+        "id": "melonds",
+        "name": "melonDS",
+        "args": ["-f", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DeSmuME]",
+        "args": ["-L", "desmume_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DeSmuME 2015]",
+        "args": ["-L", "desmume2015_libretro", "{rom.path}"]
+      },
+      {
+        "id": "desmume",
+        "name": "DeSmuME",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [NooDS]",
+        "args": ["-L", "noods_libretro", "{rom.path}"]
+      },
+      {
+        "id": "noods",
+        "name": "NooDS",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "skyemu",
+        "name": "SkyEmu",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "neogeo",
+    "name": "SNK Neo Geo",
+    "external_ids": {
+      "retroachievements": [27],
+      "screenscraper": [142],
+      "igdb": [136],
+      "thegamesdb": [24]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "neo", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FinalBurn Neo]",
+        "args": ["-L", "fbneo_libretro", "{rom.path}"]
+      },
+      {
+        "id": "finalburn-neo",
+        "name": "FinalBurn Neo",
+        "args": ["-fullscreen", "{rom.basename}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Geolith]",
+        "args": ["-L", "geolith_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "neogeocd",
+    "name": "SNK Neo Geo CD",
+    "external_ids": {
+      "retroachievements": [56],
+      "screenscraper": [70],
+      "igdb": [136],
+      "thegamesdb": [4956]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["chd", "cue"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [NeoCD]",
+        "args": ["-L", "neocd_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FinalBurn Neo]",
+        "args": ["--subsystem", "neocd", "-L", "fbneo_libretro", "{rom.path}"]
+      },
+      {
+        "id": "finalburn-neo",
+        "name": "FinalBurn Neo",
+        "args": ["neocdz", "-fullscreen", "-cd", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "neogeocdjp",
+    "name": "SNK Neo Geo CD",
+    "filetypes": ["chd", "cue"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [NeoCD]",
+        "args": ["-L", "neocd_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FinalBurn Neo]",
+        "args": ["--subsystem", "neocd", "-L", "fbneo_libretro", "{rom.path}"]
+      },
+      {
+        "id": "finalburn-neo",
+        "name": "FinalBurn Neo",
+        "args": ["neocdz", "-fullscreen", "-cd", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "nes",
+    "name": "Nintendo Entertainment System",
+    "external_ids": {
+      "retroachievements": [7],
+      "screenscraper": [3],
+      "igdb": [18],
+      "thegamesdb": [7]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["3dsen", "7z", "fds", "nes", "unf", "unif", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Mesen]",
+        "args": ["-L", "mesen_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Nestopia UE]",
+        "args": ["-L", "nestopia_libretro", "{rom.path}"]
+      },
+      {
+        "id": "nestopia-ue",
+        "name": "Nestopia UE",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [FCEUmm]",
+        "args": ["-L", "fceumm_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [QuickNES]",
+        "args": ["-L", "quicknes_libretro", "{rom.path}"]
+      },
+      {
+        "id": "punes",
+        "name": "puNES",
+        "args": ["-u", "yes", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "nes", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Famicom", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares FDS",
+        "args": [
+          "--fullscreen",
+          "--system",
+          "Famicom Disk System",
+          "{rom.path}"
+        ]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      },
+      {
+        "id": "plastic",
+        "name": "Plastic",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "ngage",
+    "name": "Nokia N-Gage",
+    "external_ids": {
+      "retroachievements": [61],
+      "screenscraper": [30],
+      "igdb": [42],
+      "thegamesdb": [4938]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["ngage", "zip"],
+    "emulators": [
+      {
+        "id": "eka2l1",
+        "name": "EKA2L1 [Mounted]",
+        "args": [
+          "--fullscreen",
+          "--device",
+          "RH-29",
+          "--mount",
+          "{rom.path}",
+          "--run",
+          "{rom.basename}"
+        ]
+      },
+      {
+        "id": "eka2l1",
+        "name": "EKA2L1 [Installed]",
+        "args": ["--fullscreen", "--device", "RH-29", "--run", "{rom.basename}"]
+      }
+    ]
+  },
+  {
+    "id": "ngp",
+    "name": "SNK Neo Geo Pocket",
+    "external_ids": {
+      "retroachievements": [14],
+      "screenscraper": [25],
+      "igdb": [119],
+      "thegamesdb": [4922]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "ngc", "ngp", "ngpc", "npc", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle NeoPop]",
+        "args": ["-L", "mednafen_ngp_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [RACE]",
+        "args": ["-L", "race_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "ngp", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Neo Geo Pocket", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "ngpc",
+    "name": "SNK Neo Geo Pocket Color",
+    "external_ids": {
+      "screenscraper": [82],
+      "igdb": [120],
+      "thegamesdb": [4923]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "ngc", "ngp", "ngpc", "npc", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle NeoPop]",
+        "args": ["-L", "mednafen_ngp_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [RACE]",
+        "args": ["-L", "race_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "ngp", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": [
+          "--fullscreen",
+          "--system",
+          "Neo Geo Pocket Color",
+          "{rom.path}"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "odyssey2",
+    "name": "Magnavox Odyssey 2",
+    "external_ids": {
+      "retroachievements": [23],
+      "screenscraper": [104],
+      "igdb": [133],
+      "thegamesdb": [4927]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "bin", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [O2EM]",
+        "args": ["-L", "o2em_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "odyssey2 -rompath \"{rom.dir};{roms.dir}/odyssey2\" -cart \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "openbor",
+    "name": "OpenBOR Game Engine",
+    "filetypes": ["appimage"],
+    "emulators": [
+      {
+        "id": "os-shell",
+        "name": "OpenBOR",
+        "args": ["-c", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "oric",
+    "name": "Tangerine Computer Systems Oric",
+    "filetypes": ["dsk", "ort", "tap", "wav"],
+    "emulators": [
+      {
+        "id": "oricutron",
+        "name": "Oricutron",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "palm",
+    "name": "Palm OS",
+    "external_ids": {
+      "screenscraper": [219],
+      "igdb": [417]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "img", "pqa", "prc", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Mu]",
+        "args": ["-L", "mu_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "pc",
+    "name": "IBM PC",
+    "filetypes": [
+      "7z",
+      "bat",
+      "com",
+      "conf",
+      "cue",
+      "dosz",
+      "exe",
+      "img",
+      "iso",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DOSBox-Pure]",
+        "args": ["-L", "dosbox_pure_libretro", "{rom.path}"]
+      },
+      {
+        "id": "dosbox-pure-unleashed",
+        "name": "DOSBox Pure Unleashed",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DOSBox-Core]",
+        "args": ["-L", "dosbox_core_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DOSBox-SVN]",
+        "args": ["-L", "dosbox_svn_libretro", "{rom.path}"]
+      },
+      {
+        "id": "dosbox-x",
+        "name": "DOSBox-X",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "dosbox-staging",
+        "name": "DOSBox Staging",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "dreamm",
+        "name": "DREAMM",
+        "args": ["."]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [VirtualXT]",
+        "args": ["-L", "virtualxt_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "pc88",
+    "name": "NEC PC-8800 Series",
+    "external_ids": {
+      "retroachievements": [47],
+      "screenscraper": [221],
+      "igdb": [125],
+      "thegamesdb": [4933]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["88d", "cmt", "d88", "m3u", "t88", "u88"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [QUASI88]",
+        "args": ["-L", "quasi88_libretro", "{rom.path}"]
+      },
+      {
+        "id": "quasi88",
+        "name": "QUASI88",
+        "args": ["-romdir", "~/.quasi88", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "pc98",
+    "name": "NEC PC-9800 Series",
+    "external_ids": {
+      "retroachievements": [48],
+      "screenscraper": [208],
+      "igdb": [149],
+      "thegamesdb": [4934]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "2hd",
+      "7z",
+      "88d",
+      "98d",
+      "cmd",
+      "d88",
+      "d98",
+      "dup",
+      "fdd",
+      "fdi",
+      "hdd",
+      "hdi",
+      "hdm",
+      "hdn",
+      "m3u",
+      "nhd",
+      "tfd",
+      "thd",
+      "xdf",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Neko Project II Kai]",
+        "args": ["-L", "np2kai_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Neko Project II]",
+        "args": ["-L", "nekop2_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "pcarcade",
+    "name": "PC Arcade Systems",
+    "filetypes": ["appimage", "desktop", "exe", "lindbergh", "sh"],
+    "emulators": [
+      {
+        "id": "wine",
+        "name": "Wine",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "proton",
+        "name": "Proton",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "lindbergh-loader",
+        "name": "Lindbergh Loader"
+      },
+      {
+        "id": "os-shell",
+        "name": "AppImage",
+        "args": ["-c", "{rom.path}"]
+      },
+      {
+        "id": "os-shell",
+        "name": "Shortcut or script",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "pcengine",
+    "name": "NEC PC Engine",
+    "filetypes": [
+      "7z",
+      "ccd",
+      "chd",
+      "cue",
+      "img",
+      "iso",
+      "m3u",
+      "pce",
+      "rom",
+      "sgx",
+      "toc",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle PCE]",
+        "args": ["-L", "mednafen_pce_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle PCE FAST]",
+        "args": ["-L", "mednafen_pce_fast_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle SuperGrafx]",
+        "args": ["-L", "mednafen_supergrafx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Geargrafx]",
+        "args": ["-L", "geargrafx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "pce", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "PC Engine", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "pcenginecd",
+    "name": "NEC PC Engine CD",
+    "filetypes": [
+      "7z",
+      "ccd",
+      "chd",
+      "cue",
+      "img",
+      "iso",
+      "m3u",
+      "pce",
+      "sgx",
+      "toc",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle PCE]",
+        "args": ["-L", "mednafen_pce_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle PCE FAST]",
+        "args": ["-L", "mednafen_pce_fast_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle SuperGrafx]",
+        "args": ["-L", "mednafen_supergrafx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "pce", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "PC Engine CD", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "pcfx",
+    "name": "NEC PC-FX",
+    "external_ids": {
+      "retroachievements": [49],
+      "screenscraper": [72],
+      "igdb": [274],
+      "thegamesdb": [4930]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "ccd", "chd", "cue", "m3u", "toc", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle PC-FX]",
+        "args": ["-L", "mednafen_pcfx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "pcfx", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "pico8",
+    "name": "PICO-8 Fantasy Console",
+    "external_ids": {
+      "screenscraper": [234]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["p8", "png"],
+    "emulators": [
+      {
+        "id": "pico-8",
+        "name": "PICO-8",
+        "args": ["-root_path", "{rom.dir}", "-run", "{rom.path}"]
+      },
+      {
+        "id": "pico-8",
+        "name": "PICO-8 Splore",
+        "args": ["-root_path", "{rom.dir}", "-splore"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Retro8]",
+        "args": ["-L", "retro8_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "plus4",
+    "name": "Commodore Plus/4",
+    "external_ids": {
+      "screenscraper": [99],
+      "igdb": [94],
+      "thegamesdb": [5007]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "bin",
+      "cmd",
+      "crt",
+      "d2m",
+      "d4m",
+      "d64",
+      "d6z",
+      "d71",
+      "d7z",
+      "d80",
+      "d81",
+      "d82",
+      "d8z",
+      "g41",
+      "g4z",
+      "g64",
+      "g6z",
+      "gz",
+      "lnx",
+      "m3u",
+      "nbz",
+      "nib",
+      "p00",
+      "prg",
+      "t64",
+      "tap",
+      "vfl",
+      "vsf",
+      "x64",
+      "x6z",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [VICE xplus4]",
+        "args": ["-L", "vice_xplus4_libretro", "{rom.path}"]
+      },
+      {
+        "id": "vice-xplus4",
+        "name": "VICE xplus4",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "pokemini",
+    "name": "Nintendo Pokémon Mini",
+    "external_ids": {
+      "retroachievements": [24],
+      "screenscraper": [211],
+      "igdb": [166],
+      "thegamesdb": [4957]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "min", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PokeMini]",
+        "args": ["-L", "pokemini_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "ports",
+    "name": "Ports",
+    "filetypes": ["appimage", "desktop", "exe", "game", "phd", "psx", "sh"],
+    "emulators": [
+      {
+        "id": "os-shell",
+        "name": "Shortcut or script",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "os-shell",
+        "name": "AppImage",
+        "args": ["-c", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [ECWolf (Wolfenstein 3D)]",
+        "args": ["-L", "ecwolf_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [CannonBall (OutRun)]",
+        "args": ["-L", "cannonball_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Mr.Boom (Bomberman)]",
+        "args": ["-L", "mrboom_libretro"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [NXEngine (Cave Story)]",
+        "args": ["-L", "nxengine_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [drs (Cave Story)]",
+        "args": ["-L", "doukutsu_rs_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [OpenLara (Tomb Raider)]",
+        "args": ["-L", "openlara_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Super Bros War]",
+        "args": ["-L", "superbroswar_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "ps2",
+    "name": "Sony PlayStation 2",
+    "external_ids": {
+      "retroachievements": [21],
+      "screenscraper": [58],
+      "igdb": [8],
+      "thegamesdb": [11]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "bin",
+      "chd",
+      "ciso",
+      "cso",
+      "desktop",
+      "dump",
+      "elf",
+      "gz",
+      "img",
+      "iso",
+      "isz",
+      "m3u",
+      "mdf",
+      "ngr",
+      "nrg",
+      "zso"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [LRPS2]",
+        "args": ["-L", "pcsx2_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PCSX2]",
+        "args": ["-L", "pcsx2_libretro", "{rom.path}"]
+      },
+      {
+        "id": "pcsx2",
+        "name": "PCSX2",
+        "args": ["-batch", "{rom.path}"]
+      },
+      {
+        "id": "pcsx2-legacy",
+        "name": "PCSX2 Legacy",
+        "args": ["--nogui", "{rom.path}"]
+      },
+      {
+        "id": "play!",
+        "name": "Play!",
+        "args": ["--fullscreen", "--disc", "{rom.path}"]
+      },
+      {
+        "id": "os-shell",
+        "name": "Shortcut or script",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "ps3",
+    "name": "Sony PlayStation 3",
+    "external_ids": {
+      "screenscraper": [59],
+      "igdb": [9],
+      "thegamesdb": [12]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["desktop", "ps3", "ps3dir"],
+    "emulators": [
+      {
+        "id": "os-shell",
+        "name": "RPCS3 Shortcut",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "rpcs3",
+        "name": "RPCS3 Directory",
+        "args": ["--no-gui", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "ps4",
+    "name": "Sony PlayStation 4",
+    "filetypes": ["bin", "desktop", "ps4"],
+    "emulators": [
+      {
+        "id": "os-shell",
+        "name": "shadPS4 Shortcut",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "shadps4",
+        "name": "shadPS4 Game Serial",
+        "args": ["-g"]
+      },
+      {
+        "id": "shadps4",
+        "name": "shadPS4 eboot.bin",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "shadps4-gui",
+        "name": "shadPS4 [GUI] Game Serial",
+        "args": ["-d", "-g"]
+      },
+      {
+        "id": "shadps4-gui",
+        "name": "shadPS4 [GUI] eboot.bin",
+        "args": ["-d", "-g", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "psp",
+    "name": "Sony PlayStation Portable",
+    "external_ids": {
+      "retroachievements": [41],
+      "screenscraper": [61],
+      "igdb": [38],
+      "thegamesdb": [13]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "chd", "cso", "elf", "iso", "pbp", "prx", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PPSSPP]",
+        "args": ["-L", "ppsspp_libretro", "{rom.path}"]
+      },
+      {
+        "id": "ppsspp",
+        "name": "PPSSPP",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "psvita",
+    "name": "Sony PlayStation Vita",
+    "external_ids": {
+      "screenscraper": [62],
+      "igdb": [46],
+      "thegamesdb": [39]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["psvita"],
+    "emulators": [
+      {
+        "id": "vita3k",
+        "name": "Vita3K",
+        "args": ["-r"]
+      }
+    ]
+  },
+  {
+    "id": "psx",
+    "name": "Sony PlayStation",
+    "external_ids": {
+      "retroachievements": [12],
+      "screenscraper": [57],
+      "igdb": [7],
+      "thegamesdb": [10]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
+    "filetypes": [
+      "7z",
+      "bin",
+      "cbn",
+      "ccd",
+      "chd",
+      "cue",
+      "ecm",
+      "exe",
+      "img",
+      "iso",
+      "m3u",
+      "mdf",
+      "mds",
+      "minipsf",
+      "pbp",
+      "psexe",
+      "psf",
+      "toc",
+      "z",
+      "zip",
+      "znx"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle PSX]",
+        "args": ["-L", "mednafen_psx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle PSX HW]",
+        "args": ["-L", "mednafen_psx_hw_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PCSX ReARMed]",
+        "args": ["-L", "pcsx_rearmed_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [SwanStation]",
+        "args": ["-L", "swanstation_libretro", "{rom.path}"]
+      },
+      {
+        "id": "duckstation",
+        "name": "DuckStation",
+        "args": ["-batch", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "PlayStation", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "psx", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "pv1000",
+    "name": "Casio PV-1000",
+    "filetypes": ["7z", "bin", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "pv1000 -rompath \"{rom.dir};{roms.dir}/pv1000\" -cart \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quake",
+    "name": "Quake",
+    "external_ids": {},
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["desktop", "pak", "pk3", "sh"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [TyrQuake]",
+        "args": ["-L", "tyrquake_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [vitaQuake 2]",
+        "args": ["-L", "vitaquake2_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [vitaQuake 2 [Rogue]]",
+        "args": ["-L", "vitaquake2-rogue_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [vitaQuake 2 [Xatrix]]",
+        "args": ["-L", "vitaquake2-xatrix_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [vitaQuake 2 [Zaero]]",
+        "args": ["-L", "vitaquake2-zaero_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [vitaQuake 3]",
+        "args": ["-L", "vitaquake3_libretro", "{rom.path}"]
+      },
+      {
+        "id": "os-shell",
+        "name": "Shortcut or script",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "samcoupe",
+    "name": "MGT SAM Coupé",
+    "filetypes": ["7z", "dsk", "mgt", "sad", "sbt", "zip"],
+    "emulators": [
+      {
+        "id": "simcoupe",
+        "name": "SimCoupé",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "satellaview",
+    "name": "Nintendo Satellaview",
+    "external_ids": {
+      "screenscraper": [107]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bml)$",
+    "filetypes": ["7z", "bml", "bs", "fig", "sfc", "smc", "st", "swc", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Snes9x - Current]",
+        "args": ["-L", "snes9x_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Snes9x 2010]",
+        "args": ["-L", "snes9x2010_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Snes9x 2005 Plus]",
+        "args": ["-L", "snes9x2005_plus_libretro", "{rom.path}"]
+      },
+      {
+        "id": "snes9x",
+        "name": "Snes9x",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes]",
+        "args": ["-L", "bsnes_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes-hd]",
+        "args": ["-L", "bsnes_hd_beta_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes-jg]",
+        "args": ["-L", "bsnes-jg_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes-mercury Accuracy]",
+        "args": ["-L", "bsnes_mercury_accuracy_libretro", "{rom.path}"]
+      },
+      {
+        "id": "bsnes",
+        "name": "bsnes",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Mesen-S]",
+        "args": ["-L", "mesen-s_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Super Famicom", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "saturn",
+    "name": "Sega Saturn",
+    "external_ids": {
+      "retroachievements": [39],
+      "screenscraper": [22],
+      "igdb": [32],
+      "thegamesdb": [17]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
+    "filetypes": [
+      "7z",
+      "bin",
+      "ccd",
+      "chd",
+      "cue",
+      "iso",
+      "m3u",
+      "mds",
+      "toc",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle Saturn]",
+        "args": ["-L", "mednafen_saturn_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Kronos]",
+        "args": ["-L", "kronos_libretro", "{rom.path}"]
+      },
+      {
+        "id": "kronos",
+        "name": "Kronos",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [YabaSanshiro]",
+        "args": ["-L", "yabasanshiro_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Yabause]",
+        "args": ["-L", "yabause_libretro", "{rom.path}"]
+      },
+      {
+        "id": "ymir",
+        "name": "Ymir",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "ss", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "saturnjp",
+    "name": "Sega Saturn",
+    "filetypes": [
+      "7z",
+      "bin",
+      "ccd",
+      "chd",
+      "cue",
+      "iso",
+      "m3u",
+      "mds",
+      "toc",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle Saturn]",
+        "args": ["-L", "mednafen_saturn_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Kronos]",
+        "args": ["-L", "kronos_libretro", "{rom.path}"]
+      },
+      {
+        "id": "kronos",
+        "name": "Kronos",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [YabaSanshiro]",
+        "args": ["-L", "yabasanshiro_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Yabause]",
+        "args": ["-L", "yabause_libretro", "{rom.path}"]
+      },
+      {
+        "id": "ymir",
+        "name": "Ymir",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "ss", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "scummvm",
+    "name": "ScummVM Game Engine",
+    "external_ids": {
+      "screenscraper": [123]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["scummvm", "svm"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [ScummVM]",
+        "args": ["-L", "scummvm_libretro", "{rom.path}"]
+      },
+      {
+        "id": "scummvm",
+        "name": "ScummVM",
+        "args": ["{rom.basename}"]
+      },
+      {
+        "id": "dreamm",
+        "name": "DREAMM",
+        "args": ["."]
+      }
+    ]
+  },
+  {
+    "id": "scv",
+    "name": "Epoch Super Cassette Vision",
+    "filetypes": ["0", "7z", "bin", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "scv -rompath \"{rom.dir};{roms.dir}/scv\" -cart \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sega32x",
+    "name": "Sega Mega Drive 32X",
+    "external_ids": {
+      "retroachievements": [10],
+      "screenscraper": [19],
+      "igdb": [30],
+      "thegamesdb": [33]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "32x",
+      "68k",
+      "7z",
+      "bin",
+      "chd",
+      "cue",
+      "gen",
+      "iso",
+      "m3u",
+      "md",
+      "smd",
+      "sms",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PicoDrive]",
+        "args": ["-L", "picodrive_libretro", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Mega 32X", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "sega32xjp",
+    "name": "Sega Super 32X",
+    "filetypes": [
+      "32x",
+      "68k",
+      "7z",
+      "bin",
+      "chd",
+      "cue",
+      "gen",
+      "iso",
+      "m3u",
+      "md",
+      "smd",
+      "sms",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PicoDrive]",
+        "args": ["-L", "picodrive_libretro", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Mega 32X", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "sega32xna",
+    "name": "Sega Genesis 32X",
+    "filetypes": [
+      "32x",
+      "68k",
+      "7z",
+      "bin",
+      "chd",
+      "cue",
+      "gen",
+      "iso",
+      "m3u",
+      "md",
+      "smd",
+      "sms",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PicoDrive]",
+        "args": ["-L", "picodrive_libretro", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Mega 32X", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "segacd",
+    "name": "Sega CD",
+    "external_ids": {
+      "retroachievements": [9],
+      "screenscraper": [20],
+      "igdb": [78],
+      "thegamesdb": [21]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bin)$",
+    "filetypes": [
+      "68k",
+      "7z",
+      "bin",
+      "bms",
+      "chd",
+      "cue",
+      "gen",
+      "gg",
+      "iso",
+      "m3u",
+      "md",
+      "mdx",
+      "sg",
+      "sgd",
+      "smd",
+      "sms",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX]",
+        "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX Wide]",
+        "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PicoDrive]",
+        "args": ["-L", "picodrive_libretro", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Mega CD", "{rom.path}"]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "sfc",
+    "name": "Nintendo SFC (Super Famicom)",
+    "filetypes": [
+      "7z",
+      "bin",
+      "bml",
+      "bs",
+      "bsx",
+      "dx2",
+      "fig",
+      "gd3",
+      "gd7",
+      "mgd",
+      "sfc",
+      "smc",
+      "st",
+      "swc",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Snes9x - Current]",
+        "args": ["-L", "snes9x_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Snes9x 2010]",
+        "args": ["-L", "snes9x2010_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Snes9x 2005 Plus]",
+        "args": ["-L", "snes9x2005_plus_libretro", "{rom.path}"]
+      },
+      {
+        "id": "snes9x",
+        "name": "Snes9x",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes]",
+        "args": ["-L", "bsnes_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes-hd]",
+        "args": ["-L", "bsnes_hd_beta_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes-jg]",
+        "args": ["-L", "bsnes-jg_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes-mercury Accuracy]",
+        "args": ["-L", "bsnes_mercury_accuracy_libretro", "{rom.path}"]
+      },
+      {
+        "id": "bsnes",
+        "name": "bsnes",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle Supafaust]",
+        "args": ["-L", "mednafen_supafaust_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Mesen-S]",
+        "args": ["-L", "mesen-s_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "snes", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Super Famicom", "{rom.path}"]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "sg-1000",
+    "name": "Sega SG-1000",
+    "external_ids": {
+      "retroachievements": [33],
+      "screenscraper": [109],
+      "igdb": [84],
+      "thegamesdb": [4949]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "68k",
+      "7z",
+      "bin",
+      "bms",
+      "chd",
+      "cue",
+      "gen",
+      "gg",
+      "iso",
+      "m3u",
+      "md",
+      "mdx",
+      "ri",
+      "rom",
+      "sg",
+      "sgd",
+      "smd",
+      "sms",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX]",
+        "args": ["-L", "genesis_plus_gx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Genesis Plus GX Wide]",
+        "args": ["-L", "genesis_plus_gx_wide_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Gearsystem]",
+        "args": ["-L", "gearsystem_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [blueMSX]",
+        "args": ["-L", "bluemsx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "SG-1000", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "sgb",
+    "name": "Nintendo Super Game Boy",
+    "filetypes": ["7z", "gb", "gbc", "sgb", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Mesen-S]",
+        "args": ["-L", "mesen-s_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "--gameBoy.useSgb2=true", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [SameBoy]",
+        "args": ["-L", "sameboy_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [mGBA]",
+        "args": ["-L", "mgba_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mgba",
+        "name": "mGBA",
+        "args": ["-f", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "snes",
+    "name": "Nintendo SNES (Super Nintendo)",
+    "external_ids": {
+      "retroachievements": [3],
+      "screenscraper": [4],
+      "igdb": [19],
+      "thegamesdb": [7]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*(?<!bml)$",
+    "filetypes": [
+      "7z",
+      "bin",
+      "bml",
+      "bs",
+      "bsx",
+      "dx2",
+      "fig",
+      "gd3",
+      "gd7",
+      "mgd",
+      "sfc",
+      "smc",
+      "st",
+      "swc",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Snes9x - Current]",
+        "args": ["-L", "snes9x_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Snes9x 2010]",
+        "args": ["-L", "snes9x2010_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Snes9x 2005 Plus]",
+        "args": ["-L", "snes9x2005_plus_libretro", "{rom.path}"]
+      },
+      {
+        "id": "snes9x",
+        "name": "Snes9x",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes]",
+        "args": ["-L", "bsnes_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes-hd]",
+        "args": ["-L", "bsnes_hd_beta_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes-jg]",
+        "args": ["-L", "bsnes-jg_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes-mercury Accuracy]",
+        "args": ["-L", "bsnes_mercury_accuracy_libretro", "{rom.path}"]
+      },
+      {
+        "id": "bsnes",
+        "name": "bsnes",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle Supafaust]",
+        "args": ["-L", "mednafen_supafaust_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Mesen-S]",
+        "args": ["-L", "mesen-s_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "snes", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Super Famicom", "{rom.path}"]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "snesna",
+    "name": "Nintendo SNES (Super Nintendo)",
+    "filetypes": [
+      "7z",
+      "bin",
+      "bml",
+      "bs",
+      "bsx",
+      "dx2",
+      "fig",
+      "gd3",
+      "gd7",
+      "mgd",
+      "sfc",
+      "smc",
+      "st",
+      "swc",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Snes9x - Current]",
+        "args": ["-L", "snes9x_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Snes9x 2010]",
+        "args": ["-L", "snes9x2010_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Snes9x 2005 Plus]",
+        "args": ["-L", "snes9x2005_plus_libretro", "{rom.path}"]
+      },
+      {
+        "id": "snes9x",
+        "name": "Snes9x",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes]",
+        "args": ["-L", "bsnes_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes-hd]",
+        "args": ["-L", "bsnes_hd_beta_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes-jg]",
+        "args": ["-L", "bsnes-jg_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes-mercury Accuracy]",
+        "args": ["-L", "bsnes_mercury_accuracy_libretro", "{rom.path}"]
+      },
+      {
+        "id": "bsnes",
+        "name": "bsnes",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle Supafaust]",
+        "args": ["-L", "mednafen_supafaust_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Mesen-S]",
+        "args": ["-L", "mesen-s_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "snes", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Super Famicom", "{rom.path}"]
+      },
+      {
+        "id": "jgenesis",
+        "name": "jgenesis",
+        "args": ["--file-path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "solarus",
+    "name": "Solarus Game Engine",
+    "filetypes": ["solarus"],
+    "emulators": [
+      {
+        "id": "solarus",
+        "name": "Solarus",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "spectravideo",
+    "name": "Spectravideo",
+    "filetypes": [
+      "7z",
+      "cas",
+      "col",
+      "dsk",
+      "m3u",
+      "mx1",
+      "mx2",
+      "ri",
+      "rom",
+      "sc",
+      "sg",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [blueMSX]",
+        "args": ["-L", "bluemsx_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "stv",
+    "name": "Sega Titan Video Game System",
+    "filetypes": ["7z", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Kronos]",
+        "args": ["-L", "kronos_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": ["-L", "mame_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "ss", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "sufami",
+    "name": "Bandai SuFami Turbo",
+    "filetypes": ["7z", "bml", "bs", "fig", "sfc", "smc", "st", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Snes9x - Current]",
+        "args": ["-L", "snes9x_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Snes9x 2010]",
+        "args": ["-L", "snes9x2010_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Snes9x 2005 Plus]",
+        "args": ["-L", "snes9x2005_plus_libretro", "{rom.path}"]
+      },
+      {
+        "id": "snes9x",
+        "name": "Snes9x",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes]",
+        "args": ["-L", "bsnes_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes-hd]",
+        "args": ["-L", "bsnes_hd_beta_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes-jg]",
+        "args": ["-L", "bsnes-jg_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [bsnes-mercury Accuracy]",
+        "args": ["-L", "bsnes_mercury_accuracy_libretro", "{rom.path}"]
+      },
+      {
+        "id": "bsnes",
+        "name": "bsnes",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "Super Famicom", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "supergrafx",
+    "name": "NEC SuperGrafx",
+    "external_ids": {
+      "screenscraper": [105],
+      "igdb": [128]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "ccd", "chd", "cue", "pce", "rom", "sgx", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle SuperGrafx]",
+        "args": ["-L", "mednafen_supergrafx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle PCE]",
+        "args": ["-L", "mednafen_pce_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Geargrafx]",
+        "args": ["-L", "geargrafx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "pce", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "SuperGrafx", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "supervision",
+    "name": "Watara Supervision",
+    "external_ids": {
+      "retroachievements": [63],
+      "screenscraper": [207],
+      "igdb": [415],
+      "thegamesdb": [4959]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "bin", "sv", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Potator]",
+        "args": ["-L", "potator_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "svision -rompath \"{rom.dir};{roms.dir}/supervision\" -cart \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "supracan",
+    "name": "Funtech Super A'Can",
+    "filetypes": ["7z", "bin", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "supracan -rompath \"{rom.dir};{roms.dir}/supracan\" -cart \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "switch",
+    "name": "Nintendo Switch",
+    "external_ids": {
+      "screenscraper": [225],
+      "igdb": [130],
+      "thegamesdb": [4971]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["nca", "nro", "nso", "nsp", "xci"],
+    "emulators": [
+      {
+        "id": "ryujinx",
+        "name": "Ryujinx",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "symbian",
+    "name": "Symbian",
+    "filetypes": ["sis", "sisx", "symbian"],
+    "emulators": [
+      {
+        "id": "eka2l1",
+        "name": "EKA2L1 [Nokia N-Gage]",
+        "args": ["--fullscreen", "--device", "RH-29", "--run", "{rom.basename}"]
+      },
+      {
+        "id": "eka2l1",
+        "name": "EKA2L1 [Nokia N70]",
+        "args": ["--fullscreen", "--device", "RM-84", "--run", "{rom.basename}"]
+      },
+      {
+        "id": "eka2l1",
+        "name": "EKA2L1 [Nokia N97]",
+        "args": [
+          "--fullscreen",
+          "--device",
+          "RM-507",
+          "--run",
+          "{rom.basename}"
+        ]
+      },
+      {
+        "id": "eka2l1",
+        "name": "EKA2L1 [Custom device]",
+        "args": ["--fullscreen", "--device", "--run", "{rom.basename}"]
+      }
+    ]
+  },
+  {
+    "id": "tanodragon",
+    "name": "Tano Dragon",
+    "filetypes": ["7z", "cas", "ccc", "dsk", "rom", "zip"],
+    "emulators": [
+      {
+        "id": "xroar",
+        "name": "XRoar",
+        "args": ["-fs", "-default-machine", "tano", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "tg16",
+    "name": "NEC TurboGrafx-16",
+    "external_ids": {
+      "retroachievements": [8],
+      "screenscraper": [31],
+      "igdb": [86],
+      "thegamesdb": [34]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "ccd",
+      "chd",
+      "cue",
+      "img",
+      "iso",
+      "m3u",
+      "pce",
+      "rom",
+      "sgx",
+      "toc",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle PCE]",
+        "args": ["-L", "mednafen_pce_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle PCE FAST]",
+        "args": ["-L", "mednafen_pce_fast_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle SuperGrafx]",
+        "args": ["-L", "mednafen_supergrafx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Geargrafx]",
+        "args": ["-L", "geargrafx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "pce", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "PC Engine", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "tg-cd",
+    "name": "NEC TurboGrafx-CD",
+    "external_ids": {
+      "retroachievements": [76],
+      "screenscraper": [114],
+      "thegamesdb": [4955]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "ccd",
+      "chd",
+      "cue",
+      "img",
+      "iso",
+      "m3u",
+      "pce",
+      "sgx",
+      "toc",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle PCE]",
+        "args": ["-L", "mednafen_pce_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle PCE FAST]",
+        "args": ["-L", "mednafen_pce_fast_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle SuperGrafx]",
+        "args": ["-L", "mednafen_supergrafx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "pce", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "PC Engine CD", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "tic80",
+    "name": "TIC-80 Fantasy Computer",
+    "external_ids": {
+      "retroachievements": [65],
+      "screenscraper": [222]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["png", "tic"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [TIC-80]",
+        "args": ["-L", "tic80_libretro", "{rom.path}"]
+      },
+      {
+        "id": "tic-80",
+        "name": "TIC-80",
+        "args": ["{rom.path}", "--fullscreen"]
+      }
+    ]
+  },
+  {
+    "id": "to8",
+    "name": "Thomson TO8",
+    "filetypes": ["7z", "fd", "k7", "m5", "m7", "rom", "sap", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Theodore]",
+        "args": ["-L", "theodore_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "triforce",
+    "name": "Namco-Sega-Nintendo Triforce",
+    "filetypes": [
+      "7z",
+      "ciso",
+      "dff",
+      "dol",
+      "elf",
+      "gcm",
+      "gcz",
+      "iso",
+      "json",
+      "m3u",
+      "rvz",
+      "tgc",
+      "wad",
+      "wbfs",
+      "wia",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "triforce",
+        "name": "Triforce",
+        "args": ["-b", "-e", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "trs-80",
+    "name": "Tandy TRS-80",
+    "filetypes": ["cmd", "dsk"],
+    "emulators": [
+      {
+        "id": "sdl2trs",
+        "name": "sdl2trs DOS Diskette",
+        "args": [
+          "-rom",
+          "{roms.dir}/trs-80/level2.rom",
+          "-disk0",
+          "{roms.dir}/trs-80/boot.dsk",
+          "-disk1",
+          "{rom.path}"
+        ]
+      },
+      {
+        "id": "sdl2trs",
+        "name": "sdl2trs Bootable Diskette",
+        "args": ["-rom", "{roms.dir}/trs-80/level2.rom", "-disk0", "{rom.path}"]
+      },
+      {
+        "id": "sdl2trs",
+        "name": "sdl2trs CMD File",
+        "args": ["-rom", "{roms.dir}/trs-80/level2.rom", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "type-x",
+    "name": "Taito Type X",
+    "filetypes": ["appimage", "desktop", "exe", "sh"],
+    "emulators": [
+      {
+        "id": "wine",
+        "name": "Wine",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "proton",
+        "name": "Proton",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "os-shell",
+        "name": "AppImage",
+        "args": ["-c", "{rom.path}"]
+      },
+      {
+        "id": "os-shell",
+        "name": "Shortcut or script",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "uzebox",
+    "name": "Uzebox Open Source Console",
+    "external_ids": {
+      "retroachievements": [80],
+      "screenscraper": [216],
+      "igdb": [504]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "uze", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Uzem]",
+        "args": ["-L", "uzem_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "vectrex",
+    "name": "GCE Vectrex",
+    "external_ids": {
+      "retroachievements": [46],
+      "screenscraper": [102],
+      "igdb": [70],
+      "thegamesdb": [4939]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "bin", "gam", "vc", "vec", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [vecx]",
+        "args": ["-L", "vecx_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "vectrex -rompath \"{rom.dir};{roms.dir}/vectrex\" -cart \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vic20",
+    "name": "Commodore VIC-20",
+    "external_ids": {
+      "retroachievements": [34],
+      "screenscraper": [73],
+      "igdb": [71],
+      "thegamesdb": [4945]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "bin",
+      "cmd",
+      "crt",
+      "d2m",
+      "d4m",
+      "d64",
+      "d6z",
+      "d71",
+      "d7z",
+      "d80",
+      "d81",
+      "d82",
+      "d8z",
+      "g41",
+      "g4z",
+      "g64",
+      "g6z",
+      "gz",
+      "lnx",
+      "m3u",
+      "nbz",
+      "nib",
+      "p00",
+      "prg",
+      "t64",
+      "tap",
+      "vfl",
+      "vsf",
+      "x64",
+      "x6z",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [VICE xvic]",
+        "args": ["-L", "vice_xvic_libretro", "{rom.path}"]
+      },
+      {
+        "id": "vice-xvic",
+        "name": "VICE xvic",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "videopac",
+    "name": "Philips Videopac G7000",
+    "external_ids": {
+      "screenscraper": [104]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "bin", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [O2EM]",
+        "args": ["-L", "o2em_libretro", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "videopac -rompath \"{rom.dir};{roms.dir}/videopac\" -cart \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "vircon32",
+    "name": "Vircon32 Virtual Console",
+    "filetypes": ["7z", "v32", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Vircon32]",
+        "args": ["-L", "vircon32_libretro", "{rom.path}"]
+      },
+      {
+        "id": "vircon32",
+        "name": "Vircon32",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "virtualboy",
+    "name": "Nintendo Virtual Boy",
+    "external_ids": {
+      "retroachievements": [28],
+      "screenscraper": [11],
+      "igdb": [87],
+      "thegamesdb": [4918]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "bin", "vb", "vboy", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle VB]",
+        "args": ["-L", "mednafen_vb_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "vb", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "vpinball",
+    "name": "Visual Pinball",
+    "filetypes": ["vpt", "vpx"],
+    "emulators": [
+      {
+        "id": "visual-pinball",
+        "name": "Visual Pinball",
+        "args": ["-play", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "vsmile",
+    "name": "VTech V.Smile",
+    "filetypes": ["7z", "bin", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MAME - Current]",
+        "args": [
+          "-L",
+          "mame_libretro",
+          "vsmile -rompath \"{rom.dir};{roms.dir}/vsmile\" -cart \"{rom.path}\""
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wasm4",
+    "name": "WASM-4 Fantasy Console",
+    "external_ids": {
+      "retroachievements": [72],
+      "screenscraper": [262]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["wasm"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [WASM-4]",
+        "args": ["-L", "wasm4_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "wii",
+    "name": "Nintendo Wii",
+    "external_ids": {
+      "retroachievements": [19, 20],
+      "screenscraper": [16],
+      "igdb": [159],
+      "thegamesdb": [9]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "ciso",
+      "dff",
+      "dol",
+      "elf",
+      "gcm",
+      "gcz",
+      "iso",
+      "json",
+      "m3u",
+      "rvz",
+      "tgc",
+      "wad",
+      "wbfs",
+      "wia",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Dolphin]",
+        "args": ["-L", "dolphin_libretro", "{rom.path}"]
+      },
+      {
+        "id": "dolphin",
+        "name": "Dolphin",
+        "args": ["-b", "-e", "{rom.path}"]
+      },
+      {
+        "id": "primehack",
+        "name": "PrimeHack",
+        "args": ["-b", "-e", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "wiiu",
+    "name": "Nintendo Wii U",
+    "external_ids": {
+      "retroachievements": [20, 19],
+      "screenscraper": [18],
+      "igdb": [41],
+      "thegamesdb": [38]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["elf", "rpx", "tmd", "wua", "wud", "wuhb", "wux"],
+    "emulators": [
+      {
+        "id": "cemu",
+        "name": "Cemu",
+        "args": ["-g", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "windows3x",
+    "name": "Microsoft Windows 3.x",
+    "filetypes": ["7z", "appimage", "bat", "desktop", "dosz", "sh", "zip"],
+    "emulators": [
+      {
+        "id": "dosbox-x",
+        "name": "DOSBox-X",
+        "args": ["-defaultdir", "{rom.dir}", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DOSBox-Pure]",
+        "args": ["-L", "dosbox_pure_libretro", "{rom.path}"]
+      },
+      {
+        "id": "dosbox-pure-unleashed",
+        "name": "DOSBox Pure Unleashed",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "windows9x",
+    "name": "Microsoft Windows 9x",
+    "filetypes": ["7z", "appimage", "bat", "desktop", "dosz", "sh", "zip"],
+    "emulators": [
+      {
+        "id": "dosbox-x",
+        "name": "DOSBox-X",
+        "args": ["-defaultdir", "{rom.dir}", "{rom.path}"]
+      },
+      {
+        "id": "retroarch",
+        "name": "RetroArch [DOSBox-Pure]",
+        "args": ["-L", "dosbox_pure_libretro", "{rom.path}"]
+      },
+      {
+        "id": "dosbox-pure-unleashed",
+        "name": "DOSBox Pure Unleashed",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "wonderswan",
+    "name": "Bandai WonderSwan",
+    "external_ids": {
+      "retroachievements": [53],
+      "screenscraper": [45],
+      "igdb": [57],
+      "thegamesdb": [4925]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "pc2", "ws", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle Cygne]",
+        "args": ["-L", "mednafen_wswan_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "wswan", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "WonderSwan", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares [Benesse Pocket Challenge V2]",
+        "args": [
+          "--fullscreen",
+          "--system",
+          "Pocket Challenge V2",
+          "{rom.path}"
+        ]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "wonderswancolor",
+    "name": "Bandai WonderSwan Color",
+    "external_ids": {
+      "screenscraper": [46],
+      "igdb": [123],
+      "thegamesdb": [4926]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "pc2", "ws", "wsc", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Beetle Cygne]",
+        "args": ["-L", "mednafen_wswan_libretro", "{rom.path}"]
+      },
+      {
+        "id": "mednafen",
+        "name": "Mednafen",
+        "args": ["-force_module", "wswan", "{rom.path}"]
+      },
+      {
+        "id": "ares",
+        "name": "ares",
+        "args": ["--fullscreen", "--system", "WonderSwan Color", "{rom.path}"]
+      },
+      {
+        "id": "mesen",
+        "name": "Mesen",
+        "args": ["--fullscreen", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "x1",
+    "name": "Sharp X1",
+    "external_ids": {
+      "retroachievements": [64],
+      "screenscraper": [220],
+      "igdb": [77],
+      "thegamesdb": [4977]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "2d",
+      "2hd",
+      "7z",
+      "88d",
+      "cmd",
+      "d88",
+      "dup",
+      "dx1",
+      "hdm",
+      "tap",
+      "tfd",
+      "xdf",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [X Millennium]",
+        "args": ["-L", "x1_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "x68000",
+    "name": "Sharp X68000",
+    "external_ids": {
+      "retroachievements": [52],
+      "screenscraper": [79],
+      "igdb": [121],
+      "thegamesdb": [4931]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "2hd",
+      "7z",
+      "88d",
+      "cmd",
+      "d88",
+      "dim",
+      "dup",
+      "hdf",
+      "hdm",
+      "img",
+      "m3u",
+      "xdf",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [PX68k]",
+        "args": ["-L", "px68k_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "xbox",
+    "name": "Microsoft Xbox",
+    "filetypes": ["iso"],
+    "emulators": [
+      {
+        "id": "xemu",
+        "name": "xemu",
+        "args": ["-dvd_path", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "xbox360",
+    "name": "Microsoft Xbox 360",
+    "filetypes": ["desktop", "iso", "sh", "xex", "zar"],
+    "emulators": [
+      {
+        "id": "xenia",
+        "name": "xenia",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "xenia-edge",
+        "name": "Xenia Edge",
+        "args": ["{rom.path}"]
+      },
+      {
+        "id": "os-shell",
+        "name": "Shortcut or script",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "xboxone",
+    "name": "Microsoft Xbox One",
+    "filetypes": ["7z", "zip"],
+    "emulators": []
+  },
+  {
+    "id": "zmachine",
+    "name": "Infocom Z-machine",
+    "filetypes": [
+      "dat",
+      "z1",
+      "z2",
+      "z3",
+      "z4",
+      "z5",
+      "z6",
+      "z7",
+      "z8",
+      "zblorb",
+      "zlb"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [MojoZork]",
+        "args": ["-L", "mojozork_libretro", "{rom.path}"]
+      },
+      {
+        "id": "gargoyle",
+        "name": "Gargoyle",
+        "args": ["{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "zx81",
+    "name": "Sinclair ZX81",
+    "external_ids": {
+      "retroachievements": [31],
+      "screenscraper": [77],
+      "igdb": [373],
+      "thegamesdb": [5010]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": ["7z", "p", "tzx", "zip"],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [EightyOne]",
+        "args": ["-L", "81_libretro", "{rom.path}"]
+      }
+    ]
+  },
+  {
+    "id": "zxnext",
+    "name": "Sinclair ZX Spectrum Next",
+    "filetypes": ["nex", "sna"],
+    "emulators": [
+      {
+        "id": "zesarux",
+        "name": "ZEsarUX",
+        "args": [
+          "--machine",
+          "tbblue",
+          "--realvideo",
+          "--enabletimexvideo",
+          "--tbblue-fast-boot-mode",
+          "--enable-esxdos-handler",
+          "--esxdos-root-dir",
+          "{rom.dir}",
+          "{rom.path}"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "zxspectrum",
+    "name": "Sinclair ZX Spectrum",
+    "external_ids": {
+      "retroachievements": [59],
+      "screenscraper": [76],
+      "igdb": [26],
+      "thegamesdb": [4913]
+    },
+    "fileRegex": "^(?!(?:\\._|\\.).*).*$",
+    "filetypes": [
+      "7z",
+      "dsk",
+      "gz",
+      "img",
+      "mgt",
+      "rzx",
+      "scl",
+      "sh",
+      "sna",
+      "szx",
+      "tap",
+      "trd",
+      "tzx",
+      "udi",
+      "z80",
+      "zip"
+    ],
+    "emulators": [
+      {
+        "id": "retroarch",
+        "name": "RetroArch [Fuse]",
+        "args": ["-L", "fuse_libretro", "{rom.path}"]
+      },
+      {
+        "id": "fuse",
+        "name": "Fuse",
+        "args": ["{rom.path}"]
+      }
+    ]
+  }
+]

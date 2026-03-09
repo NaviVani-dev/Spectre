@@ -1,0 +1,1479 @@
+[
+  {
+    "id": "aenu.aps3e",
+    "name": "aPS3e",
+    "executables": {
+      "androidpackage": [
+        "aenu.aps3e/aenu.aps3e.EmulatorActivity"
+      ]
+    },
+    "action": "aenu.intent.action.APS3E"
+  },
+  {
+    "id": "app.gamenative",
+    "name": "GameNative",
+    "executables": {
+      "androidpackage": [
+        "app.gamenative/.MainActivity"
+      ]
+    },
+    "action": "app.gamenative.LAUNCH_GAME",
+    "flags": [
+      "--ei"
+    ]
+  },
+  {
+    "id": "com.amigan.droidarcadia",
+    "name": "DroidArcadia",
+    "executables": {
+      "androidpackage": [
+        "com.amigan.droidarcadia/.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.androidemu.atari",
+    "name": "com.androidemu.atari",
+    "executables": {
+      "androidpackage": [
+        "com.androidemu.atari/.EmulatorActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.androidemu.gens",
+    "name": "Gensoid",
+    "executables": {
+      "androidpackage": [
+        "com.androidemu.gens/.EmulatorActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.androidemu.gg",
+    "name": "Gearoid",
+    "executables": {
+      "androidpackage": [
+        "com.androidemu.gg/.EmulatorActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.androidemu.nes",
+    "name": "Nesoid",
+    "executables": {
+      "androidpackage": [
+        "com.androidemu.nes/.EmulatorActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.antutu.ABenchMark",
+    "name": "Citra",
+    "executables": {
+      "androidpackage": [
+        "com.antutu.ABenchMark/org.citra.emu.ui.EmulationActivity",
+        "com.antutu.ABenchMark/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.cmodded.winlator",
+    "name": "Winlator CMod Proot",
+    "executables": {
+      "androidpackage": [
+        "com.cmodded.winlator/com.winlator.XServerDisplayActivity"
+      ]
+    },
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top",
+      "--activity-no-history"
+    ]
+  },
+  {
+    "id": "com.dsemu.drastic",
+    "name": "Drastic",
+    "executables": {
+      "androidpackage": [
+        "com.dsemu.drastic/.DraSticActivity"
+      ]
+    },
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.emulator.fpse",
+    "name": "FPse",
+    "executables": {
+      "androidpackage": [
+        "com.emulator.fpse/.Main"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.emulator.fpse64",
+    "name": "FPse64",
+    "executables": {
+      "androidpackage": [
+        "com.emulator.fpse64/.Main"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.epsxe.ePSXe",
+    "name": "ePSXe",
+    "executables": {
+      "androidpackage": [
+        "com.epsxe.ePSXe/.ePSXe"
+      ]
+    },
+    "action": "android.intent.action.MAIN",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.explusalpha.A2600Emu",
+    "name": "com.explusalpha.A2600Emu",
+    "executables": {
+      "androidpackage": [
+        "com.explusalpha.A2600Emu/com.imagine.BaseActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.explusalpha.C64Emu",
+    "name": "com.explusalpha.C64Emu",
+    "executables": {
+      "androidpackage": [
+        "com.explusalpha.C64Emu/com.imagine.BaseActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.explusalpha.GbaEmu",
+    "name": "GBA.emu",
+    "executables": {
+      "androidpackage": [
+        "com.explusalpha.GbaEmu/com.imagine.BaseActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.explusalpha.GbcEmu",
+    "name": "GBC.emu",
+    "executables": {
+      "androidpackage": [
+        "com.explusalpha.GbcEmu/com.imagine.BaseActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.explusalpha.LynxEmu",
+    "name": "com.explusalpha.LynxEmu",
+    "executables": {
+      "androidpackage": [
+        "com.explusalpha.LynxEmu/com.imagine.BaseActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.explusalpha.MdEmu",
+    "name": "MD.emu",
+    "executables": {
+      "androidpackage": [
+        "com.explusalpha.MdEmu/com.imagine.BaseActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.explusalpha.MsxEmu",
+    "name": "com.explusalpha.MsxEmu",
+    "executables": {
+      "androidpackage": [
+        "com.explusalpha.MsxEmu/com.imagine.BaseActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.explusalpha.neoemu",
+    "name": "NEO.EMU",
+    "executables": {
+      "androidpackage": [
+        "com.explusalpha.neoemu/com.imagine.BaseActivity"
+      ]
+    }
+  },
+  {
+    "id": "com.explusalpha.NeoEmu",
+    "name": "NEO.EMU",
+    "executables": {
+      "androidpackage": [
+        "com.explusalpha.NeoEmu/com.imagine.BaseActivity"
+      ]
+    }
+  },
+  {
+    "id": "com.explusalpha.NesEmu",
+    "name": "NES.emu",
+    "executables": {
+      "androidpackage": [
+        "com.explusalpha.NesEmu/com.imagine.BaseActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.explusalpha.NgpEmu",
+    "name": "NGP.EMU",
+    "executables": {
+      "androidpackage": [
+        "com.explusalpha.NgpEmu/com.imagine.BaseActivity"
+      ]
+    }
+  },
+  {
+    "id": "com.explusalpha.SaturnEmu",
+    "name": "Saturn.EMU",
+    "executables": {
+      "androidpackage": [
+        "com.explusalpha.SaturnEmu/com.imagine.BaseActivity"
+      ]
+    }
+  },
+  {
+    "id": "com.explusalpha.Snes9xPlus",
+    "name": "Snes9x EX",
+    "executables": {
+      "androidpackage": [
+        "com.explusalpha.Snes9xPlus/com.imagine.BaseActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.explusalpha.SwanEmu",
+    "name": "Swan.emu",
+    "executables": {
+      "androidpackage": [
+        "com.explusalpha.SwanEmu/com.imagine.BaseActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.fastemulator.gba",
+    "name": "My Boy!",
+    "executables": {
+      "androidpackage": [
+        "com.fastemulator.gba/.EmulatorActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.fastemulator.gbafree",
+    "name": "My Boy! Free",
+    "executables": {
+      "androidpackage": [
+        "com.fastemulator.gbafree/com.fastemulator.gba.EmulatorActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.fastemulator.gbc",
+    "name": "My OldBoy!",
+    "executables": {
+      "androidpackage": [
+        "com.fastemulator.gbc/.EmulatorActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.fastemulator.gbcfree",
+    "name": "My OldBoy! Free",
+    "executables": {
+      "androidpackage": [
+        "com.fastemulator.gbcfree/.EmulatorActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.flycast.emulator",
+    "name": "Flycast",
+    "executables": {
+      "androidpackage": [
+        "com.flycast.emulator/com.flycast.emulator.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.fms.mg",
+    "name": "MasterGear",
+    "executables": {
+      "androidpackage": [
+        "com.fms.mg/com.fms.emulib.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top",
+      "--activity-no-history"
+    ]
+  },
+  {
+    "id": "com.foobnix.pdf.reader",
+    "name": "Librera Reader",
+    "executables": {
+      "androidpackage": [
+        "com.foobnix.pdf.reader/com.foobnix.OpenerActivity"
+      ]
+    }
+  },
+  {
+    "id": "com.foobnix.pro.pdf.reader",
+    "name": "Librera Reader Pro",
+    "executables": {
+      "androidpackage": [
+        "com.foobnix.pro.pdf.reader/com.foobnix.OpenerActivity"
+      ]
+    }
+  },
+  {
+    "id": "com.github.axet.bookreader",
+    "name": "Book Reader",
+    "executables": {
+      "androidpackage": [
+        "com.github.axet.bookreader/.activities.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.github.eka2l1",
+    "name": "eka2l1",
+    "executables": {
+      "androidpackage": [
+        "com.github.eka2l1/.emu.EmulatorActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.github.stenzek.duckstation",
+    "name": "Duckstation",
+    "executables": {
+      "androidpackage": [
+        "com.github.stenzek.duckstation/.EmulationActivity"
+      ]
+    },
+    "flags": [
+      "--ez",
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.hydra.noods",
+    "name": "NooDS",
+    "executables": {
+      "androidpackage": [
+        "com.hydra.noods/.FileBrowser"
+      ]
+    }
+  },
+  {
+    "id": "com.limelight",
+    "name": "Moonlight",
+    "executables": {
+      "androidpackage": [
+        "com.limelight/com.limelight.ShortcutTrampoline"
+      ]
+    },
+    "flags": [
+      "--es",
+      "--es"
+    ]
+  },
+  {
+    "id": "com.limelight.noir",
+    "name": "Artemis",
+    "executables": {
+      "androidpackage": [
+        "com.limelight.noir/com.limelight.ShortcutTrampoline"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.ludashi.aibench",
+    "name": "GameHub Lite",
+    "executables": {
+      "androidpackage": [
+        "com.ludashi.aibench/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity"
+      ]
+    },
+    "action": "gamehub.lite.LAUNCH_GAME",
+    "flags": [
+      "--es",
+      "--ez"
+    ]
+  },
+  {
+    "id": "com.micewine.emu",
+    "name": "MiceWine",
+    "executables": {
+      "androidpackage": [
+        "com.micewine.emu/com.micewine.emu.activities.MainActivity"
+      ]
+    },
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top",
+      "--activity-no-history"
+    ]
+  },
+  {
+    "id": "com.miHoYo.Yuanshen",
+    "name": "Eden",
+    "executables": {
+      "androidpackage": [
+        "com.miHoYo.Yuanshen/org.yuzu.yuzu_emu.activities.EmulationActivity"
+      ]
+    },
+    "action": "android.nfc.action.TECH_DISCOVERED"
+  },
+  {
+    "id": "com.mxtech.videoplayer.ad",
+    "name": "MXPlayer",
+    "executables": {
+      "androidpackage": [
+        "com.mxtech.videoplayer.ad/.ActivityScreen"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.mxtech.videoplayer.pro",
+    "name": "MXPlayer Pro",
+    "executables": {
+      "androidpackage": [
+        "com.mxtech.videoplayer.pro/.ActivityScreen"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.PceEmu",
+    "name": "com.PceEmu",
+    "executables": {
+      "androidpackage": [
+        "com.PceEmu/com.imagine.BaseActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.pixelrespawn.linkboy",
+    "name": "Linkboy",
+    "executables": {
+      "androidpackage": [
+        "com.pixelrespawn.linkboy/.EmulatorActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.reicast.emulator",
+    "name": "Reicast",
+    "executables": {
+      "androidpackage": [
+        "com.reicast.emulator/.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.seleuco.mame4d2024",
+    "name": "MAME4droid 2024",
+    "executables": {
+      "androidpackage": [
+        "com.seleuco.mame4d2024/com.seleuco.mame4droid.MAME4droid"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.seleuco.mame4droid",
+    "name": "MAME4droid",
+    "executables": {
+      "androidpackage": [
+        "com.seleuco.mame4droid/.MAME4droid"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.simongellis.vvb",
+    "name": "vvs",
+    "executables": {
+      "androidpackage": [
+        "com.simongellis.vvb/com.simongellis.vvb.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "com.sky.SkyEmu",
+    "name": "SkyEmu",
+    "executables": {
+      "androidpackage": [
+        "com.sky.SkyEmu/.EnhancedNativeActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.studio08.xbgamestream",
+    "name": "XBPlay - Remote Play",
+    "executables": {
+      "androidpackage": [
+        "com.studio08.xbgamestream/com.studio08.xbgamestream.PWAMainMenuActivity"
+      ]
+    },
+    "action": "xcloudstart",
+    "flags": [
+      "--es"
+    ]
+  },
+  {
+    "id": "com.tencent.ig",
+    "name": "GameHub Lite",
+    "executables": {
+      "androidpackage": [
+        "com.tencent.ig/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity"
+      ]
+    },
+    "action": "gamehub.lite.LAUNCH_GAME",
+    "flags": [
+      "--es",
+      "--ez"
+    ]
+  },
+  {
+    "id": "com.winlator",
+    "name": "Winlator Cmod",
+    "executables": {
+      "androidpackage": [
+        "com.winlator/.XServerDisplayActivity"
+      ]
+    },
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top",
+      "--activity-no-history"
+    ]
+  },
+  {
+    "id": "com.winlator.cmod",
+    "name": "Winlator CMod",
+    "executables": {
+      "androidpackage": [
+        "com.winlator.cmod/.XServerDisplayActivity"
+      ]
+    },
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top",
+      "--activity-no-history"
+    ]
+  },
+  {
+    "id": "come.nanodata.armsx2",
+    "name": "ARMSX2",
+    "executables": {
+      "androidpackage": [
+        "come.nanodata.armsx2/kr.co.iefriends.pcsx2.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "come.nanodata.armsx2.debug",
+    "name": "ARMSX2",
+    "executables": {
+      "androidpackage": [
+        "come.nanodata.armsx2.debug/kr.co.iefriends.pcsx2.activities.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "dev.eden.eden_emulator",
+    "name": "Eden",
+    "executables": {
+      "androidpackage": [
+        "dev.eden.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity"
+      ]
+    },
+    "action": "android.nfc.action.TECH_DISCOVERED"
+  },
+  {
+    "id": "dev.legacy.eden_emulator",
+    "name": "Eden",
+    "executables": {
+      "androidpackage": [
+        "dev.legacy.eden_emulator/org.yuzu.yuzu_emu.activities.EmulationActivity"
+      ]
+    },
+    "action": "android.nfc.action.TECH_DISCOVERED"
+  },
+  {
+    "id": "dev.suyu.suyu_emu.relWithDebInfo",
+    "name": "Suyu",
+    "executables": {
+      "androidpackage": [
+        "dev.suyu.suyu_emu.relWithDebInfo/dev.suyu.suyu_emu.activities.EmulationActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "emuready.gamehub.lite",
+    "name": "GameHub Lite RC",
+    "executables": {
+      "androidpackage": [
+        "emuready.gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity"
+      ]
+    },
+    "action": "emuready.gamehub.lite.LAUNCH_GAME",
+    "flags": [
+      "--es",
+      "--ez"
+    ]
+  },
+  {
+    "id": "gamehub.lite",
+    "name": "GameHub Lite",
+    "executables": {
+      "androidpackage": [
+        "gamehub.lite/com.xj.landscape.launcher.ui.gamedetail.GameDetailActivity"
+      ]
+    },
+    "action": "gamehub.lite.LAUNCH_GAME",
+    "flags": [
+      "--es",
+      "--ez"
+    ]
+  },
+  {
+    "id": "info.cemu.cemu",
+    "name": "CEMU",
+    "executables": {
+      "androidpackage": [
+        "info.cemu.cemu/.emulation.EmulationActivity"
+      ]
+    },
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "io.github.borked3ds.android",
+    "name": "Borked 3DS",
+    "executables": {
+      "androidpackage": [
+        "io.github.borked3ds.android/.activities.EmulationActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "io.github.lime3ds.android",
+    "name": "Azahar",
+    "executables": {
+      "androidpackage": [
+        "io.github.lime3ds.android/org.citra.citra_emu.activities.EmulationActivity",
+        "io.github.lime3ds.android/.activities.EmulationActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "io.github.mandarine3ds.mandarine",
+    "name": "Mandarine",
+    "executables": {
+      "androidpackage": [
+        "io.github.mandarine3ds.mandarine/.activities.EmulationActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "io.recompiled.redream",
+    "name": "Redream",
+    "executables": {
+      "androidpackage": [
+        "io.recompiled.redream/.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "io.wip.pico8",
+    "name": "Pico8 Wrapper",
+    "executables": {
+      "androidpackage": [
+        "io.wip.pico8/com.godot.game.GodotApp"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "is.xyz.mpv",
+    "name": "mpv-android",
+    "executables": {
+      "androidpackage": [
+        "is.xyz.mpv/is.xyz.mpv.MPVActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "it.dbtecno.pizzaboy",
+    "name": "Pizza Boy C Basic",
+    "executables": {
+      "androidpackage": [
+        "it.dbtecno.pizzaboy/it.dbtecno.pizzaboy.MainActivity"
+      ]
+    },
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "it.dbtecno.pizzaboygba",
+    "name": "Pizza Boy GBA Basic",
+    "executables": {
+      "androidpackage": [
+        "it.dbtecno.pizzaboygba/it.dbtecno.pizzaboygba.MainActivity"
+      ]
+    },
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "it.dbtecno.pizzaboygbapro",
+    "name": "Pizza Boy A Pro",
+    "executables": {
+      "androidpackage": [
+        "it.dbtecno.pizzaboygbapro/it.dbtecno.pizzaboygbapro.MainActivity"
+      ]
+    },
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "it.dbtecno.pizzaboypro",
+    "name": "Pizza Boy C Pro",
+    "executables": {
+      "androidpackage": [
+        "it.dbtecno.pizzaboypro/it.dbtecno.pizzaboypro.MainActivity"
+      ]
+    },
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "it.dbtecno.pizzaboyscpro",
+    "name": "Pizza Boy SC Pro",
+    "executables": {
+      "androidpackage": [
+        "it.dbtecno.pizzaboyscpro/.MainActivity"
+      ]
+    },
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "me.dt2dev.infinity",
+    "name": "Infinity P8 Player",
+    "executables": {
+      "androidpackage": [
+        "me.dt2dev.infinity/me.dt2dev.infinity.SchemeActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "me.magnum.melonds",
+    "name": "MelonDS",
+    "executables": {
+      "androidpackage": [
+        "me.magnum.melonds/.ui.emulator.EmulatorActivity"
+      ]
+    },
+    "action": "me.magnum.melonds.LAUNCH_ROM"
+  },
+  {
+    "id": "me.magnum.melonds.dev",
+    "name": "MelonDS Dev",
+    "executables": {
+      "androidpackage": [
+        "me.magnum.melonds.dev/me.magnum.melonds.ui.emulator.EmulatorActivity"
+      ]
+    },
+    "action": "me.magnum.melonds.dev.LAUNCH_ROM"
+  },
+  {
+    "id": "me.magnum.melonds.nightly",
+    "name": "MelonDS Nightly",
+    "executables": {
+      "androidpackage": [
+        "me.magnum.melonds.nightly/me.magnum.melonds.ui.emulator.EmulatorActivity"
+      ]
+    },
+    "action": "me.magnum.melonds.nightly.LAUNCH_ROM"
+  },
+  {
+    "id": "org.benjisc.android",
+    "name": "Benji-SC",
+    "executables": {
+      "androidpackage": [
+        "org.benjisc.android/org.kenjinx.android.MainActivity"
+      ]
+    },
+    "action": "org.kenjinx.android.LAUNCH_GAME"
+  },
+  {
+    "id": "org.citra.citra_emu",
+    "name": "Citra",
+    "executables": {
+      "androidpackage": [
+        "org.citra.citra_emu/org.citra.citra_emu.activities.EmulationActivity",
+        "org.citra.citra_emu/org.citra.citra_emu.ui.EmulationActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "org.citra.citra_emu.canary",
+    "name": "Citra Canary",
+    "executables": {
+      "androidpackage": [
+        "org.citra.citra_emu.canary/org.citra.citra_emu.activities.EmulationActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "org.citra.emu",
+    "name": "Citra",
+    "executables": {
+      "androidpackage": [
+        "org.citra.emu/org.citra.emu.ui.EmulationActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "org.citron.citron_emu",
+    "name": "Citron",
+    "executables": {
+      "androidpackage": [
+        "org.citron.citron_emu/org.citron.citron_emu.activities.EmulationActivity"
+      ]
+    },
+    "action": "android.nfc.action.TECH_DISCOVERED"
+  },
+  {
+    "id": "org.devmiyax.yabasanshioro2",
+    "name": "YabaSanshiro 2",
+    "executables": {
+      "androidpackage": [
+        "org.devmiyax.yabasanshioro2/org.uoyabause.android.Yabause"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top",
+      "--activity-no-history"
+    ]
+  },
+  {
+    "id": "org.devmiyax.yabasanshioro2.pro",
+    "name": "YabaSanshiro 2 Pro",
+    "executables": {
+      "androidpackage": [
+        "org.devmiyax.yabasanshioro2.pro/org.uoyabause.android.Yabause"
+      ]
+    },
+    "action": "android.intent.action.MAIN",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top",
+      "--activity-no-history"
+    ]
+  },
+  {
+    "id": "org.dolphin.ishiirukadark",
+    "name": "Dolphin Ishiiruka",
+    "executables": {
+      "androidpackage": [
+        "org.dolphin.ishiirukadark/org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "org.dolphinemu.dolphinemu",
+    "name": "Dolphin Emulator",
+    "executables": {
+      "androidpackage": [
+        "org.dolphinemu.dolphinemu/.ui.main.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.MAIN"
+  },
+  {
+    "id": "org.dolphinemu.dolphinemu.debug",
+    "name": "Dolphin",
+    "executables": {
+      "androidpackage": [
+        "org.dolphinemu.dolphinemu.debug/org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.MAIN"
+  },
+  {
+    "id": "org.dolphinemu.handheld",
+    "name": "Dolphin",
+    "executables": {
+      "androidpackage": [
+        "org.dolphinemu.handheld/org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "org.dolphinemu.mmjr",
+    "name": "Dolphin MMJR",
+    "executables": {
+      "androidpackage": [
+        "org.dolphinemu.mmjr/org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "org.dolphinemu.mmjr3",
+    "name": "Dolphin MMJR3",
+    "executables": {
+      "androidpackage": [
+        "org.dolphinemu.mmjr3/org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "org.gamerytb.lemonade.canary",
+    "name": "Lemonade Alpha",
+    "executables": {
+      "androidpackage": [
+        "org.gamerytb.lemonade.canary/org.citra.citra_emu.activities.EmulationActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "org.kenjinx.android",
+    "name": "Kenji-NX",
+    "executables": {
+      "androidpackage": [
+        "org.kenjinx.android/.MainActivity"
+      ]
+    },
+    "action": "org.kenjinx.android.LAUNCH_GAME"
+  },
+  {
+    "id": "org.koreader.launcher",
+    "name": "KOReader",
+    "executables": {
+      "androidpackage": [
+        "org.koreader.launcher/.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "org.mm.j",
+    "name": "Dolphin",
+    "executables": {
+      "androidpackage": [
+        "org.mm.j/org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "org.mm.jr",
+    "name": "Dolphin",
+    "executables": {
+      "androidpackage": [
+        "org.mm.jr/org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "org.mupen64plusae.v3.alpha",
+    "name": "Mupen64Plus",
+    "executables": {
+      "androidpackage": [
+        "org.mupen64plusae.v3.alpha/paulscode.android.mupen64plusae.SplashActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "org.mupen64plusae.v3.fzurita",
+    "name": "Mupen64Plus",
+    "executables": {
+      "androidpackage": [
+        "org.mupen64plusae.v3.fzurita/paulscode.android.mupen64plusae.SplashActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "org.mupen64plusae.v3.fzurita.pro",
+    "name": "Mupen64Plus FZ Edition",
+    "executables": {
+      "androidpackage": [
+        "org.mupen64plusae.v3.fzurita.pro/paulscode.android.mupen64plusae.SplashActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "org.ppsspp.ppsspp",
+    "name": "PPSSPP",
+    "executables": {
+      "androidpackage": [
+        "org.ppsspp.ppsspp/.PpssppActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top",
+      "--activity-no-history"
+    ]
+  },
+  {
+    "id": "org.ppsspp.ppssppgold",
+    "name": "PPSSPP Gold",
+    "executables": {
+      "androidpackage": [
+        "org.ppsspp.ppssppgold/org.ppsspp.ppsspp.PpssppActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top",
+      "--activity-no-history"
+    ]
+  },
+  {
+    "id": "org.ppsspp.ppsspplegacy",
+    "name": "PPSSPP Legacy",
+    "executables": {
+      "androidpackage": [
+        "org.ppsspp.ppsspplegacy/org.ppsspp.ppsspp.PpssppActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top",
+      "--activity-no-history"
+    ]
+  },
+  {
+    "id": "org.readera",
+    "name": "ReadEra",
+    "executables": {
+      "androidpackage": [
+        "org.readera/org.readera.read.ReadActivity"
+      ]
+    }
+  },
+  {
+    "id": "org.scummvm.scummvm",
+    "name": "ScummVM",
+    "executables": {
+      "androidpackage": [
+        "org.scummvm.scummvm/org.scummvm.scummvm.SplashActivity"
+      ]
+    },
+    "action": "android.intent.action.MAIN"
+  },
+  {
+    "id": "org.scummvm.scummvm.debug",
+    "name": "ScummVM",
+    "executables": {
+      "androidpackage": [
+        "org.scummvm.scummvm.debug/org.scummvm.scummvm.SplashActivity"
+      ]
+    },
+    "action": "android.intent.action.MAIN"
+  },
+  {
+    "id": "org.shiiion.primehack",
+    "name": "Dolphin PrimeHack",
+    "executables": {
+      "androidpackage": [
+        "org.shiiion.primehack/org.dolphinemu.dolphinemu.ui.main.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "org.stratoemu.strato",
+    "name": "Strato",
+    "executables": {
+      "androidpackage": [
+        "org.stratoemu.strato/org.stratoemu.strato.EmulationActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "org.sudachi.sudachi_emu",
+    "name": "Sudachi",
+    "executables": {
+      "androidpackage": [
+        "org.sudachi.sudachi_emu/org.sudachi.sudachi_emu.activities.EmulationActivity"
+      ]
+    },
+    "action": "android.nfc.action.TECH_DISCOVERED"
+  },
+  {
+    "id": "org.sudachi.sudachi_emu.ea",
+    "name": "Sudachi",
+    "executables": {
+      "androidpackage": [
+        "org.sudachi.sudachi_emu.ea/org.sudachi.sudachi_emu.activities.EmulationActivity"
+      ]
+    },
+    "action": "android.nfc.action.TECH_DISCOVERED"
+  },
+  {
+    "id": "org.uoyabause.android",
+    "name": "YabaSanshiro",
+    "executables": {
+      "androidpackage": [
+        "org.uoyabause.android/org.uoyabause.android.Yabause"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top",
+      "--activity-no-history"
+    ]
+  },
+  {
+    "id": "org.uoyabause.android.pro",
+    "name": "YabaSanshiro Pro",
+    "executables": {
+      "androidpackage": [
+        "org.uoyabause.android.pro/org.uoyabause.android.Yabause"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top",
+      "--activity-no-history"
+    ]
+  },
+  {
+    "id": "org.videolan.vlc",
+    "name": "VLC for Android",
+    "executables": {
+      "androidpackage": [
+        "org.videolan.vlc/org.videolan.vlc.gui.video.VideoPlayerActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "org.vita3k.emulator",
+    "name": "Vita3k",
+    "executables": {
+      "androidpackage": [
+        "org.vita3k.emulator/org.vita3k.emulator.Emulator"
+      ]
+    },
+    "flags": [
+      "--esa"
+    ]
+  },
+  {
+    "id": "org.vita3k.emulator.ikhoeyZX",
+    "name": "Vita3k ZX",
+    "executables": {
+      "androidpackage": [
+        "org.vita3k.emulator.ikhoeyZX/org.vita3k.emulator.Emulator"
+      ]
+    },
+    "flags": [
+      "--esa"
+    ]
+  },
+  {
+    "id": "org.yuzu.yuzu_emu",
+    "name": "Yuzu",
+    "executables": {
+      "androidpackage": [
+        "org.yuzu.yuzu_emu/org.yuzu.yuzu_emu.activities.EmulationActivity"
+      ]
+    },
+    "action": "android.nfc.action.TECH_DISCOVERED"
+  },
+  {
+    "id": "org.yuzu.yuzu_emu.ea",
+    "name": "Yuzu",
+    "executables": {
+      "androidpackage": [
+        "org.yuzu.yuzu_emu.ea/org.yuzu.yuzu_emu.activities.EmulationActivity"
+      ]
+    },
+    "action": "android.nfc.action.TECH_DISCOVERED"
+  },
+  {
+    "id": "paulscode.android.mupen64plusae",
+    "name": "Mupen64Plus-AE",
+    "executables": {
+      "androidpackage": [
+        "paulscode.android.mupen64plusae/.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "ru.playsoftware.j2meloader",
+    "name": "ru.playsoftware.j2meloader",
+    "executables": {
+      "androidpackage": [
+        "ru.playsoftware.j2meloader/ru.playsoftware.j2meloader.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "ru.vastness.altmer.iratajaguar",
+    "name": "IrataJaguar",
+    "executables": {
+      "androidpackage": [
+        "ru.vastness.altmer.iratajaguar/ru.vastness.altmer.iratajaguar.MainActivity"
+      ]
+    },
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "ru.woesss.j2meloader",
+    "name": "jl-mod",
+    "executables": {
+      "androidpackage": [
+        "ru.woesss.j2meloader/ru.playsoftware.j2meloader.MainActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "skyline.emu",
+    "name": "Skyline",
+    "executables": {
+      "androidpackage": [
+        "skyline.emu/emu.skyline.EmulationActivity"
+      ]
+    },
+    "action": "android.intent.action.VIEW"
+  },
+  {
+    "id": "xyz.aethersx2.android",
+    "name": "AetherSX2",
+    "executables": {
+      "androidpackage": [
+        "xyz.aethersx2.android/.EmulationActivity"
+      ]
+    },
+    "action": "android.intent.action.MAIN",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "xyz.aethersx2.custom",
+    "name": "AetherSX2 Turnip",
+    "executables": {
+      "androidpackage": [
+        "xyz.aethersx2.custom/.EmulationActivity"
+      ]
+    },
+    "action": "android.intent.action.MAIN",
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  },
+  {
+    "id": "com.retroarch",
+    "name": "RetroArch",
+    "executables": {
+      "androidpackage": [
+        "com.retroarch.aarch64/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch.ra32/com.retroarch.browser.retroactivity.RetroActivityFuture",
+        "com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture"
+      ]
+    },
+    "flags": [
+      "--activity-clear-task",
+      "--activity-clear-top"
+    ]
+  }
+]
