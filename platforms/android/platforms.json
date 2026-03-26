@@ -12,7 +12,7 @@
     "filetypes": ["chd", "cue", "iso"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/opera",
         "name": "RetroArch [opera]",
         "args": [
           {
@@ -104,7 +104,7 @@
     "filetypes": ["cmd"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mamemess",
         "name": "RetroArch [mamemess]",
         "args": [
           {
@@ -140,7 +140,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mamemess",
         "name": "RetroArch [mamemess]",
         "args": [
           {
@@ -361,7 +361,7 @@
     "filetypes": ["7z", "a78", "bin", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/prosystem",
         "name": "RetroArch [prosystem]",
         "args": [
           {
@@ -402,7 +402,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/virtualjaguar",
         "name": "RetroArch [virtualjaguar]",
         "args": [
           {
@@ -443,7 +443,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/virtualjaguar",
         "name": "RetroArch [virtualjaguar]",
         "args": [
           {
@@ -547,7 +547,7 @@
     "filetypes": ["dim", "ipf", "m3u", "msa", "st", "stx", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/hatari",
         "name": "RetroArch [hatari]",
         "args": [
           {
@@ -605,7 +605,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/flycast",
         "name": "RetroArch [flycast]",
         "args": [
           {
@@ -636,7 +636,7 @@
     "filetypes": ["dsd", "ssd"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/b2",
         "name": "RetroArch [b2]",
         "args": [
           {
@@ -937,7 +937,7 @@
     "filetypes": ["88", "game"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/cannonball",
         "name": "RetroArch [cannonball]",
         "args": [
           {
@@ -1009,7 +1009,7 @@
     "filetypes": ["ch8", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/jaxe",
         "name": "RetroArch [jaxe]",
         "args": [
           {
@@ -1330,7 +1330,7 @@
     ],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/vice_xpet",
         "name": "RetroArch [vice_xpet]",
         "args": [
           {
@@ -1393,7 +1393,7 @@
     ],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/vice_xplus4",
         "name": "RetroArch [vice_xplus4]",
         "args": [
           {
@@ -1420,7 +1420,7 @@
     "filetypes": ["iwad", "pwad", "wad", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/prboom",
         "name": "RetroArch [prboom]",
         "args": [
           {
@@ -1561,7 +1561,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/flycast",
         "name": "RetroArch [flycast]",
         "args": [
           {
@@ -1593,7 +1593,7 @@
     "filetypes": ["bin", "chf", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/freechaf",
         "name": "RetroArch [freechaf]",
         "args": [
           {
@@ -1757,7 +1757,7 @@
     "filetypes": ["aba", "lev", "map", "seq"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/reminiscence",
         "name": "RetroArch [reminiscence]",
         "args": [
           {
@@ -2475,7 +2475,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/dolphin",
         "name": "RetroArch [dolphin]",
         "args": [
           {
@@ -2507,7 +2507,7 @@
     "filetypes": ["7z", "bin", "int", "rom", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/freeintv",
         "name": "RetroArch [freeintv]",
         "args": [
           {
@@ -2543,7 +2543,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mamemess",
         "name": "RetroArch [mamemess]",
         "args": [
           {
@@ -2578,7 +2578,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/squirreljme",
         "name": "RetroArch [squirreljme]",
         "args": [
           {
@@ -2607,7 +2607,7 @@
     "filetypes": ["nx", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/lowresnx",
         "name": "RetroArch [lowresnx]",
         "args": [
           {
@@ -2837,7 +2837,7 @@
     "filetypes": ["7z", "bin", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/o2em",
         "name": "RetroArch [o2em]",
         "args": [
           {
@@ -2869,7 +2869,7 @@
     "filetypes": ["bin", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/sameduck",
         "name": "RetroArch [sameduck]",
         "args": [
           {
@@ -2919,7 +2919,7 @@
     "filetypes": ["d88", "m3u", "u88"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/quasi88",
         "name": "RetroArch [quasi88]",
         "args": [
           {
@@ -3021,7 +3021,7 @@
     "filetypes": ["ccd", "chd", "cue", "toc"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mednafen_pcfx",
         "name": "RetroArch [mednafen_pcfx]",
         "args": [
           {
@@ -4261,7 +4261,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/dolphin",
         "name": "RetroArch [dolphin]",
         "args": [
           {
@@ -4397,7 +4397,7 @@
         ]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/dolphin",
         "name": "RetroArch [dolphin]",
         "args": [
           {
@@ -4487,7 +4487,7 @@
     "filetypes": ["img", "pdb", "pqa", "prc"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mu",
         "name": "RetroArch [mu]",
         "args": [
           {
@@ -4519,7 +4519,7 @@
     "filetypes": ["chd", "cue", "iso"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/same_cdi",
         "name": "RetroArch [same_cdi]",
         "args": [
           {
@@ -4548,7 +4548,7 @@
     "filetypes": ["7z", "bin", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/o2em",
         "name": "RetroArch [o2em]",
         "args": [
           {
@@ -4592,7 +4592,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/ppsspp",
         "name": "RetroArch [ppsspp]",
         "args": [
           {
@@ -4635,7 +4635,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/ppsspp",
         "name": "RetroArch [ppsspp]",
         "args": [
           {
@@ -4667,7 +4667,7 @@
     "filetypes": ["7z", "min", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/pokemini",
         "name": "RetroArch [pokemini]",
         "args": [
           {
@@ -4694,7 +4694,7 @@
     "filetypes": ["pak"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/tyrquake",
         "name": "RetroArch [tyrquake]",
         "args": [
           {
@@ -4802,7 +4802,7 @@
     "filetypes": ["easyrpg", "ldb", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/easyrpg",
         "name": "RetroArch [easyrpg]",
         "args": [
           {
@@ -4839,7 +4839,7 @@
         "args": ["{tags.scummvm_id}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/scummvm",
         "name": "RetroArch [scummvm]",
         "args": [
           {
@@ -4888,7 +4888,7 @@
     ],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/picodrive",
         "name": "RetroArch [picodrive]",
         "args": [
           {
@@ -5455,7 +5455,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/flycast",
         "name": "RetroArch [flycast]",
         "args": [
           {
@@ -5487,7 +5487,7 @@
     "filetypes": ["7z", "md", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/picodrive",
         "name": "RetroArch [picodrive]",
         "args": [
           {
@@ -5717,7 +5717,7 @@
     ],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/x1",
         "name": "RetroArch [x1]",
         "args": [
           {
@@ -5763,7 +5763,7 @@
     ],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/px68k",
         "name": "RetroArch [px68k]",
         "args": [
           {
@@ -6007,7 +6007,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/play",
         "name": "RetroArch [play]",
         "args": [
           {
@@ -6635,7 +6635,7 @@
     "filetypes": ["tic"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/tic80",
         "name": "RetroArch [tic80]",
         "args": [
           {
@@ -6773,7 +6773,7 @@
     "filetypes": ["7z", "uze", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/uzem",
         "name": "RetroArch [uzem]",
         "args": [
           {
@@ -6842,7 +6842,7 @@
     ],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/vice_xvic",
         "name": "RetroArch [vice_xvic]",
         "args": [
           {
@@ -6874,7 +6874,7 @@
     "filetypes": ["7z", "bin", "vec", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/vecx",
         "name": "RetroArch [vecx]",
         "args": [
           {
@@ -6917,7 +6917,7 @@
         "args": ["{rom.path}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/ffmpeg",
         "name": "RetroArch [ffmpeg]",
         "args": [
           {
@@ -6953,7 +6953,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mednafen_vb",
         "name": "RetroArch [mednafen_vb]",
         "args": [
           {
@@ -6983,7 +6983,7 @@
     "filetypes": ["wasm"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/wasm4",
         "name": "RetroArch [wasm4]",
         "args": [
           {
@@ -7015,7 +7015,7 @@
     "filetypes": ["7z", "bin", "sv", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/potator",
         "name": "RetroArch [potator]",
         "args": [
           {
@@ -7112,7 +7112,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mednafen_wswan",
         "name": "RetroArch [mednafen_wswan]",
         "args": [
           {
@@ -7147,7 +7147,7 @@
         "args": ["{rom.uri}"]
       },
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/mednafen_wswan",
         "name": "RetroArch [mednafen_wswan]",
         "args": [
           {
@@ -7191,7 +7191,7 @@
     "filetypes": ["7z", "p", "t81", "tzx", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/81",
         "name": "RetroArch [81]",
         "args": [
           {
@@ -7223,7 +7223,7 @@
     "filetypes": ["7z", "dsk", "rzx", "scl", "tap", "trd", "tzx", "z80", "zip"],
     "emulators": [
       {
-        "id": "com.retroarch",
+        "id": "com.retroarch/fuse",
         "name": "RetroArch [fuse]",
         "args": [
           {
